@@ -52,9 +52,9 @@ export default function Home() {
           
           <section className="py-12 sm:py-16 bg-gray-100">
             <div className="container mx-auto px-4">
-              <h2 className="text-3xl sm:text-4xl font-bold mb-8 sm:mb-12 text-center">Últimos Artículos</h2>
+              <h2 className="text-3xl sm:text-4xl font-bold mb-8 sm:mb-12 text-center">Todos los Artículos</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-                {ARTICLES_VARIOS.slice(-3).reverse().map((article) => (
+                {ARTICLES_VARIOS.slice().reverse().map((article) => (
                   <Card key={article.id} className="overflow-hidden hover:shadow-xl transition-shadow duration-300">
                     <CardHeader className="p-0">
                       <div className="relative h-48 sm:h-56 md:h-64">
