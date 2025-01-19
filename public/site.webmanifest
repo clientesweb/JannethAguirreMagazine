@@ -2,25 +2,55 @@
   "name": "Janneth Aguirre Magazine - Bienes Raíces Internacionales",
   "short_name": "JA Magazine",
   "description": "La mejor revista de bienes raíces internacionales en Ecuador, Panamá y Estados Unidos",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#FF0000",
   "icons": [
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
     {
       "src": "/android-chrome-192x192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "src": "/android-chrome-512x512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ],
-  "theme_color": "#FF0000",
-  "background_color": "#ffffff",
-  "display": "standalone",
-  "start_url": "/",
-  "scope": "/",
+  "orientation": "portrait",
+  "categories": ["business", "lifestyle", "real estate"],
   "lang": "es-EC",
-  "orientation": "any",
-  "categories": ["business", "finance", "lifestyle"]
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "Últimas Propiedades",
+      "url": "/propiedades",
+      "description": "Ver las últimas propiedades disponibles"
+    },
+    {
+      "name": "Artículos",
+      "url": "/articulos",
+      "description": "Leer los últimos artículos"
+    }
+  ]
 }
 
