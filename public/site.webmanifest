@@ -1,6 +1,6 @@
 {
-  "name": "Janneth Aguirre Magazine",
-  "short_name": "JA Magazine",
+  "name": "Janneth Aguirre Bienes Raíces",
+  "short_name": "JA Bienes Raíces",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -13,7 +13,7 @@
       "type": "image/png"
     }
   ],
-  "theme_color": "#ffffff",
+  "theme_color": "#FF0000",
   "background_color": "#ffffff",
   "display": "standalone",
   "start_url": "/"
