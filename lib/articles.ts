@@ -700,7 +700,7 @@ En última instancia, el PropTech tiene el potencial de democratizar el acceso a
     id: 10,
     title: "Boquete Pino Alto Country Club: Lujo y Naturaleza en Panamá",
     description: "Descubre el exclusivo desarrollo residencial en las montañas de Boquete, que combina lujo, golf y una impresionante belleza natural.",
-    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
+    image: "/boquete-pinoalto1.jpg",
     slug: "boquete-pino-alto-country-club",
     category: "panama",
     subtitle: "Un Paraíso de Lujo en las Montañas de Panamá",
