@@ -8,19 +8,19 @@ import { ChevronRight, ChevronLeft, Star } from 'lucide-react'
 
 const properties = [
   {
-    image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1920&h=1080",
+    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
     location: "Miami, Estados Unidos",
     price: "$1,200,000",
     rating: 4.9
   },
   {
-    image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80&w=1920&h=1080",
+    image: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
     location: "Guayaquil, Ecuador",
     price: "$450,000",
     rating: 4.8
   },
   {
-    image: "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&q=80&w=1920&h=1080",
+    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
     location: "Ciudad de Panamá, Panamá",
     price: "$650,000",
     rating: 4.7
@@ -82,15 +82,13 @@ export default function AppMockup() {
                 className="bg-black hover:bg-gray-800 text-white px-6 py-3 rounded-full text-lg transition-transform hover:scale-105 flex items-center justify-center"
                 onClick={() => window.open('https://play.google.com/store', '_blank')}
               >
-                <Image src="https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb?auto=format&fit=crop&q=80&w=1920&h=1080" alt="Google Play" width={24} height={24} className="mr-2 rounded" />
-                <span>Google Play</span>
+                <Image src="/google-play-badge.png" alt="Google Play" width={135} height={40} />
               </Button>
               <Button
                 className="bg-black hover:bg-gray-800 text-white px-6 py-3 rounded-full text-lg transition-transform hover:scale-105 flex items-center justify-center"
                 onClick={() => window.open('https://www.apple.com/app-store/', '_blank')}
               >
-                <Image src="https://images.unsplash.com/photo-1621768216002-5ac171876625?auto=format&fit=crop&q=80&w=1920&h=1080" alt="App Store" width={24} height={24} className="mr-2 rounded" />
-                <span>App Store</span>
+                <Image src="/app-store-badge.png" alt="App Store" width={120} height={40} />
               </Button>
             </div>
           </motion.div>
@@ -100,9 +98,9 @@ export default function AppMockup() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            <div className="relative w-full max-w-md mx-auto">
+            <div className="relative w-full max-w-md mx-auto" style={{ aspectRatio: '1/2' }}>
               <Image
-                src="/app-mockup.png"
+                src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80&w=1000&h=2000"
                 alt="Janneth Aguirre Bienes Raíces App Mockup"
                 width={500}
                 height={1000}
