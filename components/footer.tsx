@@ -1,15 +1,18 @@
+'use client'
+
 import { Facebook, Instagram, Twitter, Youtube, TwitterIcon as TikTok, Mail, Phone, ArrowRight } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { SOCIAL_LINKS, CONTACT_INFO, CATEGORIES } from '@/lib/constants'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
+import { useState } from 'react'
 
 export default function Footer() {
+  const [phone, setPhone] = useState('')
+
   const handleSubscribe = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    const form = e.currentTarget
-    const phone = form.phone.value
     window.open(`https://wa.me/593987167782?text=Hola, me gustaría suscribirme al boletín. Mi número es ${phone}`, '_blank')
   }
 
@@ -88,6 +91,8 @@ export default function Footer() {
                 placeholder="Tu número de WhatsApp"
                 className="bg-white/10 border-white/20 text-white placeholder-gray-400"
                 required
+                value={phone}
+                onChange={(e) => setPhone(e.target.value)}
               />
               <Button type="submit" className="w-full bg-[#FF0000] hover:bg-[#FF0000]/90">
                 Suscribirse
