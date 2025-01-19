@@ -1,4 +1,3 @@
-import '@/app/globals.css'
 import LocalBusinessSchema from '@/components/local-business-schema'
 import SEO from '@/components/seo'
 import { Inter } from 'next/font/google'
