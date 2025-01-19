@@ -695,6 +695,68 @@ En última instancia, el PropTech tiene el potencial de democratizar el acceso a
 
     Para aquellos que buscan sumergirse en la rica cultura ecuatoriana, disfrutar de una calidad de vida excepcional y ser parte de un legado histórico vivo, este nuevo proyecto cerca del Parque Histórico de Cuenca presenta una oportunidad inigualable. Con suites disponibles desde 75.000 dólares, es una invitación a no solo invertir en una propiedad, sino en un estilo de vida único que fusiona lo mejor del pasado y el presente de Cuenca.
     `
+  },
+  {
+    id: 10,
+    title: "Boquete Pino Alto Country Club: Lujo y Naturaleza en Panamá",
+    description: "Descubre el exclusivo desarrollo residencial en las montañas de Boquete, que combina lujo, golf y una impresionante belleza natural.",
+    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
+    slug: "boquete-pino-alto-country-club",
+    category: "panama",
+    subtitle: "Un Paraíso de Lujo en las Montañas de Panamá",
+    importantFact: "Boquete Pino Alto Country Club cuenta con un campo de golf de 18 hoyos diseñado por J. Michael Poellot.",
+    fullContent: `
+    Boquete Pino Alto Country Club es un desarrollo residencial de lujo ubicado en las pintorescas montañas de Boquete, Panamá. Este exclusivo proyecto combina la belleza natural de la región con amenidades de clase mundial, ofreciendo una experiencia de vida única para aquellos que buscan lo mejor en comodidad y naturaleza.
+
+    Ubicación Privilegiada:
+    - Situado a solo 7 km del centro de Boquete
+    - Rodeado de exuberantes bosques y vistas panorámicas
+    - Clima primaveral durante todo el año, con temperaturas promedio de 18°C a 25°C
+
+    Características del Desarrollo:
+    1. Campo de Golf de Campeonato:
+       - 18 hoyos diseñados por el reconocido arquitecto J. Michael Poellot
+       - Par 72 con 6,800 yardas
+       - Vistas espectaculares del Volcán Barú y el Valle de Boquete
+
+    2. Opciones de Vivienda:
+       - Lotes residenciales desde 1,000 m² hasta 3,000 m²
+       - Villas de lujo completamente amuebladas
+       - Diseños arquitectónicos que se integran con el entorno natural
+
+    3. Club House:
+       - Restaurante gourmet con vistas al campo de golf
+       - Pro shop completamente equipado
+       - Salones para eventos y reuniones
+
+    4. Amenidades Adicionales:
+       - Piscina infinity con vistas a las montañas
+       - Canchas de tenis y pickleball
+       - Senderos para caminatas y ciclismo
+       - Spa y centro de bienestar
+
+    5. Seguridad y Privacidad:
+       - Acceso controlado las 24 horas
+       - Vigilancia permanente en todo el desarrollo
+
+    Inversión y Oportunidades:
+    - Precios de lotes desde $150,000 USD
+    - Villas desde $500,000 USD
+    - Potencial de apreciación significativo debido a la creciente popularidad de Boquete como destino de retiro y turismo de lujo
+
+    Sostenibilidad y Medio Ambiente:
+    - Diseño que respeta y preserva el ecosistema local
+    - Uso de materiales sostenibles en la construcción
+    - Programas de conservación y educación ambiental para residentes
+
+    Estilo de Vida en Boquete:
+    - Comunidad internacional de expatriados y retirados
+    - Famoso por su producción de café de alta calidad
+    - Actividades al aire libre como senderismo, observación de aves y rafting
+    - Festivales culturales y eventos durante todo el año
+
+    Boquete Pino Alto Country Club representa una oportunidad única para aquellos que buscan una vida de lujo en armonía con la naturaleza. Ya sea como residencia permanente, segunda casa o inversión, este desarrollo ofrece una combinación inigualable de comodidades modernas y belleza natural en uno de los destinos más codiciados de Panamá.
+  `
   }
 ];
 
