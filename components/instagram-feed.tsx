@@ -3,11 +3,11 @@
 import { useEffect, useRef } from 'react'
 
 const INSTAGRAM_POSTS = [
+  'DE8ZYSUuV34',
   'DE5MwjSuVi_',
   'DE1efOSu98a',
   'DExZxiLO-b3',
-  'DEpoxZ5uOQq',
-  'DEoImoUuDAO'
+  'DEpoxZ5uOQq'
 ]
 
 declare global {
