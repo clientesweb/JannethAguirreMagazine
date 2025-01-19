@@ -3,26 +3,32 @@
 import { useState, useEffect } from 'react'
 import Image from 'next/image'
 import { Button } from '@/components/ui/button'
-import { motion, useAnimation } from 'framer-motion'
+import { motion, AnimatePresence } from 'framer-motion'
+import { ChevronRight, ChevronLeft, Star } from 'lucide-react'
 
 const properties = [
   {
     image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&h=1080&q=80",
-    location: "Guayaquil, Ecuador"
+    location: "Guayaquil, Ecuador",
+    price: "$450,000",
+    rating: 4.8
   },
   {
     image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&h=1080&q=80",
-    location: "Miami, Estados Unidos"
+    location: "Miami, Estados Unidos",
+    price: "$1,200,000",
+    rating: 4.9
   },
   {
     image: "https://images.unsplash.com/photo-1571939228382-b2f2b585ce15?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&h=1080&q=80",
-    location: "Ciudad de Panamá, Panamá"
+    location: "Ciudad de Panamá, Panamá",
+    price: "$650,000",
+    rating: 4.7
   }
 ]
 
 export default function AppMockup() {
   const [currentProperty, setCurrentProperty] = useState(0)
-  const controls = useAnimation()
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -31,13 +37,13 @@ export default function AppMockup() {
     return () => clearInterval(timer)
   }, [])
 
-  useEffect(() => {
-    controls.start({
-      opacity: [0, 1],
-      y: [50, 0],
-      transition: { duration: 0.5 }
-    })
-  }, [currentProperty, controls])
+  const nextProperty = () => {
+    setCurrentProperty((prev) => (prev + 1) % properties.length)
+  }
+
+  const prevProperty = () => {
+    setCurrentProperty((prev) => (prev - 1 + properties.length) % properties.length)
+  }
 
   return (
     <section className="py-16 sm:py-24 bg-gradient-to-r from-gray-900 to-gray-800 overflow-hidden">
@@ -53,16 +59,34 @@ export default function AppMockup() {
             <p className="text-xl mb-8 text-gray-300 max-w-lg mx-auto lg:mx-0">
               Explora exclusivas propiedades en Ecuador, Panamá y Estados Unidos con la app de Janneth Aguirre Bienes Raíces.
             </p>
+            <ul className="text-gray-300 mb-8 text-left max-w-md mx-auto lg:mx-0">
+              <li className="flex items-center mb-2">
+                <ChevronRight className="mr-2 text-[#FF0000]" />
+                Búsqueda avanzada de propiedades
+              </li>
+              <li className="flex items-center mb-2">
+                <ChevronRight className="mr-2 text-[#FF0000]" />
+                Tours virtuales en 3D
+              </li>
+              <li className="flex items-center mb-2">
+                <ChevronRight className="mr-2 text-[#FF0000]" />
+                Notificaciones personalizadas
+              </li>
+              <li className="flex items-center">
+                <ChevronRight className="mr-2 text-[#FF0000]" />
+                Asesoría inmobiliaria en tiempo real
+              </li>
+            </ul>
             <div className="flex flex-col sm:flex-row justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
               <Button
-                className="bg-black hover:bg-gray-800 text-white px-6 py-3 rounded-full text-lg transition-transform hover:scale-105 flex items-center justify-center"
+                className="bg-[#FF0000] hover:bg-[#FF0000]/90 text-white px-6 py-3 rounded-full text-lg transition-transform hover:scale-105 flex items-center justify-center"
                 onClick={() => window.open('https://play.google.com/store', '_blank')}
               >
                 <Image src="/google-play-icon.png" alt="Google Play" width={24} height={24} className="mr-2" />
                 <span>Google Play</span>
               </Button>
               <Button
-                className="bg-black hover:bg-gray-800 text-white px-6 py-3 rounded-full text-lg transition-transform hover:scale-105 flex items-center justify-center"
+                className="bg-white hover:bg-gray-100 text-black px-6 py-3 rounded-full text-lg transition-transform hover:scale-105 flex items-center justify-center"
                 onClick={() => window.open('https://www.apple.com/app-store/', '_blank')}
               >
                 <Image src="/app-store-icon.png" alt="App Store" width={24} height={24} className="mr-2" />
@@ -84,21 +108,52 @@ export default function AppMockup() {
                 height={1000}
                 className="w-full h-auto rounded-3xl shadow-2xl"
               />
-              <motion.div 
-                className="absolute inset-0 rounded-3xl overflow-hidden"
-                animate={controls}
-              >
-                <Image
-                  src={properties[currentProperty].image || "/placeholder.svg"}
-                  alt={`Propiedad en ${properties[currentProperty].location}`}
-                  layout="fill"
-                  objectFit="cover"
-                  className="rounded-3xl"
-                />
-                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-4">
-                  <p className="text-white text-lg font-semibold">{properties[currentProperty].location}</p>
-                </div>
-              </motion.div>
+              <AnimatePresence mode='wait'>
+                <motion.div 
+                  key={currentProperty}
+                  className="absolute inset-[3%] rounded-2xl overflow-hidden"
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                  transition={{ duration: 0.5 }}
+                >
+                  <Image
+                    src={properties[currentProperty].image || "/placeholder.svg"}
+                    alt={`Propiedad en ${properties[currentProperty].location}`}
+                    layout="fill"
+                    objectFit="cover"
+                    className="rounded-2xl"
+                  />
+                  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-4">
+                    <p className="text-white text-lg font-semibold">{properties[currentProperty].location}</p>
+                    <div className="flex justify-between items-center mt-2">
+                      <p className="text-white text-xl font-bold">{properties[currentProperty].price}</p>
+                      <div className="flex items-center">
+                        <Star className="text-yellow-400 w-5 h-5 mr-1" />
+                        <span className="text-white">{properties[currentProperty].rating}</span>
+                      </div>
+                    </div>
+                  </div>
+                </motion.div>
+              </AnimatePresence>
+              <div className="absolute top-1/2 -left-4 -translate-y-1/2">
+                <Button
+                  className="rounded-full bg-white/20 hover:bg-white/40 text-white"
+                  size="icon"
+                  onClick={prevProperty}
+                >
+                  <ChevronLeft className="h-6 w-6" />
+                </Button>
+              </div>
+              <div className="absolute top-1/2 -right-4 -translate-y-1/2">
+                <Button
+                  className="rounded-full bg-white/20 hover:bg-white/40 text-white"
+                  size="icon"
+                  onClick={nextProperty}
+                >
+                  <ChevronRight className="h-6 w-6" />
+                </Button>
+              </div>
             </div>
           </motion.div>
         </div>
