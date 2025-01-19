@@ -102,7 +102,7 @@ export const ARTICLES = [
       - Recámara principal con baño completo y walk-in closet
 
       Primer Alto:
-      - Doble acceso (interno y área de estacionamientos)
+      - Doble acceso (interno y ��rea de estacionamientos)
       - Sala principal
       - Cocina abierta
       - Recámara de servicio con baño completo
