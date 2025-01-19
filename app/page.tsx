@@ -148,14 +148,14 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="py-12 sm:py-16">
+          <section className="py-12 sm:py-16 bg-gray-50">
             <div className="container mx-auto px-4">
               <h2 className="text-3xl sm:text-4xl font-bold mb-8 sm:mb-12 text-center">Análisis de Mercado</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
                 {ARTICLES.filter(article => article.category === 'analisis-de-mercado').slice(0, 2).map((article) => (
                   <Card key={article.id} className="overflow-hidden hover:shadow-xl transition-shadow duration-300">
-                    <div className="md:flex">
-                      <div className="md:w-1/2">
+                    <div className="md:flex h-full">
+                      <div className="md:w-2/5">
                         <div className="relative h-48 md:h-full">
                           <Image
                             src={article.image || "/placeholder.svg"}
@@ -165,12 +165,14 @@ export default function Home() {
                           />
                         </div>
                       </div>
-                      <div className="md:w-1/2 p-4 sm:p-6">
-                        <h3 className="font-bold text-xl sm:text-2xl mb-4">{article.title}</h3>
-                        <p className="text-gray-600 mb-4">{article.description}</p>
+                      <div className="md:w-3/5 p-6 flex flex-col justify-between">
+                        <div>
+                          <h3 className="font-bold text-xl sm:text-2xl mb-4">{article.title}</h3>
+                          <p className="text-gray-600 mb-4">{article.description}</p>
+                        </div>
                         <Link 
                           href={`/articulo/${article.slug}`}
-                          className="inline-block bg-[#FF0000] text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-[#FF0000]/90 transition-colors duration-300"
+                          className="inline-block bg-[#FF0000] text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-[#FF0000]/90 transition-colors duration-300 text-center"
                         >
                           Leer Análisis Completo
                         </Link>
