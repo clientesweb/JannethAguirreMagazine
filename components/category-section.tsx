@@ -10,12 +10,12 @@ interface CategorySectionProps {
 }
 
 const CATEGORY_IMAGES = {
-  'panama': 'public/panama.jpg',
-  'ecuador': 'public/ecuador.jpg',
+  'panama': 'https://jannethaguirre.online/panama.jpg',
+  'ecuador': 'https://jannethaguirre.online/ecuador.jpg',
   'estados-unidos': 'public/estados-unidos.jpg',
   'decoracion': 'https://images.unsplash.com/photo-1616046229478-9901c5536a45?auto=format&fit=crop&q=80',
   'tendencias': 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80',
-  'analisis': 'public/analisis.jpg'
+  'analisis': 'https://jannethaguirre.online/analisis.jpg'
 }
 
 export default function CategorySection({ category }: CategorySectionProps) {
