@@ -14,10 +14,11 @@ export default function RootLayout({
   return (
     <html lang="es">
       <SEO 
-        title="Janneth Aguirre Bienes Raíces - Propiedades de Lujo en Ecuador, Panamá y Estados Unidos"
-        description="Descubre propiedades de lujo en Ecuador, Panamá y Estados Unidos con Janneth Aguirre Bienes Raíces. Expertos en inversiones inmobiliarias internacionales."
+        title="Janneth Aguirre Magazine - La Mejor Revista de Bienes Raíces Internacionales"
+        description="Descubre las mejores propiedades de lujo e inversiones inmobiliarias en Ecuador, Panamá y Estados Unidos. Janneth Aguirre Magazine: tu guía experta en el mercado inmobiliario internacional."
         canonicalUrl="https://jannethaguirre.online"
         ogImage="https://jannethaguirre.online/og-image.jpg"
+        ogType="website"
       />
       <body className={inter.className}>
         <LocalBusinessSchema />
