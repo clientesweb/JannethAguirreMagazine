@@ -23,21 +23,6 @@ export default function CategoryPage({ params }: { params: { slug: string } }) {
   const allArticles = [...ARTICLES, ...ARTICLES_VARIOS]
   const categoryArticles = allArticles.filter(article => article.category === params.slug)
 
-  if (categoryArticles.length === 0) {
-    return (
-      <>
-        <Header />
-        <main className="min-h-screen bg-gray-50 py-12">
-          <div className="container mx-auto px-4">
-            <h1 className="text-4xl font-bold mb-8 text-center">{category.name}</h1>
-            <p className="text-center text-gray-600">No se encontraron artículos en esta categoría.</p>
-          </div>
-        </main>
-        <Footer />
-      </>
-    )
-  }
-
   return (
     <>
       <Header />
