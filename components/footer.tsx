@@ -5,22 +5,22 @@ import { SOCIAL_LINKS, CONTACT_INFO, CATEGORIES } from '@/lib/constants'
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-r from-gray-900 to-gray-800 text-white">
-      <div className="container mx-auto px-4 py-8 sm:py-12">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
-          <div className="text-center md:text-left">
-            <Image
-              src="/logooficial.png"
-              alt="Janneth Aguirre Magazine"
-              width={150}
-              height={60}
-              className="mb-4 mx-auto md:mx-0"
-            />
-            <p className="text-sm">
-              Tu revista líder en bienes raíces internacionales
-            </p>
-          </div>
-          
+    <footer className="bg-gradient-to-r from-gray-900 to-gray-800 text-white py-12">
+      <div className="container mx-auto px-4">
+        <div className="flex flex-col items-center text-center mb-8">
+          <Image
+            src="/logooficial.png"
+            alt="Janneth Aguirre Magazine"
+            width={150}
+            height={60}
+            className="mb-4"
+          />
+          <p className="text-sm max-w-md">
+            Tu revista líder en bienes raíces internacionales
+          </p>
+        </div>
+
+        <div className="flex flex-wrap justify-center gap-8 mb-8">
           <div>
             <h3 className="font-bold mb-4 text-[#FF0000]">Categorías</h3>
             <ul className="space-y-2">
@@ -33,7 +33,7 @@ export default function Footer() {
               ))}
             </ul>
           </div>
-          
+
           <div>
             <h3 className="font-bold mb-4 text-[#FF0000]">Enlaces Rápidos</h3>
             <ul className="space-y-2">
@@ -41,10 +41,10 @@ export default function Footer() {
               <li><Link href="/contacto" className="hover:text-[#FF0000] transition-colors">Contacto</Link></li>
               <li><Link href="/politica-privacidad" className="hover:text-[#FF0000] transition-colors">Política de Privacidad</Link></li>
               <li>
-                <Link 
-                  href="https://jannethaguirre.com/" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
+                <Link
+                  href="https://jannethaguirre.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="hover:text-[#FF0000] transition-colors"
                 >
                   Sitio Web Oficial
@@ -52,17 +52,17 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="font-bold mb-4 text-[#FF0000]">Contacto</h3>
             <ul className="space-y-2">
-              <li className="flex items-center">
+              <li className="flex items-center justify-center">
                 <Mail className="h-4 w-4 mr-2" />
                 <a href={`mailto:${CONTACT_INFO.email}`} className="hover:text-[#FF0000] transition-colors">
                   {CONTACT_INFO.email}
                 </a>
               </li>
-              <li className="flex items-center">
+              <li className="flex items-center justify-center">
                 <Phone className="h-4 w-4 mr-2" />
                 <a href={`tel:${CONTACT_INFO.phone}`} className="hover:text-[#FF0000] transition-colors">
                   {CONTACT_INFO.phone}
@@ -70,7 +70,7 @@ export default function Footer() {
               </li>
             </ul>
             <h3 className="font-bold mt-6 mb-4 text-[#FF0000]">Síguenos</h3>
-            <div className="flex justify-center sm:justify-start space-x-4 mt-4">
+            <div className="flex justify-center space-x-4 mt-4">
               <Link href={SOCIAL_LINKS.facebook} target="_blank" rel="noopener noreferrer" className="hover:text-[#FF0000] transition-colors">
                 <Facebook className="h-6 w-6" />
               </Link>
@@ -89,16 +89,16 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        
-        <div className="mt-12 pt-8 border-t border-gray-700 text-center">
+
+        <div className="text-center">
           <p className="text-sm">
             © {new Date().getFullYear()} Janneth Aguirre Magazine. Todos los derechos reservados.
           </p>
           <div className="mt-4 flex items-center justify-center gap-2">
             <span className="text-sm">Powered by</span>
-            <Link 
-              href="https://dualitydomain.com" 
-              target="_blank" 
+            <Link
+              href="https://dualitydomain.com"
+              target="_blank"
               rel="noopener noreferrer"
               className="text-sm font-bold hover:text-[#FF0000] transition-colors"
             >
