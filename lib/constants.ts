@@ -30,7 +30,7 @@ export const ARTICLES = [
     id: 1,
     title: "Vizcaya 2: Exclusivo Desarrollo en Ciudad Celeste",
     description: "Descubre Vizcaya 2, un moderno desarrollo de departamentos ubicado en la prestigiosa zona de Ciudad Celeste, Samborondón.",
-    image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
+    image: "https://jannethaguirre.online/vizcaya-2.jpg",
     category: "ecuador",
     slug: "vizcaya-2-ciudad-celeste",
     subtitle: "Un Oasis de Lujo en Samborondón",
@@ -69,7 +69,7 @@ export const ARTICLES = [
     id: 2,
     title: "OceanLake Golf Villas: Lujo y Naturaleza en Buenaventura, Panamá",
     description: "Descubre OceanLake Golf Villas, una colección limitada de villas de lujo en el exclusivo complejo residencial Buenaventura, Panamá.",
-    image: "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
+    image: "https://jannethaguirre.online/oceanlake-golf-villas.jpg",
     category: "panama",
     slug: "oceanlake-golf-villas-buenaventura-panama",
     subtitle: "Exclusividad Costera en Buenaventura",
@@ -102,7 +102,7 @@ export const ARTICLES = [
       - Recámara principal con baño completo y walk-in closet
 
       Primer Alto:
-      - Doble acceso (interno y ��rea de estacionamientos)
+      - Doble acceso (interno y área de estacionamientos)
       - Sala principal
       - Cocina abierta
       - Recámara de servicio con baño completo
@@ -163,7 +163,7 @@ export const ARTICLES = [
     id: 3,
     title: "Millenia Park Orlando: Lujo y Naturaleza en Armonía",
     description: "Descubre una nueva era de vida residencial en el corazón de Orlando, donde el lujo se encuentra con la naturaleza en un oasis urbano sin precedentes.",
-    image: "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
+    image: "https://jannethaguirre.online/millenia-park-orlando.jpg",
     category: "estados-unidos",
     slug: "millenia-park-orlando",
     subtitle: "El Oasis Urbano de Orlando",
@@ -243,7 +243,7 @@ export const ARTICLES = [
     id: 4,
     title: "Tendencias en Diseño de Interiores 2025: Lujo Sostenible y Bienestar",
     description: "Descubre cómo el diseño de interiores de lujo está adoptando prácticas sostenibles y enfocándose en el bienestar, creando espacios que son tanto elegantes como conscientes del medio ambiente.",
-    image: "https://images.unsplash.com/photo-1616046229478-9901c5536a45?auto=format&fit=crop&q=80&w=1600",
+    image: "https://jannethaguirre.online/tendencias-diseno-interiores-2025.jpg",
     category: "decoracion-de-interiores",
     slug: "tendencias-diseno-interiores-2025-lujo-sostenible",
     subtitle: "El Futuro del Diseño de Interiores de Lujo",
@@ -329,7 +329,7 @@ export const ARTICLES = [
     id: 5,
     title: "Análisis del Mercado Inmobiliario en Ecuador 2025",
     description: "Un estudio detallado de las tendencias, oportunidades y desafíos en el mercado inmobiliario ecuatoriano, con datos actualizados y proyecciones para el próximo año.",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
+    image: "https://jannethaguirre.online/analisis-mercado-inmobiliario-ecuador-2025.jpg",
     category: "analisis-de-mercado",
     slug: "analisis-mercado-inmobiliario-ecuador-2025",
     subtitle: "Perspectivas del Mercado Inmobiliario Ecuatoriano",
@@ -376,7 +376,7 @@ export const ARTICLES = [
     id: 6,
     title: "Mocolí Bay: Lujo Frente al Río en Samborondón",
     description: "Descubre la vida exclusiva en Mocolí Bay, un desarrollo de apartamentos de lujo con vistas panorámicas al río Daule.",
-    image: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
+    image: "https://jannethaguirre.online/mocoli-bay.jpg",
     category: "ecuador",
     slug: "mocoli-bay-apartamentos-samborondon",
     subtitle: "Vistas Panorámicas al Río Daule",
@@ -424,7 +424,7 @@ export const ARTICLES = [
     id: 7,
     title: "Samborondón City Center: El Nuevo Epicentro de Negocios y Estilo de Vida",
     description: "Explore las oportunidades únicas en el corazón de Samborondón, donde el comercio y el lujo se fusionan en un desarrollo de uso mixto sin precedentes.",
-    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
+    image: "https://jannethaguirre.online/samborondon-city-center.jpg",
     category: "ecuador",
     slug: "samborondon-city-center",
     subtitle: "El Corazón de Samborondón",
@@ -484,7 +484,7 @@ Samborondón City Center no es solo un lugar para vivir, trabajar o hacer negoci
     id: 8,
     title: "Casolé: Lujo Contemporáneo en el Corazón de Quito",
     description: "Descubre la fusión perfecta entre diseño vanguardista y comodidad en el nuevo proyecto residencial de Uribe & Schwarzkopf en la capital ecuatoriana.",
-    image: "https://images.unsplash.com/photo-1567684014761-b65e2e59b9eb?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
+    image: "https://jannethaguirre.online/casole-quito.jpg",
     category: "ecuador",
     slug: "casole-quito",
     subtitle: "Diseño Contemporáneo en el Corazón de Quito",
