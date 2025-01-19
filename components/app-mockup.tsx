@@ -42,18 +42,18 @@ export default function AppMockup() {
   return (
     <section className="py-16 sm:py-24 bg-gradient-to-r from-gray-900 to-gray-800 overflow-hidden">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col lg:flex-row items-center justify-between">
+        <div className="flex flex-col lg:flex-row items-center justify-between max-w-6xl mx-auto">
           <motion.div 
-            className="lg:w-1/2 mb-12 lg:mb-0"
+            className="lg:w-1/2 mb-12 lg:mb-0 text-center lg:text-left"
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
             <h2 className="text-4xl sm:text-5xl font-bold mb-6 text-white">Descubre Propiedades de Lujo en Tu Móvil</h2>
-            <p className="text-xl mb-8 text-gray-300">
+            <p className="text-xl mb-8 text-gray-300 max-w-lg mx-auto lg:mx-0">
               Explora exclusivas propiedades en Ecuador, Panamá y Estados Unidos con la app de Janneth Aguirre Bienes Raíces.
             </p>
-            <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+            <div className="flex flex-col sm:flex-row justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
               <Button
                 className="bg-black hover:bg-gray-800 text-white px-6 py-3 rounded-full text-lg transition-transform hover:scale-105 flex items-center justify-center"
                 onClick={() => window.open('https://play.google.com/store', '_blank')}
