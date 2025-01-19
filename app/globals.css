@@ -1,0 +1,42 @@
+@layer base {
+  .prose h2 {
+    @apply text-3xl font-bold mt-12 mb-6 text-gray-800 border-b pb-2;
+  }
+  .prose h3 {
+    @apply text-2xl font-semibold mt-8 mb-4 text-gray-700;
+  }
+  .prose p {
+    @apply mb-6 text-gray-600 leading-relaxed;
+  }
+  .prose ul, .prose ol {
+    @apply my-6 ml-6 space-y-2;
+  }
+  .prose li {
+    @apply text-gray-600;
+  }
+  .prose strong {
+    @apply font-bold text-gray-800;
+  }
+  .prose blockquote {
+    @apply border-l-4 border-[#FF0000] pl-4 italic my-6 text-gray-700;
+  }
+  .prose a {
+    @apply text-[#FF0000] hover:underline;
+  }
+  .lead {
+    @apply text-xl font-semibold text-gray-800;
+  }
+}
+
+.instagram-embed-container {
+  position: relative;
+  width: 100%;
+  max-width: 540px;
+  margin: 0 auto;
+  min-height: 800px; /* Add minimum height to accommodate caption */
+}
+
+.instagram-embed-container .instagram-media {
+  margin: 0 auto !important;
+}
+
