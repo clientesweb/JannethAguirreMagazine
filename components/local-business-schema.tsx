@@ -38,7 +38,37 @@ export default function LocalBusinessSchema() {
       "https://www.instagram.com/janneth_aguirrem/",
       "https://vm.tiktok.com/ZMhnEwCHp/",
       "https://www.youtube.com/@jannethaguirrebienesraices5728"
-    ]
+    ],
+    "areaServed": ["Ecuador", "Panamá", "Estados Unidos"],
+    "priceRange": "$$$$",
+    "description": "Janneth Aguirre Bienes Raíces es líder en propiedades de lujo e inversiones inmobiliarias internacionales en Ecuador, Panamá y Estados Unidos.",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Servicios Inmobiliarios",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Venta de Propiedades de Lujo"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Asesoría en Inversiones Inmobiliarias Internacionales"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Gestión de Propiedades"
+          }
+        }
+      ]
+    }
   }
 
   return (
