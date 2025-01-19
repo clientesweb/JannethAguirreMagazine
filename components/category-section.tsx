@@ -10,12 +10,12 @@ interface CategorySectionProps {
 }
 
 const CATEGORY_IMAGES = {
-  'panama': 'https://images.unsplash.com/photo-1583532452513-a02186582ccd?auto=format&fit=crop&q=80',
-  'ecuador': 'https://images.unsplash.com/photo-1489546233434-5858f30dfef7?auto=format&fit=crop&q=80',
-  'estados-unidos': 'https://images.unsplash.com/photo-1609924211018-5526c55bad5b?auto=format&fit=crop&q=80',
+  'panama': '/panamá.jpg',
+  'ecuador': '/ecuador.jpg',
+  'estados-unidos': 'estados-unidos.jpg',
   'decoracion': 'https://images.unsplash.com/photo-1616046229478-9901c5536a45?auto=format&fit=crop&q=80',
   'tendencias': 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80',
-  'analisis': 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80'
+  'analisis': '/análisis.jpg'
 }
 
 export default function CategorySection({ category }: CategorySectionProps) {
