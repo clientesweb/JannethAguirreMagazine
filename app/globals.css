@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @layer base {
   .prose h2 {
     @apply text-3xl font-bold mt-12 mb-6 text-gray-800 border-b pb-2;
