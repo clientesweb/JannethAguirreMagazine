@@ -5,8 +5,8 @@ export default function LocalBusinessSchema() {
     "@context": "https://schema.org",
     "@type": "RealEstateAgent",
     "name": "Janneth Aguirre Bienes Raíces",
-    "image": "https://jannethaguirremagazine.com/logo.png",
-    "url": "https://jannethaguirremagazine.com",
+    "image": "https://jannethaguirre.online/logo.png",
+    "url": "https://jannethaguirre.online",
     "telephone": "+593987167782",
     "address": {
       "@type": "PostalAddress",
