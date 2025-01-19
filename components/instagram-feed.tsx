@@ -7,7 +7,8 @@ const INSTAGRAM_POSTS = [
   'DE5MwjSuVi_',
   'DE1efOSu98a',
   'DExZxiLO-b3',
-  'DEpoxZ5uOQq'
+  'DEpoxZ5uOQq',
+  'DEoImoUuDAO'
 ]
 
 declare global {
