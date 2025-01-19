@@ -1,26 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --primary-color: #ff0000;
-  --secondary-color: #808080;
-}
-
 @layer base {
-  body {
-    @apply text-gray-900 bg-white;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    @apply font-bold text-gray-900;
-  }
-
   .prose h2 {
     @apply text-3xl font-bold mt-12 mb-6 text-gray-800 border-b pb-2;
   }
@@ -30,8 +8,7 @@
   .prose p {
     @apply mb-6 text-gray-600 leading-relaxed;
   }
-  .prose ul,
-  .prose ol {
+  .prose ul, .prose ol {
     @apply my-6 ml-6 space-y-2;
   }
   .prose li {
@@ -41,23 +18,13 @@
     @apply font-bold text-gray-800;
   }
   .prose blockquote {
-    @apply border-l-4 border-primary pl-4 italic my-6 text-gray-700;
+    @apply border-l-4 border-[#FF0000] pl-4 italic my-6 text-gray-700;
   }
   .prose a {
-    @apply text-primary hover:underline;
+    @apply text-[#FF0000] hover:underline;
   }
   .lead {
     @apply text-xl font-semibold text-gray-800;
-  }
-}
-
-@layer components {
-  .btn-primary {
-    @apply bg-primary text-white font-bold py-2 px-4 rounded hover:bg-primary/90 transition duration-300;
-  }
-
-  .btn-secondary {
-    @apply bg-secondary text-white font-bold py-2 px-4 rounded hover:bg-secondary/90 transition duration-300;
   }
 }
 
@@ -66,34 +33,10 @@
   width: 100%;
   max-width: 540px;
   margin: 0 auto;
-  min-height: 800px;
+  min-height: 800px; /* Add minimum height to accommodate caption */
 }
 
 .instagram-embed-container .instagram-media {
   margin: 0 auto !important;
-}
-
-/* Animaciones */
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.animate-fade-in-up {
-  animation: fadeInUp 0.5s ease-out;
-}
-
-.animation-delay-300 {
-  animation-delay: 300ms;
-}
-
-.animation-delay-600 {
-  animation-delay: 600ms;
 }
 
