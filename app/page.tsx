@@ -96,7 +96,7 @@ export default function Home() {
                       <CardHeader className="p-0">
                         <div className="relative h-48 sm:h-56 md:h-64">
                           <Image
-                            src={ARTICLES.find(article => article.category === category.slug)?.image || '/placeholder.jpg'}
+                            src={`https://jannethaguirre.online/${category.slug}.jpg`}
                             alt={category.name}
                             layout="fill"
                             objectFit="cover"
