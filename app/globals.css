@@ -1,7 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 @layer base {
   .prose h2 {
     @apply text-3xl font-bold mt-12 mb-6 text-gray-800 border-b pb-2;
@@ -37,7 +33,7 @@
   width: 100%;
   max-width: 540px;
   margin: 0 auto;
-  min-height: 800px;
+  min-height: 800px; /* Add minimum height to accommodate caption */
 }
 
 .instagram-embed-container .instagram-media {
