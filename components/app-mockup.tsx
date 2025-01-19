@@ -8,19 +8,19 @@ import { ChevronRight, ChevronLeft, Star } from 'lucide-react'
 
 const properties = [
   {
-    image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&h=1080&q=80",
-    location: "Guayaquil, Ecuador",
-    price: "$450,000",
-    rating: 4.8
-  },
-  {
-    image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&h=1080&q=80",
+    image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1920&h=1080",
     location: "Miami, Estados Unidos",
     price: "$1,200,000",
     rating: 4.9
   },
   {
-    image: "https://images.unsplash.com/photo-1571939228382-b2f2b585ce15?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&h=1080&q=80",
+    image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80&w=1920&h=1080",
+    location: "Guayaquil, Ecuador",
+    price: "$450,000",
+    rating: 4.8
+  },
+  {
+    image: "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&q=80&w=1920&h=1080",
     location: "Ciudad de Panamá, Panamá",
     price: "$650,000",
     rating: 4.7
@@ -79,17 +79,17 @@ export default function AppMockup() {
             </ul>
             <div className="flex flex-col sm:flex-row justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
               <Button
-                className="bg-[#FF0000] hover:bg-[#FF0000]/90 text-white px-6 py-3 rounded-full text-lg transition-transform hover:scale-105 flex items-center justify-center"
+                className="bg-black hover:bg-gray-800 text-white px-6 py-3 rounded-full text-lg transition-transform hover:scale-105 flex items-center justify-center"
                 onClick={() => window.open('https://play.google.com/store', '_blank')}
               >
-                <Image src="/google-play-icon.png" alt="Google Play" width={24} height={24} className="mr-2" />
+                <Image src="https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb?auto=format&fit=crop&q=80&w=1920&h=1080" alt="Google Play" width={24} height={24} className="mr-2 rounded" />
                 <span>Google Play</span>
               </Button>
               <Button
-                className="bg-white hover:bg-gray-100 text-black px-6 py-3 rounded-full text-lg transition-transform hover:scale-105 flex items-center justify-center"
+                className="bg-black hover:bg-gray-800 text-white px-6 py-3 rounded-full text-lg transition-transform hover:scale-105 flex items-center justify-center"
                 onClick={() => window.open('https://www.apple.com/app-store/', '_blank')}
               >
-                <Image src="/app-store-icon.png" alt="App Store" width={24} height={24} className="mr-2" />
+                <Image src="https://images.unsplash.com/photo-1621768216002-5ac171876625?auto=format&fit=crop&q=80&w=1920&h=1080" alt="App Store" width={24} height={24} className="mr-2 rounded" />
                 <span>App Store</span>
               </Button>
             </div>
@@ -117,20 +117,22 @@ export default function AppMockup() {
                   exit={{ opacity: 0 }}
                   transition={{ duration: 0.5 }}
                 >
-                  <Image
-                    src={properties[currentProperty].image || "/placeholder.svg"}
-                    alt={`Propiedad en ${properties[currentProperty].location}`}
-                    layout="fill"
-                    objectFit="cover"
-                    className="rounded-2xl"
-                  />
-                  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-4">
-                    <p className="text-white text-lg font-semibold">{properties[currentProperty].location}</p>
-                    <div className="flex justify-between items-center mt-2">
-                      <p className="text-white text-xl font-bold">{properties[currentProperty].price}</p>
-                      <div className="flex items-center">
-                        <Star className="text-yellow-400 w-5 h-5 mr-1" />
-                        <span className="text-white">{properties[currentProperty].rating}</span>
+                  <div className="relative w-full h-full">
+                    <Image
+                      src={properties[currentProperty].image || "/placeholder.svg"}
+                      alt={`Propiedad en ${properties[currentProperty].location}`}
+                      layout="fill"
+                      objectFit="cover"
+                      className="rounded-2xl"
+                    />
+                    <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-4">
+                      <p className="text-white text-lg font-semibold">{properties[currentProperty].location}</p>
+                      <div className="flex justify-between items-center mt-2">
+                        <p className="text-white text-xl font-bold">{properties[currentProperty].price}</p>
+                        <div className="flex items-center">
+                          <Star className="text-yellow-400 w-5 h-5 mr-1" />
+                          <span className="text-white">{properties[currentProperty].rating}</span>
+                        </div>
                       </div>
                     </div>
                   </div>
