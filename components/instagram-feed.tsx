@@ -10,6 +10,16 @@ const INSTAGRAM_POSTS = [
   'DEoImoUuDAO'
 ]
 
+declare global {
+  interface Window {
+    instgrm?: {
+      Embeds: {
+        process: () => void;
+      };
+    };
+  }
+}
+
 export default function InstagramFeed() {
   const containerRef = useRef<HTMLDivElement>(null)
 
