@@ -1,19 +1,42 @@
 import { notFound } from 'next/navigation'
 import { CATEGORIES, ARTICLES } from '@/lib/constants'
+import { ARTICLES_VARIOS } from '@/lib/articles'
 import Header from '@/components/header'
 import Footer from '@/components/footer'
 import { Card, CardContent, CardHeader } from '@/components/ui/card'
 import Image from 'next/image'
 import Link from 'next/link'
 
+export async function generateStaticParams() {
+  return CATEGORIES.map((category) => ({
+    slug: category.slug,
+  }))
+}
+
 export default function CategoryPage({ params }: { params: { slug: string } }) {
   const category = CATEGORIES.find(cat => cat.slug === params.slug)
-  
+
   if (!category) {
     notFound()
   }
 
-  const categoryArticles = ARTICLES.filter(article => article.category === params.slug)
+  const allArticles = [...ARTICLES, ...ARTICLES_VARIOS]
+  const categoryArticles = allArticles.filter(article => article.category === params.slug)
+
+  if (categoryArticles.length === 0) {
+    return (
+      <>
+        <Header />
+        <main className="min-h-screen bg-gray-50 py-12">
+          <div className="container mx-auto px-4">
+            <h1 className="text-4xl font-bold mb-8 text-center">{category.name}</h1>
+            <p className="text-center text-gray-600">No se encontraron artículos en esta categoría.</p>
+          </div>
+        </main>
+        <Footer />
+      </>
+    )
+  }
 
   return (
     <>
@@ -23,15 +46,16 @@ export default function CategoryPage({ params }: { params: { slug: string } }) {
           <h1 className="text-4xl font-bold mb-8 text-center">{category.name}</h1>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {categoryArticles.map((article) => (
-              <Card key={article.id} className="overflow-hidden">
+              <Card key={article.id} className="overflow-hidden hover:shadow-xl transition-duration-300">
                 <CardHeader className="p-0">
-                  <Image
-                    src={article.image}
-                    alt={article.title}
-                    width={600}
-                    height={400}
-                    className="w-full h-48 object-cover"
-                  />
+                  <div className="relative h-48 md:h-64">
+                    <Image
+                      src={article.image || "/placeholder.svg"}
+                      alt={article.title}
+                      layout="fill"
+                      objectFit="cover"
+                    />
+                  </div>
                 </CardHeader>
                 <CardContent className="p-6">
                   <h2 className="text-xl font-bold mb-2">{article.title}</h2>
