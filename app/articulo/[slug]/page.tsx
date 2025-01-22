@@ -19,7 +19,6 @@ interface Article {
   title: string
   description: string
   image: string
-  illustrativeImage: string
   fullContent: string
   category: string
   subtitle?: string
@@ -35,12 +34,7 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
 
-  const images = [
-    article.image,
-    "https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&q=80&w=1600",
-    "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=1600",
-    "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=80&w=1600",
-  ]
+  const images = [article.image]
 
   const nextImage = () => {
     setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length)
@@ -135,20 +129,6 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
                             ),
                           )}
                         </p>
-                      )}
-                      {index === 2 && (
-                        <div className="my-8">
-                          <Image
-                            src={article.illustrativeImage || "/placeholder.svg"}
-                            alt="Imagen ilustrativa del mercado inmobiliario actual"
-                            width={800}
-                            height={400}
-                            className="rounded-lg shadow-lg"
-                          />
-                          <p className="text-sm text-gray-500 mt-2 text-center">
-                            Imagen ilustrativa del mercado inmobiliario actual
-                          </p>
-                        </div>
                       )}
                       {index === 4 && article.importantFact && (
                         <blockquote className="border-l-4 border-[#FF0000] pl-4 italic my-6 text-gray-700">
