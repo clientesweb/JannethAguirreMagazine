@@ -10,7 +10,7 @@ interface CategorySectionProps {
 }
 
 const CATEGORY_IMAGES = {
-  'panama': 'https://jannethaguirre.online/panama.jpg',
+  'panama': 'https://jannethaguirre.online/pama.jpg',
   'ecuador': 'https://jannethaguirre.online/ecuador.jpg',
   'estados-unidos': 'public/estados-unidos.jpg',
   'decoracion': 'https://jannethaguirre.online/tendencias-diseno-interiores-2025.jpg',
