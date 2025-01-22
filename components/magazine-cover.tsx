@@ -18,7 +18,7 @@ const slides = [
     }
   },
   {
-    image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=1920&h=1080",
+    image: "/app-janneth-aguirre.jpg",
     title: "JANNETH AGUIRRE",
     subtitle: "Descubre Propiedades en Tu Móvil",
     description: "Encuentra Tu Hogar Ideal con Nuestra App",
