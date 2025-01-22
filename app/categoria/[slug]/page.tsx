@@ -1,23 +1,11 @@
-import { notFound } from "next/navigation"
-import { CATEGORIES } from "@/lib/constants"
-import { ARTICLES } from "@/lib/constants"
-import { ARTICLES_VARIOS } from "@/lib/articles"
-import Header from "@/components/header"
-import Footer from "@/components/footer"
-import { Card, CardContent, CardHeader } from "@/components/ui/card"
-import Image from "next/image"
-import Link from "next/link"
-
-interface Article {
-  id: number
-  title: string
-  description: string
-  images: string[]
-  illustrativeImage: string
-  category: string
-  slug: string
-  image?: string // Make image optional as it might not be present in all articles
-}
+import { notFound } from 'next/navigation'
+import { CATEGORIES, ARTICLES } from '@/lib/constants'
+import { ARTICLES_VARIOS } from '@/lib/articles'
+import Header from '@/components/header'
+import Footer from '@/components/footer'
+import { Card, CardContent, CardHeader } from '@/components/ui/card'
+import Image from 'next/image'
+import Link from 'next/link'
 
 export async function generateStaticParams() {
   return CATEGORIES.map((category) => ({
@@ -26,19 +14,14 @@ export async function generateStaticParams() {
 }
 
 export default function CategoryPage({ params }: { params: { slug: string } }) {
-  const category = CATEGORIES.find((cat) => cat.slug === params.slug)
+  const category = CATEGORIES.find(cat => cat.slug === params.slug)
 
   if (!category) {
     notFound()
   }
 
-  // Update the type conversion here
-  const allArticles: Article[] = [...ARTICLES, ...ARTICLES_VARIOS].map((article) => ({
-    ...article,
-    image: article.images?.[0] || article.illustrativeImage, // Set image property if not present
-  }))
-
-  const categoryArticles = allArticles.filter((article) => article.category === params.slug)
+  const allArticles = [...ARTICLES, ...ARTICLES_VARIOS]
+  const categoryArticles = allArticles.filter(article => article.category === params.slug)
 
   return (
     <>
@@ -52,7 +35,7 @@ export default function CategoryPage({ params }: { params: { slug: string } }) {
                 <CardHeader className="p-0">
                   <div className="relative h-48 md:h-64">
                     <Image
-                      src={article.image || article.images[0] || "/placeholder.svg"}
+                      src={article.image || "/placeholder.svg"}
                       alt={article.title}
                       layout="fill"
                       objectFit="cover"
@@ -62,7 +45,7 @@ export default function CategoryPage({ params }: { params: { slug: string } }) {
                 <CardContent className="p-6">
                   <h2 className="text-xl font-bold mb-2">{article.title}</h2>
                   <p className="text-gray-600 mb-4">{article.description}</p>
-                  <Link
+                  <Link 
                     href={`/articulo/${article.slug}`}
                     className="text-[#FF0000] hover:text-[#FF0000]/90 font-medium"
                   >
