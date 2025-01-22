@@ -28,10 +28,10 @@ const slides = [
     }
   },
   {
-    image: "https://images.unsplash.com/photo-1628744448840-55bdb2497bd4?auto=format&fit=crop&q=80&w=1920&h=1080",
+    image: "/Instagram-janneth-aguirre.jpg",
     title: "JANNETH AGUIRRE",
-    subtitle: "Inspiración Inmobiliaria en Instagram",
-    description: "Sigue Nuestro Contenido Exclusivo",
+    subtitle: "Síguenos en Instagram",
+    description: "Propiedades, Proyectos y más",
     cta: {
       text: "Ver en Instagram",
       link: "https://www.instagram.com/janneth_aguirrem/"
