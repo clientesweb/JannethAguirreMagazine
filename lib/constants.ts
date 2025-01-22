@@ -569,8 +569,7 @@ Samborondón City Center no es solo un lugar para vivir, trabajar o hacer negoci
       * Pisos de madera de ingeniería
       * Cocinas italianas con electrodomésticos de última generación
       * Baños con grifería de diseñador y mármol importado
-    - Sistemas de domótica para control de iluminación,<merged_code_continuation>
- clima y seguridad
+    - Sistemas de domótica para control de iluminación, clima y seguridad
 
     Amenidades de Lujo:
     Casolé ofrece una gama completa de amenidades diseñadas para mejorar el estilo de vida de sus residentes:
@@ -600,5 +599,4 @@ Samborondón City Center no es solo un lugar para vivir, trabajar o hacer negoci
 ]
 
 export const ARTICLES_VARIOS = []
-</merged_code_continuation>
 
