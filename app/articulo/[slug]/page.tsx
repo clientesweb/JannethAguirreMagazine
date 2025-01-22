@@ -19,12 +19,12 @@ interface Article {
   title: string
   description: string
   image: string
+  carouselImages: string[]
+  illustrativeImage: string
   fullContent: string
   category: string
   subtitle?: string
   importantFact?: string
-  images?: string[]
-  illustrativeImage?: string
 }
 
 export default function ArticleDetail({ params }: { params: { slug: string } }) {
@@ -36,19 +36,12 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
 
-  const images = article.images || [
-    article.image,
-    "https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&q=80&w=1600",
-    "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=1600",
-    "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=80&w=1600",
-  ]
-
   const nextImage = () => {
-    setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length)
+    setCurrentImageIndex((prevIndex) => (prevIndex + 1) % article.carouselImages.length)
   }
 
   const prevImage = () => {
-    setCurrentImageIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length)
+    setCurrentImageIndex((prevIndex) => (prevIndex - 1 + article.carouselImages.length) % article.carouselImages.length)
   }
 
   const shareUrl = typeof window !== "undefined" ? window.location.href : ""
@@ -74,8 +67,8 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
       <article className="min-h-screen bg-gray-50">
         <div className="relative h-[70vh] bg-black">
           <Image
-            src={images[currentImageIndex] || "/placeholder.svg"}
-            alt={article.title}
+            src={article.carouselImages[currentImageIndex] || "/placeholder.svg"}
+            alt={`${article.title} - Imagen ${currentImageIndex + 1}`}
             layout="fill"
             objectFit="cover"
             className="transition-opacity duration-500"
@@ -140,7 +133,7 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
                       {index === 2 && (
                         <div className="my-8">
                           <Image
-                            src={article.illustrativeImage || images[1]}
+                            src={article.illustrativeImage || "/placeholder.svg"}
                             alt="Imagen ilustrativa relacionada con el artículo"
                             width={800}
                             height={400}
