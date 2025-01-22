@@ -1,28 +1,28 @@
 export const BRAND_COLORS = {
-  primary: "#FF0000",
-  secondary: "#808080",
+  primary: '#FF0000',
+  secondary: '#808080',
 }
 
 export const SOCIAL_LINKS = {
-  facebook: "https://www.facebook.com/@jannethaguirrebienesraices/?hr=1",
-  instagram: "https://www.instagram.com/janneth_aguirrem/",
-  tiktok: "https://vm.tiktok.com/ZMhnEwCHp/",
-  youtube: "https://www.youtube.com/@jannethaguirrebienesraices5728",
-  twitter: "https://twitter.com/?mx=1",
-  whatsapp: "https://wa.me/593987167782",
+  facebook: 'https://www.facebook.com/@jannethaguirrebienesraices/?hr=1',
+  instagram: 'https://www.instagram.com/janneth_aguirrem/',
+  tiktok: 'https://vm.tiktok.com/ZMhnEwCHp/',
+  youtube: 'https://www.youtube.com/@jannethaguirrebienesraices5728',
+  twitter: 'https://twitter.com/?mx=1',
+  whatsapp: 'https://wa.me/593987167782'
 }
 
 export const CONTACT_INFO = {
-  email: "info@jannethaguirrebienesraices.com",
-  phone: "+593 98 716 7782",
+  email: 'info@jannethaguirrebienesraices.com',
+  phone: '+593 98 716 7782'
 }
 
 export const CATEGORIES = [
-  { name: "Ecuador", slug: "ecuador" },
-  { name: "Panamá", slug: "panama" },
-  { name: "Estados Unidos", slug: "estados-unidos" },
-  { name: "Análisis de Mercado", slug: "analisis-de-mercado" },
-  { name: "Decoración de Interiores", slug: "decoracion-de-interiores" },
+  { name: 'Ecuador', slug: 'ecuador' },
+  { name: 'Panamá', slug: 'panama' },
+  { name: 'Estados Unidos', slug: 'estados-unidos' },
+  { name: 'Análisis de Mercado', slug: 'analisis-de-mercado' },
+  { name: 'Decoración de Interiores', slug: 'decoracion-de-interiores' },
 ]
 
 export const ARTICLES = [
@@ -31,12 +31,6 @@ export const ARTICLES = [
     title: "Vizcaya 2: Exclusivo Desarrollo en Ciudad Celeste",
     description: "Descubre Vizcaya 2, un moderno desarrollo de departamentos ubicado en la prestigiosa zona de Ciudad Celeste, Samborondón.",
     image: "https://jannethaguirre.online/vizcaya-2.jpg",
-    carouselImages: [
-      "https://jannethaguirre.online/vizcaya-2-1.jpg",
-      "https://jannethaguirre.online/vizcaya-2-2.jpg",
-      "https://jannethaguirre.online/vizcaya-2-3.jpg",
-    ],
-    illustrativeImage: "https://jannethaguirre.online/vizcaya-2-ilustrativa.jpg",
     category: "ecuador",
     slug: "vizcaya-2-ciudad-celeste",
     subtitle: "Un Oasis de Lujo en Samborondón",
@@ -76,12 +70,6 @@ export const ARTICLES = [
     title: "OceanLake Golf Villas: Lujo y Naturaleza en Buenaventura, Panamá",
     description: "Descubre OceanLake Golf Villas, una colección limitada de villas de lujo en el exclusivo complejo residencial Buenaventura, Panamá.",
     image: "https://jannethaguirre.online/oceanlake-golf-villas.jpg",
-    carouselImages: [
-      "https://jannethaguirre.online/oceanlake-golf-villas-1.jpg",
-      "https://jannethaguirre.online/oceanlake-golf-villas-2.jpg",
-      "https://jannethaguirre.online/oceanlake-golf-villas-3.jpg",
-    ],
-    illustrativeImage: "https://jannethaguirre.online/oceanlake-golf-villas-ilustrativa.jpg",
     category: "panama",
     slug: "oceanlake-golf-villas-buenaventura-panama",
     subtitle: "Exclusividad Costera en Buenaventura",
@@ -176,12 +164,6 @@ export const ARTICLES = [
     title: "Millenia Park Orlando: Lujo y Naturaleza en Armonía",
     description: "Descubre una nueva era de vida residencial en el corazón de Orlando, donde el lujo se encuentra con la naturaleza en un oasis urbano sin precedentes.",
     image: "https://jannethaguirre.online/millenia-park-orlando.jpg",
-    carouselImages: [
-      "https://jannethaguirre.online/millenia-park-orlando-1.jpg",
-      "https://jannethaguirre.online/millenia-park-orlando-2.jpg",
-      "https://jannethaguirre.online/millenia-park-orlando-3.jpg",
-    ],
-    illustrativeImage: "https://jannethaguirre.online/millenia-park-orlando-ilustrativa.jpg",
     category: "estados-unidos",
     slug: "millenia-park-orlando",
     subtitle: "El Oasis Urbano de Orlando",
@@ -262,12 +244,6 @@ export const ARTICLES = [
     title: "Tendencias en Diseño de Interiores 2025: Lujo Sostenible y Bienestar",
     description: "Descubre cómo el diseño de interiores de lujo está adoptando prácticas sostenibles y enfocándose en el bienestar, creando espacios que son tanto elegantes como conscientes del medio ambiente.",
     image: "https://jannethaguirre.online/tendencias-diseno-interiores-2025.jpg",
-    carouselImages: [
-      "https://jannethaguirre.online/tendencias-diseno-interiores-2025-1.jpg",
-      "https://jannethaguirre.online/tendencias-diseno-interiores-2025-2.jpg",
-      "https://jannethaguirre.online/tendencias-diseno-interiores-2025-3.jpg",
-    ],
-    illustrativeImage: "https://jannethaguirre.online/tendencias-diseno-interiores-2025-ilustrativa.jpg",
     category: "decoracion-de-interiores",
     slug: "tendencias-diseno-interiores-2025-lujo-sostenible",
     subtitle: "El Futuro del Diseño de Interiores de Lujo",
@@ -354,12 +330,6 @@ export const ARTICLES = [
     title: "Análisis del Mercado Inmobiliario en Ecuador 2025",
     description: "Un estudio detallado de las tendencias, oportunidades y desafíos en el mercado inmobiliario ecuatoriano, con datos actualizados y proyecciones para el próximo año.",
     image: "https://jannethaguirre.online/analisis-mercado-inmobiliario-ecuador-2025.jpg",
-    carouselImages: [
-      "https://jannethaguirre.online/analisis-mercado-inmobiliario-ecuador-2025-1.jpg",
-      "https://jannethaguirre.online/analisis-mercado-inmobiliario-ecuador-2025-2.jpg",
-      "https://jannethaguirre.online/analisis-mercado-inmobiliario-ecuador-2025-3.jpg",
-    ],
-    illustrativeImage: "https://jannethaguirre.online/analisis-mercado-inmobiliario-ecuador-2025-ilustrativa.jpg",
     category: "analisis-de-mercado",
     slug: "analisis-mercado-inmobiliario-ecuador-2025",
     subtitle: "Perspectivas del Mercado Inmobiliario Ecuatoriano",
@@ -407,12 +377,6 @@ export const ARTICLES = [
     title: "Mocolí Bay: Lujo Frente al Río en Samborondón",
     description: "Descubre la vida exclusiva en Mocolí Bay, un desarrollo de apartamentos de lujo con vistas panorámicas al río Daule.",
     image: "https://jannethaguirre.online/mocoli-bay.jpg",
-    carouselImages: [
-      "https://jannethaguirre.online/mocoli-bay-1.jpg",
-      "https://jannethaguirre.online/mocoli-bay-2.jpg",
-      "https://jannethaguirre.online/mocoli-bay-3.jpg",
-    ],
-    illustrativeImage: "https://jannethaguirre.online/mocoli-bay-ilustrativa.jpg",
     category: "ecuador",
     slug: "mocoli-bay-apartamentos-samborondon",
     subtitle: "Vistas Panorámicas al Río Daule",
@@ -461,12 +425,6 @@ export const ARTICLES = [
     title: "Samborondón City Center: El Nuevo Epicentro de Negocios y Estilo de Vida",
     description: "Explore las oportunidades únicas en el corazón de Samborondón, donde el comercio y el lujo se fusionan en un desarrollo de uso mixto sin precedentes.",
     image: "https://jannethaguirre.online/samborondon-city-center.jpg",
-    carouselImages: [
-      "https://jannethaguirre.online/samborondon-city-center-1.jpg",
-      "https://jannethaguirre.online/samborondon-city-center-2.jpg",
-      "https://jannethaguirre.online/samborondon-city-center-3.jpg",
-    ],
-    illustrativeImage: "https://jannethaguirre.online/samborondon-city-center-ilustrativa.jpg",
     category: "ecuador",
     slug: "samborondon-city-center",
     subtitle: "El Corazón de Samborondón",
@@ -527,12 +485,6 @@ Samborondón City Center no es solo un lugar para vivir, trabajar o hacer negoci
     title: "Casolé: Lujo Contemporáneo en el Corazón de Quito",
     description: "Descubre la fusión perfecta entre diseño vanguardista y comodidad en el nuevo proyecto residencial de Uribe & Schwarzkopf en la capital ecuatoriana.",
     image: "https://jannethaguirre.online/casole-quito.jpg",
-    carouselImages: [
-      "https://jannethaguirre.online/casole-quito-1.jpg",
-      "https://jannethaguirre.online/casole-quito-2.jpg",
-      "https://jannethaguirre.online/casole-quito-3.jpg",
-    ],
-    illustrativeImage: "https://jannethaguirre.online/casole-quito-ilustrativa.jpg",
     category: "ecuador",
     slug: "casole-quito",
     subtitle: "Diseño Contemporáneo en el Corazón de Quito",
@@ -582,8 +534,7 @@ Samborondón City Center no es solo un lugar para vivir, trabajar o hacer negoci
     - Bicicletas eléctricas compartidas para residentes
 
     Inversión con Visión de Futuro:
-    Adquirir una residencia en Casolé no es solo comprar un hogar, es invertir en un estilo de vida y en el futuro<merged_code_continuation>
-de Quito:
+    Adquirir una residencia en Casolé no es solo comprar un hogar, es invertir en un estilo de vida y en el futuro de Quito:
     - Valorización garantizada en una de las zonas de mayor plusvalía de la ciudad
     - Oportunidad de generar ingresos a través de alquileres de corto plazo
     - Respaldo de Uribe & Schwarzkopf, líder en desarrollo inmobiliario en Ecuador
@@ -595,7 +546,7 @@ de Quito:
     - Opciones de pago diferido durante la construcción
 
     Casolé no es solo un edificio; es una obra de arte habitable, un oasis urbano que eleva el estándar de vida en Quito. No pierda la oportunidad de ser parte de este proyecto emblemático. Contáctenos hoy para agendar una visita a nuestro showroom y experimente el futuro del lujo residencial en Ecuador.
+    `
   },
-];
-</merged_code_continuation>
+]
 
