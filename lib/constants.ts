@@ -596,6 +596,6 @@ de Quito:
 
     Casolé no es solo un edificio; es una obra de arte habitable, un oasis urbano que eleva el estándar de vida en Quito. No pierda la oportunidad de ser parte de este proyecto emblemático. Contáctenos hoy para agendar una visita a nuestro showroom y experimente el futuro del lujo residencial en Ecuador.
   },
-]
+];
 </merged_code_continuation>
 
