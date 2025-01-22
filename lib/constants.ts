@@ -29,15 +29,14 @@ export const ARTICLES = [
   {
     id: 1,
     title: "Vizcaya 2: Exclusivo Desarrollo en Ciudad Celeste",
-    description:
-      "Descubre Vizcaya 2, un moderno desarrollo de departamentos ubicado en la prestigiosa zona de Ciudad Celeste, Samborondón.",
+    description: "Descubre Vizcaya 2, un moderno desarrollo de departamentos ubicado en la prestigiosa zona de Ciudad Celeste, Samborondón.",
     image: "https://jannethaguirre.online/vizcaya-2.jpg",
-    images: [
+    carouselImages: [
       "https://jannethaguirre.online/vizcaya-2.jpg",
-      "https://jannethaguirre.online/vizcaya-2-2.jpg",
-      "https://jannethaguirre.online/vizcaya-2-3.jpg",
+      "https://jannethaguirre.online/vizcaya-2-interior.jpg",
+      "https://jannethaguirre.online/vizcaya-2-amenities.jpg"
     ],
-    illustrativeImage: "https://jannethaguirre.online/vizcaya-2-2.jpg",
+    illustrativeImage: "https://jannethaguirre.online/vizcaya-2-living-room.jpg",
     category: "ecuador",
     slug: "vizcaya-2-ciudad-celeste",
     subtitle: "Un Oasis de Lujo en Samborondón",
@@ -70,7 +69,7 @@ export const ARTICLES = [
       Este desarrollo representa una excelente oportunidad de inversión en una de las zonas con mayor potencial de valorización en Ecuador.
 
       Para más información sobre precios y disponibilidad, contáctenos directamente.
-    `,
+    `
   },
   {
     id: 2,
@@ -572,45 +571,6 @@ Samborondón City Center no es solo un lugar para vivir, trabajar o hacer negoci
       * Pisos de madera de ingeniería
       * Cocinas italianas con electrodomésticos de última generación
       * Baños con grifería de diseñador y mármol importado
-    - Sistemas de domótica para control de iluminación, clima y seguridad
-
-    Amenidades de Clase Mundial:
-    Los residentes de Casolé<merged_code_continuation>
-seguridad
-
-    Amenidades de Clase Mundial:
-    Los residentes de Casolé disfrutan de un estilo de vida comparable al de un resort de cinco estrellas:
-    - Piscina infinity con vistas panorámicas de la ciudad y los volcanes
-    - Gimnasio equipado con tecnología de punta y estudios para clases grupales
-    - Spa completo con sauna, jacuzzi y salas de masaje
-    - Salón de eventos con cocina gourmet
-    - Cine privado y sala de juegos
-    - Coworking spaces y salas de reuniones
-    - Áreas verdes y jardines zen para meditación
-
-    Sostenibilidad y Tecnología:
-    Casolé no solo es un símbolo de lujo, sino también de responsabilidad ambiental:
-    - Certificación LEED en proceso
-    - Sistemas de recolección de agua lluvia y tratamiento de aguas grises
-    - Paneles solares para áreas comunes
-    - Estaciones de carga para vehículos eléctricos
-    - Bicicletas eléctricas compartidas para residentes
-
-    Inversión con Visión de Futuro:
-    Adquirir una residencia en Casolé no es solo comprar un hogar, es invertir en un estilo de vida y en el futuro de Quito:
-    - Valorización garantizada en una de las zonas de mayor plusvalía de la ciudad
-    - Oportunidad de generar ingresos a través de alquileres de corto plazo
-    - Respaldo de Uribe & Schwarzkopf, líder en desarrollo inmobiliario en Ecuador
-
-    Precios y Financiamiento:
-    - Apartamentos desde $200,000 USD
-    - Áticos y unidades premium desde $500,000 USD
-    - Planes de financiamiento flexibles con entidades bancarias de primer nivel
-    - Opciones de pago diferido durante la construcción
-
-    Casolé no es solo un edificio; es una obra de arte habitable, un oasis urbano que eleva el estándar de vida en Quito. No pierda la oportunidad de ser parte de este proyecto emblemático. Contáctenos hoy para agendar una visita a nuestro showroom y experimente el futuro del lujo residencial en Ecuador.
-  `,
-  },
-]
-</merged_code_continuation>
+    - Sistemas de dom<merged_code_continuation>
+ótica para control de iluminación, clima y
 
