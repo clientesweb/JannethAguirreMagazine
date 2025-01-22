@@ -32,11 +32,11 @@ export const ARTICLES = [
     description: "Descubre Vizcaya 2, un moderno desarrollo de departamentos ubicado en la prestigiosa zona de Ciudad Celeste, Samborondón.",
     image: "https://jannethaguirre.online/vizcaya-2.jpg",
     carouselImages: [
-      "https://jannethaguirre.online/vizcaya-2.jpg",
-      "https://jannethaguirre.online/vizcaya-2-interior.jpg",
-      "https://jannethaguirre.online/vizcaya-2-amenities.jpg"
+      "https://jannethaguirre.online/vizcaya-2-1.jpg",
+      "https://jannethaguirre.online/vizcaya-2-2.jpg",
+      "https://jannethaguirre.online/vizcaya-2-3.jpg",
     ],
-    illustrativeImage: "https://jannethaguirre.online/vizcaya-2-living-room.jpg",
+    illustrativeImage: "https://jannethaguirre.online/vizcaya-2-ilustrativa.jpg",
     category: "ecuador",
     slug: "vizcaya-2-ciudad-celeste",
     subtitle: "Un Oasis de Lujo en Samborondón",
@@ -74,20 +74,18 @@ export const ARTICLES = [
   {
     id: 2,
     title: "OceanLake Golf Villas: Lujo y Naturaleza en Buenaventura, Panamá",
-    description:
-      "Descubre OceanLake Golf Villas, una colección limitada de villas de lujo en el exclusivo complejo residencial Buenaventura, Panamá.",
+    description: "Descubre OceanLake Golf Villas, una colección limitada de villas de lujo en el exclusivo complejo residencial Buenaventura, Panamá.",
     image: "https://jannethaguirre.online/oceanlake-golf-villas.jpg",
-    images: [
-      "https://jannethaguirre.online/oceanlake-golf-villas.jpg",
+    carouselImages: [
+      "https://jannethaguirre.online/oceanlake-golf-villas-1.jpg",
       "https://jannethaguirre.online/oceanlake-golf-villas-2.jpg",
       "https://jannethaguirre.online/oceanlake-golf-villas-3.jpg",
     ],
-    illustrativeImage: "https://jannethaguirre.online/oceanlake-golf-villas-2.jpg",
+    illustrativeImage: "https://jannethaguirre.online/oceanlake-golf-villas-ilustrativa.jpg",
     category: "panama",
     slug: "oceanlake-golf-villas-buenaventura-panama",
     subtitle: "Exclusividad Costera en Buenaventura",
-    importantFact:
-      "Las villas incluyen acceso a todas las amenidades de Buenaventura, un complejo de lujo de 450 hectáreas.",
+    importantFact: "Las villas incluyen acceso a todas las amenidades de Buenaventura, un complejo de lujo de 450 hectáreas.",
     fullContent: `
       OceanLake Golf Villas representa la cúspide del lujo y la armonía con la naturaleza en el prestigioso complejo residencial Buenaventura, Panamá. Esta colección limitada de villas ofrece una experiencia de vida incomparable, combinando la cercanía al mar con vistas espectaculares al lago y al campo de golf diseñado por Nicklaus.
 
@@ -171,20 +169,19 @@ export const ARTICLES = [
 
       Conclusión:
       OceanLake Golf Villas en Buenaventura representa la quintaesencia del lujo costero en Panamá. Con su diseño exquisito, ubicación inmejorable y acceso a amenidades de clase mundial, estas villas ofrecen una oportunidad única para aquellos que buscan lo mejor en vida residencial y vacacional. Ya sea como un refugio personal paradisíaco o como una inversión estratégica en el mercado inmobiliario de lujo, OceanLake Golf Villas promete una experiencia sin igual en uno de los destinos más codiciados de Centroamérica.
-    `,
+    `
   },
   {
     id: 3,
     title: "Millenia Park Orlando: Lujo y Naturaleza en Armonía",
-    description:
-      "Descubre una nueva era de vida residencial en el corazón de Orlando, donde el lujo se encuentra con la naturaleza en un oasis urbano sin precedentes.",
+    description: "Descubre una nueva era de vida residencial en el corazón de Orlando, donde el lujo se encuentra con la naturaleza en un oasis urbano sin precedentes.",
     image: "https://jannethaguirre.online/millenia-park-orlando.jpg",
-    images: [
-      "https://jannethaguirre.online/millenia-park-orlando.jpg",
+    carouselImages: [
+      "https://jannethaguirre.online/millenia-park-orlando-1.jpg",
       "https://jannethaguirre.online/millenia-park-orlando-2.jpg",
       "https://jannethaguirre.online/millenia-park-orlando-3.jpg",
     ],
-    illustrativeImage: "https://jannethaguirre.online/millenia-park-orlando-2.jpg",
+    illustrativeImage: "https://jannethaguirre.online/millenia-park-orlando-ilustrativa.jpg",
     category: "estados-unidos",
     slug: "millenia-park-orlando",
     subtitle: "El Oasis Urbano de Orlando",
@@ -258,19 +255,19 @@ export const ARTICLES = [
     Planes de financiamiento atractivos disponibles para compradores calificados.
 
     Millenia Park Orlando no es solo un lugar para vivir; es un estilo de vida, una comunidad, y una inversión en el futuro. No pierda la oportunidad de ser parte de este desarrollo excepcional en el corazón de Orlando. Contáctenos hoy para programar una visita personalizada y descubra por qué Millenia Park Orlando es el nuevo estándar de vida de lujo en la Ciudad Bella.
+  `
   },
   {
     id: 4,
     title: "Tendencias en Diseño de Interiores 2025: Lujo Sostenible y Bienestar",
-    description:
-      "Descubre cómo el diseño de interiores de lujo está adoptando prácticas sostenibles y enfocándose en el bienestar, creando espacios que son tanto elegantes como conscientes del medio ambiente.",
-    image: "https://images.unsplash.com/photo-1616046229478-9901c5536a45?auto=format&fit=crop&q=80&w=1600",
-    images: [
-      "https://images.unsplash.com/photo-1616046229478-9901c5536a45?auto=format&fit=crop&q=80&w=1600",
-      "https://images.unsplash.com/photo-1615529182904-14819c35db37?auto=format&fit=crop&q=80&w=1600",
-      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=80&w=1600",
+    description: "Descubre cómo el diseño de interiores de lujo está adoptando prácticas sostenibles y enfocándose en el bienestar, creando espacios que son tanto elegantes como conscientes del medio ambiente.",
+    image: "https://jannethaguirre.online/tendencias-diseno-interiores-2025.jpg",
+    carouselImages: [
+      "https://jannethaguirre.online/tendencias-diseno-interiores-2025-1.jpg",
+      "https://jannethaguirre.online/tendencias-diseno-interiores-2025-2.jpg",
+      "https://jannethaguirre.online/tendencias-diseno-interiores-2025-3.jpg",
     ],
-    illustrativeImage: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=80&w=1600",
+    illustrativeImage: "https://jannethaguirre.online/tendencias-diseno-interiores-2025-ilustrativa.jpg",
     category: "decoracion-de-interiores",
     slug: "tendencias-diseno-interiores-2025-lujo-sostenible",
     subtitle: "El Futuro del Diseño de Interiores de Lujo",
@@ -350,25 +347,23 @@ export const ARTICLES = [
 
     Conclusión:
     El diseño de interiores de lujo en 2025 se centra en crear espacios que no solo son estéticamente impresionantes, sino que también promueven un estilo de vida sostenible y saludable. La verdadera opulencia se encuentra en la armonía entre la belleza, la funcionalidad y la responsabilidad ambiental. Los diseñadores y propietarios que abrazan estas tendencias están a la vanguardia de una nueva era de lujo consciente, donde el bienestar personal y planetario son la máxima expresión de sofisticación.
-    `,
+    `
   },
   {
     id: 5,
     title: "Análisis del Mercado Inmobiliario en Ecuador 2025",
-    description:
-      "Un estudio detallado de las tendencias, oportunidades y desafíos en el mercado inmobiliario ecuatoriano, con datos actualizados y proyecciones para el próximo año.",
-    image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=1600",
-    images: [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=1600",
-      "https://images.unsplash.com/photo-1582407947304-fd86f028f716?auto=format&fit=crop&q=80&w=1600",
-      "https://images.unsplash.com/photo-1626178793926-22b28830aa30?auto=format&fit=crop&q=80&w=1600",
+    description: "Un estudio detallado de las tendencias, oportunidades y desafíos en el mercado inmobiliario ecuatoriano, con datos actualizados y proyecciones para el próximo año.",
+    image: "https://jannethaguirre.online/analisis-mercado-inmobiliario-ecuador-2025.jpg",
+    carouselImages: [
+      "https://jannethaguirre.online/analisis-mercado-inmobiliario-ecuador-2025-1.jpg",
+      "https://jannethaguirre.online/analisis-mercado-inmobiliario-ecuador-2025-2.jpg",
+      "https://jannethaguirre.online/analisis-mercado-inmobiliario-ecuador-2025-3.jpg",
     ],
-    illustrativeImage: "https://images.unsplash.com/photo-1626178793926-22b28830aa30?auto=format&fit=crop&q=80&w=1600",
+    illustrativeImage: "https://jannethaguirre.online/analisis-mercado-inmobiliario-ecuador-2025-ilustrativa.jpg",
     category: "analisis-de-mercado",
     slug: "analisis-mercado-inmobiliario-ecuador-2025",
     subtitle: "Perspectivas del Mercado Inmobiliario Ecuatoriano",
-    importantFact:
-      "Se proyecta un crecimiento del 7% en el sector inmobiliario en ciudades secundarias de Ecuador para 2025.",
+    importantFact: "Se proyecta un crecimiento del 7% en el sector inmobiliario en ciudades secundarias de Ecuador para 2025.",
     fullContent: `
     El mercado inmobiliario ecuatoriano está experimentando una transformación significativa, impulsada por factores económicos, demográficos y tecnológicos. Nuestro análisis exhaustivo para el 2025 revela tendencias cruciales y oportunidades emergentes que definirán el sector en los próximos años.
 
@@ -405,20 +400,19 @@ export const ARTICLES = [
     [Enlace al Análisis Interactivo](https://jannethaguirre.com/analisis-de-mercado.html)
 
     Este análisis es una herramienta invaluable para inversores, desarrolladores y compradores que buscan tomar decisiones informadas en el dinámico mercado inmobiliario ecuatoriano. Manténgase actualizado con las últimas tendencias y oportunidades para maximizar su potencial de inversión.
-    `,
+    `
   },
   {
     id: 6,
     title: "Mocolí Bay: Lujo Frente al Río en Samborondón",
-    description:
-      "Descubre la vida exclusiva en Mocolí Bay, un desarrollo de apartamentos de lujo con vistas panorámicas al río Daule.",
+    description: "Descubre la vida exclusiva en Mocolí Bay, un desarrollo de apartamentos de lujo con vistas panorámicas al río Daule.",
     image: "https://jannethaguirre.online/mocoli-bay.jpg",
-    images: [
-      "https://jannethaguirre.online/mocoli-bay.jpg",
+    carouselImages: [
+      "https://jannethaguirre.online/mocoli-bay-1.jpg",
       "https://jannethaguirre.online/mocoli-bay-2.jpg",
       "https://jannethaguirre.online/mocoli-bay-3.jpg",
     ],
-    illustrativeImage: "https://jannethaguirre.online/mocoli-bay-2.jpg",
+    illustrativeImage: "https://jannethaguirre.online/mocoli-bay-ilustrativa.jpg",
     category: "ecuador",
     slug: "mocoli-bay-apartamentos-samborondon",
     subtitle: "Vistas Panorámicas al Río Daule",
@@ -460,24 +454,23 @@ export const ARTICLES = [
     Precios desde $350,000 USD
 
     No pierda la oportunidad de ser parte de este desarrollo exclusivo. Las unidades están disponibles en pre-venta con atractivos planes de financiamiento. Contáctenos hoy para agendar una visita al showroom y descubrir por qué Mocolí Bay es el futuro del lujo residencial en Ecuador.
+  `
   },
   {
     id: 7,
     title: "Samborondón City Center: El Nuevo Epicentro de Negocios y Estilo de Vida",
-    description:
-      "Explore las oportunidades únicas en el corazón de Samborondón, donde el comercio y el lujo se fusionan en un desarrollo de uso mixto sin precedentes.",
+    description: "Explore las oportunidades únicas en el corazón de Samborondón, donde el comercio y el lujo se fusionan en un desarrollo de uso mixto sin precedentes.",
     image: "https://jannethaguirre.online/samborondon-city-center.jpg",
-    images: [
-      "https://jannethaguirre.online/samborondon-city-center.jpg",
+    carouselImages: [
+      "https://jannethaguirre.online/samborondon-city-center-1.jpg",
       "https://jannethaguirre.online/samborondon-city-center-2.jpg",
       "https://jannethaguirre.online/samborondon-city-center-3.jpg",
     ],
-    illustrativeImage: "https://jannethaguirre.online/samborondon-city-center-2.jpg",
+    illustrativeImage: "https://jannethaguirre.online/samborondon-city-center-ilustrativa.jpg",
     category: "ecuador",
     slug: "samborondon-city-center",
     subtitle: "El Corazón de Samborondón",
-    importantFact:
-      "Samborondón City Center ofrece una ubicación estratégica con acceso directo a las principales vías viales.",
+    importantFact: "Samborondón City Center ofrece una ubicación estratégica con acceso directo a las principales vías viales.",
     fullContent: `
     Bienvenidos a Samborondón City Center, el proyecto que está transformando el skyline y redefiniendo el concepto de vida urbana en el corazón de Samborondón. Este desarrollo de uso mixto representa la culminación de años de crecimiento y visión para esta exclusiva zona de Guayaquil.
 
@@ -527,20 +520,19 @@ Precios:
     - Residencias desde $2,500/m²
 
 Samborondón City Center no es solo un lugar para vivir, trabajar o hacer negocios; es un estilo de vida, una declaración de éxito y una mirada hacia el futuro de Samborondón. No pierda la oportunidad de ser parte de este proyecto emblemático. Contáctenos hoy para obtener más información y agendar una visita personalizada a nuestro showroom.
-    `,
+    `
   },
   {
     id: 8,
     title: "Casolé: Lujo Contemporáneo en el Corazón de Quito",
-    description:
-      "Descubre la fusión perfecta entre diseño vanguardista y comodidad en el nuevo proyecto residencial de Uribe & Schwarzkopf en la capital ecuatoriana.",
+    description: "Descubre la fusión perfecta entre diseño vanguardista y comodidad en el nuevo proyecto residencial de Uribe & Schwarzkopf en la capital ecuatoriana.",
     image: "https://jannethaguirre.online/casole-quito.jpg",
-    images: [
-      "https://jannethaguirre.online/casole-quito.jpg",
+    carouselImages: [
+      "https://jannethaguirre.online/casole-quito-1.jpg",
       "https://jannethaguirre.online/casole-quito-2.jpg",
       "https://jannethaguirre.online/casole-quito-3.jpg",
     ],
-    illustrativeImage: "https://jannethaguirre.online/casole-quito-2.jpg",
+    illustrativeImage: "https://jannethaguirre.online/casole-quito-ilustrativa.jpg",
     category: "ecuador",
     slug: "casole-quito",
     subtitle: "Diseño Contemporáneo en el Corazón de Quito",
@@ -569,34 +561,41 @@ Samborondón City Center no es solo un lugar para vivir, trabajar o hacer negoci
       * Pisos de madera de ingeniería
       * Cocinas italianas con electrodomésticos de última generación
       * Baños con grifería de diseñador y mármol importado
-    - Sistemas de domótica para control de iluminación,clima y seguridad
+    - Sistemas de domótica para control de iluminación, clima y seguridad
 
-    Amenidades de Lujo:
-    Casolé ofrece una gama completa de amenidades diseñadas para mejorar el estilo de vida de sus residentes:
+    Amenidades de Clase Mundial:
+    Los residentes de Casolé disfrutan de un estilo de vida comparable al de un resort de cinco estrellas:
     - Piscina infinity con vistas panorámicas de la ciudad y los volcanes
-    - Gimnasio completamente equipado con tecnología de punta
-    - Spa y área de relajación con sauna y jacuzzi
-    - Salón social con cocina gourmet para eventos y reuniones
-    - Parque infantil y áreas verdes para el disfrute familiar
-    - Estacionamiento subterráneo con acceso directo a los apartamentos
-    - Seguridad 24/7 con acceso controlado
+    - Gimnasio equipado con tecnología de punta y estudios para clases grupales
+    - Spa completo con sauna, jacuzzi y salas de masaje
+    - Salón de eventos con cocina gourmet
+    - Cine privado y sala de juegos
+    - Coworking spaces y salas de reuniones
+    - Áreas verdes y jardines zen para meditación
 
     Sostenibilidad y Tecnología:
-    Casolé se destaca por su compromiso con la sostenibilidad y la tecnología de vanguardia:
+    Casolé no solo es un símbolo de lujo, sino también de responsabilidad ambiental:
     - Certificación LEED en proceso
-    - Sistemas de iluminación LED de bajo consumo
+    - Sistemas de recolección de agua lluvia y tratamiento de aguas grises
     - Paneles solares para áreas comunes
-    - Sistema de recolección de agua de lluvia
-    - Materiales de construcción eco-amigables
+    - Estaciones de carga para vehículos eléctricos
+    - Bicicletas eléctricas compartidas para residentes
 
-    Inversión Estratégica:
-    Casolé representa una inversión estratégica en una de las zonas de mayor plusvalía de Quito. Su ubicación privilegiada, diseño excepcional y amenidades de lujo garantizan un alto potencial de apreciación.
+    Inversión con Visión de Futuro:
+    Adquirir una residencia en Casolé no es solo comprar un hogar, es invertir en un estilo de vida y en el futuro<merged_code_continuation>
+de Quito:
+    - Valorización garantizada en una de las zonas de mayor plusvalía de la ciudad
+    - Oportunidad de generar ingresos a través de alquileres de corto plazo
+    - Respaldo de Uribe & Schwarzkopf, líder en desarrollo inmobiliario en Ecuador
 
-    Precios desde $250,000 USD
+    Precios y Financiamiento:
+    - Apartamentos desde $200,000 USD
+    - Áticos y unidades premium desde $500,000 USD
+    - Planes de financiamiento flexibles con entidades bancarias de primer nivel
+    - Opciones de pago diferido durante la construcción
 
-    No pierda la oportunidad de ser parte de este desarrollo excepcional. Contáctenos hoy para programar una visita personalizada y descubra por qué Casolé es el nuevo estándar de lujo contemporáneo en Quito.
+    Casolé no es solo un edificio; es una obra de arte habitable, un oasis urbano que eleva el estándar de vida en Quito. No pierda la oportunidad de ser parte de este proyecto emblemático. Contáctenos hoy para agendar una visita a nuestro showroom y experimente el futuro del lujo residencial en Ecuador.
   },
 ]
-
-export const ARTICLES_VARIOS = []
+</merged_code_continuation>
 
