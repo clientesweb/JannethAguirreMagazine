@@ -19,8 +19,8 @@ interface Article {
   title: string
   description: string
   image: string
-  carouselImages: string[]
-  illustrativeImage: string
+  carouselImages: string[] // Nuevo array para imágenes del carrusel
+  illustrativeImage: string // Nueva propiedad para la imagen ilustrativa
   fullContent: string
   category: string
   subtitle?: string
@@ -36,12 +36,14 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
 
+  const images = article.carouselImages || [article.image]
+
   const nextImage = () => {
-    setCurrentImageIndex((prevIndex) => (prevIndex + 1) % article.carouselImages.length)
+    setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length)
   }
 
   const prevImage = () => {
-    setCurrentImageIndex((prevIndex) => (prevIndex - 1 + article.carouselImages.length) % article.carouselImages.length)
+    setCurrentImageIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length)
   }
 
   const shareUrl = typeof window !== "undefined" ? window.location.href : ""
@@ -67,8 +69,8 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
       <article className="min-h-screen bg-gray-50">
         <div className="relative h-[70vh] bg-black">
           <Image
-            src={article.carouselImages[currentImageIndex] || "/placeholder.svg"}
-            alt={`${article.title} - Imagen ${currentImageIndex + 1}`}
+            src={images[currentImageIndex] || "/placeholder.svg"}
+            alt={article.title}
             layout="fill"
             objectFit="cover"
             className="transition-opacity duration-500"
@@ -133,8 +135,8 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
                       {index === 2 && (
                         <div className="my-8">
                           <Image
-                            src={article.illustrativeImage || "/placeholder.svg"}
-                            alt="Imagen ilustrativa relacionada con el artículo"
+                            src={article.illustrativeImage || images[0] || "/placeholder.svg"}
+                            alt="Imagen ilustrativa del artículo"
                             width={800}
                             height={400}
                             className="rounded-lg shadow-lg"
