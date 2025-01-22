@@ -16,7 +16,7 @@ interface Article {
   illustrativeImage: string
   category: string
   slug: string
-  image: string // Added the 'image' property to resolve the type error
+  image: string
 }
 
 export async function generateStaticParams() {
@@ -32,7 +32,7 @@ export default function CategoryPage({ params }: { params: { slug: string } }) {
     notFound()
   }
 
-  const allArticles: Article[] = [...ARTICLES, ...ARTICLES_VARIOS]
+  const allArticles: Article[] = [...ARTICLES, ...ARTICLES_VARIOS] as Article[]
   const categoryArticles = allArticles.filter((article) => article.category === params.slug)
 
   return (
@@ -47,7 +47,7 @@ export default function CategoryPage({ params }: { params: { slug: string } }) {
                 <CardHeader className="p-0">
                   <div className="relative h-48 md:h-64">
                     <Image
-                      src={article.image || article.images[0] || "/placeholder.svg"}
+                      src={article.image || (article.images && article.images[0]) || "/placeholder.svg"}
                       alt={article.title}
                       layout="fill"
                       objectFit="cover"
