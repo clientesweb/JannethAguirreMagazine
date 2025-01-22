@@ -3,8 +3,7 @@ export const ARTICLES_VARIOS = [
     id: 1,
     title: "¿Por qué invertir en bienes raíces en Ecuador en 2025?",
     description: "Descubre las razones por las que Ecuador se está convirtiendo en un destino de inversión inmobiliaria cada vez más atractivo.",
-    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
-    illustrativeImage: "/images/ecuador-real-estate-2025.jpg",
+    image: "https://images.unsplash.com/photo-1518805629729-2f57dd1e2c1f?auto=format&fit=crop&q=80&w=2069&ixlib=rb-4.0.3",
     slug: "por-que-invertir-bienes-raices-ecuador-2025",
     category: "inversion",
     subtitle: "Ecuador: El Nuevo Horizonte de la Inversión Inmobiliaria",
@@ -59,8 +58,7 @@ export const ARTICLES_VARIOS = [
     id: 2,
     title: "Tendencias arquitectónicas que están transformando Guayaquil",
     description: "Explora las innovaciones en diseño y construcción que están dando forma al futuro urbano de la Perla del Pacífico.",
-    image: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
-    illustrativeImage: "/images/guayaquil-architecture-trends.jpg",
+    image: "https://images.unsplash.com/photo-1609609830354-8f615d61b9c8?auto=format&fit=crop&q=80&w=1965&ixlib=rb-4.0.3",
     slug: "tendencias-arquitectonicas-transformando-guayaquil",
     category: "arquitectura",
     subtitle: "Guayaquil: Innovación Arquitectónica en la Perla del Pacífico",
@@ -120,8 +118,7 @@ Estas innovaciones arquitectónicas no solo están mejorando la estética de la 
     id: 3,
     title: "El auge del mercado inmobiliario en Samborondón: Oportunidades y desafíos",
     description: "Analiza el crecimiento explosivo de Samborondón y lo que significa para inversores y residentes.",
-    image: "https://images.unsplash.com/photo-1593642634402-8f12f7000897?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
-    illustrativeImage: "/images/samborondon-real-estate-boom.jpg",
+    image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
     slug: "auge-mercado-inmobiliario-samborondon",
     category: "mercado",
     subtitle: "Samborondón: Un Análisis del Mercado Inmobiliario en Crecimiento",
@@ -194,8 +191,7 @@ Estas innovaciones arquitectónicas no solo están mejorando la estética de la 
     id: 4,
     title: "Innovaciones sostenibles en el desarrollo inmobiliario de Quito",
     description: "Explora cómo la capital ecuatoriana está liderando el camino en construcción verde y desarrollo urbano sostenible.",
-    image: "https://images.unsplash.com/photo-1611162617277-a2a706a2060c?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
-    illustrativeImage: "/images/quito-sustainable-real-estate.jpg",
+    image: "https://images.unsplash.com/photo-1605130284535-11dd9eedc58a?auto=format&fit=crop&q=80&w=1964&ixlib=rb-4.0.3",
     slug: "innovaciones-sostenibles-desarrollo-inmobiliario-quito",
     category: "sostenibilidad",
     subtitle: "Quito: Un Modelo de Desarrollo Inmobiliario Sostenible",
@@ -265,8 +261,7 @@ Estas innovaciones arquitectónicas no solo están mejorando la estética de la 
     id: 5,
     title: "La Revolución PropTech: Transformando el Sector Inmobiliario",
     description: "Descubre cómo la tecnología está redefiniendo la industria de bienes raíces en América Latina y el mundo, ofreciendo nuevas oportunidades y desafíos para inversores y profesionales del sector.",
-    image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
-    illustrativeImage: "/images/proptech-revolution.jpg",
+    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=2072&ixlib=rb-4.0.3",
     slug: "revolucion-proptech-latinoamerica",
     category: "tecnologia",
     subtitle: "PropTech: La Transformación Digital del Sector Inmobiliario",
@@ -357,8 +352,7 @@ En última instancia, el PropTech tiene el potencial de democratizar el acceso a
     id: 6,
     title: "¿Por qué elegir Orlando para invertir en bienes raíces?",
     description: "Descubre las razones que hacen de Orlando un destino atractivo para la inversión inmobiliaria en 2025.",
-    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
-    illustrativeImage: "/images/orlando-real-estate-investment.jpg",
+    image: "https://images.unsplash.com/photo-1575517111478-7f6afd0973db?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
     slug: "por-que-elegir-orlando-para-invertir",
     category: "inversion",
     subtitle: "Orlando: Una Inversión Inteligente en Bienes Raíces",
@@ -421,7 +415,6 @@ En última instancia, el PropTech tiene el potencial de democratizar el acceso a
     title: "Chiriquí, Panamá: El mejor destino para 2025 según Lonely Planet",
     description: "Explora por qué la provincia de Chiriquí ha sido destacada como uno de los mejores destinos para visitar en 2025, y lo que esto significa para el mercado inmobiliario local.",
     image: "https://images.unsplash.com/photo-1589994160839-163cd867cfe8?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
-    illustrativeImage: "/images/chiriqui-panama-best-destination.jpg",
     slug: "chiriqui-panama-mejor-destino-2025",
     category: "tendencias",
     subtitle: "Chiriquí: Un Paraíso Emergente en Panamá",
@@ -509,8 +502,7 @@ En última instancia, el PropTech tiene el potencial de democratizar el acceso a
     id: 8,
     title: "Curiosidades del mercado inmobiliario en Miami: Un vistazo al 2025",
     description: "Descubre los datos más interesantes y las tendencias emergentes que están dando forma al dinámico mercado de bienes raíces de Miami.",
-    image: "https://images.unsplash.com/photo-1571003123894-1f00f1d1fa61?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
-    illustrativeImage: "/images/miami-real-estate-curiosities.jpg",
+    image: "https://images.unsplash.com/photo-1533106497176-45ae19e68ba2?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
     slug: "curiosidades-mercado-inmobiliario-miami",
     category: "mercado",
     subtitle: "Miami: Innovación y Tendencias en el Mercado Inmobiliario",
@@ -566,9 +558,6 @@ En última instancia, el PropTech tiene el potencial de democratizar el acceso a
     - Incluyen spas, estudios de yoga, y jardines meditativos
 
     12. El auge de Little Haiti:
-    - Barrioyoga, y jardines meditativos
-
-    12. El auge de Little Haiti:
     - Barrio anteriormente pasado por alto, ahora en pleno desarrollo
     - Artistas y galerías impulsando la gentrificación
 
@@ -585,7 +574,7 @@ En última instancia, el PropTech tiene el potencial de democratizar el acceso a
     - Incluyen características como acuarios gigantes o pistas de bolos privadas
 
     16. Realidad virtual en ventas inmobiliarias:
-    - Tours virtuales hiper-realistas de propiedades aún no construidas
+    - Tours virtuales hiper-realistas de propiedades aúnno construidas
     - Compradores internacionales cerrando tratos sin visitar físicamente
 
     17. La influencia del cambio climático:
@@ -614,7 +603,6 @@ En última instancia, el PropTech tiene el potencial de democratizar el acceso a
     title: "El Parque Histórico de Cuenca: Joya patrimonial y nuevo foco de desarrollo inmobiliario",
     description: "Descubre la rica historia del Parque Histórico de Cuenca y elemocionante proyecto inmobiliario que está surgiendo en sus alrededores.",
     image: "https://images.unsplash.com/photo-1566138686123-f8910b21e696?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
-    illustrativeImage: "/images/cuenca-historic-park-real-estate.jpg",
     slug: "parque-historico-cuenca-desarrollo-inmobiliario",
     category: "ecuador",
     subtitle: "Cuenca: Historia y Modernidad en el Corazón del Parque Histórico",
@@ -713,7 +701,6 @@ En última instancia, el PropTech tiene el potencial de democratizar el acceso a
     title: "Boquete Pino Alto Country Club: Lujo y Naturaleza en Panamá",
     description: "Descubre el exclusivo desarrollo residencial en las montañas de Boquete, que combina lujo, golf y una impresionante belleza natural.",
     image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
-    illustrativeImage: "/images/boquete-pino-alto-country-club.jpg",
     slug: "boquete-pino-alto-country-club",
     category: "panama",
     subtitle: "Un Paraíso de Lujo en las Montañas de Panamá",
@@ -769,6 +756,7 @@ En última instancia, el PropTech tiene el potencial de democratizar el acceso a
     - Festivales culturales y eventos durante todo el año
 
     Boquete Pino Alto Country Club representa una oportunidad única para aquellos que buscan una vida de lujo en armonía con la naturaleza. Ya sea como residencia permanente, segunda casa o inversión, este desarrollo ofrece una combinación inigualable de comodidades modernas y belleza natural en uno de los destinos más codiciados de Panamá.
+  `
   }
 ];
 
