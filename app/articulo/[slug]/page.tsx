@@ -7,7 +7,6 @@ import Link from "next/link"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
 import { ARTICLES } from "@/lib/constants"
-import { ARTICLES_VARIOS } from "@/lib/articles"
 import { notFound } from "next/navigation"
 import { useState, useMemo } from "react"
 import { useRouter } from "next/navigation"
@@ -19,15 +18,15 @@ interface Article {
   title: string
   description: string
   images: string[]
-  fullContent: string
+  illustrativeImage: string
   category: string
   subtitle?: string
   importantFact?: string
-  illustrativeImage?: string
+  fullContent: string
 }
 
 export default function ArticleDetail({ params }: { params: { slug: string } }) {
-  const article = ARTICLES.find((a) => a.slug === params.slug) || ARTICLES_VARIOS.find((a) => a.slug === params.slug)
+  const article = ARTICLES.find((a) => a.slug === params.slug)
 
   if (!article) {
     notFound()
@@ -56,8 +55,7 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
   }
 
   const suggestedArticles = useMemo(() => {
-    const allArticles = [...ARTICLES, ...ARTICLES_VARIOS]
-    return allArticles.filter((a) => a.slug !== article.slug && a.category === article.category).slice(0, 3)
+    return ARTICLES.filter((a) => a.slug !== article.slug && a.category === article.category).slice(0, 3)
   }, [article])
 
   return (
@@ -133,7 +131,7 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
                         <div className="my-8">
                           <Image
                             src={article.illustrativeImage || "/placeholder.svg"}
-                            alt="Imagen ilustrativa del mercado inmobiliario"
+                            alt="Imagen ilustrativa del artículo"
                             width={800}
                             height={400}
                             className="rounded-lg shadow-lg"
@@ -227,7 +225,7 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
                         className="overflow-hidden hover:shadow-lg transition-shadow duration-300"
                       >
                         <Image
-                          src={suggestedArticle.image || "/placeholder.svg"}
+                          src={suggestedArticle.images[0] || "/placeholder.svg"}
                           alt={suggestedArticle.title}
                           width={400}
                           height={200}
