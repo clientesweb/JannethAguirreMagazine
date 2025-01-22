@@ -329,7 +329,7 @@ export const ARTICLES = [
     id: 5,
     title: "Análisis del Mercado Inmobiliario en Ecuador 2025",
     description: "Un estudio detallado de las tendencias, oportunidades y desafíos en el mercado inmobiliario ecuatoriano, con datos actualizados y proyecciones para el próximo año.",
-    image: "https://jannethaguirre.online/analisis-mercado-inmobiliario-ecuador-2025.jpg",
+    image: "https://jannethaguirre.online/analisis-de-mercado-inmobiliario-ecuador-2025.jpg",
     category: "analisis-de-mercado",
     slug: "analisis-mercado-inmobiliario-ecuador-2025",
     subtitle: "Perspectivas del Mercado Inmobiliario Ecuatoriano",
