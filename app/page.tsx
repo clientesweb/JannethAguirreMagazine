@@ -1,196 +1,273 @@
-'use client'
+"use client"
 
-import { useState, useEffect } from 'react';
-import Header from '@/components/header'
-import TopBanner from '@/components/top-banner'
-import MagazineCover from '@/components/magazine-cover'
-import FeaturedArticles from '@/components/featured-articles'
-import InstagramFeed from '@/components/instagram-feed'
-import Footer from '@/components/footer'
-import WhatsAppButton from '@/components/whatsapp-button'
-import { CATEGORIES, ARTICLES } from '@/lib/constants'
-import { ARTICLES_VARIOS } from '@/lib/articles'
-import Link from 'next/link'
-import { Card, CardContent, CardHeader } from '@/components/ui/card'
-import Image from 'next/image'
-import Preloader from '@/components/preloader'
-import AdBanner from '@/components/ad-banner'
-import AppMockup from '@/components/app-mockup'
+import Image from "next/image"
+import { Button } from "@/components/ui/button"
+import { ArrowLeft, ChevronLeft, ChevronRight, Facebook, Twitter, Linkedin, Share2, Phone } from "lucide-react"
+import Link from "next/link"
+import Header from "@/components/header"
+import Footer from "@/components/footer"
+import { ARTICLES } from "@/lib/constants"
+import { ARTICLES_VARIOS } from "@/lib/articles"
+import { notFound } from "next/navigation"
+import { useState, useMemo } from "react"
+import { useRouter } from "next/navigation"
+import { Card, CardContent } from "@/components/ui/card"
 
-export default function Home() {
-  const [loading, setLoading] = useState(true);
+interface Article {
+  id: number
+  slug: string
+  title: string
+  description: string
+  image?: string
+  images?: string[]
+  contentImage?: string
+  fullContent: string
+  category: string
+  subtitle?: string
+  importantFact?: string
+}
 
-  useEffect(() => {
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', function() {
-        navigator.serviceWorker.register('/sw.js').then(function(registration) {
-          console.log('ServiceWorker registration successful with scope: ', registration.scope);
-        }, function(err) {
-          console.log('ServiceWorker registration failed: ', err);
-        });
-      });
+export default function ArticleDetail({ params }: { params: { slug: string } }) {
+  const article = ARTICLES.find((a) => a.slug === params.slug) || ARTICLES_VARIOS.find((a) => a.slug === params.slug)
+
+  if (!article) {
+    notFound()
+  }
+
+  const [currentImageIndex, setCurrentImageIndex] = useState(0)
+
+  const nextImage = () => {
+    if (article.images && article.images.length > 1) {
+      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % article.images!.length)
     }
-    
-    // Verificamos si el preloader ya se ha mostrado
-    const hasShownPreloader = localStorage.getItem('hasShownPreloader')
-    if (!hasShownPreloader) {
-      const timer = setTimeout(() => setLoading(false), 3000);
-      return () => clearTimeout(timer);
+  }
+
+  const prevImage = () => {
+    if (article.images && article.images.length > 1) {
+      setCurrentImageIndex((prevIndex) => (prevIndex - 1 + article.images!.length) % article.images!.length)
+    }
+  }
+
+  const shareUrl = typeof window !== "undefined" ? window.location.href : ""
+
+  const router = useRouter()
+
+  const redirectToExplore = () => {
+    if (article.category === "analisis-de-mercado") {
+      router.push("https://jannethaguirre.com/analisis-de-mercado.html")
     } else {
-      setLoading(false);
+      router.push("https://jannethaguirre.com/")
     }
-  }, []);
+  }
+
+  const suggestedArticles = useMemo(() => {
+    const allArticles = [...ARTICLES, ...ARTICLES_VARIOS]
+    return allArticles.filter((a) => a.slug !== article.slug && a.category === article.category).slice(0, 3)
+  }, [article])
 
   return (
-    <main className="min-h-screen bg-white overflow-x-hidden">
-      <Preloader />
-      {!loading && (
-        <>
-          <TopBanner />
-          <Header />
-          <MagazineCover />
-          
-          <section className="py-12 sm:py-16 bg-gray-100">
-            <div className="container mx-auto px-4">
-              <h2 className="text-3xl sm:text-4xl font-bold mb-8 sm:mb-12 text-center">Todos los Artículos</h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-                {ARTICLES_VARIOS.slice().reverse().map((article) => (
-                  <Card key={article.id} className="overflow-hidden hover:shadow-xl transition-shadow duration-300">
-                    <CardHeader className="p-0">
-                      <div className="relative h-48 sm:h-56 md:h-64">
-                        <Image
-                          src={article.image || "/placeholder.svg"}
-                          alt={article.title}
-                          layout="fill"
-                          objectFit="cover"
-                        />
-                      </div>
-                    </CardHeader>
-                    <CardContent className="p-4 sm:p-6">
-                      <h3 className="font-bold text-xl mb-2">{article.title}</h3>
-                      <p className="text-sm text-gray-600 mb-4">{article.description}</p>
-                      <Link 
-                        href={`/articulo/${article.slug}`}
-                        className="text-[#FF0000] hover:text-[#FF0000]/90 font-medium"
-                      >
-                        Leer más →
-                      </Link>
-                    </CardContent>
-                  </Card>
-                ))}
+    <>
+      <Header />
+      <article className="min-h-screen bg-gray-50">
+        <div className="relative h-[70vh] bg-black">
+          <Image
+            src={article.images?.[currentImageIndex] || article.image || "/placeholder.svg"}
+            alt={article.title}
+            layout="fill"
+            objectFit="cover"
+            className="transition-opacity duration-500"
+          />
+          {(article.images?.length ?? 0) > 1 && (
+            <div className="absolute inset-0 flex items-center justify-between p-4">
+              <Button variant="ghost" size="icon" onClick={prevImage} className="text-white hover:bg-white/20">
+                <ChevronLeft className="h-8 w-8" />
+              </Button>
+              <Button variant="ghost" size="icon" onClick={nextImage} className="text-white hover:bg-white/20">
+                <ChevronRight className="h-8 w-8" />
+              </Button>
+            </div>
+          )}
+          {(article.images?.length ?? 0) > 1 && (
+            <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex gap-2">
+              {article.images?.map((_, index) => (
+                <div
+                  key={index}
+                  className={`w-2 h-2 rounded-full ${index === currentImageIndex ? "bg-white" : "bg-white/50"}`}
+                />
+              ))}
+            </div>
+          )}
+          <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black to-transparent">
+            <div className="container mx-auto">
+              <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">{article.title}</h1>
+              <div className="flex items-center gap-4 text-sm text-white">
+                <span>Por Janneth Aguirre</span>
+                <span>•</span>
+                <span>5 min de lectura</span>
               </div>
             </div>
-          </section>
+          </div>
+        </div>
 
-          <FeaturedArticles />
-          
-          <InstagramFeed />
+        <div className="container mx-auto px-4 py-12">
+          <div className="max-w-3xl mx-auto">
+            <Link href="/">
+              <Button variant="outline" className="mb-6">
+                <ArrowLeft className="mr-2 h-4 w-4" />
+                Volver
+              </Button>
+            </Link>
 
-          <section className="py-12 sm:py-16">
-            <div className="container mx-auto px-4">
-              <h2 className="text-3xl sm:text-4xl font-bold mb-8 sm:mb-12 text-center">Explora por Categoría</h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-                {CATEGORIES.map((category) => (
-                  <Link key={category.slug} href={`/categoria/${category.slug}`}>
-                    <Card className="overflow-hidden hover:shadow-xl transition-shadow duration-300 h-full">
-                      <CardHeader className="p-0">
-                        <div className="relative h-48 sm:h-56 md:h-64">
+            <div className="prose prose-lg max-w-none">
+              {article.subtitle && <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-800">{article.subtitle}</h2>}
+              {article.fullContent ? (
+                <div className="space-y-6">
+                  {article.fullContent.split("\n\n").map((paragraph, index) => (
+                    <div key={index}>
+                      {paragraph.startsWith("##") ? (
+                        <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-800">
+                          {paragraph.replace("##", "").trim()}
+                        </h2>
+                      ) : paragraph.startsWith("#") ? (
+                        <h3 className="text-xl font-semibold mt-6 mb-3 text-gray-700">
+                          {paragraph.replace("#", "").trim()}
+                        </h3>
+                      ) : (
+                        <p className="text-gray-600 leading-relaxed">
+                          {paragraph.split("**").map((part, i) =>
+                            i % 2 === 0 ? (
+                              part
+                            ) : (
+                              <strong key={i} className="font-bold">
+                                {part}
+                              </strong>
+                            ),
+                          )}
+                        </p>
+                      )}
+                      {index === 2 && article.contentImage && (
+                        <div className="my-8">
                           <Image
-                            src={`https://jannethaguirre.online/${category.slug}.jpg`}
-                            alt={category.name}
-                            layout="fill"
-                            objectFit="cover"
+                            src={article.contentImage || "/placeholder.svg"}
+                            alt="Imagen relacionada con el artículo"
+                            width={800}
+                            height={400}
+                            className="rounded-lg shadow-lg"
                           />
-                          <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
-                          <div className="absolute bottom-0 left-0 p-4 sm:p-6">
-                            <h3 className="text-xl sm:text-2xl font-bold text-white mb-2">{category.name}</h3>
-                          </div>
+                          <p className="text-sm text-gray-500 mt-2 text-center">Imagen ilustrativa del artículo</p>
                         </div>
-                      </CardHeader>
-                    </Card>
-                  </Link>
-                ))}
-              </div>
-            </div>
-          </section>
-
-          <AdBanner />
-
-          <section className="py-12 sm:py-16 bg-gray-100">
-            <div className="container mx-auto px-4">
-              <h2 className="text-3xl sm:text-4xl font-bold mb-8 sm:mb-12 text-center">Últimas Tendencias</h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
-                {ARTICLES.filter(article => article.category === 'decoracion-de-interiores').slice(0, 4).map((article) => (
-                  <Card key={article.id} className="overflow-hidden hover:shadow-xl transition-shadow duration-300">
-                    <CardHeader className="p-0">
-                      <div className="relative h-48 sm:h-56">
-                        <Image
-                          src={article.image || "/placeholder.svg"}
-                          alt={article.title}
-                          layout="fill"
-                          objectFit="cover"
-                        />
-                      </div>
-                    </CardHeader>
-                    <CardContent className="p-4 sm:p-6">
-                      <h3 className="font-bold text-lg sm:text-xl mb-2">{article.title}</h3>
-                      <p className="text-sm text-gray-600 mb-4">{article.description}</p>
-                      <Link 
-                        href={`/articulo/${article.slug}`}
-                        className="text-[#FF0000] hover:text-[#FF0000]/90 font-medium"
-                      >
-                        Leer más →
-                      </Link>
-                    </CardContent>
-                  </Card>
-                ))}
-              </div>
-            </div>
-          </section>
-
-          <section className="py-12 sm:py-16 bg-gray-50">
-            <div className="container mx-auto px-4">
-              <h2 className="text-3xl sm:text-4xl font-bold mb-8 sm:mb-12 text-center">Análisis de Mercado</h2>
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
-                {ARTICLES.filter(article => article.category === 'analisis-de-mercado').slice(0, 2).map((article) => (
-                  <Card key={article.id} className="overflow-hidden hover:shadow-xl transition-shadow duration-300">
-                    <div className="md:flex h-full">
-                      <div className="md:w-2/5">
-                        <div className="relative h-48 md:h-full">
-                          <Image
-                            src={article.image || "/placeholder.svg"}
-                            alt={article.title}
-                            layout="fill"
-                            objectFit="cover"
-                          />
-                        </div>
-                      </div>
-                      <div className="md:w-3/5 p-6 flex flex-col justify-between">
-                        <div>
-                          <h3 className="font-bold text-xl sm:text-2xl mb-4">{article.title}</h3>
-                          <p className="text-gray-600 mb-4">{article.description}</p>
-                        </div>
-                        <Link 
-                          href={`/articulo/${article.slug}`}
-                          className="inline-block bg-[#FF0000] text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-[#FF0000]/90 transition-colors duration-300 text-center"
-                        >
-                          Leer Análisis Completo
-                        </Link>
-                      </div>
+                      )}
+                      {index === 4 && article.importantFact && (
+                        <blockquote className="border-l-4 border-[#FF0000] pl-4 italic my-6 text-gray-700">
+                          Dato importante: {article.importantFact}
+                        </blockquote>
+                      )}
                     </div>
-                  </Card>
-                ))}
+                  ))}
+                </div>
+              ) : (
+                <p>No se ha encontrado contenido detallado para este artículo.</p>
+              )}
+
+              <div className="flex flex-wrap justify-center gap-4 my-8">
+                <Button
+                  onClick={() => window.open(`https://www.facebook.com/sharer/sharer.php?u=${shareUrl}`, "_blank")}
+                  className="bg-[#1877F2] hover:bg-[#1877F2]/90 text-white"
+                >
+                  <Facebook className="mr-2 h-5 w-5" />
+                  Compartir
+                </Button>
+                <Button
+                  onClick={() => window.open(`https://twitter.com/intent/tweet?url=${shareUrl}`, "_blank")}
+                  className="bg-[#1DA1F2] hover:bg-[#1DA1F2]/90 text-white"
+                >
+                  <Twitter className="mr-2 h-5 w-5" />
+                  Tuitear
+                </Button>
+                <Button
+                  onClick={() => window.open(`https://www.linkedin.com/shareArticle?url=${shareUrl}`, "_blank")}
+                  className="bg-[#0A66C2] hover:bg-[#0A66C2]/90 text-white"
+                >
+                  <Linkedin className="mr-2 h-5 w-5" />
+                  Compartir
+                </Button>
+                <Button
+                  onClick={() =>
+                    window.open(
+                      `https://api.whatsapp.com/send?text=${encodeURIComponent(`¡Mira este artículo interesante! ${shareUrl}`)}`,
+                      "_blank",
+                    )
+                  }
+                  className="bg-[#25D366] hover:bg-[#25D366]/90 text-white"
+                >
+                  <Phone className="mr-2 h-5 w-5" />
+                  WhatsApp
+                </Button>
+                <Button
+                  onClick={() => {
+                    if (navigator.share) {
+                      navigator.share({
+                        title: article.title,
+                        text: article.description,
+                        url: shareUrl,
+                      })
+                    } else {
+                      alert("Compartir no está soportado en este navegador")
+                    }
+                  }}
+                  className="bg-gray-800 hover:bg-gray-700 text-white"
+                >
+                  <Share2 className="mr-2 h-5 w-5" />
+                  Compartir
+                </Button>
               </div>
+
+              <Button
+                onClick={redirectToExplore}
+                className="bg-[#FF0000] hover:bg-[#FF0000]/90 w-full text-lg mt-8 text-white"
+              >
+                {article.category === "analisis-de-mercado"
+                  ? "Ver Análisis Interactivo"
+                  : "Explora el mercado inmobiliario"}
+              </Button>
+
+              {suggestedArticles.length > 0 && (
+                <div className="mt-12">
+                  <h2 className="text-2xl font-bold mb-6">Artículos relacionados</h2>
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    {suggestedArticles.map((suggestedArticle) => (
+                      <Card
+                        key={suggestedArticle.id}
+                        className="overflow-hidden hover:shadow-lg transition-shadow duration-300"
+                      >
+                        <Image
+                          src={suggestedArticle.image || "/placeholder.svg"}
+                          alt={suggestedArticle.title}
+                          width={400}
+                          height={200}
+                          className="w-full h-48 object-cover"
+                        />
+                        <CardContent className="p-4">
+                          <h3 className="font-bold text-lg mb-2">{suggestedArticle.title}</h3>
+                          <p className="text-sm text-gray-600 mb-4">{suggestedArticle.description}</p>
+                          <Link
+                            href={`/articulo/${suggestedArticle.slug}`}
+                            className="text-[#FF0000] hover:text-[#FF0000]/90 font-medium"
+                          >
+                            Leer más →
+                          </Link>
+                        </CardContent>
+                      </Card>
+                    ))}
+                  </div>
+                </div>
+              )}
             </div>
-          </section>
-
-          <AppMockup />
-
-          <Footer />
-          <WhatsAppButton />
-        </>
-      )}
-    </main>
+          </div>
+        </div>
+      </article>
+      <Footer />
+    </>
   )
 }
 
