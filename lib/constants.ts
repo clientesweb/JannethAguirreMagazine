@@ -258,7 +258,6 @@ export const ARTICLES = [
     Planes de financiamiento atractivos disponibles para compradores calificados.
 
     Millenia Park Orlando no es solo un lugar para vivir; es un estilo de vida, una comunidad, y una inversión en el futuro. No pierda la oportunidad de ser parte de este desarrollo excepcional en el corazón de Orlando. Contáctenos hoy para programar una visita personalizada y descubra por qué Millenia Park Orlando es el nuevo estándar de vida de lujo en la Ciudad Bella.
-  `,
   },
   {
     id: 4,
@@ -461,7 +460,6 @@ export const ARTICLES = [
     Precios desde $350,000 USD
 
     No pierda la oportunidad de ser parte de este desarrollo exclusivo. Las unidades están disponibles en pre-venta con atractivos planes de financiamiento. Contáctenos hoy para agendar una visita al showroom y descubrir por qué Mocolí Bay es el futuro del lujo residencial en Ecuador.
-  `,
   },
   {
     id: 7,
@@ -571,6 +569,36 @@ Samborondón City Center no es solo un lugar para vivir, trabajar o hacer negoci
       * Pisos de madera de ingeniería
       * Cocinas italianas con electrodomésticos de última generación
       * Baños con grifería de diseñador y mármol importado
-    - Sistemas de dom<merged_code_continuation>
-ótica para control de iluminación, clima y
+    - Sistemas de domótica para control de iluminación,<merged_code_continuation>
+ clima y seguridad
+
+    Amenidades de Lujo:
+    Casolé ofrece una gama completa de amenidades diseñadas para mejorar el estilo de vida de sus residentes:
+    - Piscina infinity con vistas panorámicas de la ciudad y los volcanes
+    - Gimnasio completamente equipado con tecnología de punta
+    - Spa y área de relajación con sauna y jacuzzi
+    - Salón social con cocina gourmet para eventos y reuniones
+    - Parque infantil y áreas verdes para el disfrute familiar
+    - Estacionamiento subterráneo con acceso directo a los apartamentos
+    - Seguridad 24/7 con acceso controlado
+
+    Sostenibilidad y Tecnología:
+    Casolé se destaca por su compromiso con la sostenibilidad y la tecnología de vanguardia:
+    - Certificación LEED en proceso
+    - Sistemas de iluminación LED de bajo consumo
+    - Paneles solares para áreas comunes
+    - Sistema de recolección de agua de lluvia
+    - Materiales de construcción eco-amigables
+
+    Inversión Estratégica:
+    Casolé representa una inversión estratégica en una de las zonas de mayor plusvalía de Quito. Su ubicación privilegiada, diseño excepcional y amenidades de lujo garantizan un alto potencial de apreciación.
+
+    Precios desde $250,000 USD
+
+    No pierda la oportunidad de ser parte de este desarrollo excepcional. Contáctenos hoy para programar una visita personalizada y descubra por qué Casolé es el nuevo estándar de lujo contemporáneo en Quito.
+  },
+]
+
+export const ARTICLES_VARIOS = []
+</merged_code_continuation>
 
