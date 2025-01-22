@@ -2,12 +2,16 @@ export const ARTICLES_VARIOS = [
   {
     id: 1,
     title: "¿Por qué invertir en bienes raíces en Ecuador en 2025?",
-    description: "Descubre las razones por las que Ecuador se está convirtiendo en un destino de inversión inmobiliaria cada vez más atractivo.",
-    image: "https://images.unsplash.com/photo-1518805629729-2f57dd1e2c1f?auto=format&fit=crop&q=80&w=2069&ixlib=rb-4.0.3",
+    description:
+      "Descubre las razones por las que Ecuador se está convirtiendo en un destino de inversión inmobiliaria cada vez más atractivo.",
+    images: [
+      "https://images.unsplash.com/photo-1518805629729-2f57dd1e2c1f?auto=format&fit=crop&q=80&w=2069&ixlib=rb-4.0.3",
+    ],
     slug: "por-que-invertir-bienes-raices-ecuador-2025",
     category: "inversion",
     subtitle: "Ecuador: El Nuevo Horizonte de la Inversión Inmobiliaria",
-    importantFact: "La inversión extranjera directa en el sector inmobiliario ecuatoriano creció un 15% en el último año.",
+    importantFact:
+      "La inversión extranjera directa en el sector inmobiliario ecuatoriano creció un 15% en el último año.",
     fullContent: `
     Ecuador se está posicionando como un destino de inversión inmobiliaria cada vez más atractivo en América Latina. Aquí te presentamos las principales razones para considerar invertir en bienes raíces en Ecuador en 2025:
 
@@ -52,17 +56,21 @@ export const ARTICLES_VARIOS = [
     - Oportunidades de ser parte del desarrollo de nuevas áreas urbanas y proyectos innovadores.
 
     Invertir en bienes raíces en Ecuador en 2025 ofrece una combinación atractiva de estabilidad, potencial de crecimiento y calidad de vida. Sin embargo, como con cualquier inversión, es crucial realizar una investigación exhaustiva y contar con asesoramiento local experto para tomar decisiones informadas.
-    `
+    `,
   },
   {
     id: 2,
     title: "Tendencias arquitectónicas que están transformando Guayaquil",
-    description: "Explora las innovaciones en diseño y construcción que están dando forma al futuro urbano de la Perla del Pacífico.",
-    image: "https://images.unsplash.com/photo-1609609830354-8f615d61b9c8?auto=format&fit=crop&q=80&w=1965&ixlib=rb-4.0.3",
+    description:
+      "Explora las innovaciones en diseño y construcción que están dando forma al futuro urbano de la Perla del Pacífico.",
+    images: [
+      "https://images.unsplash.com/photo-1609609830354-8f615d61b9c8?auto=format&fit=crop&q=80&w=1965&ixlib=rb-4.0.3",
+    ],
     slug: "tendencias-arquitectonicas-transformando-guayaquil",
     category: "arquitectura",
     subtitle: "Guayaquil: Innovación Arquitectónica en la Perla del Pacífico",
-    importantFact: "El uso de materiales sostenibles en la construcción de Guayaquil ha aumentado un 20% en los últimos 5 años.",
+    importantFact:
+      "El uso de materiales sostenibles en la construcción de Guayaquil ha aumentado un 20% en los últimos 5 años.",
     fullContent: `
     Guayaquil, la mayor ciudad de Ecuador y su principal puerto, está experimentando una transformación arquitectónica que combina innovación, sostenibilidad y respeto por su rica herencia cultural. Estas son las principales tendencias que están dando forma al paisaje urbano de la Perla del Pacífico:
 
@@ -112,13 +120,15 @@ export const ARTICLES_VARIOS = [
     Estas tendencias no solo están transformando el aspecto físico de Guayaquil, sino que también están mejorando la calidad de vida de sus habitantes y posicionando a la ciudad como un referente de innovación arquitectónica en América Latina. La combinación de diseño vanguardista, conciencia ambiental y respeto por la herencia cultural está creando un Guayaquil más resiliente, sostenible y atractivo para residentes e inversores por igual.
 
 Estas innovaciones arquitectónicas no solo están mejorando la estética de la ciudad, sino que también están contribuyendo a un desarrollo urbano más sostenible y centrado en el ser humano. A medida que Guayaquil continúa evolucionando, se posiciona como un modelo de transformación urbana para otras ciudades de la región, demostrando cómo la arquitectura puede ser una herramienta poderosa para abordar los desafíos del siglo XXI y mejorar la calidad de vida de sus habitantes.
-    `
+    `,
   },
   {
     id: 3,
     title: "El auge del mercado inmobiliario en Samborondón: Oportunidades y desafíos",
     description: "Analiza el crecimiento explosivo de Samborondón y lo que significa para inversores y residentes.",
-    image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
+    images: [
+      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
+    ],
     slug: "auge-mercado-inmobiliario-samborondon",
     category: "mercado",
     subtitle: "Samborondón: Un Análisis del Mercado Inmobiliario en Crecimiento",
@@ -185,13 +195,16 @@ Estas innovaciones arquitectónicas no solo están mejorando la estética de la 
 
     Conclusión:
     El mercado inmobiliario de Samborondón ofrece oportunidades atractivas para inversores y desarrolladores, respaldadas por una fuerte demanda y un entorno económico favorable. Sin embargo, es crucial abordar los desafíos de crecimiento sostenible y planificación urbana para mantener el atractivo a largo plazo de la zona. Con una estrategia cuidadosa y un enfoque en la calidad y la innovación, Samborondón tiene el potencial de continuar siendo un punto focal del desarrollo inmobiliario en Ecuador en los próximos años.
-    `
+    `,
   },
   {
     id: 4,
     title: "Innovaciones sostenibles en el desarrollo inmobiliario de Quito",
-    description: "Explora cómo la capital ecuatoriana está liderando el camino en construcción verde y desarrollo urbano sostenible.",
-    image: "https://images.unsplash.com/photo-1605130284535-11dd9eedc58a?auto=format&fit=crop&q=80&w=1964&ixlib=rb-4.0.3",
+    description:
+      "Explora cómo la capital ecuatoriana está liderando el camino en construcción verde y desarrollo urbano sostenible.",
+    images: [
+      "https://images.unsplash.com/photo-1605130284535-11dd9eedc58a?auto=format&fit=crop&q=80&w=1964&ixlib=rb-4.0.3",
+    ],
     slug: "innovaciones-sostenibles-desarrollo-inmobiliario-quito",
     category: "sostenibilidad",
     subtitle: "Quito: Un Modelo de Desarrollo Inmobiliario Sostenible",
@@ -255,13 +268,16 @@ Estas innovaciones arquitectónicas no solo están mejorando la estética de la 
     El compromiso de Quito con la sostenibilidad está atrayendo inversión y talento, posicionando a la ciudad como un modelo a seguir en América Latina. Para inversores y desarrolladores, esto representa una oportunidad única de ser parte de un mercado inmobiliario en crecimiento que valora la innovación y la responsabilidad ambiental.
 
     A medida que Quito continúa liderando el camino en desarrollo sostenible, es probable que veamos aún más innovaciones emocionantes en el futuro cercano, creando un legado duradero de construcción verde para las generaciones venideras.
-    `
+    `,
   },
   {
     id: 5,
     title: "La Revolución PropTech: Transformando el Sector Inmobiliario",
-    description: "Descubre cómo la tecnología está redefiniendo la industria de bienes raíces en América Latina y el mundo, ofreciendo nuevas oportunidades y desafíos para inversores y profesionales del sector.",
-    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=2072&ixlib=rb-4.0.3",
+    description:
+      "Descubre cómo la tecnología está redefiniendo la industria de bienes raíces en América Latina y el mundo, ofreciendo nuevas oportunidades y desafíos para inversores y profesionales del sector.",
+    images: [
+      "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=2072&ixlib=rb-4.0.3",
+    ],
     slug: "revolucion-proptech-latinoamerica",
     category: "tecnologia",
     subtitle: "PropTech: La Transformación Digital del Sector Inmobiliario",
@@ -346,17 +362,21 @@ La clave para el éxito en esta nueva era será la capacidad de integrar seamles
 A medida que la revolución PropTech continúa evolucionando, es fundamental que los profesionales del sector inmobiliario en América Latina se mantengan actualizados y abiertos a la adopción de nuevas tecnologías. La formación continua, la colaboración entre startups tecnológicas y empresas inmobiliarias tradicionales, y la creación de marcos regulatorios flexibles serán cruciales para aprovechar al máximo el potencial del PropTech en la región.
 
 En última instancia, el PropTech tiene el potencial de democratizar el acceso a la inversión inmobiliaria, mejorar la transparencia del mercado y contribuir a un desarrollo urbano más sostenible e inteligente en América Latina. El futuro del sector inmobiliario es tecnológico, y aquellos que se adapten a esta nueva realidad estarán en la mejor posición para liderar la industria en los años venideros.
-    `
+    `,
   },
   {
     id: 6,
     title: "¿Por qué elegir Orlando para invertir en bienes raíces?",
-    description: "Descubre las razones que hacen de Orlando un destino atractivo para la inversión inmobiliaria en 2025.",
-    image: "https://images.unsplash.com/photo-1575517111478-7f6afd0973db?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
+    description:
+      "Descubre las razones que hacen de Orlando un destino atractivo para la inversión inmobiliaria en 2025.",
+    images: [
+      "https://images.unsplash.com/photo-1575517111478-7f6afd0973db?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
+    ],
     slug: "por-que-elegir-orlando-para-invertir",
     category: "inversion",
     subtitle: "Orlando: Una Inversión Inteligente en Bienes Raíces",
-    importantFact: "El valor de las propiedades en Orlando ha aumentado un promedio del 8% anual en los últimos 5 años.",
+    importantFact:
+      "El valor de las propiedades en Orlando ha aumentado un promedio del 8% anual en los últimos 5 años.",
     fullContent: `
     Orlando, Florida, se ha consolidado como uno de los destinos más atractivos para la inversión inmobiliaria en los Estados Unidos. En 2025, esta tendencia se mantiene fuerte, respaldada por varios factores clave que hacen de la "Ciudad Hermosa" una opción inteligente para inversores locales e internacionales.
 
@@ -408,13 +428,16 @@ En última instancia, el PropTech tiene el potencial de democratizar el acceso a
 
     Conclusión:
     Orlando ofrece una combinación única de factores que la hacen atractiva para la inversión inmobiliaria en 2025. Su economía diversificada, crecimiento poblacional, y continuo desarrollo de infraestructura y atracciones posicionan a la ciudad para un crecimiento sostenido en el sector inmobiliario. Ya sea que busque propiedades para alquilar, revender o para uso personal, Orlando presenta oportunidades emocionantes para inversores astutos que buscan capitalizar en uno de los mercados más dinámicos de los Estados Unidos.
-    `
+    `,
   },
   {
     id: 7,
     title: "Chiriquí, Panamá: El mejor destino para 2025 según Lonely Planet",
-    description: "Explora por qué la provincia de Chiriquí ha sido destacada como uno de los mejores destinos para visitar en 2025, y lo que esto significa para el mercado inmobiliario local.",
-    image: "https://images.unsplash.com/photo-1589994160839-163cd867cfe8?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
+    description:
+      "Explora por qué la provincia de Chiriquí ha sido destacada como uno de los mejores destinos para visitar en 2025, y lo que esto significa para el mercado inmobiliario local.",
+    images: [
+      "https://images.unsplash.com/photo-1589994160839-163cd867cfe8?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
+    ],
     slug: "chiriqui-panama-mejor-destino-2025",
     category: "tendencias",
     subtitle: "Chiriquí: Un Paraíso Emergente en Panamá",
@@ -496,13 +519,16 @@ En última instancia, el PropTech tiene el potencial de democratizar el acceso a
     Conclusión:
 
     El reconocimiento de Chiriquí por Lonely Planet como uno de los mejores destinos para 2025 marca el inicio de una nueva era para esta región panameña. Para el mercado inmobiliario, esto representa una oportunidad única de crecimiento y desarrollo. Inversores, desarrolladores y compradores potenciales harían bien en prestar atención a esta joya emergente en Centroamérica. Con su combinación única de belleza natural, clima ideal y creciente infraestructura turística, Chiriquí se posiciona no solo como un destino de viaje imperdible, sino también como un mercado inmobiliario lleno de potencial para los años venideros.
-    `
+    `,
   },
   {
     id: 8,
     title: "Curiosidades del mercado inmobiliario en Miami: Un vistazo al 2025",
-    description: "Descubre los datos más interesantes y las tendencias emergentes que están dando forma al dinámico mercado de bienes raíces de Miami.",
-    image: "https://images.unsplash.com/photo-1533106497176-45ae19e68ba2?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
+    description:
+      "Descubre los datos más interesantes y las tendencias emergentes que están dando forma al dinámico mercado de bienes raíces de Miami.",
+    images: [
+      "https://images.unsplash.com/photo-1533106497176-45ae19e68ba2?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
+    ],
     slug: "curiosidades-mercado-inmobiliario-miami",
     category: "mercado",
     subtitle: "Miami: Innovación y Tendencias en el Mercado Inmobiliario",
@@ -596,13 +622,16 @@ En última instancia, el PropTech tiene el potencial de democratizar el acceso a
 
     Conclusión:
     El mercado inmobiliario de Miami en 2025 es un fascinante crisol de innovación tecnológica, diseño vanguardista y adaptación a los desafíos globales. Desde rascacielos giratorios hasta micro-unidades ultraeficientes, la ciudad continúa reinventándose y atrayendo a inversores y residentes de todo el mundo. A medida que Miami navega por los desafíos del cambio climático y las cambiantes dinámicas demográficas, su mercado inmobiliario demuestra una notable resiliencia y capacidad de adaptación. Para inversores y desarrolladores, Miami sigue siendo un mercado lleno de oportunidades únicas y emocionantes perspectivas de crecimiento.
-    `
+    `,
   },
   {
     id: 9,
     title: "El Parque Histórico de Cuenca: Joya patrimonial y nuevo foco de desarrollo inmobiliario",
-    description: "Descubre la rica historia del Parque Histórico de Cuenca y elemocionante proyecto inmobiliario que está surgiendo en sus alrededores.",
-    image: "https://images.unsplash.com/photo-1566138686123-f8910b21e696?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
+    description:
+      "Descubre la rica historia del Parque Histórico de Cuenca y elemocionante proyecto inmobiliario que está surgiendo en sus alrededores.",
+    images: [
+      "https://images.unsplash.com/photo-1566138686123-f8910b21e696?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
+    ],
     slug: "parque-historico-cuenca-desarrollo-inmobiliario",
     category: "ecuador",
     subtitle: "Cuenca: Historia y Modernidad en el Corazón del Parque Histórico",
@@ -694,17 +723,21 @@ En última instancia, el PropTech tiene el potencial de democratizar el acceso a
     El Parque Histórico de Cuenca, con su rica historia y belleza atemporal, continúa siendo el corazón palpitante de esta ciudad patrimonio. El nuevo desarrollo inmobiliario en sus alrededores no solo ofrece una oportunidad única de vivir en un entorno de incalculable valor histórico, sino que también representa un paso hacia el futuro, demostrando cómo la modernidad y la tradición pueden coexistir en armonía.
 
     Para aquellos que buscan sumergirse en la rica cultura ecuatoriana, disfrutar de una calidad de vida excepcional y ser parte de un legado histórico vivo, este nuevo proyecto cerca del Parque Histórico de Cuenca presenta una oportunidad inigualable. Con suites disponibles desde 75.000 dólares, es una invitación a no solo invertir en una propiedad, sino en un estilo de vida único que fusiona lo mejor del pasado y el presente de Cuenca.
-    `
+    `,
   },
   {
     id: 10,
     title: "Boquete Pino Alto Country Club: Lujo y Naturaleza en Panamá",
-    description: "Descubre el exclusivo desarrollo residencial en las montañas de Boquete, que combina lujo, golf y una impresionante belleza natural.",
-    image: "/boquete-pinoalto1.jpg",
+    description:
+      "Descubre el exclusivo desarrollo residencial en las montañas de Boquete, que combina lujo, golf y una impresionante belleza natural.",
+    images: [
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
+    ],
     slug: "boquete-pino-alto-country-club",
     category: "panama",
     subtitle: "Un Paraíso de Lujo en las Montañas de Panamá",
-    importantFact: "Boquete Pino Alto Country Club cuenta con un campo de golf de 18 hoyos diseñado por J. Michael Poellot.",
+    importantFact:
+      "Boquete Pino Alto Country Club cuenta con un campo de golf de 18 hoyos diseñado por J. Michael Poellot.",
     fullContent: `
     Boquete Pino Alto Country Club es un desarrollo residencial de lujo ubicado en las pintorescas montañas de Boquete, Panamá. Este exclusivo proyecto combina la belleza natural de la región con amenidades de clase mundial, ofreciendo una experiencia de vida única para aquellos que buscan lo mejor en comodidad y naturaleza.
 
@@ -756,7 +789,7 @@ En última instancia, el PropTech tiene el potencial de democratizar el acceso a
     - Festivales culturales y eventos durante todo el año
 
     Boquete Pino Alto Country Club representa una oportunidad única para aquellos que buscan una vida de lujo en armonía con la naturaleza. Ya sea como residencia permanente, segunda casa o inversión, este desarrollo ofrece una combinación inigualable de comodidades modernas y belleza natural en uno de los destinos más codiciados de Panamá.
-  `
-  }
-];
+  `,
+  },
+]
 
