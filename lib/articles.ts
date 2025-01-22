@@ -711,7 +711,7 @@ En última instancia, el PropTech tiene el potencial de democratizar el acceso a
     Ubicación Privilegiada:
     - Situado a solo 7 km del centro de Boquete
     - Rodeado de exuberantes bosques y vistas panorámicas
-    - Clima primaveral durante todo el año, con temperaturas promedio de 18°C a 25°C
+    - Clima primaveral durante todo el año, con temperaturas promedio de 18��C a 25°C
 
     Características del Desarrollo:
     1. Campo de Golf de Campeonato:
