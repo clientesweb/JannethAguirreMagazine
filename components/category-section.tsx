@@ -13,7 +13,7 @@ const CATEGORY_IMAGES = {
   'panama': 'https://jannethaguirre.online/panama.jpg',
   'ecuador': 'https://jannethaguirre.online/ecuador.jpg',
   'estados-unidos': 'public/estados-unidos.jpg',
-  'decoracion': 'https://images.unsplash.com/photo-1616046229478-9901c5536a45?auto=format&fit=crop&q=80',
+  'decoracion': 'https://jannethaguirre.online/tendencias-diseno-interiores-2025.jpg',
   'tendencias': 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80',
   'analisis': 'https://jannethaguirre.online/analisis-de-mercado-inmobiliario-ecuador-2025.jpg'
 }
