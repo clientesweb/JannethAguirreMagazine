@@ -15,7 +15,7 @@ const CATEGORY_IMAGES = {
   'estados-unidos': 'public/estados-unidos.jpg',
   'decoracion': 'https://images.unsplash.com/photo-1616046229478-9901c5536a45?auto=format&fit=crop&q=80',
   'tendencias': 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80',
-  'analisis': 'https://jannethaguirre.online/analisis-mercado-inmobiliario-ecuador-2025.jpg'
+  'analisis': 'https://jannethaguirre.online/analisis-de-mercado-inmobiliario-ecuador-2025.jpg'
 }
 
 export default function CategorySection({ category }: CategorySectionProps) {
