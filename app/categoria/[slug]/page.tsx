@@ -1,11 +1,11 @@
-import { notFound } from "next/navigation"
-import { CATEGORIES, ARTICLES } from "@/lib/constants"
-import { ARTICLES_VARIOS } from "@/lib/articles"
-import Header from "@/components/header"
-import Footer from "@/components/footer"
-import { Card, CardContent, CardHeader } from "@/components/ui/card"
-import Image from "next/image"
-import Link from "next/link"
+import { notFound } from 'next/navigation'
+import { CATEGORIES, ARTICLES } from '@/lib/constants'
+import { ARTICLES_VARIOS } from '@/lib/articles'
+import Header from '@/components/header'
+import Footer from '@/components/footer'
+import { Card, CardContent, CardHeader } from '@/components/ui/card'
+import Image from 'next/image'
+import Link from 'next/link'
 
 export async function generateStaticParams() {
   return CATEGORIES.map((category) => ({
@@ -14,14 +14,14 @@ export async function generateStaticParams() {
 }
 
 export default function CategoryPage({ params }: { params: { slug: string } }) {
-  const category = CATEGORIES.find((cat) => cat.slug === params.slug)
+  const category = CATEGORIES.find(cat => cat.slug === params.slug)
 
   if (!category) {
     notFound()
   }
 
   const allArticles = [...ARTICLES, ...ARTICLES_VARIOS]
-  const categoryArticles = allArticles.filter((article) => article.category === params.slug)
+  const categoryArticles = allArticles.filter(article => article.category === params.slug)
 
   return (
     <>
@@ -45,7 +45,7 @@ export default function CategoryPage({ params }: { params: { slug: string } }) {
                 <CardContent className="p-6">
                   <h2 className="text-xl font-bold mb-2">{article.title}</h2>
                   <p className="text-gray-600 mb-4">{article.description}</p>
-                  <Link
+                  <Link 
                     href={`/articulo/${article.slug}`}
                     className="text-[#FF0000] hover:text-[#FF0000]/90 font-medium"
                   >
