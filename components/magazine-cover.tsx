@@ -4,6 +4,7 @@ import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
 import { motion } from "framer-motion"
+import Image from "next/image"
 
 const content = {
   title: "JANNETH AGUIRRE",
@@ -16,21 +17,25 @@ const content = {
 }
 
 export default function MagazineCover() {
-  //const [currentImage, setCurrentImage] = useState(0)
-
-  //useEffect(() => {
-  //  const timer = setInterval(() => {
-  //    setCurrentImage((prevImage) => (prevImage + 1) % slides.length)
-  //  }, 5000)
-  //  return () => clearInterval(timer)
-  //}, [])
+  const [videoError, setVideoError] = useState(false)
 
   return (
     <div className="relative h-screen flex items-center justify-center overflow-hidden">
-      <video autoPlay loop muted playsInline className="absolute inset-0 w-full h-full object-cover">
-        <source src="/hero-video.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+      {!videoError ? (
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+          onError={() => setVideoError(true)}
+        >
+          <source src="/hero-video.mp4" type="video/mp4" />
+          Tu navegador no soporta el tag de video.
+        </video>
+      ) : (
+        <Image src="/images/fallback-background.jpg" alt="Fondo de portada" layout="fill" objectFit="cover" />
+      )}
       <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-black/30 z-10" />
       <div className="relative z-20 text-white text-center px-4 max-w-4xl">
         <motion.h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-4 sm:mb-6 leading-tight animate-fade-in-up">
