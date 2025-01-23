@@ -1,105 +1,38 @@
-'use client'
+import { Button } from "@/components/ui/button"
+import { ArrowRight } from "lucide-react"
 
-import { useState, useEffect } from 'react'
-import Image from 'next/image'
-import { Button } from '@/components/ui/button'
-import { ArrowRight } from 'lucide-react'
-import { motion, AnimatePresence } from 'framer-motion'
-
-const slides = [
-  {
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1920&h=1080",
-    title: "JANNETH AGUIRRE",
-    subtitle: "Edición Especial 2025: El Futuro del Mercado Inmobiliario",
-    description: "Ecuador • Panamá • Estados Unidos",
-    cta: {
-      text: "Leer Edición Digital",
-      link: "#"
-    }
-  },
-  {
-    image: "/app-janneth-aguirre.jpg",
-    title: "JANNETH AGUIRRE",
-    subtitle: "Descubre Propiedades en Tu Móvil",
-    description: "Encuentra Tu Hogar Ideal con Nuestra App",
-    cta: {
-      text: "Descargar App",
-      link: "https://jannethaguirre.com/"
-    }
-  },
-  {
-    image: "/Instagram-janneth-aguirre.jpg",
-    title: "JANNETH AGUIRRE",
-    subtitle: "Síguenos en Instagram",
-    description: "Propiedades, Proyectos y más",
-    cta: {
-      text: "Ver en Instagram",
-      link: "https://www.instagram.com/janneth_aguirrem/"
-    }
-  }
-]
-
-export default function MagazineCover() {
-  const [currentImage, setCurrentImage] = useState(0)
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrentImage((prevImage) => (prevImage + 1) % slides.length)
-    }, 5000)
-    return () => clearInterval(timer)
-  }, [])
-
+export default function Hero() {
   return (
     <div className="relative h-screen flex items-center justify-center overflow-hidden">
-      <AnimatePresence initial={false}>
-        <motion.div
-          key={currentImage}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          transition={{ duration: 0.5 }}
-          className="absolute inset-0"
-        >
-          <Image
-            src={slides[currentImage].image || "/placeholder.svg"}
-            alt={`Magazine cover ${currentImage + 1}`}
-            layout="fill"
-            objectFit="cover"
-            quality={100}
-            priority
-          />
-        </motion.div>
-      </AnimatePresence>
-      <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/50 z-10" />
+      <video className="absolute top-0 left-0 w-full h-full object-cover" autoPlay loop muted playsInline>
+        <source src="/hero-video.mp4" type="video/mp4" />
+        Tu navegador no soporta el tag de video.
+      </video>
+      <div className="absolute inset-0 bg-black/60 z-10" />
       <div className="relative z-20 text-white text-center px-4 max-w-4xl">
-        <motion.h1 
-          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-4 sm:mb-6 leading-tight animate-fade-in-up"
-        >
-          {slides[currentImage].title}
-          <span className="block text-[#FF0000] animate-pulse text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl mt-2">MAGAZINE</span>
-        </motion.h1>
-        <motion.p 
-          className="text-xl sm:text-2xl md:text-3xl mb-4 sm:mb-6 animate-fade-in-up animation-delay-300 font-serif italic"
-        >
-          {slides[currentImage].subtitle}
-        </motion.p>
-        <motion.p 
-          className="text-lg sm:text-xl md:text-2xl mb-6 sm:mb-8 animate-fade-in-up animation-delay-300"
-        >
-          {slides[currentImage].description}
-        </motion.p>
-        <motion.div
-          className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up animation-delay-600"
-        >
-          <Button 
+        <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight animate-fade-in-up">
+          Janneth Aguirre
+          <span className="block text-[#FF0000] animate-pulse">Bienes Raíces Internacionales 2025</span>
+        </h1>
+        <p className="text-xl md:text-2xl mb-8 animate-fade-in-up animation-delay-300">
+          Descubre el futuro del mercado inmobiliario en Ecuador, Panamá y Estados Unidos
+        </p>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up animation-delay-600">
+          <Button
             size="lg"
-            className="bg-[#FF0000] hover:bg-[#FF0000]/90 text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 rounded-full transition-transform hover:scale-105"
-            onClick={() => window.open(slides[currentImage].cta.link, '_blank')}
+            className="bg-[#FF0000] hover:bg-[#FF0000]/90 text-lg px-8 py-6 rounded-full transition-transform hover:scale-105"
           >
-            {slides[currentImage].cta.text}
+            Explorar Propiedades del Futuro
             <ArrowRight className="ml-2 h-5 w-5" />
           </Button>
-        </motion.div>
+          <Button
+            size="lg"
+            variant="outline"
+            className="border-white text-white hover:bg-white hover:text-black text-lg px-8 py-6 rounded-full transition-transform hover:scale-105"
+          >
+            Análisis de Mercado 2025
+          </Button>
+        </div>
       </div>
     </div>
   )
