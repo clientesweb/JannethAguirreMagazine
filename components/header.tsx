@@ -1,21 +1,21 @@
-'use client'
+"use client"
 
-import { useState, useEffect } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
-import { Button } from '@/components/ui/button'
-import { Menu, X } from 'lucide-react'
-import Image from 'next/image'
-import Link from 'next/link'
-import { CATEGORIES } from '@/lib/constants'
+import { useState, useEffect } from "react"
+import { motion, AnimatePresence } from "framer-motion"
+import { Button } from "@/components/ui/button"
+import { Menu, X } from "lucide-react"
+import Image from "next/image"
+import Link from "next/link"
+import { CATEGORIES } from "@/lib/constants"
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
 
   useEffect(() => {
     if (isOpen) {
-      document.body.style.overflow = 'hidden'
+      document.body.style.overflow = "hidden"
     } else {
-      document.body.style.overflow = 'unset'
+      document.body.style.overflow = "unset"
     }
   }, [isOpen])
 
@@ -27,8 +27,8 @@ export default function Header() {
         duration: 0.3,
         ease: "easeInOut",
         staggerChildren: 0.05,
-        staggerDirection: -1
-      }
+        staggerDirection: -1,
+      },
     },
     open: {
       opacity: 1,
@@ -37,14 +37,14 @@ export default function Header() {
         duration: 0.3,
         ease: "easeInOut",
         staggerChildren: 0.05,
-        delayChildren: 0.1
-      }
-    }
+        delayChildren: 0.1,
+      },
+    },
   }
 
   const itemVariants = {
     closed: { opacity: 0, x: 20 },
-    open: { opacity: 1, x: 0 }
+    open: { opacity: 1, x: 0 },
   }
 
   return (
@@ -57,7 +57,7 @@ export default function Header() {
               alt="Janneth Aguirre Magazine"
               width={150}
               height={60}
-              className="h-8 md:h-12 w-auto"
+              className="h-12 md:h-16 w-auto"
             />
           </Link>
 
@@ -75,12 +75,7 @@ export default function Header() {
           </nav>
 
           {/* Mobile Menu Button */}
-          <Button
-            variant="ghost"
-            size="icon"
-            className="md:hidden"
-            onClick={() => setIsOpen(!isOpen)}
-          >
+          <Button variant="ghost" size="icon" className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
             {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </Button>
         </div>
@@ -103,14 +98,10 @@ export default function Header() {
                       alt="Janneth Aguirre Magazine"
                       width={150}
                       height={60}
-                      className="h-8 w-auto"
+                      className="h-12 md:h-16 w-auto"
                     />
                   </Link>
-                  <Button
-                    variant="ghost"
-                    size="icon"
-                    onClick={() => setIsOpen(false)}
-                  >
+                  <Button variant="ghost" size="icon" onClick={() => setIsOpen(false)}>
                     <X className="h-6 w-6" />
                   </Button>
                 </div>
