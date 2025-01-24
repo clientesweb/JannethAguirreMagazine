@@ -1,12 +1,94 @@
 {
-  "name": "Janneth Aguirre Magazine - Bienes Raíces Internacionales",
+  "name": "Janneth Aguirre Magazine",
   "short_name": "JA Magazine",
-  "description": "La mejor revista de bienes raíces internacionales en Ecuador, Panamá y Estados Unidos",
+  "description": "Tu revista líder en bienes raíces internacionales",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#FF0000",
+  "orientation": "portrait-primary",
   "icons": [
+    {
+      "src": "/android-icon-36x36.png",
+      "sizes": "36x36",
+      "type": "image/png",
+      "density": "0.75"
+    },
+    {
+      "src": "/android-icon-48x48.png",
+      "sizes": "48x48",
+      "type": "image/png",
+      "density": "1.0"
+    },
+    {
+      "src": "/android-icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "density": "1.5"
+    },
+    {
+      "src": "/android-icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "density": "2.0"
+    },
+    {
+      "src": "/android-icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "density": "3.0"
+    },
+    {
+      "src": "/android-icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "density": "4.0"
+    },
+    {
+      "src": "/apple-icon-57x57.png",
+      "sizes": "57x57",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-icon-60x60.png",
+      "sizes": "60x60",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-icon-76x76.png",
+      "sizes": "76x76",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-icon-114x114.png",
+      "sizes": "114x114",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-icon-120x120.png",
+      "sizes": "120x120",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-icon-180x180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
     {
       "src": "/favicon-16x16.png",
       "sizes": "16x16",
@@ -18,39 +100,30 @@
       "type": "image/png"
     },
     {
-      "src": "/apple-touch-icon.png",
-      "sizes": "180x180",
+      "src": "/favicon-96x96.png",
+      "sizes": "96x96",
       "type": "image/png"
-    },
-    {
-      "src": "/android-chrome-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/android-chrome-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
     }
   ],
-  "orientation": "portrait",
-  "categories": ["business", "lifestyle", "real estate"],
-  "lang": "es-EC",
-  "dir": "ltr",
+  "splash_pages": null,
   "prefer_related_applications": false,
+  "related_applications": [],
   "shortcuts": [
     {
-      "name": "Últimas Propiedades",
-      "url": "/propiedades",
-      "description": "Ver las últimas propiedades disponibles"
+      "name": "Últimos Artículos",
+      "short_name": "Artículos",
+      "description": "Ver los últimos artículos publicados",
+      "url": "/articulos",
+      "icons": [{ "src": "/android-icon-192x192.png", "sizes": "192x192" }]
     },
     {
-      "name": "Artículos",
-      "url": "/articulos",
-      "description": "Leer los últimos artículos"
+      "name": "Categorías",
+      "short_name": "Categorías",
+      "description": "Explorar artículos por categoría",
+      "url": "/categorias",
+      "icons": [{ "src": "/android-icon-192x192.png", "sizes": "192x192" }]
     }
-  ]
+  ],
+  "categories": ["news", "magazines", "real estate"]
 }
 
