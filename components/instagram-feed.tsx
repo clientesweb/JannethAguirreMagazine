@@ -3,6 +3,10 @@
 import { useEffect, useRef } from 'react'
 
 const INSTAGRAM_POSTS = [
+  'DFNLHbMuzMt',
+  'DFK6Ul9ui5m',
+  'DFDeULouOtG',
+  'DFDQE4uOFPg',
   'DE8ZYSUuV34',
   'DE5MwjSuVi_',
   'DE1efOSu98a',
