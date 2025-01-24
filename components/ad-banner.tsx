@@ -1,33 +1,33 @@
-'use client'
+"use client"
 
-import { useState, useEffect } from 'react'
-import Image from 'next/image'
-import { Button } from '@/components/ui/button'
-import { ChevronLeft, ChevronRight } from 'lucide-react'
-import Link from 'next/link'
+import { useState, useEffect } from "react"
+import Image from "next/image"
+import { Button } from "@/components/ui/button"
+import { ChevronLeft, ChevronRight } from "lucide-react"
+import Link from "next/link"
 
 const properties = [
   {
     id: 1,
-    title: "Villa de Lujo en Samborondón",
-    image: "https://images.unsplash.com/photo-1613977257592-4871e5fcd7c4?auto=format&fit=crop&q=80&w=1600",
-    price: "$1,200,000",
-    location: "Samborondón, Ecuador"
+    title: "Consultorios y Oficinas en Samborondón City Center",
+    image: "/samborondon.jpg",
+    price: "Reservas desde $1.000",
+    location: "Samborondón, Ecuador",
   },
   {
     id: 2,
-    title: "Apartamento Moderno en Quito",
-    image: "https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&q=80&w=1600",
-    price: "$350,000",
-    location: "Quito, Ecuador"
+    title: "Proyecto Parque Histórico",
+    image: "/parque-cueca.jpg",
+    price: "Suites desde $75.000",
+    location: "Cuenca, Ecuador",
   },
   {
     id: 3,
-    title: "Condominio Frente al Mar en Salinas",
-    image: "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?auto=format&fit=crop&q=80&w=1600",
-    price: "$500,000",
-    location: "Salinas, Ecuador"
-  }
+    title: "Vizcaya II Residencias",
+    image: "/vizcaya-residencias.jpg",
+    price: "Reserva desde $2.000",
+    location: "Km 9.4 vía Samborondón, Ecuador",
+  },
 ]
 
 export default function AdBanner() {
@@ -53,7 +53,10 @@ export default function AdBanner() {
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-8 text-center">Propiedades Destacadas</h2>
         <div className="relative overflow-hidden">
-          <div className="flex transition-transform duration-500 ease-in-out" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
+          <div
+            className="flex transition-transform duration-500 ease-in-out"
+            style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+          >
             {properties.map((property) => (
               <div key={property.id} className="w-full flex-shrink-0">
                 <div className="bg-white rounded-lg shadow-lg overflow-hidden">
@@ -69,6 +72,7 @@ export default function AdBanner() {
                     <h3 className="text-xl font-bold mb-2">{property.title}</h3>
                     <p className="text-gray-600 mb-4">{property.location}</p>
                     <p className="text-2xl font-bold text-[#FF0000] mb-4">{property.price}</p>
+                    {property.id === 3 && <p className="text-sm text-green-600 font-semibold mb-4">Últimas unidades</p>}
                     <div className="flex justify-between">
                       <Link href="https://jannethaguirre.com/" passHref>
                         <Button className="bg-[#FF0000] hover:bg-[#FF0000]/90">Ver Detalles</Button>
