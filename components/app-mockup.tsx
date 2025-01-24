@@ -23,39 +23,39 @@ import {
 const properties = [
   {
     image:
-      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
+      "/urbanizacion-al-sol.jpg",
     location: "Al Sol Urbanización",
-    address: "Modelo 1",
+    address: "Al Sol Urbanización",
     price: "$199,900",
     rating: 4.9,
     beds: 3,
     baths: 2,
     sqft: 135.48,
-    type: "1 Planta",
+    type: "Modelo 1",
   },
   {
     image:
-      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
+      "/urbanizacion-al-sol2.jpg",
     location: "Al Sol Urbanización",
-    address: "Modelo 2",
+    address: "Al Sol Urbanización",
     price: "$201,900",
     rating: 4.8,
     beds: 3,
     baths: 2.5,
     sqft: 154.44,
-    type: "2 Plantas",
+    type: "Modelo 2",
   },
   {
     image:
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
+      "/urbanizacion-al-sol3.jpg",
     location: "Al Sol Urbanización",
-    address: "Modelo 3",
+    address: "Al Sol Urbanización",
     price: "$219,900",
     rating: 4.7,
     beds: 4,
     baths: 2.5,
     sqft: 174.52,
-    type: "2 Plantas",
+    type: "Modelo 3",
   },
 ]
 
