@@ -17,7 +17,7 @@ const properties = [
   {
     id: 2,
     title: "Proyecto Parque Histórico",
-    image: "/parque-cueca.jpg",
+    image: "/cuenca-parque.jpg",
     price: "Suites desde $75.000",
     location: "Cuenca, Ecuador",
   },
