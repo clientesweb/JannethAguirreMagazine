@@ -424,7 +424,7 @@ export const ARTICLES = [
     id: 7,
     title: "Samborondón City Center: El Nuevo Epicentro de Negocios y Estilo de Vida",
     description: "Explore las oportunidades únicas en el corazón de Samborondón, donde el comercio y el lujo se fusionan en un desarrollo de uso mixto sin precedentes.",
-    image: "https://jannethaguirre.online/samborondon-city-center.jpg",
+    image: "https://jannethaguirre.online/samborodon-city-center.jpg",
     category: "ecuador",
     slug: "samborondon-city-center",
     subtitle: "El Corazón de Samborondón",
