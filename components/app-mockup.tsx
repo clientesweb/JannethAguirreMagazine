@@ -1,14 +1,29 @@
-'use client'
+"use client"
 
-import { useState, useEffect } from 'react'
-import Image from 'next/image'
-import { Button } from '@/components/ui/button'
-import { motion, AnimatePresence } from 'framer-motion'
-import { ChevronRight, ChevronLeft, Star, MapPin, Home, Bath, BedDouble, Maximize, MessageCircle, BarChart, HardHat, Search, Globe } from 'lucide-react'
+import { useState, useEffect } from "react"
+import Image from "next/image"
+import { Button } from "@/components/ui/button"
+import { motion, AnimatePresence } from "framer-motion"
+import {
+  ChevronRight,
+  ChevronLeft,
+  Star,
+  MapPin,
+  Home,
+  Bath,
+  BedDouble,
+  Maximize,
+  MessageCircle,
+  BarChart,
+  HardHat,
+  Search,
+  Globe,
+} from "lucide-react"
 
 const properties = [
   {
-    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
+    image:
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
     location: "Miami, Estados Unidos",
     address: "123 Ocean Drive",
     price: "$1,200,000",
@@ -16,10 +31,11 @@ const properties = [
     beds: 4,
     baths: 3,
     sqft: 2800,
-    type: "Proyecto de Lujo"
+    type: "Proyecto de Lujo",
   },
   {
-    image: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
+    image:
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
     location: "Samborondón, Ecuador",
     address: "Villa 245, La Península",
     price: "$450,000",
@@ -27,10 +43,11 @@ const properties = [
     beds: 3,
     baths: 2.5,
     sqft: 2200,
-    type: "Villa Exclusiva"
+    type: "Villa Exclusiva",
   },
   {
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
+    image:
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
     location: "Ciudad de Panamá, Panamá",
     address: "Torre Ocean View, Piso 15",
     price: "$650,000",
@@ -38,31 +55,31 @@ const properties = [
     beds: 2,
     baths: 2,
     sqft: 1800,
-    type: "Apartamento Premium"
-  }
+    type: "Apartamento Premium",
+  },
 ]
 
 const features = [
   {
     title: "Propiedades y Proyectos Exclusivos",
     description: "Lo mejor de Ecuador, Panamá y Estados Unidos",
-    icon: Globe
+    icon: Globe,
   },
   {
     title: "Avances de Obras",
     description: "Actualizaciones constantes de primera calidad",
-    icon: HardHat
+    icon: HardHat,
   },
   {
     title: "Chat con Agentes",
     description: "Comunicación directa con expertos inmobiliarios",
-    icon: MessageCircle
+    icon: MessageCircle,
   },
   {
     title: "Análisis de Mercado Interactivo",
     description: "Informes descargables y personalizables",
-    icon: BarChart
-  }
+    icon: BarChart,
+  },
 ]
 
 export default function AppMockup() {
@@ -97,7 +114,7 @@ export default function AppMockup() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-20">
           {/* App Info Section */}
-          <motion.div 
+          <motion.div
             className="lg:w-1/2 text-center lg:text-left"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
@@ -107,7 +124,8 @@ export default function AppMockup() {
               Gestiona Inversiones Inmobiliarias de Clase Mundial
             </h2>
             <p className="text-xl mb-12 text-gray-300 leading-relaxed">
-              Accede a propiedades exclusivas, análisis de mercado y gestión de ventas en Ecuador, Panamá y Estados Unidos.
+              Accede a propiedades exclusivas, análisis de mercado y gestión de ventas en Ecuador, Panamá y Estados
+              Unidos.
             </p>
 
             {/* Features Grid */}
@@ -135,31 +153,43 @@ export default function AppMockup() {
             <div className="flex flex-col sm:flex-row justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
               <Button
                 className="bg-white hover:bg-gray-100 text-black px-6 py-3 rounded-xl text-lg transition-transform hover:scale-105 flex items-center justify-center h-16"
-                onClick={() => window.open('https://play.google.com/store', '_blank')}
+                onClick={() => window.open("https://play.google.com/store", "_blank")}
               >
-                <Image src="/google-play-badge.png" alt="Google Play" width={135} height={40} />
+                <Image
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/en_badge_web_generic-CWzgT7mvxJlTZ5qd9sZeLEH6bKLaRm.png"
+                  alt="Get it on Google Play"
+                  width={135}
+                  height={40}
+                  className="h-auto"
+                />
               </Button>
               <Button
                 className="bg-white hover:bg-gray-100 text-black px-6 py-3 rounded-xl text-lg transition-transform hover:scale-105 flex items-center justify-center h-16"
-                onClick={() => window.open('https://www.apple.com/app-store/', '_blank')}
+                onClick={() => window.open("https://www.apple.com/app-store/", "_blank")}
               >
-                <Image src="/app-store-badge.png" alt="App Store" width={120} height={40} />
+                <Image
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/badge-download-on-the-app-store-Tgd9npUVIdCDtrcMsYVdfJucAj5pQn.svg"
+                  alt="Download on the App Store"
+                  width={120}
+                  height={40}
+                  className="h-auto"
+                />
               </Button>
             </div>
           </motion.div>
 
           {/* Phone Mockup Section */}
-          <motion.div 
+          <motion.div
             className="lg:w-1/2 relative"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            <div className="relative mx-auto" style={{ maxWidth: '375px' }}>
+            <div className="relative mx-auto" style={{ maxWidth: "375px" }}>
               {/* Phone Frame */}
               <div className="relative rounded-[3rem] overflow-hidden bg-black shadow-2xl border-8 border-gray-800">
                 {/* Screen Content */}
-                <div className="relative bg-white" style={{ aspectRatio: '1/2' }}>
+                <div className="relative bg-white" style={{ aspectRatio: "1/2" }}>
                   {/* Status Bar */}
                   <div className="bg-black text-white p-2 flex justify-between items-center text-xs">
                     <span>9:41</span>
@@ -171,7 +201,7 @@ export default function AppMockup() {
                   </div>
 
                   {/* App Content */}
-                  <AnimatePresence mode='wait'>
+                  <AnimatePresence mode="wait">
                     <motion.div
                       key={currentProperty}
                       initial={{ opacity: 0 }}
@@ -191,12 +221,10 @@ export default function AppMockup() {
                         />
                         {/* Image Overlay */}
                         <div className="absolute inset-0 bg-gradient-to-b from-black/20 to-black/60" />
-                        
+
                         {/* Property Type Badge */}
                         <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full">
-                          <p className="text-sm font-medium text-gray-900">
-                            {properties[currentProperty].type}
-                          </p>
+                          <p className="text-sm font-medium text-gray-900">{properties[currentProperty].type}</p>
                         </div>
 
                         {/* Navigation Dots */}
@@ -205,7 +233,7 @@ export default function AppMockup() {
                             <div
                               key={index}
                               className={`w-2 h-2 rounded-full ${
-                                index === currentProperty ? 'bg-white' : 'bg-white/50'
+                                index === currentProperty ? "bg-white" : "bg-white/50"
                               }`}
                             />
                           ))}
@@ -236,29 +264,21 @@ export default function AppMockup() {
                         <div className="grid grid-cols-3 gap-4 mb-4">
                           <div className="flex items-center gap-2">
                             <BedDouble className="w-5 h-5 text-gray-600" />
-                            <span className="text-sm text-gray-600">
-                              {properties[currentProperty].beds} hab
-                            </span>
+                            <span className="text-sm text-gray-600">{properties[currentProperty].beds} hab</span>
                           </div>
                           <div className="flex items-center gap-2">
                             <Bath className="w-5 h-5 text-gray-600" />
-                            <span className="text-sm text-gray-600">
-                              {properties[currentProperty].baths} baños
-                            </span>
+                            <span className="text-sm text-gray-600">{properties[currentProperty].baths} baños</span>
                           </div>
                           <div className="flex items-center gap-2">
                             <Maximize className="w-5 h-5 text-gray-600" />
-                            <span className="text-sm text-gray-600">
-                              {properties[currentProperty].sqft} m²
-                            </span>
+                            <span className="text-sm text-gray-600">{properties[currentProperty].sqft} m²</span>
                           </div>
                         </div>
 
                         {/* Action Buttons */}
                         <div className="flex gap-3">
-                          <Button className="flex-1 bg-red-500 hover:bg-red-600 text-white">
-                            Ver Avance de Obra
-                          </Button>
+                          <Button className="flex-1 bg-red-500 hover:bg-red-600 text-white">Ver Avance de Obra</Button>
                           <Button variant="outline" className="px-4">
                             <MessageCircle className="w-5 h-5" />
                           </Button>
