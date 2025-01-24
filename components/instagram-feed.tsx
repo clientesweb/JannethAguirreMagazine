@@ -4,6 +4,7 @@ import { useEffect, useRef } from 'react'
 
 const INSTAGRAM_POSTS = [
   'DFNLHbMuzMt',
+  'DFNLHbMuzMt',
   'DFK6Ul9ui5m',
   'DFDeULouOtG',
   'DFDQE4uOFPg',
@@ -11,8 +12,7 @@ const INSTAGRAM_POSTS = [
   'DE5MwjSuVi_',
   'DE1efOSu98a',
   'DExZxiLO-b3',
-  'DEpoxZ5uOQq',
-  'DEoImoUuDAO'
+  'DEpoxZ5uOQq'
 ]
 
 declare global {
