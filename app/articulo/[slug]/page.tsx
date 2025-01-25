@@ -36,9 +36,9 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
 
   const images = [
     article.image,
-    "",
-    "",
-    "",
+    "https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&q=80&w=1600",
+    "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=1600",
+    "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=80&w=1600",
   ]
 
   const nextImage = () => {
@@ -49,7 +49,7 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
     setCurrentImageIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length)
   }
 
-  const shareUrl = typeof window !== "undefined" ? window.location.href : ""
+  const articleUrl = `https://jannethaguirre.online/articulo/${article.slug}`
 
   const router = useRouter()
 
@@ -149,21 +149,21 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
 
               <div className="flex flex-wrap justify-center gap-4 my-8">
                 <Button
-                  onClick={() => window.open(`https://www.facebook.com/sharer/sharer.php?u=${shareUrl}`, "_blank")}
+                  onClick={() => window.open(`https://www.facebook.com/sharer/sharer.php?u=${articleUrl}`, "_blank")}
                   className="bg-[#1877F2] hover:bg-[#1877F2]/90 text-white"
                 >
                   <Facebook className="mr-2 h-5 w-5" />
                   Compartir
                 </Button>
                 <Button
-                  onClick={() => window.open(`https://twitter.com/intent/tweet?url=${shareUrl}`, "_blank")}
+                  onClick={() => window.open(`https://twitter.com/intent/tweet?url=${articleUrl}`, "_blank")}
                   className="bg-[#1DA1F2] hover:bg-[#1DA1F2]/90 text-white"
                 >
                   <Twitter className="mr-2 h-5 w-5" />
                   Tuitear
                 </Button>
                 <Button
-                  onClick={() => window.open(`https://www.linkedin.com/shareArticle?url=${shareUrl}`, "_blank")}
+                  onClick={() => window.open(`https://www.linkedin.com/shareArticle?url=${articleUrl}`, "_blank")}
                   className="bg-[#0A66C2] hover:bg-[#0A66C2]/90 text-white"
                 >
                   <Linkedin className="mr-2 h-5 w-5" />
@@ -172,7 +172,7 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
                 <Button
                   onClick={() =>
                     window.open(
-                      `https://api.whatsapp.com/send?text=${encodeURIComponent(`¡Mira este artículo interesante! ${shareUrl}`)}`,
+                      `https://api.whatsapp.com/send?text=${encodeURIComponent(`¡Mira este artículo interesante! ${articleUrl}`)}`,
                       "_blank",
                     )
                   }
@@ -187,7 +187,7 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
                       navigator.share({
                         title: article.title,
                         text: article.description,
-                        url: shareUrl,
+                        url: articleUrl,
                       })
                     } else {
                       alert("Compartir no está soportado en este navegador")
