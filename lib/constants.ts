@@ -382,7 +382,7 @@ export const ARTICLES = [
     subtitle: "Vistas Panorámicas al Río Babahoyo",
     importantFact: " Conectividad y Accesibilidad a Grandes Proyectos Comerciales.",
     fullContent: `
-    Bienvenido a Mocolí Bay, la nueva joya residencial de Samborondón que redefine el lujo frente al río. Este exclusivo desarrollo de apartamentos ofrece una experiencia de vida sin precedentes, combinando la serenidad de las vistas al río Daule con la comodidad de la vida urbana moderna.
+    Bienvenido a Mocolí Bay, la nueva joya residencial de Samborondón que redefine el lujo frente al río. Este exclusivo desarrollo de apartamentos ofrece una experiencia de vida sin precedentes, combinando la serenidad de las vistas al río Babahoyo con la comodidad de la vida urbana moderna.
 
     Ubicado en la exclusiva Isla Mocolí, en el corazón de Samborondón, Ecuador, el proyecto Mocolí Bay ha sido diseñado para redefinir el concepto de vida de lujo en una de las zonas de mayor desarrollo urbano del país. Este moderno complejo inmobiliario no solo promete comodidad y elegancia, sino también un estilo de vida único en un entorno natural y seguro.
 
