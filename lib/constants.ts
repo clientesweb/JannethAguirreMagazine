@@ -374,110 +374,79 @@ export const ARTICLES = [
   },
   {
     id: 6,
-    title: "Mocolí Bay: Lujo Frente al Río en Samborondón",
+    title: "Mocolí Bay: Un Paraíso Inmobiliario en Isla Mocolí, Samborondón",
     description: "Descubre la vida exclusiva en Mocolí Bay, un desarrollo de apartamentos de lujo con vistas panorámicas al río Babahoyo.",
     image: "https://jannethaguirre.online/mocoli-bay.jpg",
     category: "ecuador",
     slug: "mocoli-bay-apartamentos-samborondon",
     subtitle: "Vistas Panorámicas al Río Babahoyo",
-    importantFact: "Mocolí Bay ofrece un muelle privado para embarcaciones y acceso a las mejores amenidades.",
+    importantFact: " Conectividad y Accesibilidad a Grandes Proyectos Comerciales.",
     fullContent: `
     Bienvenido a Mocolí Bay, la nueva joya residencial de Samborondón que redefine el lujo frente al río. Este exclusivo desarrollo de apartamentos ofrece una experiencia de vida sin precedentes, combinando la serenidad de las vistas al río Daule con la comodidad de la vida urbana moderna.
 
-    Ubicación Privilegiada:
-    Mocolí Bay se encuentra estratégicamente ubicado en el corazón de Samborondón, una de las zonas más prestigiosas y de mayor crecimiento en Guayaquil. A solo minutos de centros comerciales, restaurantes de clase mundial y las mejores instituciones educativas, este desarrollo ofrece lo mejor de ambos mundos: tranquilidad y accesibilidad.
+    Ubicado en la exclusiva Isla Mocolí, en el corazón de Samborondón, Ecuador, el proyecto Mocolí Bay ha sido diseñado para redefinir el concepto de vida de lujo en una de las zonas de mayor desarrollo urbano del país. Este moderno complejo inmobiliario no solo promete comodidad y elegancia, sino también un estilo de vida único en un entorno natural y seguro.
 
-    Diseño Arquitectónico de Vanguardia:
-    El edificio, diseñado por reconocidos arquitectos, se eleva majestuosamente sobre el paisaje ribereño. Su fachada de cristal y acero refleja la luz del sol y las aguas del río, creando un espectáculo visual que cambia a lo largo del día.
+Un Concepto de Vida Exclusiva
 
-    Apartamentos de Ensueño:
-    - Amplios espacios que van desde los 100m² hasta los 300m²
-    - Ventanales del piso al techo que maximizan las vistas panorámicas
-    - Acabados de lujo, incluyendo mármol italiano y maderas nobles
-    - Cocinas gourmet equipadas con electrodomésticos de última generación
-    - Sistemas de domótica para control de iluminación, clima y seguridad
+Mocolí Bay ofrece lujosos departamentos de dos y tres dormitorios, con áreas que varían entre 81 m² y 160 m². Los residentes disfrutarán de amplias estancias, que incluyen un elegante salón, comedor, cocina tipo americana, y un cuarto con baño de servicio. Los dormitorios, en especial el principal, vienen equipados con un walking closet y baño privado, brindando un nivel de confort sin igual.
 
-    Amenidades de Clase Mundial:
-    - Piscina infinity con vistas al río Babahoyo
-    - Gimnasio completamente equipado con tecnología de punta
-    - Spa y salas de masaje para relajación total
-    - Salón de eventos con capacidad para grandes celebraciones
-    - Muelle privado para embarcaciones
-    - Áreas verdes y jardines paisajísticos
+Comodidad y Amenidades de Alto Nivel
 
-    Sostenibilidad y Tecnología:
-    Mocolí Bay no solo es un símbolo de lujo, sino también de responsabilidad ambiental. El edificio incorpora:
-    - Paneles solares para áreas comunes
-    - Sistema de recolección de agua de lluvia
-    - Materiales de construcción eco-amigables
-    - Estaciones de carga para vehículos eléctricos
+El proyecto Mocolí Bay no solo ofrece un diseño interior de lujo, sino que también presenta un conjunto de amenidades que elevan la experiencia de vida. Entre ellas destacan:
 
-    Inversión Inteligente:
-    Con el constante crecimiento de Samborondón, Mocolí Bay representa no solo un hogar de ensueño, sino también una inversión sólida con alto potencial de apreciación.
+Piscina: Un espacio ideal para relajarse y disfrutar de las vistas y el clima cálido de la región.
 
-    Precios desde $350,000 USD
+Gimnasio: Equipado con tecnología de punta, perfecto para quienes prefieren mantenerse activos sin salir de casa.
 
-    No pierda la oportunidad de ser parte de este desarrollo exclusivo. Las unidades están disponibles en pre-venta con atractivos planes de financiamiento. Contáctenos hoy para agendar una visita al showroom y descubrir por qué Mocolí Bay es el futuro del lujo residencial en Ecuador.
-  `
-  },
-  {
-    id: 7,
-    title: "Samborondón City Center: El Nuevo Epicentro de Negocios y Estilo de Vida",
-    description: "Explore las oportunidades únicas en el corazón de Samborondón, donde el comercio y el lujo se fusionan en un desarrollo de uso mixto sin precedentes.",
-    image: "https://jannethaguirre.online/samborodon-city-center.jpg",
-    category: "ecuador",
-    slug: "samborondon-city-center",
-    subtitle: "El Corazón de Samborondón",
-    importantFact: "Samborondón City Center ofrece una ubicación estratégica con acceso directo a las principales vías viales.",
-    fullContent: `
-    Bienvenidos a Samborondón City Center, el proyecto que está transformando el skyline y redefiniendo el concepto de vida urbana en el corazón de Samborondón. Este desarrollo de uso mixto representa la culminación de años de crecimiento y visión para esta exclusiva zona de Guayaquil.
+Cancha de Pádel: Para los amantes del deporte y la recreación al aire libre.
 
-    Un Nuevo Ícono Urbano:
-    Samborondón City Center se eleva como un complejo de torres que alberga espacios comerciales, oficinas de lujo y residencias exclusivas. Su diseño vanguardista, obra de un equipo de arquitectos de renombre internacional, fusiona funcionalidad con estética, creando un landmark que se convertirá en el nuevo símbolo de Samborondón.
+Juegos Infantiles: Una opción ideal para las familias, garantizando entretenimiento para los más pequeños.
 
-    Ubicación Estratégica:
-    Situado en el kilómetro 1.5 de la vía a Samborondón, este desarrollo ofrece una conectividad inigualable:
-    - A minutos del aeropuerto José Joaquín de Olmedo
-    - Acceso directo a las principales arterias viales
-    - Rodeado de los mejores centros comerciales, restaurantes y servicios
+Salón Múltiple: El lugar perfecto para eventos sociales y reuniones privadas.
 
-    Espacios Comerciales de Vanguardia:
-    - Locales comerciales desde 50m² hasta 500m²
-    - Amplios corredores y plazas para alto tráfico peatonal
-    - Fachadas de cristal para máxima visibilidad
-    - Infraestructura tecnológica de punta
+Estacionamiento Cubierto: Cada departamento dispone de dos parqueos cubiertos, brindando seguridad y comodidad.
 
-    Oficinas Premium:
-    - Plantas libres desde 100m² hasta pisos completos de 1000m²
-    - Sistemas de seguridad biométrica
-    - Salas de conferencias compartidas
-    - Estacionamiento con valet parking
+Además de su entorno natural y las comodidades de lujo que ofrece, Mocolí Bay está estratégicamente ubicado cerca de importantes centros comerciales y grandes proyectos de desarrollo, como el Centro Comercial Village Plaza, que está en proceso de expansión. Esta cercanía no solo mejora la calidad de vida de sus residentes, sino que también garantiza una plusvalía continua en la zona, convirtiendo a Mocolí Bay en una opción altamente rentable para quienes buscan invertir en propiedades con un futuro prometedor.
 
-Residencias de Lujo:
-    - Apartamentos desde 80m² hasta 300m²
-    - Acabados de primera, incluyendo pisos de mármol y cocinas italianas
-    - Vistas panorámicas de la ciudad y el río Daule
-    - Amenidades exclusivas: piscina infinity, gimnasio, spa y sky lounge
+Precios y Disponibilidad
 
-Tecnología y Sostenibilidad:
-Samborondón City Center no solo es un proyecto de lujo, sino también un ejemplo de construcción sostenible:
-    - Certificación LEED en proceso
-    - Sistemas de ahorro energético y de agua
-    - Áreas verdes y jardines verticales que mejoran la calidad del aire
-    - Estaciones de carga para vehículos eléctricos
+Los precios de las unidades en Mocolí Bay varían según el tipo de departamento y su tamaño. Por ejemplo, un departamento de 2 dormitorios con 81 m² tiene un precio aproximado de $150,750 USD, mientras que un departamento de 3 dormitorios con 160 m² puede alcanzar los $335,452.50 USD. Cada propiedad cuenta con acabados de lujo, amplias áreas comunes y una ubicación privilegiada que promete una alta plusvalía.
 
-Oportunidad de Inversión:
-Este desarrollo representa una oportunidad única para inversores visionarios:
-    - Alto potencial de valorización
-    - Rentas atractivas para espacios comerciales y de oficinas
-    - Demanda garantizada en una de las zonas de mayor crecimiento de Ecuador
+Ubicación Estratégica y Alta Plusvalía
 
-Precios:
-    - Locales comerciales desde $3,500/m²
-    - Oficinas desde $2,800/m²
-    - Residencias desde $2,500/m²
+Una de las características más atractivas de Mocolí Bay es su ubicación en Isla Mocolí, una de las zonas más cotizadas de la provincia del Guayas. Esta área no solo ha experimentado un notable crecimiento urbanístico en los últimos años, sino que también es conocida por su seguridad y su entorno exclusivo.
 
-Samborondón City Center no es solo un lugar para vivir, trabajar o hacer negocios; es un estilo de vida, una declaración de éxito y una mirada hacia el futuro de Samborondón. No pierda la oportunidad de ser parte de este proyecto emblemático. Contáctenos hoy para obtener más información y agendar una visita personalizada a nuestro showroom.
+La urbanización, rodeada por otras áreas de alto nivel como Mónaco y Península, proporciona un ambiente tranquilo y privado, ideal para quienes buscan alejarse del bullicio de la ciudad sin sacrificar la cercanía a las principales arterias de transporte, centros comerciales y servicios de la región.
+
+5 Razones para Elegir Isla Mocolí como Tu Hogar Ideal
+
+1. Exclusividad y Seguridad: Isla Mocolí es conocida por su alto nivel de seguridad y privacidad. Las residencias en esta zona están rodeadas de naturaleza, lo que garantiza un ambiente tranquilo y libre de ruidos urbanos. Además, la seguridad de la zona está garantizada con vigilancia constante y controles de acceso, lo que permite disfrutar de una vida tranquila y sin preocupaciones.
+
+
+2. Ubicación Privilegiada: Isla Mocolí se encuentra en el corazón de Samborondón, a tan solo unos minutos de Guayaquil, lo que la convierte en un lugar ideal para aquellos que desean estar cerca de la ciudad sin renunciar a la paz y serenidad que ofrece la isla. La cercanía a centros comerciales, escuelas, hospitales y demás servicios hace de esta ubicación un punto estratégico para vivir.
+
+
+3. Alta Plusvalía: Gracias al crecimiento urbanístico de la zona, Isla Mocolí ha visto un incremento considerable en su plusvalía. Esto convierte a la zona en una excelente opción para aquellos que buscan una inversión segura y rentable, con un alto potencial de revalorización a mediano y largo plazo.
+
+
+4. Entorno Natural y Accesibilidad: A pesar de estar rodeada de áreas urbanizadas, Isla Mocolí mantiene su entorno natural, ofreciendo vistas panorámicas, acceso a áreas verdes y espacios recreativos. Además, su conectividad con las principales avenidas de Guayaquil y Samborondón permite un fácil acceso a todos los servicios necesarios.
+
+
+5. Comunidad Exclusiva y Servicios de Primera: Vivir en Isla Mocolí significa formar parte de una comunidad exclusiva, rodeada de vecinos que comparten los mismos valores de confort y calidad de vida. Además, las zonas residenciales como Mocolí Bay cuentan con amenidades de lujo, lo que convierte a esta isla en el lugar ideal para quienes buscan una vida de primer nivel.
+
+
+
+Un Proyecto Pensado para Ti
+
+Mocolí Bay es más que un simple complejo residencial; es un estilo de vida que fusiona la comodidad, la naturaleza y la exclusividad. Ya sea que busques un hogar para tu familia, un lugar para retirarte o una inversión de alto valor, este proyecto ofrece todo lo necesario para hacer realidad tu sueño.
+
+Con precios y disponibilidad que varían según el tipo de unidad, Mocolí Bay es una excelente opción para quienes desean estar al alcance de todo sin perder la privacidad y la calidad de vida.
+
+Conclusión: Un Futuro Prometedor
+
+El proyecto Mocolí Bay representa una oportunidad única para los inversionistas y compradores que buscan estar en la vanguardia de la vida urbana, sin renunciar a la serenidad que ofrece un entorno natural y exclusivo. En Isla Mocolí, los sueños de una vida de lujo y confort están a solo un paso de convertirse en realidad.
+
+Para más información sobre precios, disponibilidad y características de las propiedades, puedes contactarnos por WhatsApp o explorar más sobre el Mercado Inmobiliario tocando el botón debajo.
     `
   },
   {
