@@ -375,11 +375,11 @@ export const ARTICLES = [
   {
     id: 6,
     title: "Mocolí Bay: Lujo Frente al Río en Samborondón",
-    description: "Descubre la vida exclusiva en Mocolí Bay, un desarrollo de apartamentos de lujo con vistas panorámicas al río Daule.",
+    description: "Descubre la vida exclusiva en Mocolí Bay, un desarrollo de apartamentos de lujo con vistas panorámicas al río Babahoyo.",
     image: "https://jannethaguirre.online/mocoli-bay.jpg",
     category: "ecuador",
     slug: "mocoli-bay-apartamentos-samborondon",
-    subtitle: "Vistas Panorámicas al Río Daule",
+    subtitle: "Vistas Panorámicas al Río Babahoyo",
     importantFact: "Mocolí Bay ofrece un muelle privado para embarcaciones y acceso a las mejores amenidades.",
     fullContent: `
     Bienvenido a Mocolí Bay, la nueva joya residencial de Samborondón que redefine el lujo frente al río. Este exclusivo desarrollo de apartamentos ofrece una experiencia de vida sin precedentes, combinando la serenidad de las vistas al río Daule con la comodidad de la vida urbana moderna.
@@ -398,7 +398,7 @@ export const ARTICLES = [
     - Sistemas de domótica para control de iluminación, clima y seguridad
 
     Amenidades de Clase Mundial:
-    - Piscina infinity con vistas al río Daule
+    - Piscina infinity con vistas al río Babahoyo
     - Gimnasio completamente equipado con tecnología de punta
     - Spa y salas de masaje para relajación total
     - Salón de eventos con capacidad para grandes celebraciones
