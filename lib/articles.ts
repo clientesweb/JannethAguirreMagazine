@@ -1,3 +1,4 @@
+import Image from 'next/image';
 export const ARTICLES_VARIOS = [
   {
     id: 1,
