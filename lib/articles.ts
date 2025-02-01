@@ -754,7 +754,7 @@ Desde hace 14 años, Janneth Aguirre Bienes Raíces ha tenido el honor de comerc
 
 ## Un líder que transforma ciudades
 
-![José Solines y Janneth Aguirre](/jose-solines-janneth-aguirre.jpg)
+![https://jannethaguirre.online/jose-solines-janneth-aguirre.jpg](/jose-solines-janneth-aguirre.jpg)
 
 ## Construyendo con propósito
 
