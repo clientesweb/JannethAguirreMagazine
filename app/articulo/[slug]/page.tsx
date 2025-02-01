@@ -127,8 +127,8 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
                           <Image
                             src={paragraph.match(/$$(.*?)$$/)?.[1] || ""}
                             alt={paragraph.match(/\[(.*?)\]/)?.[1] || ""}
-                            width={800}
-                            height={600}
+                            width={1080}
+                            height={1350}
                             layout="responsive"
                             className="rounded-lg"
                           />
