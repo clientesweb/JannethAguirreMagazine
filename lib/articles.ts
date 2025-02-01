@@ -739,4 +739,88 @@ En última instancia, el PropTech tiene el potencial de democratizar el acceso a
     Boquete Pino Alto Country Club representa una oportunidad única para aquellos que buscan una vida de lujo en armonía con la naturaleza. Ya sea como residencia permanente, segunda casa o inversión, este desarrollo ofrece una combinación inigualable de comodidades modernas y belleza natural en uno de los destinos más codiciados de Panamá.
   `
   }
+ {
+id: 11,
+    title: "José Solines Aguayo: Construyendo Sueños y Transformando Samborondón",
+    description:
+      "Un vistazo a la trayectoria y visión del constructor que ha revolucionado el paisaje urbano de Samborondón y Vía a la Costa a través de proyectos innovadores y sostenibles.",
+    image: "/jose-solines-1.jpg",
+    slug: "jose-solines-aguayo-construyendo-suenos",
+    category: "ecuador",
+    subtitle: "Un legado de innovación y calidad en el sector inmobiliario",
+    importantFact:
+      "José Solines Aguayo ha desarrollado proyectos emblemáticos en Samborondón y Vía a la Costa, posicionándose como uno de los principales impulsores del crecimiento urbano en Ecuador.",
+    fullContent: `
+    Desde hace 14 años, Janneth Aguirre Bienes Raíces ha tenido el honor de comercializar los proyectos inmobiliarios de José Solines Aguayo, uno de los constructores más emblemáticos e influyentes de Ecuador. Su visión innovadora y su incansable compromiso con la calidad han sido clave para el desarrollo de Samborondón y Vía a la Costa.
+
+    <Image
+      src="/jose-solines-1.jpg"
+      alt="José Solines Aguayo"
+      width={800}
+      height={600}
+      className="w-full rounded-lg my-8"
+    />
+
+    Un líder que transforma ciudades
+
+    Con más de 14 años dentro de su desarrolladora inmobiliaria, he sido testigo de su inigualable capacidad para diseñar y ejecutar proyectos que no solo embellecen la ciudad, sino que también mejoran la calidad de vida de sus habitantes. José Solines no solo construye edificaciones; crea espacios sostenibles, modernos y funcionales. Su dedicación y pasión por su trabajo son palpables en cada obra que emprende.
+
+    <Image
+      src="/jose-solines-2.jpg"
+      alt="Proyectos inmobiliarios de José Solines"
+      width={800}
+      height={600}
+      className="w-full rounded-lg my-8"
+    />
+
+    Construyendo con propósito
+
+    "Siempre voy a invertir en Ecuador", afirma José Solines con convicción. Su compromiso con el país y su gente es innegable. A lo largo de su trayectoria, ha edificado casas, condominios y plazas comerciales, proyectos que reflejan su esencia: soluciones urbanas de calidad, diseño innovador y alto valor agregado.
+
+    <Image
+      src="/jose-solines-3.jpg"
+      alt="Proyectos desarrollados por José Solines"
+      width={800}
+      height={600}
+      className="w-full rounded-lg my-8"
+    />
+
+    Una vida de esfuerzo y dedicación
+
+    Nacido en Guayaquil, Solines recuerda con nostalgia su infancia en Urdesa y el barrio del Astillero, cuando la ciudad tenía un ritmo de vida más pausado. Su espíritu trabajador se forjó desde temprana edad. A los 7 años ya ayudaba a su padre en la venta de productos alimenticios, recorriendo cada rincón de la ciudad en su bicicleta.
+
+    <Image
+      src="/jose-solines-4.jpg"
+      alt="José Solines y sus proyectos"
+      width={800}
+      height={600}
+      className="w-full rounded-lg my-8"
+    />
+
+    Ese esfuerzo inquebrantable lo llevó a convertirse en el hombre detrás de Solines Soluciones, una firma que ha dejado huella en el sector inmobiliario. Con cada proyecto, reafirma su misión de construir más que edificios: construir sueños y transformar vidas.
+
+
+    Un futuro de grandes proyectos
+
+    Como parte de su equipo, me siento orgullosa de compartir su visión y contribuir a que más personas encuentren su hogar ideal o la inversión perfecta. El futuro de la construcción en Ecuador está en buenas manos con líderes como José Solines Aguayo.
+
+
+    Compromiso con la excelencia
+
+    La filosofía de trabajo de José Solines se basa en tres pilares fundamentales:
+
+    1. Calidad sin compromisos en cada detalle
+    2. Innovación constante en diseño y tecnología
+    3. Responsabilidad social y ambiental
+
+    Esta visión ha permitido que sus proyectos no solo destaquen por su belleza arquitectónica, sino también por su durabilidad y valor a largo plazo.
+
+
+    Legado para las futuras generaciones
+
+    El trabajo de José Solines Aguayo va más allá de la construcción de edificios; está construyendo un legado que transformará la vida de generaciones futuras. Su visión de desarrollo urbano sostenible y su compromiso con la excelencia continúan inspirando a nuevos profesionales en el sector inmobiliario.
+
+    
+    `,
+  },
 ];
