@@ -740,21 +740,12 @@ En última instancia, el PropTech tiene el potencial de democratizar el acceso a
   `
   },
   {
-    id: 11,
-    title: "José Solines Aguayo: Construyendo Sueños y Transformando Samborondón",
-    description: "Un legado de innovación y calidad en el sector inmobiliario",
-    image: "/jose-solines-main.jpg",
-    slug: "jose-solines-aguayo-construyendo-suenos",
-    category: "ecuador",
-    subtitle: "Un líder que transforma ciudades",
-    importantFact:
-      "José Solines Aguayo ha desarrollado proyectos emblemáticos en Samborondón y Vía a la Costa, posicionándose como uno de los principales impulsores del crecimiento urbano en Ecuador.",
     fullContent: `
 Desde hace 14 años, Janneth Aguirre Bienes Raíces ha tenido el honor de comercializar los proyectos inmobiliarios de José Solines Aguayo...
 
 ## Un líder que transforma ciudades
 
-![https://jannethaguirre.online/jose-solines-janneth-aguirre.jpg](/jose-solines-janneth-aguirre.jpg)
+![José Solines y Janneth Aguirre](/jose-solines-janneth-aguirre.jpg)
 
 ## Construyendo con propósito
 
