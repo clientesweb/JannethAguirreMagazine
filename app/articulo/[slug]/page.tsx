@@ -114,7 +114,15 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
                 <div className="space-y-6">
                   {article.fullContent.split("\n\n").map((paragraph, index) => (
                     <div key={index}>
-                      {paragraph.startsWith("##") ? (
+                      {paragraph.startsWith("[IMAGE:") ? (
+                        <Image
+                          src={paragraph.replace("[IMAGE:", "").replace("]", "").trim() || "/placeholder.svg"}
+                          alt={`Imagen ilustrativa ${index + 1}`}
+                          width={800}
+                          height={400}
+                          className="w-full h-auto rounded-lg shadow-md my-8"
+                        />
+                      ) : paragraph.startsWith("##") ? (
                         <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-800">
                           {paragraph.replace("##", "").trim()}
                         </h2>
