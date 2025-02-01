@@ -760,23 +760,23 @@ En última instancia, el PropTech tiene el potencial de democratizar el acceso a
 
     "Siempre voy a invertir en Ecuador", afirma José Solines con convicción. Su compromiso con el país y su gente es innegable. A lo largo de su trayectoria, ha edificado casas, condominios y plazas comerciales, proyectos que reflejan su esencia: soluciones urbanas de calidad, diseño innovador y alto valor agregado.
 
-    ![José Solines](/jose-solines-janneth-aguirre.jpg)
+    ![José Solines en una obra](/jose-solines-janneth-aguirre.jpg)
 
     ## Una vida de esfuerzo y dedicación
 
     Nacido en Guayaquil, Solines recuerda con nostalgia su infancia en Urdesa y el barrio del Astillero, cuando la ciudad tenía un ritmo de vida más pausado. Su espíritu trabajador se forjó desde temprana edad. A los 7 años ya ayudaba a su padre en la venta de productos alimenticios, recorriendo cada rincón de la ciudad en su bicicleta.
 
-    ![José Solines](/jose-solines-janneth-aguirre.jpg)
+    ![José Solines con su equipo](/jose-solines-janneth-aguirre.jpg)
 
     Ese esfuerzo inquebrantable lo llevó a convertirse en el hombre detrás de Solines Soluciones, una firma que ha dejado huella en el sector inmobiliario. Con cada proyecto, reafirma su misión de construir más que edificios: construir sueños y transformar vidas.
 
-    ![José Solines](/jose-solines-janneth-aguirre.jpg)
+    ![Proyecto emblemático de José Solines](/jose-solines-janneth-aguirre.jpg)
 
     ## Un futuro de grandes proyectos
 
     Como parte de su equipo, me siento orgullosa de compartir su visión y contribuir a que más personas encuentren su hogar ideal o la inversión perfecta. El futuro de la construcción en Ecuador está en buenas manos con líderes como José Solines Aguayo.
 
-    ![José Solines](/jose-solines-janneth-aguirre.jpg)
+    ![José Solines supervisando una construcción](/jose-solines-janneth-aguirre.jpg)
 
     José Solines Aguayo no solo ha dejado una marca indeleble en el paisaje urbano de Ecuador, sino que también ha inspirado a una nueva generación de profesionales en el sector inmobiliario. Su legado va más allá de los edificios y urbanizaciones; es un testimonio de lo que se puede lograr con visión, perseverancia y un profundo amor por el país.
 
