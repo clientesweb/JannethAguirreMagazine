@@ -744,7 +744,7 @@ En última instancia, el PropTech tiene el potencial de democratizar el acceso a
     title: "José Solines Aguayo: Construyendo Sueños y Transformando Samborondón",
     description:
       "Descubre el legado de innovación y calidad en el sector inmobiliario de uno de los constructores más emblemáticos de Ecuador.",
-    image: "/jose-solines-aguayo.jpg",
+    image: "https://jannethaguirre.online/jose-solines-aguayo.jpg",
     slug: "jose-solines-aguayo-construyendo-suenos",
     category: "ecuador",
     subtitle: "Un legado de innovación y calidad en el sector inmobiliario",
@@ -816,15 +816,16 @@ En última instancia, el PropTech tiene el potencial de democratizar el acceso a
     - Iniciativas de regeneración urbana que revitalicen áreas históricas mientras preservan su carácter único.
     - Colaboraciones con arquitectos y diseñadores internacionales para traer perspectivas frescas al mercado ecuatoriano.
 
-    ![Proyecto futuro de José Solines]
-(https://jannethaguirre.online/proyecto-futuro-solines.jpg)
+    ![Proyecto futuro de José Solines](https://jannethaguirre.online/proyecto-futuro-solines.jpg)
 
     **Conclusión**
 
     José Solines Aguayo ha demostrado que con visión, dedicación y un compromiso inquebrantable con la calidad, es posible transformar no solo el paisaje físico de una ciudad, sino también la calidad de vida de sus habitantes. Su legado en el sector inmobiliario de Ecuador es un testimonio de lo que se puede lograr cuando se combina la innovación con un profundo amor por el país y su gente.
 
     Como Janneth Aguirre, me enorgullece ser parte de este viaje transformador y continuar llevando la visión de José Solines Aguayo a nuevos clientes y proyectos. El futuro del desarrollo inmobiliario en Ecuador es brillante, y estamos emocionados por las increíbles oportunidades que están por venir.
+  `,
   },
 ]
+
 
 
