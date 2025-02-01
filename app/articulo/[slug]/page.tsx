@@ -66,6 +66,10 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
     return allArticles.filter((a) => a.slug !== article.slug && a.category === article.category).slice(0, 3)
   }, [article])
 
+  const imageLoader = ({ src }: { src: string }) => {
+    return src.startsWith("http") ? src : `/images/${src}`
+  }
+
   const renderContent = (content: string) => {
     return content.split("\n\n").map((paragraph, index) => {
       if (paragraph.startsWith("##")) {
@@ -79,7 +83,14 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
         const src = paragraph.match(/$$(.*?)$$/)?.[1] || ""
         return (
           <div key={index} className="my-6">
-            <Image src={src || "/placeholder.svg"} alt={alt} width={800} height={600} className="rounded-lg" />
+            <Image
+              loader={imageLoader}
+              src={src || "/placeholder.svg"}
+              alt={alt}
+              width={800}
+              height={600}
+              className="rounded-lg"
+            />
           </div>
         )
       } else {
