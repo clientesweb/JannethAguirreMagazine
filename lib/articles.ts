@@ -738,8 +738,8 @@ En última instancia, el PropTech tiene el potencial de democratizar el acceso a
 
     Boquete Pino Alto Country Club representa una oportunidad única para aquellos que buscan una vida de lujo en armonía con la naturaleza. Ya sea como residencia permanente, segunda casa o inversión, este desarrollo ofrece una combinación inigualable de comodidades modernas y belleza natural en uno de los destinos más codiciados de Panamá.
   `
-  }
-{
+  },
+  {
     id: 11,
     title: "José Solines Aguayo: Construyendo Sueños y Transformando Samborondón",
     description:
