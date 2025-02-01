@@ -126,7 +126,7 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
                         <div key={index} className="my-8">
                           <Image
                             src={`https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot_20250201-183353-R5NfxVYpcV6daf1vsUljMnUqA0pc4M.png`}
-                            alt={paragraph.match(/\[(.*?)\]/)?.[1] || ""}
+                            alt="José Solines supervisando una obra"
                             width={1080}
                             height={1350}
                             className="rounded-lg w-full"
