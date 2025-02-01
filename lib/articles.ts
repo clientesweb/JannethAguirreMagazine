@@ -751,44 +751,49 @@ En última instancia, el PropTech tiene el potencial de democratizar el acceso a
     importantFact:
       "José Solines Aguayo ha desarrollado proyectos emblemáticos en Samborondón y Vía a la Costa, posicionándose como uno de los principales impulsores del crecimiento urbano en Ecuador.",
     fullContent: `
-    ## Un líder que transforma ciudades
+  ## Un legado de innovación y calidad en el sector inmobiliario
 
-    Desde hace 14 años, Janneth Aguirre Bienes Raíces ha tenido el honor de comercializar los proyectos inmobiliarios de José Solines Aguayo, uno de los constructores más emblemáticos e influyentes de Ecuador. Su visión innovadora y su incansable compromiso con la calidad han sido clave para el desarrollo de Samborondón y Vía a la Costa.
+  Desde hace 14 años, Janneth Aguirre Bienes Raíces ha tenido el honor de comercializar los proyectos inmobiliarios de José Solines Aguayo, uno de los constructores más emblemáticos e influyentes de Ecuador. Su visión innovadora y su incansable compromiso con la calidad han sido clave para el desarrollo de Samborondón y Vía a la Costa.
 
+  ## Un líder que transforma ciudades
 
-    ## Construyendo con propósito
+  Con más de 14 años dentro de su desarrolladora inmobiliaria, he sido testigo de su inigualable capacidad para diseñar y ejecutar proyectos que no solo embellecen la ciudad, sino que también mejoran la calidad de vida de sus habitantes. José Solines no solo construye edificaciones; crea espacios sostenibles, modernos y funcionales. Su dedicación y pasión por su trabajo son palpables en cada obra que emprende.
 
-    "Siempre voy a invertir en Ecuador", afirma José Solines con convicción. Su compromiso con el país y su gente es innegable. A lo largo de su trayectoria, ha edificado casas, condominios y plazas comerciales, proyectos que reflejan su esencia: soluciones urbanas de calidad, diseño innovador y alto valor agregado.
+  ![José Solines supervisando una obra](/jose-solines-janneth-aguirre.jpg)
 
-    ![José Solines en una obra](/jose-solines-janneth-aguirre.jpg)
+  ## Construyendo con propósito
 
-    ## Una vida de esfuerzo y dedicación
+  "Siempre voy a invertir en Ecuador", afirma José Solines con convicción. Su compromiso con el país y su gente es innegable. A lo largo de su trayectoria, ha edificado casas, condominios y plazas comerciales, proyectos que reflejan su esencia: soluciones urbanas de calidad, diseño innovador y alto valor agregado.
 
-    Nacido en Guayaquil, Solines recuerda con nostalgia su infancia en Urdesa y el barrio del Astillero, cuando la ciudad tenía un ritmo de vida más pausado. Su espíritu trabajador se forjó desde temprana edad. A los 7 años ya ayudaba a su padre en la venta de productos alimenticios, recorriendo cada rincón de la ciudad en su bicicleta.
+  ![Proyecto emblemático de José Solines](/jose-solines-janneth-aguirre.jpg)
 
-    ![José Solines con su equipo](/jose-solines-janneth-aguirre.jpg)
+  ## Una vida de esfuerzo y dedicación
 
-    Ese esfuerzo inquebrantable lo llevó a convertirse en el hombre detrás de Solines Soluciones, una firma que ha dejado huella en el sector inmobiliario. Con cada proyecto, reafirma su misión de construir más que edificios: construir sueños y transformar vidas.
+  Nacido en Guayaquil, Solines recuerda con nostalgia su infancia en Urdesa y el barrio del Astillero, cuando la ciudad tenía un ritmo de vida más pausado. Su espíritu trabajador se forjó desde temprana edad. A los 7 años ya ayudaba a su padre en la venta de productos alimenticios, recorriendo cada rincón de la ciudad en su bicicleta.
 
-    ![Proyecto emblemático de José Solines](/jose-solines-janneth-aguirre.jpg)
+  ![José Solines en su juventud](/jose-solines-janneth-aguirre.jpg)
 
-    ## Un futuro de grandes proyectos
+  Ese esfuerzo inquebrantable lo llevó a convertirse en el hombre detrás de Solines Soluciones, una firma que ha dejado huella en el sector inmobiliario. Con cada proyecto, reafirma su misión de construir más que edificios: construir sueños y transformar vidas.
 
-    Como parte de su equipo, me siento orgullosa de compartir su visión y contribuir a que más personas encuentren su hogar ideal o la inversión perfecta. El futuro de la construcción en Ecuador está en buenas manos con líderes como José Solines Aguayo.
+  ![Oficinas de Solines Soluciones](/jose-solines-janneth-aguirre.jpg)
 
-    ![José Solines supervisando una construcción](/jose-solines-janneth-aguirre.jpg)
+  ## Un futuro de grandes proyectos
 
-    José Solines Aguayo no solo ha dejado una marca indeleble en el paisaje urbano de Ecuador, sino que también ha inspirado a una nueva generación de profesionales en el sector inmobiliario. Su legado va más allá de los edificios y urbanizaciones; es un testimonio de lo que se puede lograr con visión, perseverancia y un profundo amor por el país.
+  Como parte de su equipo, me siento orgullosa de compartir su visión y contribuir a que más personas encuentren su hogar ideal o la inversión perfecta. El futuro de la construcción en Ecuador está en buenas manos con líderes como José Solines Aguayo.
 
-    A medida que Samborondón y Vía a la Costa continúan su crecimiento vertiginoso, los proyectos de Solines se destacan como ejemplos de desarrollo sostenible y diseño vanguardista. Cada nueva construcción no es solo una estructura más en el horizonte, sino una pieza cuidadosamente planificada en el gran rompecabezas del desarrollo urbano.
+  ![José Solines con su equipo](/jose-solines-janneth-aguirre.jpg)
 
-    El impacto de José Solines en la industria de la construcción en Ecuador es innegable. Ha establecido nuevos estándares de calidad, innovación y responsabilidad social corporativa. Sus proyectos no solo cumplen con las expectativas de los clientes más exigentes, sino que también contribuyen al bienestar general de la comunidad, creando espacios que fomentan la interacción social y el crecimiento económico.
+  José Solines Aguayo no solo ha dejado una marca indeleble en el paisaje urbano de Ecuador, sino que también ha inspirado a una nueva generación de profesionales en el sector inmobiliario. Su legado va más allá de los edificios y urbanizaciones; es un testimonio de lo que se puede lograr con visión, perseverancia y un profundo amor por el país.
 
-    Mirando hacia el futuro, José Solines Aguayo continúa siendo una fuerza impulsora en el sector inmobiliario ecuatoriano. Su compromiso con la excelencia y su visión a largo plazo prometen seguir transformando el paisaje urbano del país, creando oportunidades de inversión valiosas y mejorando la calidad de vida de los ecuatorianos.
+  A medida que Samborondón y Vía a la Costa continúan su crecimiento vertiginoso, los proyectos de Solines se destacan como ejemplos de desarrollo sostenible y diseño vanguardista. Cada nueva construcción no es solo una estructura más en el horizonte, sino una pieza cuidadosamente planificada en el gran rompecabezas del desarrollo urbano.
 
-    Para aquellos que buscan invertir en bienes raíces en Ecuador, los proyectos de José Solines representan una opción segura y prometedora. Con su reputación de entregar proyectos de alta calidad y su profundo conocimiento del mercado local, Solines continúa siendo un nombre en el que los inversores pueden confiar.
+  El impacto de José Solines en la industria de la construcción en Ecuador es innegable. Ha establecido nuevos estándares de calidad, innovación y responsabilidad social corporativa. Sus proyectos no solo cumplen con las expectativas de los clientes más exigentes, sino que también contribuyen al bienestar general de la comunidad, creando espacios que fomentan la interacción social y el crecimiento económico.
 
-    En Janneth Aguirre Bienes Raíces, nos enorgullece ser parte de esta historia de éxito y seguiremos trabajando de cerca con José Solines Aguayo para llevar sus extraordinarios proyectos a aquellos que buscan no solo un lugar para vivir, sino un hogar para prosperar.
+  Mirando hacia el futuro, José Solines Aguayo continúa siendo una fuerza impulsora en el sector inmobiliario ecuatoriano. Su compromiso con la excelencia y su visión a largo plazo prometen seguir transformando el paisaje urbano del país, creando oportunidades de inversión valiosas y mejorando la calidad de vida de los ecuatorianos.
+
+  Para aquellos que buscan invertir en bienes raíces en Ecuador, los proyectos de José Solines representan una opción segura y prometedora. Con su reputación de entregar proyectos de alta calidad y su profundo conocimiento del mercado local, Solines continúa siendo un nombre en el que los inversores pueden confiar.
+
+  En Janneth Aguirre Bienes Raíces, nos enorgullece ser parte de esta historia de éxito y seguiremos trabajando de cerca con José Solines Aguayo para llevar sus extraordinarios proyectos a aquellos que buscan no solo un lugar para vivir, sino un hogar para prosperar.
   `,
   },
 ]
