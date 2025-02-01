@@ -739,5 +739,91 @@ En última instancia, el PropTech tiene el potencial de democratizar el acceso a
     Boquete Pino Alto Country Club representa una oportunidad única para aquellos que buscan una vida de lujo en armonía con la naturaleza. Ya sea como residencia permanente, segunda casa o inversión, este desarrollo ofrece una combinación inigualable de comodidades modernas y belleza natural en uno de los destinos más codiciados de Panamá.
   `
   }
-];
+ {
+  id: 11,
+    title: "José Solines Aguayo: Construyendo Sueños y Transformando Samborondón",
+    description:
+      "Descubre el legado de innovación y calidad en el sector inmobiliario de uno de los constructores más emblemáticos de Ecuador.",
+    image: "/jose-solines-aguayo.jpg",
+    slug: "jose-solines-aguayo-construyendo-suenos",
+    category: "ecuador",
+    subtitle: "Un legado de innovación y calidad en el sector inmobiliario",
+    importantFact:
+      "José Solines Aguayo ha desarrollado proyectos emblemáticos en Samborondón y Vía a la Costa, posicionándose como uno de los principales impulsores del crecimiento urbano en Ecuador.",
+    fullContent: `
+    **José Solines Aguayo: Construyendo Sueños y Transformando Samborondón**
+
+    Desde hace 14 años, Janneth Aguirre Bienes Raíces ha tenido el honor de comercializar los proyectos inmobiliarios de José Solines Aguayo, uno de los constructores más emblemáticos e influyentes de Ecuador. Su visión innovadora y su incansable compromiso con la calidad han sido clave para el desarrollo de Samborondón y Vía a la Costa.
+
+    **Un líder que transforma ciudades**
+
+    Con más de 14 años dentro de su desarrolladora inmobiliaria, he sido testigo de su inigualable capacidad para diseñar y ejecutar proyectos que no solo embellecen la ciudad, sino que también mejoran la calidad de vida de sus habitantes. José Solines no solo construye edificaciones; crea espacios sostenibles, modernos y funcionales. Su dedicación y pasión por su trabajo son palpables en cada obra que emprende.
+
+    ![José Solines con Janneth Aguirre](https://jannethaguirre.online/jose-solines-janneth-aguirre.jpg)
+
+    **Construyendo con propósito**
+
+    "Siempre voy a invertir en Ecuador", afirma José Solines con convicción. Su compromiso con el país y su gente es innegable. A lo largo de su trayectoria, ha edificado casas, condominios y plazas comerciales, proyectos que reflejan su esencia: soluciones urbanas de calidad, diseño innovador y alto valor agregado.
+
+    ![Proyectos inmobiliarios de José Solines](https://jannethaguirre.online/proyectos-inmobiliarios-solines.jpg)
+
+    **Una vida de esfuerzo y dedicación**
+
+    Nacido en Guayaquil, Solines recuerda con nostalgia su infancia en Urdesa y el barrio del Astillero, cuando la ciudad tenía un ritmo de vida más pausado. Su espíritu trabajador se forjó desde temprana edad. A los 7 años ya ayudaba a su padre en la venta de productos alimenticios, recorriendo cada rincón de la ciudad en su bicicleta.
+
+    ![Proyectos emblemáticos de José Solines](https://jannethaguirre.online/proyectos-emblematicos-solines.jpg)
+
+    Ese esfuerzo inquebrantable lo llevó a convertirse en el hombre detrás de Solines Soluciones, una firma que ha dejado huella en el sector inmobiliario. Con cada proyecto, reafirma su misión de construir más que edificios: construir sueños y transformar vidas.
+
+    ![Obra en curso de José Solines](https://jannethaguirre.online/obra-en-curso-solines.jpg)
+
+    **Proyectos emblemáticos**
+
+    Entre los proyectos más destacados de José Solines Aguayo se encuentran:
+
+    1. **Urbanización Al Sol**: Un desarrollo residencial de lujo que combina la comodidad moderna con la belleza natural de Samborondón. Este proyecto incluye amplias áreas verdes, instalaciones deportivas de primer nivel y un diseño arquitectónico que maximiza la luz natural y las vistas panorámicas.
+
+    2. **Plaza Comercial La Costa**: Un innovador centro comercial en Vía a la Costa que no solo ofrece una experiencia de compra excepcional, sino que también se integra armoniosamente con el entorno natural de la zona. El diseño sostenible del proyecto incluye sistemas de ahorro de energía y agua, así como amplios espacios verdes.
+
+    3. **Condominio Riverside**: Un complejo residencial de alta gama ubicado a orillas del río Daule. Este proyecto se destaca por su diseño vanguardista, sus amplias terrazas con vistas al río y sus amenidades de lujo, incluyendo un muelle privado y áreas de recreación exclusivas.
+
+    4. **Torres Empresariales Solines**: Un conjunto de edificios de oficinas que ha redefinido el skyline de Samborondón. Estas torres no solo ofrecen espacios de trabajo modernos y flexibles, sino que también incorporan tecnología de punta en eficiencia energética y conectividad.
+
+    **Innovación y sostenibilidad**
+
+    Lo que distingue a los proyectos de José Solines Aguayo es su compromiso con la innovación y la sostenibilidad. Cada desarrollo incorpora:
+
+    - Tecnologías de construcción de vanguardia que minimizan el impacto ambiental
+    - Diseños que maximizan la eficiencia energética y el uso de recursos naturales
+    - Integración de espacios verdes y áreas comunes que fomentan un estilo de vida saludable
+    - Soluciones inteligentes que mejoran la calidad de vida de los residentes
+
+    **Impacto en la comunidad**
+
+    Más allá de la construcción física, los proyectos de José Solines Aguayo han tenido un impacto significativo en las comunidades donde se desarrollan:
+
+    - Generación de empleo: Cada proyecto crea numerosas oportunidades de trabajo, desde la fase de construcción hasta la operación continua de los desarrollos.
+    - Revalorización de zonas: Sus desarrollos han contribuido a la apreciación del valor de las propiedades en las áreas circundantes.
+    - Mejora de infraestructura: Muchos proyectos han incluido mejoras en la infraestructura pública, beneficiando a toda la comunidad.
+    - Fomento del desarrollo económico: Los centros comerciales y áreas de oficinas han atraído nuevos negocios y oportunidades económicas a las zonas donde se ubican.
+
+    **Visión de futuro**
+
+    José Solines Aguayo continúa mirando hacia el futuro, con planes para proyectos aún más ambiciosos que seguirán transformando el paisaje urbano de Ecuador. Su visión incluye:
+
+    - Desarrollos de uso mixto que integren vivienda, trabajo y recreación en comunidades autosuficientes.
+    - Proyectos que incorporen las últimas tecnologías en domótica y ciudades inteligentes.
+    - Iniciativas de regeneración urbana que revitalicen áreas históricas mientras preservan su carácter único.
+    - Colaboraciones con arquitectos y diseñadores internacionales para traer perspectivas frescas al mercado ecuatoriano.
+
+    ![Proyecto futuro de José Solines](https://jannethaguirre.online/proyecto-futuro-solines.jpg)
+
+    **Conclusión**
+
+    José Solines Aguayo ha demostrado que con visión, dedicación y un compromiso inquebrantable con la calidad, es posible transformar no solo el paisaje físico de una ciudad, sino también la calidad de vida de sus habitantes. Su legado en el sector inmobiliario de Ecuador es un testimonio de lo que se puede lograr cuando se combina la innovación con un profundo amor por el país y su gente.
+
+    Como Janneth Aguirre, me enorgullece ser parte de este viaje transformador y continuar llevando la visión de José Solines Aguayo a nuevos clientes y proyectos. El futuro del desarrollo inmobiliario en Ecuador es brillante, y estamos emocionados por las increíbles oportunidades que están por venir.
+  },
+]
+
 
