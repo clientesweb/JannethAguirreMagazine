@@ -825,7 +825,7 @@ En última instancia, el PropTech tiene el potencial de democratizar el acceso a
     Como Janneth Aguirre, me enorgullece ser parte de este viaje transformador y continuar llevando la visión de José Solines Aguayo a nuevos clientes y proyectos. El futuro del desarrollo inmobiliario en Ecuador es brillante, y estamos emocionados por las increíbles oportunidades que están por venir.
   `,
   },
-]
+];
 
 
 
