@@ -816,7 +816,8 @@ En última instancia, el PropTech tiene el potencial de democratizar el acceso a
     - Iniciativas de regeneración urbana que revitalicen áreas históricas mientras preservan su carácter único.
     - Colaboraciones con arquitectos y diseñadores internacionales para traer perspectivas frescas al mercado ecuatoriano.
 
-    ![Proyecto futuro de José Solines](https://jannethaguirre.online/proyecto-futuro-solines.jpg)
+    ![Proyecto futuro de José Solines]
+(https://jannethaguirre.online/proyecto-futuro-solines.jpg)
 
     **Conclusión**
 
