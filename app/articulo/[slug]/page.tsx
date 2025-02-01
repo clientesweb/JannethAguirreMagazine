@@ -122,6 +122,17 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
                         <h3 className="text-xl font-semibold mt-6 mb-3 text-gray-700">
                           {paragraph.replace("#", "").trim()}
                         </h3>
+                      ) : paragraph.startsWith("![") ? (
+                        <div className="my-4">
+                          <Image
+                            src={paragraph.match(/$$(.*?)$$/)?.[1] || ""}
+                            alt={paragraph.match(/\[(.*?)\]/)?.[1] || ""}
+                            width={800}
+                            height={600}
+                            layout="responsive"
+                            className="rounded-lg"
+                          />
+                        </div>
                       ) : (
                         <p className="text-gray-600 leading-relaxed">
                           {paragraph.split("**").map((part, i) =>
