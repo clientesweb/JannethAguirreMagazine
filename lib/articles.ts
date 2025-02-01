@@ -740,7 +740,7 @@ En última instancia, el PropTech tiene el potencial de democratizar el acceso a
   `
   }
  {
-    id: 11,
+  id: 11,
     title: "José Solines Aguayo: Construyendo Sueños y Transformando Samborondón",
     description:
       "Un legado de innovación y calidad en el sector inmobiliario ecuatoriano, liderado por José Solines Aguayo y comercializado por Janneth Aguirre Bienes Raíces.",
