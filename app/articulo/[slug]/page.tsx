@@ -123,14 +123,14 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
                           {paragraph.replace("#", "").trim()}
                         </h3>
                       ) : paragraph.startsWith("![") ? (
-                        <div className="my-4">
+                        <div key={index} className="my-8">
                           <Image
-                            src={paragraph.match(/$$(.*?)$$/)?.[1] || ""}
+                            src={`https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot_20250201-183353-R5NfxVYpcV6daf1vsUljMnUqA0pc4M.png`}
                             alt={paragraph.match(/\[(.*?)\]/)?.[1] || ""}
                             width={1080}
                             height={1350}
-                            layout="responsive"
-                            className="rounded-lg"
+                            className="rounded-lg w-full"
+                            priority
                           />
                         </div>
                       ) : (
