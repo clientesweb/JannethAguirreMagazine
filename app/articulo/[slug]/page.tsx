@@ -36,11 +36,9 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
 
   const images = [
     article.image,
-    "/jose-solines-janneth-aguirre.jpg",
-    "/proyectos-inmobiliarios.jpg",
-    "/proyectos.jpg",
-    "/obra-en-curso.jpg",
-    "/equipo.jpg",
+    "https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&q=80&w=1600",
+    "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=1600",
+    "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=80&w=1600",
   ]
 
   const nextImage = () => {
@@ -67,31 +65,6 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
     const allArticles = [...ARTICLES, ...ARTICLES_VARIOS]
     return allArticles.filter((a) => a.slug !== article.slug && a.category === article.category).slice(0, 3)
   }, [article])
-
-  const renderContent = (content: string) => {
-    const parts = content.split(/(\[.*?\])/)
-    return parts.map((part, index) => {
-      if (part.match(/\[.*?\]/)) {
-        const imageName = part.replace(/\[|\]/g, "")
-        return (
-          <div key={index} className="my-8">
-            <Image
-              src={`/${imageName}.jpg`}
-              alt={imageName.replace(/-/g, " ")}
-              width={800}
-              height={600}
-              className="rounded-lg shadow-lg"
-            />
-          </div>
-        )
-      }
-      return (
-        <p key={index} className="text-gray-600 leading-relaxed mb-4">
-          {part}
-        </p>
-      )
-    })
-  }
 
   return (
     <>
@@ -150,7 +123,17 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
                           {paragraph.replace("#", "").trim()}
                         </h3>
                       ) : (
-                        renderContent(paragraph)
+                        <p className="text-gray-600 leading-relaxed">
+                          {paragraph.split("**").map((part, i) =>
+                            i % 2 === 0 ? (
+                              part
+                            ) : (
+                              <strong key={i} className="font-bold">
+                                {part}
+                              </strong>
+                            ),
+                          )}
+                        </p>
                       )}
                       {index === 4 && article.importantFact && (
                         <blockquote className="border-l-4 border-[#FF0000] pl-4 italic my-6 text-gray-700">
