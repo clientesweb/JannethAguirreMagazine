@@ -66,43 +66,6 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
     return allArticles.filter((a) => a.slug !== article.slug && a.category === article.category).slice(0, 3)
   }, [article])
 
-  const imageLoader = ({ src }: { src: string }) => {
-    return src.startsWith("http") ? src : `/images/${src}`
-  }
-
-  const renderContent = (content: string) => {
-    return content.split("\n\n").map((paragraph, index) => {
-      if (paragraph.startsWith("##")) {
-        return (
-          <h2 key={index} className="text-2xl font-bold mt-8 mb-4 text-gray-800">
-            {paragraph.replace("##", "").trim()}
-          </h2>
-        )
-      } else if (paragraph.startsWith("![")) {
-        const alt = paragraph.match(/\[(.*?)\]/)?.[1] || ""
-        const src = paragraph.match(/$$(.*?)$$/)?.[1] || ""
-        return (
-          <div key={index} className="my-6">
-            <Image
-              loader={imageLoader}
-              src={src || "/placeholder.svg"}
-              alt={alt}
-              width={800}
-              height={600}
-              className="rounded-lg"
-            />
-          </div>
-        )
-      } else {
-        return (
-          <p key={index} className="text-gray-600 leading-relaxed mb-4">
-            {paragraph}
-          </p>
-        )
-      }
-    })
-  }
-
   return (
     <>
       <Header />
@@ -148,15 +111,40 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
             <div className="prose prose-lg max-w-none">
               {article.subtitle && <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-800">{article.subtitle}</h2>}
               {article.fullContent ? (
-                <div className="space-y-6">{renderContent(article.fullContent)}</div>
+                <div className="space-y-6">
+                  {article.fullContent.split("\n\n").map((paragraph, index) => (
+                    <div key={index}>
+                      {paragraph.startsWith("##") ? (
+                        <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-800">
+                          {paragraph.replace("##", "").trim()}
+                        </h2>
+                      ) : paragraph.startsWith("#") ? (
+                        <h3 className="text-xl font-semibold mt-6 mb-3 text-gray-700">
+                          {paragraph.replace("#", "").trim()}
+                        </h3>
+                      ) : (
+                        <p className="text-gray-600 leading-relaxed">
+                          {paragraph.split("**").map((part, i) =>
+                            i % 2 === 0 ? (
+                              part
+                            ) : (
+                              <strong key={i} className="font-bold">
+                                {part}
+                              </strong>
+                            ),
+                          )}
+                        </p>
+                      )}
+                      {index === 4 && article.importantFact && (
+                        <blockquote className="border-l-4 border-[#FF0000] pl-4 italic my-6 text-gray-700">
+                          Dato importante: {article.importantFact}
+                        </blockquote>
+                      )}
+                    </div>
+                  ))}
+                </div>
               ) : (
                 <p>No se ha encontrado contenido detallado para este artículo.</p>
-              )}
-
-              {article.importantFact && (
-                <blockquote className="border-l-4 border-[#FF0000] pl-4 italic my-6 text-gray-700">
-                  Dato importante: {article.importantFact}
-                </blockquote>
               )}
 
               <div className="flex flex-wrap justify-center gap-4 my-8">
