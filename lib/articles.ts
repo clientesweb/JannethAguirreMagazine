@@ -756,7 +756,7 @@ En última instancia, el PropTech tiene el potencial de democratizar el acceso a
 
     Con más de 14 años dentro de su desarrolladora inmobiliaria, he sido testigo de su inigualable capacidad para diseñar y ejecutar proyectos que no solo embellecen la ciudad, sino que también mejoran la calidad de vida de sus habitantes. José Solines no solo construye edificaciones; crea espacios sostenibles, modernos y funcionales. Su dedicación y pasión por su trabajo son palpables en cada obra que emprende.
 
-    ![José Solines](/jose-solines-janneth-aguirre.jpg)
+    [José Solines](/jose-solines-janneth-aguirre.jpg)
 
     ## Construyendo con propósito
 
