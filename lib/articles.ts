@@ -782,7 +782,6 @@ En última instancia, el PropTech tiene el potencial de democratizar el acceso a
     ![Equipo de José Solines](/equipo-solines.jpg)
 
     José Solines Aguayo continúa dejando una huella imborrable en el paisaje urbano de Ecuador, y su legado de excelencia e innovación seguirá inspirando a futuras generaciones de constructores y desarrolladores inmobiliarios.
-  `,
   },
 ]
 
