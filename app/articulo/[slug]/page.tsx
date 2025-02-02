@@ -112,7 +112,7 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
               {article.subtitle && <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-800">{article.subtitle}</h2>}
               {article.fullContent ? (
                 <div className="space-y-6">
-                  {article.fullContent.split("\n\n").map((paragraph, index) => (
+                  {article.fullContent.split("\n\n").map((paragraph, index, array) => (
                     <div key={index}>
                       {paragraph.trim().startsWith("[IMAGE:") ? (
                         <div className="my-8">
@@ -129,10 +129,6 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
                         <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-800">
                           {paragraph.replace(/^\*\*|\*\*$/g, "").trim()}
                         </h2>
-                      ) : paragraph.includes("Dato importante:") ? (
-                        <blockquote className="border-l-4 border-[#FF0000] pl-4 italic my-6 text-gray-700">
-                          {paragraph}
-                        </blockquote>
                       ) : (
                         <p className="text-gray-600 leading-relaxed">
                           {paragraph.split("**").map((part, i) =>
@@ -146,6 +142,11 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
                           )}
                         </p>
                       )}
+                      {index === Math.floor(array.length / 2) && article.importantFact && (
+                        <blockquote className="border-l-4 border-[#FF0000] pl-4 italic my-6 text-gray-700">
+                          Dato importante: {article.importantFact}
+                        </blockquote>
+                      )}
                     </div>
                   ))}
                 </div>
@@ -153,11 +154,13 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
                 <p>No se ha encontrado contenido detallado para este artículo.</p>
               )}
 
+              {/* Eliminar este bloque
               {article.importantFact && (
                 <blockquote className="border-l-4 border-[#FF0000] pl-4 italic my-6 text-gray-700">
                   Dato importante: {article.importantFact}
                 </blockquote>
               )}
+              */}
 
               <div className="flex flex-wrap justify-center gap-4 my-8">
                 <Button
