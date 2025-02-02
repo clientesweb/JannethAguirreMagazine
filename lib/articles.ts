@@ -785,7 +785,7 @@ Como parte de su equipo, me siento orgullosa de compartir su visión y contribui
     title: "La Domotización en Bienes Raíces: Transformando Espacios para el Futuro",
     description: "La domotización revoluciona el mercado inmobiliario, mejorando eficiencia, seguridad y confort. Descubre su impacto y las oportunidades que ofrece.",
     image: "/juan-solano-aguirre.jpg",
-    slug: "la-domotizacion-en-bienes-raices-por-juan-solano-aguirre",
+    slug: "la-domotizacion-en-bienes-raices-por-juan-carlos-solano-aguirre",
     category: "tecnología",
     subtitle: "Cómo la tecnología redefine el confort y la eficiencia en el sector inmobiliario",
     importantFact: "Según un estudio de Statista, se estima que el mercado global de hogares inteligentes alcanzará los $231 mil millones para 2028, impulsado por la creciente demanda de eficiencia energética, seguridad y automatización en bienes raíces.",
