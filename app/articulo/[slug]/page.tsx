@@ -114,7 +114,7 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
                 <div className="space-y-6">
                   {article.fullContent.split("\n\n").map((paragraph, index) => (
                     <div key={index}>
-                      {paragraph.startsWith("[IMAGE:") ? (
+                      {paragraph.trim().startsWith("[IMAGE:") ? (
                         <div className="my-8">
                           <Image
                             src={paragraph.replace("[IMAGE:", "").replace("]", "").trim() || "/placeholder.svg"}
@@ -134,22 +134,7 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
                           {paragraph.replace("#", "").trim()}
                         </h3>
                       ) : (
-                        <p className="text-gray-600 leading-relaxed">
-                          {paragraph.split("**").map((part, i) =>
-                            i % 2 === 0 ? (
-                              part
-                            ) : (
-                              <strong key={i} className="font-bold">
-                                {part}
-                              </strong>
-                            ),
-                          )}
-                        </p>
-                      )}
-                      {index === 4 && article.importantFact && (
-                        <blockquote className="border-l-4 border-[#FF0000] pl-4 italic my-6 text-gray-700">
-                          Dato importante: {article.importantFact}
-                        </blockquote>
+                        <p className="text-gray-600 leading-relaxed">{paragraph}</p>
                       )}
                     </div>
                   ))}
