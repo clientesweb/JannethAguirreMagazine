@@ -741,73 +741,43 @@ En última instancia, el PropTech tiene el potencial de democratizar el acceso a
   },
   {
   id: 11,
-    title: "El Renacimiento de la Arquitectura Colonial en Cuenca",
-    description:
-      "Descubre cómo Cuenca está reviviendo su herencia colonial con proyectos de restauración y nuevas construcciones que honran el pasado.",
-    image:
-      "https://images.unsplash.com/photo-1624294095560-8a7eb3a2c2b6?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
-    slug: "renacimiento-arquitectura-colonial-cuenca",
+    title: "José Solines Aguayo: Construyendo Sueños y Transformando Samborondón",
+    description: "Descubre la historia de uno de los constructores más emblemáticos e influyentes de Ecuador y su impacto en el desarrollo de Samborondón y Vía a la Costa.",
+    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
+    slug: "jose-solines-aguayo-construyendo-suenos",
     category: "ecuador",
-    subtitle: "Cuenca: Donde el Pasado y el Presente se Encuentran",
-    importantFact:
-      "El 70% de los edificios en el centro histórico de Cuenca han sido restaurados en los últimos 10 años.",
+    subtitle: "Un legado de innovación y calidad en el sector inmobiliario",
+    importantFact: "José Solines Aguayo ha desarrollado proyectos emblemáticos en Samborondón y Vía a la Costa, posicionándose como uno de los principales impulsores del crecimiento urbano en Ecuador.",
     fullContent: `
-    Cuenca, la joya de la corona del patrimonio ecuatoriano, está experimentando un renacimiento arquitectónico que fusiona magistralmente su rico pasado colonial con las necesidades y estéticas del siglo XXI. Este movimiento no solo está preservando la historia, sino que también está creando un nuevo capítulo en la narrativa arquitectónica de la ciudad.
+  Desde hace 14 años, Janneth Aguirre Bienes Raíces ha tenido el honor de comercializar los proyectos inmobiliarios de José Solines Aguayo, uno de los constructores más emblemáticos e influyentes de Ecuador. Su visión innovadora y su incansable compromiso con la calidad han sido clave para el desarrollo de Samborondón y Vía a la Costa.
 
-    [IMAGE:https://jannethaguirre.online/jose-solines-janneth-aguirre.jpg]
+  **Un líder que transforma ciudades**
 
-    ## La Restauración como Arte
+  Con más de 14 años dentro de su desarrolladora inmobiliaria, he sido testigo de su inigualable capacidad para diseñar y ejecutar proyectos que no solo embellecen la ciudad, sino que también mejoran la calidad de vida de sus habitantes. José Solines no solo construye edificaciones; crea espacios sostenibles, modernos y funcionales. Su dedicación y pasión por su trabajo son palpables en cada obra que emprende.
 
-    En el corazón de este renacimiento está un compromiso inquebrantable con la restauración meticulosa. Equipos de artesanos y conservadores están trabajando incansablemente para devolver el esplendor a fachadas centenarias, utilizando técnicas tradicionales combinadas con tecnología moderna.
+  [IMAGE:https://images.unsplash.com/photo-1560179707-f14e90ef3623?auto=format&fit=crop&q=80&w=2073&ixlib=rb-4.0.3]
 
-    - La Casa de las Posadas, uno de los edificios más antiguos de Cuenca, ha sido transformada en un museo viviente de técnicas de construcción colonial.
-    - El Monasterio de las Conceptas, con su imponente fachada blanca, ahora alberga un centro cultural que fusiona arte contemporáneo con artefactos históricos.
+  **Construyendo con propósito**
 
-    [IMAGE:https://images.unsplash.com/photo-1624294096161-39ce2e5f2461?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3]
+  "Siempre voy a invertir en Ecuador", afirma José Solines con convicción. Su compromiso con el país y su gente es innegable. A lo largo de su trayectoria, ha edificado casas, condominios y plazas comerciales, proyectos que reflejan su esencia: soluciones urbanas de calidad, diseño innovador y alto valor agregado.
 
-    ## Nuevas Construcciones, Antiguas Inspiraciones
+  [IMAGE:https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3]
 
-    Lo verdaderamente revolucionario es cómo los arquitectos contemporáneos están incorporando elementos coloniales en nuevas construcciones:
+  **Una vida de esfuerzo y dedicación**
 
-    1. Uso de materiales tradicionales: Adobe, madera y tejas se combinan con acero y vidrio en diseños innovadores.
-    2. Patios interiores: Los nuevos edificios de apartamentos incorporan patios centrales, reminiscentes de las casas coloniales.
-    3. Balcones ornamentados: Las fachadas modernas se adornan con balcones de hierro forjado, un guiño a la estética colonial.
+  Nacido en Guayaquil, Solines recuerda con nostalgia su infancia en Urdesa y el barrio del Astillero, cuando la ciudad tenía un ritmo de vida más pausado. Su espíritu trabajador se forjó desde temprana edad. A los 7 años ya ayudaba a su padre en la venta de productos alimenticios, recorriendo cada rincón de la ciudad en su bicicleta.
 
-    [IMAGE:https://images.unsplash.com/photo-1624294096142-72f7a2c65d04?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3]
+  [IMAGE:https://images.unsplash.com/photo-1488972685288-c3fd157d7c7a?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3]
 
-    ## Sostenibilidad y Tradición
+  Ese esfuerzo inquebrantable lo llevó a convertirse en el hombre detrás de Solines Soluciones, una firma que ha dejado huella en el sector inmobiliario. Con cada proyecto, reafirma su misión de construir más que edificios: construir sueños y transformar vidas.
 
-    Este movimiento no se trata solo de estética. Los arquitectos están encontrando formas ingeniosas de hacer que estos edificios sean sostenibles y eficientes energéticamente sin comprometer su integridad histórica:
+  [IMAGE:https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3]
 
-    - Sistemas de recolección de agua de lluvia ocultos en tejados coloniales.
-    - Paneles solares discretamente integrados en patios interiores.
-    - Uso de técnicas de construcción con adobe mejorado para un mejor aislamiento térmico.
+  **Un futuro de grandes proyectos**
 
-    ## El Impacto en el Mercado Inmobiliario
+  Como parte de su equipo, me siento orgullosa de compartir su visión y contribuir a que más personas encuentren su hogar ideal o la inversión perfecta. El futuro de la construcción en Ecuador está en buenas manos con líderes como José Solines Aguayo.
 
-    Este renacimiento arquitectónico está teniendo un profundo impacto en el mercado inmobiliario de Cuenca:
-
-    - Aumento en el valor de propiedades restauradas en el centro histórico.
-    - Creciente demanda de nuevas construcciones que incorporan elementos coloniales.
-    - Surgimiento de un nicho de mercado para hoteles boutique en edificios históricos restaurados.
-
-    [IMAGE:https://images.unsplash.com/photo-1624294095651-41f323f3c2e6?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3]
-
-    ## Desafíos y Oportunidades
-
-    A pesar del éxito, este movimiento no está exento de desafíos:
-
-    - Equilibrar la preservación histórica con las necesidades modernas de infraestructura.
-    - Manejar el aumento del turismo sin sobrecargar el tejido urbano histórico.
-    - Asegurar que la gentrificación no desplace a los residentes locales.
-
-    Sin embargo, estos desafíos también presentan oportunidades para soluciones creativas y colaboración comunitaria.
-
-    ## Conclusión
-
-    El renacimiento de la arquitectura colonial en Cuenca es más que una tendencia; es un movimiento que está redefiniendo la identidad de la ciudad para las generaciones futuras. Al honrar su pasado, Cuenca está construyendo un futuro que es tanto respetuoso de su herencia como innovador en su visión.
-
-    Para inversores y amantes de la arquitectura, Cuenca ofrece una oportunidad única de ser parte de este emocionante capítulo en la historia de la ciudad. Ya sea restaurando una joya colonial o construyendo un nuevo edificio inspirado en el pasado, hay un lugar para todos en el renacimiento arquitectónico de Cuenca.
+  [IMAGE:/jose-solines-janneth-aguirre.jpg]
   `,
   },
 ]
