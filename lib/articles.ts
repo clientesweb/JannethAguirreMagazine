@@ -132,7 +132,7 @@ Desde el año 2010 hasta el 2024, Samborondón ha evidenciado un crecimiento sos
 
 Un factor clave en este crecimiento es la percepción de seguridad y exclusividad que ofrece Samborondón, atrayendo a familias y empresas que buscan establecerse en un entorno privilegiado.
 
-Oportunidades de Inversión
+**Oportunidades de Inversión**
 
 El dinamismo del mercado inmobiliario en Samborondón presenta múltiples oportunidades para inversores:
 
