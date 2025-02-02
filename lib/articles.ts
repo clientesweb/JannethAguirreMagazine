@@ -751,7 +751,7 @@ En última instancia, el PropTech tiene el potencial de democratizar el acceso a
     fullContent: `
   Desde hace 14 años, Janneth Aguirre Bienes Raíces ha tenido el honor de comercializar los proyectos inmobiliarios de José Solines Aguayo, uno de los constructores más emblemáticos e influyentes de Ecuador. Su visión innovadora y su incansable compromiso con la calidad han sido clave para el desarrollo de Samborondón y Vía a la Costa.
 
-  **Un líder que transforma ciudades**
+  Un líder que transforma ciudades**
 
   Con más de 14 años dentro de su desarrolladora inmobiliaria, he sido testigo de su inigualable capacidad para diseñar y ejecutar proyectos que no solo embellecen la ciudad, sino que también mejoran la calidad de vida de sus habitantes. José Solines no solo construye edificaciones; crea espacios sostenibles, modernos y funcionales. Su dedicación y pasión por su trabajo son palpables en cada obra que emprende.
 
