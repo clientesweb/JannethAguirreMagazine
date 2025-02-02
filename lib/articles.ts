@@ -780,6 +780,73 @@ Como parte de su equipo, me siento orgullosa de compartir su visión y contribui
 [IMAGE:/jose-solines-janneth-aguirre.jpg]
     `,
   },
-]
+  {
+  id: 12,
+    title: "La Domotización en Bienes Raíces: Transformando Espacios para el Futuro",
+    description: "La domotización revoluciona el mercado inmobiliario, mejorando eficiencia, seguridad y confort. Descubre su impacto y las oportunidades que ofrece.",
+    image: "/juan-solano-aguirre.jpg",
+    slug: "la-domotizacion-en-bienes-raices-por-juan-solano-aguirre",
+    category: "tecnología",
+    subtitle: "Cómo la tecnología redefine el confort y la eficiencia en el sector inmobiliario",
+    importantFact: "Según un estudio de Statista, se estima que el mercado global de hogares inteligentes alcanzará los $231 mil millones para 2028, impulsado por la creciente demanda de eficiencia energética, seguridad y automatización en bienes raíces.",
+    fullContent: `
+En el mundo inmobiliario actual, la domotización ha pasado de ser un lujo a convertirse en un elemento clave para mejorar la eficiencia, la seguridad y el confort en hogares y propiedades comerciales. La integración de tecnología avanzada en los inmuebles está transformando la forma en que vivimos y trabajamos, a la vez que redefine las oportunidades de inversión en bienes raíces.
 
+El Ing. Juan Carlos Solano Aguirre, Mgtr., experto en domótica y automatización, comparte su visión sobre cómo estas innovaciones están impactando el sector y los beneficios que aportan a propietarios e inversionistas.
+
+
+[IMAGE:/ingeniero-juan-solano-aguirre.jpg]
+
+¿Qué es la domótica y cómo mejora los espacios?
+
+Si buscamos el término domótica, encontramos que se trata de un conjunto de dispositivos inteligentes diseñados para brindar seguridad, confort y ahorro energético en viviendas y establecimientos comerciales.
+
+En términos prácticos, la domótica permite:
+✅ Gestión eficiente de la energía.
+✅ Monitoreo de dispositivos y actividades en tiempo real.
+✅ Reducción del consumo eléctrico y costos operativos.
+✅ Mayor comodidad para los residentes mediante la automatización de tareas.
+
+Un estudio revelador sobre el impacto de la domotización
+
+Un estudio realizado en 2023 implementó un sistema de control domótico en un departamento de tres dormitorios, dos baños, comedor y cocina, el cual inicialmente no contaba con dispositivos inteligentes.
+
+El sistema permitió:
+🔹 Monitorear el consumo eléctrico general.
+🔹 Automatizar la calefacción en invierno y el aire acondicionado en verano.
+🔹 Regular el uso eficiente de la iluminación y la apertura/cierre de persianas.
+
+Resultados tras un año de implementación:
+📉 26% de ahorro en aire acondicionado.
+📉 26% de ahorro en calefacción.
+📉 10% de ahorro en iluminación.
+📉 14% de ahorro en electrodomésticos y otros dispositivos.
+
+Estos números demuestran que la domótica no solo mejora el confort del hogar, sino que también representa un ahorro económico significativo a lo largo del año.
+
+[IMAGE:/hogar-inteligente-juan-carlos-solano-aguirre.jpg]
+
+Domótica en edificios y centros comerciales
+
+El impacto de la domótica no se limita solo a los hogares. En edificios comerciales, oficinas y plazas, los sistemas automatizados permiten una gestión eficiente del consumo de energía en:
+🔹 Iluminación.
+🔹 Ascensores.
+🔹 Sistemas de climatización.
+
+Si bien la implementación inicial en grandes infraestructuras puede representar una inversión considerable, a largo plazo garantiza un ahorro energético significativo y un impacto positivo en los costos operativos.
+
+Además, con las regulaciones ambientales y la creciente exigencia por la sostenibilidad, es probable que en el futuro la domotización sea obligatoria en muchos establecimientos comerciales.
+
+[IMAGE:/edificio-inteligente-juan-carlos-solano-aguirre.jpg]
+
+El futuro de la domótica en bienes raíces
+
+La tecnología domótica sigue evolucionando, volviéndose más accesible y compacta, lo que la hace cada vez más atractiva para todo tipo de consumidores, desde familias hasta grandes desarrolladores inmobiliarios.
+
+Para el Ing. Juan Carlos Solano Aguirre, la clave está en seguir impulsando el desarrollo de sistemas inteligentes que no solo faciliten la vida cotidiana, sino que también contribuyan al cuidado del medio ambiente y la eficiencia energética.
+
+En definitiva, la domotización ha dejado de ser una tendencia futurista para convertirse en una realidad indispensable en el sector inmobiliario.
+    `,
+  },
+]
 
