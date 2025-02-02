@@ -777,7 +777,7 @@ En última instancia, el PropTech tiene el potencial de democratizar el acceso a
 
   Como parte de su equipo, me siento orgullosa de compartir su visión y contribuir a que más personas encuentren su hogar ideal o la inversión perfecta. El futuro de la construcción en Ecuador está en buenas manos con líderes como José Solines Aguayo.
 
-  <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3" alt="Image 5"/>
+  <img src="https://jannethaguirre.online/jose-solines-janneth-aguirre.jpg" alt="Image 5"/>
   `,
   },
 ]
