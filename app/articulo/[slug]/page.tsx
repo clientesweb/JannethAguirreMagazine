@@ -125,16 +125,22 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
                             className="rounded-lg shadow-md"
                           />
                         </div>
-                      ) : paragraph.startsWith("##") ? (
+                      ) : paragraph.trim().startsWith("**") && paragraph.trim().endsWith("**") ? (
                         <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-800">
-                          {paragraph.replace("##", "").trim()}
+                          {paragraph.replace(/^\*\*|\*\*$/g, "").trim()}
                         </h2>
-                      ) : paragraph.startsWith("#") ? (
-                        <h3 className="text-xl font-semibold mt-6 mb-3 text-gray-700">
-                          {paragraph.replace("#", "").trim()}
-                        </h3>
                       ) : (
-                        <p className="text-gray-600 leading-relaxed">{paragraph}</p>
+                        <p className="text-gray-600 leading-relaxed">
+                          {paragraph.split("**").map((part, i) =>
+                            i % 2 === 0 ? (
+                              part
+                            ) : (
+                              <strong key={i} className="font-bold">
+                                {part}
+                              </strong>
+                            ),
+                          )}
+                        </p>
                       )}
                     </div>
                   ))}
