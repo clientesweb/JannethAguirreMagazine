@@ -3,16 +3,16 @@
 import { useEffect, useRef } from 'react'
 
 const INSTAGRAM_POSTS = [
-  'DFNLHbMuzMt',
-  'DFNLHbMuzMt',
-  'DFK6Ul9ui5m',
-  'DFDeULouOtG',
-  'DFDQE4uOFPg',
-  'DE8ZYSUuV34',
-  'DE5MwjSuVi_',
-  'DE1efOSu98a',
-  'DExZxiLO-b3',
-  'DEpoxZ5uOQq'
+  'DFjgpJQueRO',
+  'DFiUpyVu-nd',
+  'DFgiSwiOU9L',
+  'DFdiIPfyn-H',
+  'DFdHoFCuvBx',
+  'DFai97bOa_u',
+  'DFZDYazuwBM',
+  'DFXxCuDOBON',
+  'DFWexLFOS8J',
+  'DFSzUoQOIJr'
 ]
 
 declare global {
