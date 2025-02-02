@@ -755,19 +755,19 @@ Un líder que transforma ciudades
 
 Con más de 14 años dentro de su desarrolladora inmobiliaria, he sido testigo de su inigualable capacidad para diseñar y ejecutar proyectos que no solo embellecen la ciudad, sino que también mejoran la calidad de vida de sus habitantes. José Solines no solo construye edificaciones; crea espacios sostenibles, modernos y funcionales. Su dedicación y pasión por su trabajo son palpables en cada obra que emprende.
 
-[IMAGE:https://images.unsplash.com/photo-1560179707-f14e90ef3623?auto=format&fit=crop&q=80&w=2073&ixlib=rb-4.0.3]
+[IMAGE:/jose-solines-articulo-janneth-aguirre.jpg]
 
 Construyendo con propósito
 
 "Siempre voy a invertir en Ecuador", afirma José Solines con convicción. Su compromiso con el país y su gente es innegable. A lo largo de su trayectoria, ha edificado casas, condominios y plazas comerciales, proyectos que reflejan su esencia: soluciones urbanas de calidad, diseño innovador y alto valor agregado.
 
-[IMAGE:https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3]
+[IMAGE:/san-bernardo-jose-solines-janneth-aguirre.jpg]
 
 Una vida de esfuerzo y dedicación
 
 Nacido en Guayaquil, Solines recuerda con nostalgia su infancia en Urdesa y el barrio del Astillero, cuando la ciudad tenía un ritmo de vida más pausado. Su espíritu trabajador se forjó desde temprana edad. A los 7 años ya ayudaba a su padre en la venta de productos alimenticios, recorriendo cada rincón de la ciudad en su bicicleta.
 
-[IMAGE:https://images.unsplash.com/photo-1488972685288-c3fd157d7c7a?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3]
+[IMAGE:/deira-construccion-jose-solines-janneth-aguirre.jpg]
 
 Ese esfuerzo inquebrantable lo llevó a convertirse en el hombre detrás de Solines Soluciones, una firma que ha dejado huella en el sector inmobiliario. Con cada proyecto, reafirma su misión de construir más que edificios: construir sueños y transformar vidas.
 
@@ -777,7 +777,7 @@ Un futuro de grandes proyectos
 
 Como parte de su equipo, me siento orgullosa de compartir su visión y contribuir a que más personas encuentren su hogar ideal o la inversión perfecta. El futuro de la construcción en Ecuador está en buenas manos con líderes como José Solines Aguayo.
 
-[IMAGE:https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3]
+[IMAGE:/jose-solines-janneth-aguirre.jpg]
     `,
   },
 ]
