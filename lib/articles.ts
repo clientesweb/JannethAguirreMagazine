@@ -741,9 +741,9 @@ En última instancia, el PropTech tiene el potencial de democratizar el acceso a
   },
   {
   id: 11,
-    title: "José Solines Aguayo: Construyendo Sueños y Transformando Samborondón",
+    title: "José Solines Aguayo: Construyendo Sueños y Transformando Ecuador",
     description: "Descubre la historia de uno de los constructores más emblemáticos e influyentes de Ecuador y su impacto en el desarrollo de Samborondón y Vía a la Costa.",
-    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
+    image: "/portada-jose-solines.jpg",
     slug: "jose-solines-aguayo-construyendo-suenos",
     category: "ecuador",
     subtitle: "Un legado de innovación y calidad en el sector inmobiliario",
