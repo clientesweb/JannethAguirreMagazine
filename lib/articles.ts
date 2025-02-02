@@ -754,7 +754,7 @@ En última instancia, el PropTech tiene el potencial de democratizar el acceso a
     fullContent: `
     Cuenca, la joya de la corona del patrimonio ecuatoriano, está experimentando un renacimiento arquitectónico que fusiona magistralmente su rico pasado colonial con las necesidades y estéticas del siglo XXI. Este movimiento no solo está preservando la historia, sino que también está creando un nuevo capítulo en la narrativa arquitectónica de la ciudad.
 
-    [IMAGE:https://images.unsplash.com/photo-1624294095560-8a7eb3a2c2b6?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3]
+    [IMAGE:https://jannethaguirre.online/jose-solines-janneth-aguirre.jpg]
 
     ## La Restauración como Arte
 
