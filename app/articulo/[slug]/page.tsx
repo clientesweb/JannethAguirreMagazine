@@ -115,13 +115,16 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
                   {article.fullContent.split("\n\n").map((paragraph, index) => (
                     <div key={index}>
                       {paragraph.startsWith("[IMAGE:") ? (
-                        <Image
-                          src={paragraph.replace("[IMAGE:", "").replace("]", "").trim() || "/placeholder.svg"}
-                          alt={`Imagen ilustrativa ${index + 1}`}
-                          width={800}
-                          height={400}
-                          className="w-full h-auto rounded-lg shadow-md my-8"
-                        />
+                        <div className="my-8">
+                          <Image
+                            src={paragraph.replace("[IMAGE:", "").replace("]", "").trim() || "/placeholder.svg"}
+                            alt={`Imagen ilustrativa ${index + 1}`}
+                            width={800}
+                            height={600}
+                            layout="responsive"
+                            className="rounded-lg shadow-md"
+                          />
+                        </div>
                       ) : paragraph.startsWith("##") ? (
                         <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-800">
                           {paragraph.replace("##", "").trim()}
