@@ -815,9 +815,9 @@ Si buscamos el término **domótica**, encontramos que se trata de un conjunto d
 
 Un estudio realizado en 2023 implementó un sistema de control domótico en un departamento de tres dormitorios, dos baños, comedor y cocina, el cual inicialmente no contaba con dispositivos inteligentes.
 
-**El sistema permitió:**
+El sistema permitió:
 
-• **Monitorear el consumo eléctrico general.***
+• **Monitorear el consumo eléctrico general.**
 
 • **Automatizar la calefacción en invierno y el aire acondicionado en verano.**
 
