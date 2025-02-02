@@ -799,53 +799,53 @@ El **Ing. Juan Carlos Solano Aguirre**., experto en domótica y automatización,
 
 **¿Qué es la domótica y cómo mejora los espacios?**
 
-Si buscamos el término domótica, encontramos que se trata de un conjunto de dispositivos inteligentes diseñados para brindar seguridad, confort y ahorro energético en viviendas y establecimientos comerciales.
+Si buscamos el término **domótica**, encontramos que se trata de un conjunto de dispositivos inteligentes diseñados para brindar seguridad, confort y ahorro energético en viviendas y establecimientos comerciales.
 
-*En términos prácticos, la domótica permite:*
+**En términos prácticos, la domótica permite:**
 
-✅ Gestión eficiente de la energía.
+✓ Gestión eficiente de la energía.
 
-✅ Monitoreo de dispositivos y actividades en tiempo real.
+✓ Monitoreo de dispositivos y actividades en tiempo real.
 
-✅ Reducción del consumo eléctrico y costos operativos.
+✓ Reducción del consumo eléctrico y costos operativos.
 
-✅ Mayor comodidad para los residentes mediante la automatización de tareas.
+✓ Mayor comodidad para los residentes mediante la automatización de tareas.
 
-*Un estudio revelador sobre el impacto de la domotización*
+**Un estudio revelador sobre el impacto de la domotización**
 
 Un estudio realizado en 2023 implementó un sistema de control domótico en un departamento de tres dormitorios, dos baños, comedor y cocina, el cual inicialmente no contaba con dispositivos inteligentes.
 
 **El sistema permitió:**
 
-🔹 Monitorear el consumo eléctrico general.
+• **Monitorear el consumo eléctrico general.***
 
-🔹 Automatizar la calefacción en invierno y el aire acondicionado en verano.
+• **Automatizar la calefacción en invierno y el aire acondicionado en verano.**
 
-🔹 Regular el uso eficiente de la iluminación y la apertura/cierre de persianas.
+• **Regular el uso eficiente de la iluminación y la apertura/cierre de persianas.**
 
-Resultados tras un año de implementación:
+**Resultados tras un año de implementación:**
 
-📉 26% de ahorro en aire acondicionado.
+📉 **26%** de ahorro en aire acondicionado.
 
-📉 26% de ahorro en calefacción.
+📉 **26%** de ahorro en calefacción.
 
-📉 10% de ahorro en iluminación.
+📉 **10%** de ahorro en iluminación.
 
-📉 14% de ahorro en electrodomésticos y otros dispositivos.
+📉 **14%** de ahorro en electrodomésticos y otros dispositivos.
 
 Estos números demuestran que la domótica no solo mejora el confort del hogar, sino que también representa un ahorro económico significativo a lo largo del año.
 
 [IMAGE:/hogar-inteligente-juan-carlos-solano-aguirre.jpg]
 
-*Domótica en edificios y centros comerciales*
+**Domótica en edificios y centros comerciales**
 
 El impacto de la domótica no se limita solo a los hogares. En edificios comerciales, oficinas y plazas, los sistemas automatizados permiten una gestión eficiente del consumo de energía en:
 
-🔹 Iluminación.
+🔹 **Iluminación.**
 
-🔹 Ascensores.
+🔹 **Ascensores.**
 
-🔹 Sistemas de climatización.
+🔹 **Sistemas de climatización.**
 
 Si bien la implementación inicial en grandes infraestructuras puede representar una inversión considerable, a largo plazo garantiza un ahorro energético significativo y un impacto positivo en los costos operativos.
 
