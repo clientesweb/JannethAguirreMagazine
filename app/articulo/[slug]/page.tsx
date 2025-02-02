@@ -36,9 +36,9 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
 
   const images = [
     article.image,
-    "https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&q=80&w=1600",
-    "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=1600",
-    "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=80&w=1600",
+    "",
+    "",
+    "",
   ]
 
   const nextImage = () => {
