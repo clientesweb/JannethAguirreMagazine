@@ -129,6 +129,10 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
                         <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-800">
                           {paragraph.replace(/^\*\*|\*\*$/g, "").trim()}
                         </h2>
+                      ) : paragraph.includes("Dato importante:") ? (
+                        <blockquote className="border-l-4 border-[#FF0000] pl-4 italic my-6 text-gray-700">
+                          {paragraph}
+                        </blockquote>
                       ) : (
                         <p className="text-gray-600 leading-relaxed">
                           {paragraph.split("**").map((part, i) =>
@@ -147,6 +151,12 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
                 </div>
               ) : (
                 <p>No se ha encontrado contenido detallado para este artículo.</p>
+              )}
+
+              {article.importantFact && (
+                <blockquote className="border-l-4 border-[#FF0000] pl-4 italic my-6 text-gray-700">
+                  Dato importante: {article.importantFact}
+                </blockquote>
               )}
 
               <div className="flex flex-wrap justify-center gap-4 my-8">
