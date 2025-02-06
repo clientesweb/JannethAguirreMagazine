@@ -865,9 +865,9 @@ En definitiva, la domotización ha dejado de ser una tendencia futurista para co
   {
    id: 13,
     title: "Panamá: Un Destino Estratégico para la Inversión Inmobiliaria",
-    description: "La domotización revoluciona el mercado inmobiliario, mejorando eficiencia, seguridad y confort. Descubre su impacto y las oportunidades que ofrece.",
-    image: "/juan-solano-aguirre.jpg",
-    slug: "la-domotizacion-en-bienes-raices-por-juan-carlos-solano-aguirre",
+    description: "Panamá se consolida como un destino clave para la inversión inmobiliaria, gracias a su estabilidad económica, ubicación estratégica y crecimiento en infraestructura. Descubre las oportunidades que ofrece este mercado dinámico.",
+    image: "/sotillo-company-alianza-janneth-aguirre.jpg",
+    slug: "alianza-sotillo-company-janneth-aguirre-inversiones-panama",
     category: "Panamá",
     subtitle: "Una alianza que abre nuevas oportunidades para los inversionistas ecuatorianos",
     importantFact: "Se estima que más de 140 compañías multinacionales han establecido su sede en Panamá en los últimos años, lo que ha incrementado la demanda de propiedades comerciales y residenciales en el país.",
