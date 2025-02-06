@@ -866,7 +866,7 @@ En definitiva, la domotización ha dejado de ser una tendencia futurista para co
    id: 13,
     title: "Panamá: Un Destino Estratégico para la Inversión Inmobiliaria",
     description: "Panamá se consolida como un destino clave para la inversión inmobiliaria, gracias a su estabilidad económica, ubicación estratégica y crecimiento en infraestructura. Descubre las oportunidades que ofrece este mercado dinámico.",
-    image: "/sotillo-company-alianza-janneth-aguirre.jpg",
+    image: "/inversiones-panama-inmobiliaria.jpg",
     slug: "alianza-sotillo-company-janneth-aguirre-inversiones-panama",
     category: "Panamá",
     subtitle: "Una alianza que abre nuevas oportunidades para los inversionistas ecuatorianos",
@@ -877,7 +877,7 @@ La firma panameña **SOTILLO & COMPANY Commercial Real Estate**, especializada e
 Panamá se ha consolidado como un destino atractivo para la inversión inmobiliaria gracias a su ubicación estratégica, economía estable y alto crecimiento en infraestructura. Con este acuerdo, se abre la posibilidad de acceder a propiedades de alto valor en uno de los mercados más dinámicos de la región.
 
 
-[IMAGE:/sotillo-company-realstate-janneth-aguirre-bienes-raices.jpg]
+[IMAGE:/sotillo-company-alianza-janneth-aguirre.jpg]
 
 **¿Por qué invertir en Panamá?**
 
@@ -913,7 +913,7 @@ Panamá es un país con un desarrollo sostenido y un ambiente propicio para la i
 
 El auge del sector inmobiliario en Panamá se debe al crecimiento de la demanda por espacios comerciales, logísticos y residenciales. Tanto el mercado corporativo como el habitacional han experimentado una expansión significativa, impulsada por la llegada de empresas extranjeras y la creciente población de expatriados.
 
-[IMAGE:/sotillo-company-real-state]
+[IMAGE:/sotillo-company-real-state.jpg]
 
 **Facilidades de financiamiento para inversionistas ecuatorianos**
 
@@ -921,13 +921,13 @@ Una de las ventajas de invertir en Panamá es la facilidad para acceder a financ
 
 Además, ofrecemos asesoría en la gestión de trámites y documentación, asegurando que el proceso de compra o alquiler de propiedades sea ágil y seguro.
 
-[IMAGE:/sotillo-company-real-state]
+[IMAGE:/banco-pinchincha.jpg]
 
 **El impacto del Canal de Panamá en la economía y el sector inmobiliario**
 
 El Canal de Panamá es una de las principales razones por las que el país se ha convertido en un destino atractivo para la inversión. Este paso interoceánico mueve más del **5% del comercio marítimo mundial**, lo que genera un flujo constante de inversión en infraestructura y logística.
 
-[IMAGE:/sotillo-company-real-state]
+[IMAGE:/canal-panama-comercio-maritimo-mundial.jpg]
 
 Además, Panamá cuenta con un sistema bancario sólido, incentivos fiscales y una plataforma comercial estable, factores que han impulsado la llegada de grandes compañías internacionales. La combinación de estos elementos crea un entorno ideal para la inversión inmobiliaria, con una alta demanda de propiedades en sectores clave.
 
@@ -935,9 +935,12 @@ Además, Panamá cuenta con un sistema bancario sólido, incentivos fiscales y u
 
 La alianza entre **SOTILLO & COMPANY Commercial Real Estate y JANNETH AGUIRRE BIENES RAÍCES** representa una oportunidad única para los inversionistas ecuatorianos que desean diversificar su portafolio en un mercado estable y en crecimiento.
 
+[IMAGE:/equipo-sotillo-company-janneth-aguirre-biene-raices.jpg]
+
 Con un equipo de expertos en bienes raíces, financiamiento y gestión inmobiliaria, esta colaboración garantiza asesoramiento integral y acceso a las mejores oportunidades en Panamá. Si buscas un destino seguro y rentable para tu próxima inversión, Panamá es la respuesta. 
 Toca el botón explorar el mercado inmobiliario para más información.
     `,
   },
 ]
+
 
