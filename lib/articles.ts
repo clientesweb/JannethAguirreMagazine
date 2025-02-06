@@ -862,6 +862,7 @@ Para el **Ing. Juan Carlos Solano Aguirre**, la clave está en seguir impulsando
 En definitiva, la domotización ha dejado de ser una tendencia futurista para convertirse en una realidad indispensable en el sector inmobiliario.
     `,
   },
+  {
    id: 13,
     title: "Panamá: Un Destino Estratégico para la Inversión Inmobiliaria",
     description: "La domotización revoluciona el mercado inmobiliario, mejorando eficiencia, seguridad y confort. Descubre su impacto y las oportunidades que ofrece.",
