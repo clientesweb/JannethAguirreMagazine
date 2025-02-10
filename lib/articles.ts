@@ -942,17 +942,20 @@ Toca el botón explorar el mercado inmobiliario para más información.
     `,
   },
   {
-   id: 14,
-    title: "Tendencias del Mercado Inmobiliario en Washington, D.C. a Inicios de 2025",
-    description: "El mercado inmobiliario de Washington, D.C. inicia el 2025 con un crecimiento en el segmento residencial, impulsado por el auge de propiedades de lujo tras el regreso de Donald Trump a la Casa Blanca. Sin embargo, el sector de oficinas enfrenta desafíos debido a los recortes en la fuerza laboral federal y la reducción del gasto gubernamental. En este análisis, exploramos las tendencias clave, las variaciones en los precios según el vecindario y el impacto de los cambios políticos en la inversión inmobiliaria.",
-    image: "/inversiones-panama-inmobiliaria.jpg",
-    slug: "mercado-inmobiliario-washington-2025",
-    category: "Estados Unidos",
-    subtitle: "Un mercado en transformación: Crecimiento en el sector residencial y desafíos en el sector corporativo",
-    importantFact: "📢 **El mercado inmobiliario de lujo en Washington, D.C. ha visto un crecimiento del 20% en transacciones multimillonarias en los últimos tres meses**, impulsado por la reubicación de figuras clave del nuevo gobierno y grandes inversionistas..",
-    fullContent: `
+   Aquí tienes las modificaciones de las imágenes y su correspondiente cambio:
+
+{
+  "id": 14,
+  "title": "Tendencias del Mercado Inmobiliario en Washington, D.C. a Inicios de 2025",
+  "description": "El mercado inmobiliario de Washington, D.C. inicia el 2025 con un crecimiento en el segmento residencial, impulsado por el auge de propiedades de lujo tras el regreso de Donald Trump a la Casa Blanca. Sin embargo, el sector de oficinas enfrenta desafíos debido a los recortes en la fuerza laboral federal y la reducción del gasto gubernamental. En este análisis, exploramos las tendencias clave, las variaciones en los precios según el vecindario y el impacto de los cambios políticos en la inversión inmobiliaria.",
+  "image": "/inversiones-panama-inmobiliaria.jpg",
+  "slug": "mercado-inmobiliario-washington-2025",
+  "category": "Estados Unidos",
+  "subtitle": "Un mercado en transformación: Crecimiento en el sector residencial y desafíos en el sector corporativo",
+  "importantFact": "📢 **El mercado inmobiliario de lujo en Washington, D.C. ha visto un crecimiento del 20% en transacciones multimillonarias en los últimos tres meses**, impulsado por la reubicación de figuras clave del nuevo gobierno y grandes inversionistas..",
+  "fullContent": `
 El mercado inmobiliario de Washington, D.C. comienza 2025 con una combinación de crecimiento y desafíos en diferentes sectores, impulsado por cambios políticos y económicos que han moldeado la demanda tanto en el ámbito residencial como en el corporativo.
-  
+
 **Mercado Residencial: Crecimiento con Enfoque en el Lujo**
 
 •📈 **Precios en ascenso:** En diciembre de 2024, el precio medio de las viviendas en Washington, D.C. alcanzó los **$629,000**, reflejando un aumento del -5,2%- en comparación con el año anterior.
@@ -961,9 +964,7 @@ El mercado inmobiliario de Washington, D.C. comienza 2025 con una combinación d
 
 •💰 **Boom del lujo:** Con el regreso de **Donald Trump** a la Casa Blanca, el mercado inmobiliario de lujo ha experimentado un **aumento en la demanda**. Figuras políticas influyentes, empresarios y aliados de la administración han impulsado la compra de **propiedades multimillonarias** en la capital y sus alrededores.
 
-
-
-[IMAGE:/sotillo-company-alianza-janneth-aguirre.jpg]
+[IMAGE:/nuevas-imagenes/propiedades-lujo-washington.jpg]
 
 **Mercado de Oficinas: Desafíos por Reducción Gubernamental**
 
@@ -971,36 +972,42 @@ El mercado inmobiliario de Washington, D.C. comienza 2025 con una combinación d
 
 🔍 **Impacto en contratistas y ONGs**: Organizaciones que dependen del gobierno podrían ver afectadas sus necesidades de arrendamiento de oficinas, en un contexto donde, a pesar del **crecimiento en 2024**, las perspectivas de 2025 son **inciertas**.
 
-[IMAGE:/porque-invertir-en-panama.jpg]
+[IMAGE:/nuevas-imagenes/mercado-oficinas-washington.jpg]
 
 **Diferencias en los Vecindarios: Un Mercado Diversificado**
-
 
 📊 **Desigualdad en los precios:** La oferta inmobiliaria varía notablemente según el vecindario. En noviembre de 2024:
 
       🔹 **Petworth:** Precio medio de venta de **$750,000**.
 
- 
       🔹 **Congress Heights:** Precio medio de **$370,000**.
 
 Este contraste resalta la **importancia de analizar factores específicos de cada área** antes de invertir.
 
-
-[IMAGE:/sotillo-company-real-state.jpg]
+[IMAGE:/nuevas-imagenes/precios-vecindarios-washington.jpg]
 
 **Perspectiva Empresarial: Mario Rubio y el Futuro del Mercado**
 
-
 Mario Rubio, **fundador y presidente de American Global Group**, destaca que **la estabilidad política y económica de Estados Unidos sigue siendo un factor clave para la inversión inmobiliaria**, atrayendo tanto a compradores nacionales como internacionales. Según Rubio, **la recuperación del sector comercial dependerá de la evolución de las políticas gubernamentales y la capacidad de adaptación de las empresas a nuevas dinámicas de trabajo y financiamiento**.
 
-
-[IMAGE:/banco-pinchincha.jpg]
+[IMAGE:/nuevas-imagenes/mario-rubio-empresa-inmobiliaria.jpg]
 
 **Conclusión**
 El mercado inmobiliario de **Washington, D.C.** se encuentra en una etapa de **crecimiento sostenido en el sector residencial**, con un especial impulso en las **propiedades de lujo**. Sin embargo, el **mercado de oficinas enfrenta incertidumbre**, con la posible reducción del espacio federal y su impacto en la demanda.
 Para inversionistas y compradores, la clave en 2025 será **evaluar cuidadosamente las oportunidades según cada sector y vecindario**, así como mantenerse atentos a los cambios en las políticas económicas y gubernamentales que podrían influir en el panorama inmobiliario.
-    `,
-  },
-]
-
+`,
+  "images": [
+    {
+      "image": "/nuevas-imagenes/propiedades-lujo-washington.jpg"
+    },
+    {
+      "image": "/nuevas-imagenes/mercado-oficinas-washington.jpg"
+    },
+    {
+      "image": "/nuevas-imagenes/precios-vecindarios-washington.jpg"
+    },
+    {
+      "image": "/nuevas-imagenes/mario-rubio-empresa-inmobiliaria.jpg"
+    }
+  ]
 
