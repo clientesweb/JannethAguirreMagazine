@@ -946,7 +946,7 @@ Toca el botón explorar el mercado inmobiliario para más información.
     title: "Tendencias del Mercado Inmobiliario en Washington, D.C. a Inicios de 2025",
     description: "El mercado inmobiliario de Washington, D.C. inicia el 2025 con un crecimiento en el segmento residencial, impulsado por el auge de propiedades de lujo tras el regreso de Donald Trump a la Casa Blanca. Sin embargo, el sector de oficinas enfrenta desafíos debido a los recortes en la fuerza laboral federal y la reducción del gasto gubernamental. En este análisis, exploramos las tendencias clave, las variaciones en los precios según el vecindario y el impacto de los cambios políticos en la inversión inmobiliaria.",
     image: "/inversiones-panama-inmobiliaria.jpg",
-    slug: "alianza-sotillo-company-janneth-aguirre-inversiones-panama",
+    slug: "mercado-inmobiliario-washington-2025",
     category: "Estados Unidos",
     subtitle: "Un mercado en transformación: Crecimiento en el sector residencial y desafíos en el sector corporativo",
     importantFact: "📢 **El mercado inmobiliario de lujo en Washington, D.C. ha visto un crecimiento del 20% en transacciones multimillonarias en los últimos tres meses**, impulsado por la reubicación de figuras clave del nuevo gobierno y grandes inversionistas..",
