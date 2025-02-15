@@ -1020,8 +1020,9 @@ Su enfoque se basa en la **confianza y en la transparencia**, brindando asesoram
 
 El **Studio Immobiliare Rio Alto** tiene dos oficinas estratégicamente ubicadas en Venecia:
 
-- **Sede San Polo**: Sotoportego di Rialto, San Polo 56, 30125 Venezia.
-- **Sede Castello**: Via Garibaldi, Castello 1336, 30122 Venezia.
+• **Sede San Polo**: Sotoportego di Rialto, San Polo 56, 30125 Venezia.
+
+• **Sede Castello**: Via Garibaldi, Castello 1336, 30122 Venezia.
 
 Estas ubicaciones permiten a la agencia atender a una clientela exigente que busca propiedades con características únicas, como **vistas al Gran Canal**, **apartamentos históricos** o **exclusivas villas en la laguna**.
 
@@ -1032,8 +1033,11 @@ Estas ubicaciones permiten a la agencia atender a una clientela exigente que bus
 El **Studio Immobiliare Rio Alto** se especializa en la comercialización de:
 
 ✔ **Apartamentos de lujo** con acabados exclusivos y vistas panorámicas.  
+
 ✔ **Propiedades históricas** con valor arquitectónico.  
+
 ✔ **Pied-à-terre** para quienes buscan una segunda residencia en Venecia.  
+
 ✔ **Casas y villas con vistas al mar y acceso privado a canales**.  
 
 Además, la inmobiliaria ofrece **asesoramiento en inversión inmobiliaria**, ayudando a clientes a identificar oportunidades de compra en el competitivo mercado veneciano.
