@@ -993,7 +993,7 @@ Mario Rubio, **fundador y presidente de American Global Group**, destaca que **l
 El mercado inmobiliario de **Washington, D.C.** se encuentra en una etapa de **crecimiento sostenido en el sector residencial**, con un especial impulso en las **propiedades de lujo**. Sin embargo, el **mercado de oficinas enfrenta incertidumbre**, con la posible reducción del espacio federal y su impacto en la demanda.
 Para inversionistas y compradores, la clave en 2025 será **evaluar cuidadosamente las oportunidades según cada sector y vecindario**, así como mantenerse atentos a los cambios en las políticas económicas y gubernamentales que podrían influir en el panorama inmobiliario.
 `,
-    }
+    },
    {
    id: 15,
    title: "Janneth Aguirre Bienes Raíces y Studio Immobiliare Rio Alto: Una Alianza Estratégica en el Mercado Inmobiliario Internacional",
