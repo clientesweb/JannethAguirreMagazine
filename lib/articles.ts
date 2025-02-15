@@ -1008,13 +1008,13 @@ El **Studio Immobiliare Rio Alto**, fundado por **Raffaele Dedemo**, es una de l
 
 En una reciente alianza, el **Studio Immobiliare Rio Alto** se ha unido con **Janneth Aguirre Bienes Raíces**, una destacada agencia inmobiliaria ecuatoriana, para expandir su presencia y brindar servicios personalizados tanto en Europa como en América Latina.
 
-![Studio Immobiliare Rio Alto y Janneth Aguirre Bienes Raíces](/studio-inmobiliare-rio-alto-janneth-aguirre-bienes-raices.jpg)
+[IMAGE:/studio-inmobiliare-rio-alto-janneth-aguirre-bienes-raices.jpg]
 
 **Historia y Trayectoria de Studio Immobiliare Rio Alto**
 
 Fundada por **Raffaele Dedemo**, la inmobiliaria ha logrado posicionarse como un referente en la compra y venta de propiedades en Venecia. Dedemo nació en 1969 en la ciudad y ha dedicado su carrera a ayudar a clientes a encontrar propiedades que se ajusten a sus necesidades y expectativas.
 
-![Raffaele Dedemo, fundador de Studio Immobiliare Rio Alto](/raffaele-dedemo-rio-alto-inmobiliare.jpg)
+[IMAGE:/raffaele-dedemo-rio-alto-inmobiliare.jpg]
 
 Su enfoque se basa en la **confianza y en la transparencia**, brindando asesoramiento integral para quienes buscan una inversión segura en una de las ciudades más emblemáticas del mundo.
 
@@ -1025,7 +1025,7 @@ El **Studio Immobiliare Rio Alto** tiene dos oficinas estratégicamente ubicadas
 
 Estas ubicaciones permiten a la agencia atender a una clientela exigente que busca propiedades con características únicas, como **vistas al Gran Canal**, **apartamentos históricos** o **exclusivas villas en la laguna**.
 
-![Propiedad con vista al canal en Venecia](/propiedad-canal-venecia.jpg)
+[IMAGE:/propiedad-venecia-canal.jpg]
 
 **Servicios Exclusivos en Venecia**
 
@@ -1038,7 +1038,7 @@ El **Studio Immobiliare Rio Alto** se especializa en la comercialización de:
 
 Además, la inmobiliaria ofrece **asesoramiento en inversión inmobiliaria**, ayudando a clientes a identificar oportunidades de compra en el competitivo mercado veneciano.
 
-![Oficinas de Rio Alto en Venecia](/rio-alto-inmobiliaria.jpg)
+[IMAGE:/rio-alto-srl-inmobiliare.jpg]
 
 **La Alianza con Janneth Aguirre Bienes Raíces**
 
@@ -1046,7 +1046,7 @@ Con la intención de ampliar su presencia en América Latina, **Studio Immobilia
 
 **Janneth Aguirre**, fundadora y líder de la agencia, tiene **más de una década y media de experiencia** en el mercado inmobiliario latinoamericano y ha desarrollado una red de clientes que buscan invertir tanto en Ecuador como en destinos exclusivos en Europa.
 
-![Janneth Aguirre recibiendo un premio](/janneth-aguirre-premio.jpg)
+[IMAGE:/janneth-aguirre-bienes-raices-ecuador.jpg]
 
 Gracias a esta colaboración, los clientes de ambas agencias podrán acceder a una **oferta más amplia de propiedades y servicios personalizados**, incluyendo **asesoría para la compra de inmuebles en el extranjero**.
 
@@ -1056,7 +1056,7 @@ Gracias a esta colaboración, los clientes de ambas agencias podrán acceder a u
 
 Su participación en esta organización ha sido clave para **mejorar la regulación del mercado inmobiliario en Italia** y ofrecer **mayor seguridad a los compradores internacionales**.
 
-![Raffaele Dedemo en FIAIP](/raffaele-dedemo-fiaip.jpg)
+[IMAGE:/raffaele-dedemo-fiaip.jpg]
 
 **Datos Relevantes Sobre el Mercado Inmobiliario en Venecia**
 
