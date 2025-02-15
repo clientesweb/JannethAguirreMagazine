@@ -1065,7 +1065,9 @@ Su participación en esta organización ha sido clave para **mejorar la regulaci
 **Datos Relevantes Sobre el Mercado Inmobiliario en Venecia**
 
 ✔ **Inversión Segura**: Venecia es uno de los mercados inmobiliarios más estables de Europa, con un crecimiento sostenido en el valor de las propiedades.  
-✔ **Alta Demanda**: La ciudad atrae compradores de todo el mundo, especialmente de **Estados Unidos, Alemania y China**.  
+
+✔ **Alta Demanda**: La ciudad atrae compradores de todo el mundo, especialmente de **Estados Unidos, Alemania y China**.
+  
 ✔ **Patrimonio Histórico**: Comprar una propiedad en Venecia no solo es una inversión inmobiliaria, sino también un **resguardo del patrimonio cultural**.  
 
 Esta **alianza** entre **Studio Immobiliare Rio Alto** y **Janneth Aguirre Bienes Raíces** representa una **oportunidad única** para quienes desean invertir en **propiedades exclusivas en Venecia o en América Latina**.
