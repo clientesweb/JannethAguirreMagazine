@@ -167,7 +167,7 @@ export const ARTICLES = [
   category: "estados-unidos",
   slug: "millenia-park-orlando",
   subtitle: "El Oasis Urbano de Orlando",
-  importantFact: "**Millenia Park ofrece 960 unidades residenciales y 25,000 pies cuadrados de espacio comercial, ubicados estratégicamente cerca del Millenia Mall y a solo 2 millas del nuevo parque temático Universal Epic.**",
+  importantFact: "Millenia Park ofrece 960 unidades residenciales y 25,000 pies cuadrados de espacio comercial, ubicados estratégicamente cerca del Millenia Mall y a solo 2 millas del nuevo parque temático Universal Epic.",
   fullContent: `
     **Bienvenidos a Millenia Park Orlando**, un deslumbrante desarrollo inmobiliario que redefine el concepto de vida urbana en el corazón de la Ciudad Bella. Este proyecto visionario combina la sofisticación moderna con la serenidad de la naturaleza, creando un refugio único en uno de los destinos más dinámicos de Florida.
 
@@ -257,7 +257,7 @@ export const ARTICLES = [
 
     - **Demanda constante de alquileres** a corto y largo plazo debido a su ubicación estratégica.  
 
-    **Precios y Disponibilidad:**  
+    **Precios y Disponibilidad**  
 
     - **Estudios desde $250,000 USD.**  
 
