@@ -160,74 +160,116 @@ export const ARTICLES = [
     `
   },
   {
-   id: 3,
-   title: "Millenia Park Orlando: Lujo y Naturaleza en Armonía",
-   description: "Descubre una nueva era de vida residencial en el corazón de Orlando, donde el lujo se encuentra con la naturaleza en un oasis urbano sin precedentes.",
-   image: "https://jannethaguirre.online/millenia-park-orlando.jpg",
-   category: "estados-unidos",
-   slug: "millenia-park-orlando",
-   subtitle: "El Oasis Urbano de Orlando",
-   importantFact: "Millenia Park ofrece acceso exclusivo a los parques temáticos de Disney World y Universal Studios.",
-   fullContent: `
-    **Bienvenidos a Millenia Park Orlando**, un desarrollo residencial que redefine el concepto de vida urbana en la Ciudad Bella. Este proyecto fusiona modernidad y naturaleza para ofrecer un refugio único en Florida.
+  id: 3,
+  title: "Millenia Park Orlando: Lujo y Naturaleza en Armonía",
+  description: "Descubre un nuevo estándar de vida residencial en el corazón de Orlando, donde el lujo se fusiona con la naturaleza en un oasis urbano sin precedentes.",
+  image: "/millenia-park-orlando.jpg",
+  category: "estados-unidos",
+  slug: "millenia-park-orlando",
+  subtitle: "El Oasis Urbano de Orlando",
+  importantFact: "**Millenia Park ofrece 960 unidades residenciales y 25,000 pies cuadrados de espacio comercial, ubicados estratégicamente cerca del Millenia Mall y a solo 2 millas del nuevo parque temático Universal Epic.**",
+  fullContent: `
+    **Bienvenidos a Millenia Park Orlando**, un deslumbrante desarrollo inmobiliario que redefine el concepto de vida urbana en el corazón de la Ciudad Bella. Este proyecto visionario combina la sofisticación moderna con la serenidad de la naturaleza, creando un refugio único en uno de los destinos más dinámicos de Florida.
 
-    ## 📍 Ubicación Privilegiada
-    Millenia Park Orlando se encuentra en el exclusivo distrito de Millenia, con conectividad inigualable a:
-    - 🏬 *Mall at Millenia* (lujo y moda)
-    - 🎢 Parques temáticos: Disney World, Universal Studios y SeaWorld
-    - 🌆 Centro de Orlando y su escena cultural
-    - ✈️ Aeropuerto Internacional de Orlando
+    **Ubicación Privilegiada:**  
+    Millenia Park Orlando se sitúa estratégicamente en el codiciado distrito de Millenia, ofreciendo a sus residentes una conectividad inigualable:
+    - **A solo una milla del Mall at Millenia**, el principal centro comercial de marcas de lujo.  
+    - **A dos millas del nuevo y esperado parque temático Universal Epic.**  
+    - **Proximidad al centro de Orlando** y su vibrante escena cultural.  
+    - **Conexión directa con las principales arterias viales y el Aeropuerto Internacional de Orlando.**  
 
-    ## 🏗️ Diseño Arquitectónico Innovador
-    Un concepto vanguardista que equilibra el diseño moderno con la naturaleza:
-    - 🌿 Integración con el paisaje natural
-    - 🏢 Edificios de líneas limpias y acabados de alta gama
-    - 🌞 Grandes ventanales que maximizan luz natural y vistas
-    - 🏡 Áreas comunes diseñadas para la convivencia y el bienestar
+    **Diseño Arquitectónico Innovador:**  
+    Inspirado en la armonía entre el hombre y la naturaleza, Millenia Park Orlando presenta una arquitectura que desafía lo convencional:
 
-    ## 🏡 Residencias de Ensueño
-    Espacios pensados para el confort y la elegancia:
-    - 📏 Estudios y apartamentos de 1, 2 y 3 habitaciones
-    - 🛋️ Acabados premium:
-      - Pisos de porcelanato importado
-      - Cocinas con encimeras de cuarzo y electrodomésticos de acero inoxidable
-      - Baños con duchas tipo lluvia y grifería de diseñador
-    - 🔆 Ventanales de piso a techo
-    - 📲 Domótica inteligente: control de clima, iluminación y seguridad
+    - **Ocho edificios modernos** que albergan **960 unidades residenciales.**  
 
-    ## 🎯 Amenidades de Clase Mundial
-    Millenia Park Orlando lleva la experiencia residencial a otro nivel:
-    - 🏊 Piscina resort-style con cabañas privadas
-    - 🏋️ Gimnasio de última generación
-    - 💆 Spa completo con salas de tratamiento
-    - 🍽️ Club house con cocina gourmet
-    - 🌳 Parque central con senderos y jardines zen
-    - 🎠 Área de juegos para niños y parque para mascotas
-    - 🏢 Espacios de coworking y salas de conferencias
+    - **Uso extensivo de cristal** para maximizar la luz natural y las vistas panorámicas. 
+ 
+    - **Terrazas y balcones amplios** que extienden el espacio vital hacia el exterior.  
 
-    ## 🌍 Compromiso con la Sostenibilidad
-    Un proyecto ecológico con visión de futuro:
-    - ♻️ Certificación LEED en proceso
-    - 💧 Sistemas de riego eficientes y paisajismo con plantas nativas
-    - ⚡ Estaciones de carga para vehículos eléctricos
-    - 🏗️ Uso de materiales de construcción eco-amigables
+    - **Áreas comunes diseñadas para fomentar la interacción y el bienestar comunitario.**  
 
-    ## 💰 Oportunidad de Inversión
-    Un desarrollo con alto potencial de crecimiento:
-    - 📈 Ubicado en una de las áreas de mayor expansión en Orlando
-    - 🏠 Demanda constante de alquileres a corto y largo plazo
-    - 💲 Alta plusvalía debido a la evolución del distrito Millenia
+    **Residencias de Ensueño:**  
+    Cada apartamento en Millenia Park Orlando es un testimonio de lujo y confort:
 
-    ## 💵 Precios y Disponibilidad
-    - 🏠 *Estudios*: desde $250,000 USD
-    - 🛏️ *1 habitación*: desde $350,000 USD
-    - 🏡 *2 habitaciones*: desde $450,000 USD
-    - 🌟 *3 habitaciones*: desde $550,000 USD
+    - **Unidades desde estudios hasta apartamentos de 3 habitaciones.**  
 
-    💳 **Opciones de financiamiento disponibles para compradores calificados.**
+    - **Acabados de primera calidad**, incluyendo:  
+      * **Pisos de porcelanato importado.**  
 
-    **✨ Millenia Park Orlando no es solo un hogar, es un estilo de vida.**  
-    ¡Contáctanos hoy y agenda una visita personalizada! 📩  
+      * **Cocinas con encimeras de cuarzo y electrodomésticos de acero inoxidable.**  
+
+      * **Baños con ducha tipo lluvia y grifería de diseñador.**  
+
+    - **Ventanales del piso al techo** que maximizan las vistas y la luz natural.  
+
+    - **Sistemas inteligentes de domótica** para control de clima, iluminación y seguridad.  
+
+    - **Closets de diseño personalizado** en todas las habitaciones.  
+
+    **Amenidades de Clase Mundial:**  
+    Millenia Park Orlando eleva el estándar de vida con sus amenidades de lujo:
+
+    - **Piscina estilo resort** con cabañas privadas y área de bronceado.  
+
+    - **Gimnasio de última generación** con equipos cardiovasculares y de fuerza.  
+
+    - **Spa completo** con salas de tratamiento y áreas de relajación.  
+
+    - **Casa club con cocina gourmet** y espacios para entretenimiento.  
+
+    - **Parque central con senderos para caminar, áreas de picnic y jardines zen.**  
+
+    - **Área de juegos para niños y parque para mascotas.**  
+
+    - **Estaciones de trabajo compartidas y salas de conferencias.**  
+
+    **Compromiso con la Sostenibilidad:**  
+    Millenia Park Orlando no solo ofrece lujo, sino también un compromiso con el medio ambiente:
+
+    - **Sistemas de riego eficientes y paisajismo con plantas nativas.**  
+
+    - **Estaciones de carga para vehículos eléctricos.**  
+
+    - **Programa de reciclaje integral y compostaje comunitario.**  
+
+    - **Uso de materiales de construcción eco-amigables y de bajo impacto.**  
+
+    **Estilo de Vida Incomparable:**  
+    Vivir en Millenia Park Orlando significa abrazar un estilo de vida único:
+
+    - **Programa de actividades y eventos comunitarios.**  
+
+    - **Clases de yoga y fitness al aire libre.**  
+
+    - **Servicio de concierge 24/7.**  
+
+    - **Seguridad las 24 horas con acceso controlado.**  
+
+    - **Proximidad a restaurantes de clase mundial, tiendas exclusivas y entretenimiento.**  
+
+    **Oportunidad de Inversión:**  
+    Millenia Park Orlando representa una oportunidad excepcional para inversores:
+
+    - **Ubicado en una de las áreas de mayor crecimiento de Orlando.**  
+
+    - **Alto potencial de apreciación** debido a la continua expansión del distrito Millenia.  
+
+    - **Demanda constante de alquileres** a corto y largo plazo debido a su ubicación estratégica.  
+
+    **Precios y Disponibilidad:**  
+
+    - **Estudios desde $250,000 USD.**  
+
+    - **Apartamentos de 1 habitación desde $350,000 USD.**  
+
+    - **Apartamentos de 2 habitaciones desde $450,000 USD.** 
+ 
+    - **Apartamentos de 3 habitaciones desde $550,000 USD.**  
+
+    **Planes de financiamiento atractivos** disponibles para compradores calificados.  
+
+    **Millenia Park Orlando no es solo un lugar para vivir; es un estilo de vida, una comunidad y una inversión en el futuro.** No pierda la oportunidad de ser parte de este desarrollo excepcional en el corazón de Orlando. **Contáctenos hoy para programar una visita personalizada** y descubra por qué **Millenia Park Orlando es el nuevo estándar de vida de lujo en la Ciudad Bella.**
   `
   },
   {
