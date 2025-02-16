@@ -257,7 +257,7 @@ export const ARTICLES = [
 
     - **Demanda constante de alquileres** a corto y largo plazo debido a su ubicación estratégica.  
 
-    **Precios y Disponibilidad**  
+     Precios y Disponibilidad  
 
     - **Estudios desde $250,000 USD.**  
 
