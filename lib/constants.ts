@@ -171,12 +171,12 @@ export const ARTICLES = [
   fullContent: `
     **Bienvenidos a Millenia Park Orlando**, un deslumbrante desarrollo inmobiliario que redefine el concepto de vida urbana en el corazón de la Ciudad Bella. Este proyecto visionario combina la sofisticación moderna con la serenidad de la naturaleza, creando un refugio único en uno de los destinos más dinámicos de Florida.
 
-    **Ubicación Privilegiada:**  
+    Ubicación Privilegiada:
     Millenia Park Orlando se sitúa estratégicamente en el codiciado distrito de Millenia, ofreciendo a sus residentes una conectividad inigualable:
-    - **A solo una milla del Mall at Millenia**, el principal centro comercial de marcas de lujo.  
-    - **A dos millas del nuevo y esperado parque temático Universal Epic.**  
-    - **Proximidad al centro de Orlando** y su vibrante escena cultural.  
-    - **Conexión directa con las principales arterias viales y el Aeropuerto Internacional de Orlando.**  
+    - A solo una milla del Mall at Millenia, el principal centro comercial de marcas de lujo.  
+    - A dos millas del nuevo y esperado parque temático Universal Epic.
+    - Proximidad al centro de Orlando y su vibrante escena cultural.  
+    - Conexión directa con las principales arterias viales y el Aeropuerto Internacional de Orlando. 
 
     **Diseño Arquitectónico Innovador:**  
     Inspirado en la armonía entre el hombre y la naturaleza, Millenia Park Orlando presenta una arquitectura que desafía lo convencional:
@@ -269,7 +269,7 @@ export const ARTICLES = [
 
     **Planes de financiamiento atractivos** disponibles para compradores calificados.  
 
-    **Millenia Park Orlando no es solo un lugar para vivir; es un estilo de vida, una comunidad y una inversión en el futuro.** No pierda la oportunidad de ser parte de este desarrollo excepcional en el corazón de Orlando. **Contáctenos hoy para programar una visita personalizada** y descubra por qué **Millenia Park Orlando es el nuevo estándar de vida de lujo en la Ciudad Bella.**
+    Millenia Park Orlando no es solo un lugar para vivir; es un estilo de vida, una comunidad y una inversión en el futuro. No pierda la oportunidad de ser parte de este desarrollo excepcional en el corazón de Orlando. Contáctenos hoy para programar una visita personalizada y descubra por qué Millenia Park Orlando es el nuevo estándar de vida de lujo en la Ciudad Bella.
   `
   },
   {
