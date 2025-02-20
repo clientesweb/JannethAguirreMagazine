@@ -2,16 +2,16 @@
 
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
-import { ArrowLeft, ChevronLeft, ChevronRight, Facebook, Twitter, Linkedin, Share2, Phone } from "lucide-react"
+import { ArrowLeft, Facebook, Twitter, Linkedin, Share2 } from "lucide-react"
 import Link from "next/link"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
 import { ARTICLES } from "@/lib/constants"
 import { ARTICLES_VARIOS } from "@/lib/articles"
 import { notFound } from "next/navigation"
-import { useState, useMemo } from "react"
-import { useRouter } from "next/navigation"
+import { useMemo } from "react"
 import { Card, CardContent } from "@/components/ui/card"
+import { motion } from "framer-motion"
 
 interface Article {
   id: number
@@ -32,39 +32,44 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
     notFound()
   }
 
-  const [currentImageIndex, setCurrentImageIndex] = useState(0)
-
-  const images = [
-    article.image,
-    "",
-    "",
-    "",
-  ]
-
-  const nextImage = () => {
-    setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length)
-  }
-
-  const prevImage = () => {
-    setCurrentImageIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length)
-  }
-
-  const articleUrl = `https://jannethaguirre.online/articulo/${article.slug}`
-
-  const router = useRouter()
-
-  const redirectToExplore = () => {
-    if (article.category === "analisis-de-mercado") {
-      router.push("https://jannethaguirre.com/analisis-de-mercado.html")
-    } else {
-      router.push("https://jannethaguirre.com/")
-    }
-  }
+  const articleUrl = `https://villadeldique.com.ar/articulo/${article.slug}`
 
   const suggestedArticles = useMemo(() => {
     const allArticles = [...ARTICLES, ...ARTICLES_VARIOS]
     return allArticles.filter((a) => a.slug !== article.slug && a.category === article.category).slice(0, 3)
   }, [article])
+
+  // Función para procesar el contenido y manejar las imágenes inline
+  const processContent = (content: string) => {
+    const parts = content.split(/(\[IMAGE:\/[^\]]+\])/)
+    return parts.map((part, index) => {
+      if (part.startsWith("[IMAGE:/")) {
+        const imagePath = part.slice(7, -1)
+        return (
+          <figure key={index} className="my-8">
+            <div className="relative h-[400px] w-full rounded-lg overflow-hidden">
+              <Image
+                src={imagePath || "/placeholder.svg"}
+                alt="Imagen del artículo"
+                layout="fill"
+                objectFit="cover"
+                className="transition-transform duration-300 hover:scale-105"
+              />
+            </div>
+            <figcaption className="mt-3 text-center text-sm text-gray-500 italic">
+              {/* La descripción se puede agregar como un comentario después de la imagen */}
+              {content
+                .split("\n")
+                .find((line) => line.includes(imagePath) && line.includes("//"))
+                ?.split("//")[1]
+                ?.trim()}
+            </figcaption>
+          </figure>
+        )
+      }
+      return part
+    })
+  }
 
   return (
     <>
@@ -72,29 +77,23 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
       <article className="min-h-screen bg-gray-50">
         <div className="relative h-[70vh] bg-black">
           <Image
-            src={images[currentImageIndex] || "/placeholder.svg"}
+            src={article.image || "/placeholder.svg"}
             alt={article.title}
             layout="fill"
             objectFit="cover"
             className="transition-opacity duration-500"
           />
-          <div className="absolute inset-0 bg-black/50" />
-          <div className="absolute inset-0 flex items-center justify-between p-4">
-            <Button variant="ghost" size="icon" onClick={prevImage} className="text-white hover:bg-white/20">
-              <ChevronLeft className="h-8 w-8" />
-            </Button>
-            <Button variant="ghost" size="icon" onClick={nextImage} className="text-white hover:bg-white/20">
-              <ChevronRight className="h-8 w-8" />
-            </Button>
-          </div>
-          <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black to-transparent">
+          <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
+          <div className="absolute bottom-0 left-0 right-0 p-6">
             <div className="container mx-auto">
-              <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">{article.title}</h1>
-              <div className="flex items-center gap-4 text-sm text-white">
-                <span>Por Janneth Aguirre</span>
-                <span>•</span>
-                <span>5 min de lectura</span>
-              </div>
+              <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
+                <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">{article.title}</h1>
+                <div className="flex items-center gap-4 text-sm text-white">
+                  <span>Por Mercedes Felcaro</span>
+                  <span>•</span>
+                  <span>5 min de lectura</span>
+                </div>
+              </motion.div>
             </div>
           </div>
         </div>
@@ -108,93 +107,36 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
               </Button>
             </Link>
 
-            <div className="prose prose-lg max-w-none">
-              {article.subtitle && <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-800">{article.subtitle}</h2>}
-              {article.fullContent ? (
-                <div className="space-y-6">
-                  {article.fullContent.split("\n\n").map((paragraph, index, array) => (
-                    <div key={index}>
-                      {paragraph.trim().startsWith("[IMAGE:") ? (
-                        <div className="my-8">
-                          <Image
-                            src={paragraph.replace("[IMAGE:", "").replace("]", "").trim() || "/placeholder.svg"}
-                            alt={`Imagen ilustrativa ${index + 1}`}
-                            width={800}
-                            height={600}
-                            layout="responsive"
-                            className="rounded-lg shadow-md"
-                          />
-                        </div>
-                      ) : paragraph.trim().startsWith("**") && paragraph.trim().endsWith("**") ? (
-                        <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-800">
-                          {paragraph.replace(/^\*\*|\*\*$/g, "").trim()}
-                        </h2>
-                      ) : (
-                        <p className="text-gray-600 leading-relaxed">
-                          {paragraph.split("**").map((part, i) =>
-                            i % 2 === 0 ? (
-                              part
-                            ) : (
-                              <strong key={i} className="font-bold">
-                                {part}
-                              </strong>
-                            ),
-                          )}
-                        </p>
-                      )}
-                      {index === Math.floor(array.length / 2) && article.importantFact && (
-                        <blockquote className="border-l-4 border-[#FF0000] pl-4 italic my-6 text-gray-700">
-                          Dato importante: {article.importantFact}
-                        </blockquote>
-                      )}
-                    </div>
-                  ))}
-                </div>
-              ) : (
-                <p>No se ha encontrado contenido detallado para este artículo.</p>
-              )}
-
-              {/* Eliminar este bloque
-              {article.importantFact && (
-                <blockquote className="border-l-4 border-[#FF0000] pl-4 italic my-6 text-gray-700">
-                  Dato importante: {article.importantFact}
-                </blockquote>
-              )}
-              */}
-
-              <div className="flex flex-wrap justify-center gap-4 my-8">
+            {/* Botones de compartir */}
+            <div className="sticky top-4 z-10 bg-white/80 backdrop-blur-sm rounded-full shadow-lg p-2 mb-8 flex justify-center gap-2 max-w-fit mx-auto">
+              <motion.div
+                className="flex gap-2"
+                initial={{ opacity: 0, scale: 0.8 }}
+                animate={{ opacity: 1, scale: 1 }}
+              >
                 <Button
                   onClick={() => window.open(`https://www.facebook.com/sharer/sharer.php?u=${articleUrl}`, "_blank")}
-                  className="bg-[#1877F2] hover:bg-[#1877F2]/90 text-white"
+                  size="sm"
+                  variant="ghost"
+                  className="rounded-full w-10 h-10 p-0 hover:bg-[#1877F2]/10 hover:text-[#1877F2] transition-colors"
                 >
-                  <Facebook className="mr-2 h-5 w-5" />
-                  Compartir
+                  <Facebook className="h-5 w-5" />
                 </Button>
                 <Button
                   onClick={() => window.open(`https://twitter.com/intent/tweet?url=${articleUrl}`, "_blank")}
-                  className="bg-[#1DA1F2] hover:bg-[#1DA1F2]/90 text-white"
+                  size="sm"
+                  variant="ghost"
+                  className="rounded-full w-10 h-10 p-0 hover:bg-[#1DA1F2]/10 hover:text-[#1DA1F2] transition-colors"
                 >
-                  <Twitter className="mr-2 h-5 w-5" />
-                  Tuitear
+                  <Twitter className="h-5 w-5" />
                 </Button>
                 <Button
                   onClick={() => window.open(`https://www.linkedin.com/shareArticle?url=${articleUrl}`, "_blank")}
-                  className="bg-[#0A66C2] hover:bg-[#0A66C2]/90 text-white"
+                  size="sm"
+                  variant="ghost"
+                  className="rounded-full w-10 h-10 p-0 hover:bg-[#0A66C2]/10 hover:text-[#0A66C2] transition-colors"
                 >
-                  <Linkedin className="mr-2 h-5 w-5" />
-                  Compartir
-                </Button>
-                <Button
-                  onClick={() =>
-                    window.open(
-                      `https://api.whatsapp.com/send?text=${encodeURIComponent(`¡Mira este artículo interesante! ${articleUrl}`)}`,
-                      "_blank",
-                    )
-                  }
-                  className="bg-[#25D366] hover:bg-[#25D366]/90 text-white"
-                >
-                  <Phone className="mr-2 h-5 w-5" />
-                  WhatsApp
+                  <Linkedin className="h-5 w-5" />
                 </Button>
                 <Button
                   onClick={() => {
@@ -208,21 +150,43 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
                       alert("Compartir no está soportado en este navegador")
                     }
                   }}
-                  className="bg-gray-800 hover:bg-gray-700 text-white"
+                  size="sm"
+                  variant="ghost"
+                  className="rounded-full w-10 h-10 p-0 hover:bg-primary/10 hover:text-primary transition-colors"
                 >
-                  <Share2 className="mr-2 h-5 w-5" />
-                  Compartir
+                  <Share2 className="h-5 w-5" />
                 </Button>
-              </div>
+              </motion.div>
+            </div>
 
-              <Button
-                onClick={redirectToExplore}
-                className="bg-[#FF0000] hover:bg-[#FF0000]/90 w-full text-lg mt-8 text-white"
-              >
-                {article.category === "analisis-de-mercado"
-                  ? "Ver Análisis Interactivo"
-                  : "Explora el mercado inmobiliario"}
-              </Button>
+            <div className="prose prose-lg max-w-none">
+              {article.subtitle && <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-800">{article.subtitle}</h2>}
+              {article.fullContent ? (
+                <div className="space-y-6">
+                  {article.fullContent.split("\n\n").map((paragraph, index) => (
+                    <div key={index}>
+                      {paragraph.startsWith("##") ? (
+                        <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-800">
+                          {paragraph.replace("##", "").trim()}
+                        </h2>
+                      ) : paragraph.startsWith("#") ? (
+                        <h3 className="text-xl font-semibold mt-6 mb-3 text-gray-700">
+                          {paragraph.replace("#", "").trim()}
+                        </h3>
+                      ) : (
+                        <div className="text-gray-600 leading-relaxed">{processContent(paragraph)}</div>
+                      )}
+                      {index === 4 && article.importantFact && (
+                        <blockquote className="border-l-4 border-secondary pl-4 italic my-6 text-gray-700">
+                          Dato importante: {article.importantFact}
+                        </blockquote>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <p>No se ha encontrado contenido detallado para este artículo.</p>
+              )}
 
               {suggestedArticles.length > 0 && (
                 <div className="mt-12">
@@ -245,7 +209,7 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
                           <p className="text-sm text-gray-600 mb-4">{suggestedArticle.description}</p>
                           <Link
                             href={`/articulo/${suggestedArticle.slug}`}
-                            className="text-[#FF0000] hover:text-[#FF0000]/90 font-medium"
+                            className="text-secondary hover:text-secondary/90 font-medium"
                           >
                             Leer más →
                           </Link>
