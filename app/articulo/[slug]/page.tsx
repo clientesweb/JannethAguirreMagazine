@@ -227,4 +227,3 @@ export default function ArticleDetail({ params }: { params: { slug: string } }) 
     </>
   )
 }
-
