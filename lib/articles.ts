@@ -1081,7 +1081,7 @@ Esta **alianza** entre **Studio Immobiliare Rio Alto** y **Janneth Aguirre Biene
     slug: "inmoperu-mujer-2025",
     category: "Congresos",
     subtitle: "Un evento clave para el empoderamiento femenino en el sector inmobiliario",
-    importantFact: "📢 Janneth Aguirre ha sido nombrada embajadora de InmoPerú Mujer en Ecuador, fortaleciendo la red de liderazgo femenino en el sector inmobiliario de la región.",
+    importantFact: "📢 En la edición 2025, InmoPerú Mujer se consolidará como uno de los congresos más importantes del sector inmobiliario en Latinoamérica, con participantes de diferentes países, enfocados en promover la equidad de género y el liderazgo femenino en la industria.",
     fullContent: `
 El Congreso Internacional **InmoPerú Mujer 2025** se presenta como una plataforma esencial para que mujeres del sector inmobiliario se reúnan, compartan conocimientos y generen nuevas oportunidades de negocio.
 
