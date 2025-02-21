@@ -1111,4 +1111,5 @@ El Congreso Internacional **InmoPerú Mujer 2025** se presenta como una platafor
 
 **Juntas transformamos el futuro. ¡Únete a esta gran comunidad y forma parte del cambio!**
 `
-]
+  }
+];
