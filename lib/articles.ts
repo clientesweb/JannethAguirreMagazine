@@ -1106,10 +1106,13 @@ El Congreso Internacional **InmoPerú Mujer 2025** se presenta como una platafor
 **Participa en InmoPerú Mujer 2025**
 
 📅 **Fecha:** 1 y 2 de mayo de 2025.  
-📍 **Lugar:** Lima, Perú.  
-🌐 **Más información:** [InmoPerú Mujer](https://www.inmoperu.org.pe/?utm_source=chatgpt.com) o al **+51 914 483 282**.
 
-**Juntas transformamos el futuro. ¡Únete a esta gran comunidad y forma parte del cambio!**
+📍 **Lugar:** Lima, Perú.  
+
+🌐 **Más información:** @inmoperumujer
+(https://www.inmoperu.org.pe/) o al **+51 914 483 282**.
+
+**Juntas transformamos el futuro. ¡Únete a esta gran comunidad y forma parte del cambio!
 `
   }
 ];
