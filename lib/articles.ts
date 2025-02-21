@@ -1072,5 +1072,43 @@ Su participación en esta organización ha sido clave para **mejorar la regulaci
 
 Esta **alianza** entre **Studio Immobiliare Rio Alto** y **Janneth Aguirre Bienes Raíces** representa una **oportunidad única** para quienes desean invertir en **propiedades exclusivas en Venecia o en América Latina**.
    `
-}
+   },
+   {
+    id: 16,
+    title: "InmoPerú Mujer 2025: Impulsando el Liderazgo Femenino en el Sector Inmobiliario",
+    description: "El Congreso Internacional InmoPerú Mujer 2025 está cada vez más cerca, ofreciendo una gran oportunidad para mujeres líderes del sector inmobiliario. Con un enfoque en el crecimiento y liderazgo femenino, el evento se celebrará los días 1 y 2 de mayo en Lima, Perú, reuniendo a expertas de toda la región.",
+    image: "/inmoperu-mujer-2025.jpg",
+    slug: "inmoperu-mujer-2025",
+    category: "Congresos",
+    subtitle: "Un evento clave para el empoderamiento femenino en el sector inmobiliario",
+    importantFact: "📢 Janneth Aguirre ha sido nombrada embajadora de InmoPerú Mujer en Ecuador, fortaleciendo la red de liderazgo femenino en el sector inmobiliario de la región.",
+    fullContent: `
+El Congreso Internacional **InmoPerú Mujer 2025** se presenta como una plataforma esencial para que mujeres del sector inmobiliario se reúnan, compartan conocimientos y generen nuevas oportunidades de negocio.
+
+**Un Congreso de Impacto Global**
+
+•🌍 **Networking de alto nivel:** Un espacio ideal para conectar con referentes del mundo inmobiliario.
+
+•📚 **Capacitación especializada:** Acceso a herramientas y estrategias para potenciar la carrera profesional.
+
+•🚀 **Liderazgo femenino:** Un evento que fomenta el empoderamiento y la equidad en el sector.
+
+[IMAGE:/congreso-inmoperu.jpg]
+
+**Janneth Aguirre: Nueva Embajadora en Ecuador**
+
+🇪🇨 **Expansión internacional:** Janneth Aguirre se suma como embajadora en Ecuador, fortaleciendo la red de mujeres líderes en bienes raíces y promoviendo iniciativas de crecimiento profesional.
+
+📢 **Compromiso con la comunidad:** Su incorporación refuerza la misión de InmoPerú Mujer de seguir impulsando el liderazgo femenino en Latinoamérica.
+
+[IMAGE:/janneth-aguirre.jpg]
+
+**Participa en InmoPerú Mujer 2025**
+
+📅 **Fecha:** 1 y 2 de mayo de 2025.  
+📍 **Lugar:** Lima, Perú.  
+🌐 **Más información:** [InmoPerú Mujer](https://www.inmoperu.org.pe/?utm_source=chatgpt.com) o al **+51 914 483 282**.
+
+**Juntas transformamos el futuro. ¡Únete a esta gran comunidad y forma parte del cambio!**
+`
 ]
