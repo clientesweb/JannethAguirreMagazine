@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useEffect } from "react"
 import Header from "@/components/header"
 import TopBanner from "@/components/top-banner"
 import MagazineCover from "@/components/magazine-cover"
@@ -13,13 +13,10 @@ import { ARTICLES_VARIOS } from "@/lib/articles"
 import Link from "next/link"
 import { Card, CardContent, CardHeader } from "@/components/ui/card"
 import Image from "next/image"
-import Preloader from "@/components/preloader"
 import AdBanner from "@/components/ad-banner"
 import AppMockup from "@/components/app-mockup"
 
 export default function Home() {
-  const [loading, setLoading] = useState(true)
-
   useEffect(() => {
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", () => {
@@ -33,23 +30,7 @@ export default function Home() {
         )
       })
     }
-
-    // Check if the preloader has been shown in this session
-    const hasShownPreloader = sessionStorage.getItem("hasShownPreloader")
-    if (!hasShownPreloader) {
-      const timer = setTimeout(() => {
-        setLoading(false)
-        sessionStorage.setItem("hasShownPreloader", "true")
-      }, 3000)
-      return () => clearTimeout(timer)
-    } else {
-      setLoading(false)
-    }
   }, [])
-
-  if (loading) {
-    return <Preloader />
-  }
 
   return (
     <main className="min-h-screen bg-white overflow-x-hidden">
