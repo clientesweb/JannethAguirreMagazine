@@ -21,7 +21,7 @@ export default function MagazineCover() {
       {/* Imagen de fondo */}
       <div className="absolute inset-0 w-full h-full">
         <Image
-          src="/hero-image.png"
+          src="/hero-image.jpg"
           alt="Janneth Aguirre Magazine Cover"
           width={1920}
           height={1080}
