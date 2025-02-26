@@ -44,7 +44,7 @@ export default function MagazineCover() {
             className="text-left space-y-4"
           >
             <div className="inline-block bg-[#FF0000]/90 px-4 py-1 mb-4">
-              <span className="text-sm md:text-base font-medium tracking-wider">MAGAZINE EXCLUSIVO</span>
+              <span className="text-sm md:text-base font-medium tracking-wider">EXCLUSIVA</span>
             </div>
 
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold leading-none">{content.title}</h1>
