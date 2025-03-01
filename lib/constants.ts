@@ -403,8 +403,11 @@ Con una variación positiva en la oferta y una disminución en la disponibilidad
 El análisis de las **11 principales ciudades de Ecuador** para el periodo 2023-2024 muestra un mercado inmobiliario en crecimiento con desafíos por resolver. Con la reducción de unidades disponibles, los próximos años podrían traer consigo una competencia más intensa en el sector inmobiliario, especialmente con las perspectivas hacia 2025.
 
 **Autor: German Carvajal MV** 
+
  
- [IMAGE:/german-carvajal.jpg]
+[IMAGE:/german-carvajal.jpg]
+
+
 
 Explora el análisis de mercado interactivo, presionando el botón debajo de este artículo.
 `
