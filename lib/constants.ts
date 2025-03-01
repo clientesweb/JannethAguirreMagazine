@@ -362,15 +362,15 @@ export const ARTICLES = [
   id: 5,
   title: "Análisis de Mercado 2023-2024: Las 11 Principales Ciudades de Ecuador y las Perspectivas para 2025",
   description: "Este artículo presenta un análisis del mercado inmobiliario en las 11 principales ciudades de Ecuador, con datos relevantes del periodo 2023-2024 y perspectivas hacia 2025, reflejando las tendencias de oferta, unidades disponibles y su variación.",
-  image: "/analisis-de-mercado-inmobiliaro-2025.jpg",
+  image: "/analisis-de-mercado-inmobiliaro-ecuador-2025.jpg",
   slug: "analisis-mercado-ecuador-2024-2025",
-  category: "Análisis de Mercado",
+  category: "analisis-de-mercado",
   subtitle: "Perspectivas y tendencias en las principales ciudades de Ecuador para el periodo 2023-2024",
   importantFact: "📊 El mercado inmobiliario en Ecuador presenta una variación positiva del 2.43% en la oferta por ciudad, mientras que las unidades disponibles han disminuido un 4.37%. Con estas tendencias, el 2025 se perfila como un año clave para los inversionistas y compradores.",
   fullContent: `
 El análisis del mercado inmobiliario de Ecuador durante el periodo **2023-2024** muestra datos relevantes que apuntan a un año de crecimiento moderado, con variaciones clave en la oferta y las unidades disponibles. A continuación, se presentan los detalles más importantes de este análisis.
 
-**Datos Clave del Mercado Inmobiliario en Ecuador**  
+**Datos Clave del Mercado Inmobiliario en Ecuador
 
 📈 **Oferta por Ciudad**  
 
@@ -403,7 +403,7 @@ Con una variación positiva en la oferta y una disminución en la disponibilidad
 El análisis de las **11 principales ciudades de Ecuador** para el periodo 2023-2024 muestra un mercado inmobiliario en crecimiento con desafíos por resolver. Con la reducción de unidades disponibles, los próximos años podrían traer consigo una competencia más intensa en el sector inmobiliario, especialmente con las perspectivas hacia 2025.
 
 **Autor: German Carvajal MV**  
- [IMAGE:/german-carvajal.jpg)
+ [IMAGE:/german-carvajal.jpg]
 `
 },
   {
