@@ -359,52 +359,53 @@ export const ARTICLES = [
     `
   },
   {
-    id: 5,
-    title: "Análisis del Mercado Inmobiliario en Ecuador 2025",
-    description: "Un estudio detallado de las tendencias, oportunidades y desafíos en el mercado inmobiliario ecuatoriano, con datos actualizados y proyecciones para el próximo año.",
-    image: "https://jannethaguirre.online/analisis-de-mercado-inmobiliario-ecuador-2025.jpg",
-    category: "analisis-de-mercado",
-    slug: "analisis-mercado-inmobiliario-ecuador-2025",
-    subtitle: "Perspectivas del Mercado Inmobiliario Ecuatoriano",
-    importantFact: "Se proyecta un crecimiento del 7% en el sector inmobiliario en ciudades secundarias de Ecuador para 2025.",
-    fullContent: `
-    El mercado inmobiliario ecuatoriano está experimentando una transformación significativa, impulsada por factores económicos, demográficos y tecnológicos. Nuestro análisis exhaustivo para el 2025 revela tendencias cruciales y oportunidades emergentes que definirán el sector en los próximos años.
+  id: 5,
+  title: "Análisis de Mercado 2023-2024: Las 11 Principales Ciudades de Ecuador y las Perspectivas para 2025",
+  description: "Este artículo presenta un análisis del mercado inmobiliario en las 11 principales ciudades de Ecuador, con datos relevantes del periodo 2023-2024 y perspectivas hacia 2025, reflejando las tendencias de oferta, unidades disponibles y su variación.",
+  image: "/analisis-de-mercado-inmobiliaro-2025.jpg",
+  slug: "analisis-mercado-ecuador-2024-2025",
+  category: "Análisis de Mercado",
+  subtitle: "Perspectivas y tendencias en las principales ciudades de Ecuador para el periodo 2023-2024",
+  importantFact: "📊 El mercado inmobiliario en Ecuador presenta una variación positiva del 2.43% en la oferta por ciudad, mientras que las unidades disponibles han disminuido un 4.37%. Con estas tendencias, el 2025 se perfila como un año clave para los inversionistas y compradores.",
+  fullContent: `
+El análisis del mercado inmobiliario de Ecuador durante el periodo **2023-2024** muestra datos relevantes que apuntan a un año de crecimiento moderado, con variaciones clave en la oferta y las unidades disponibles. A continuación, se presentan los detalles más importantes de este análisis.
 
-    Tendencias Clave:
+**Datos Clave del Mercado Inmobiliario en Ecuador**  
 
-    1. Crecimiento en Ciudades Secundarias:
-       - Cuenca, Manta y Loja están experimentando un boom inmobiliario.
-       - Inversores buscan oportunidades fuera de Quito y Guayaquil.
+📈 **Oferta por Ciudad**  
 
-    2. Auge de Proyectos Sostenibles:
-       - Incremento en la demanda de edificios con certificación LEED.
-       - Desarrollos que incorporan energía solar y sistemas de reciclaje de agua.
+• **Total 2023**: 989  
+• **Total 2024**: 1013  
+• **Variación**: **+2.43%**
 
-    3. Digitalización del Sector:
-       - Adopción de tecnologías PropTech para ventas y gestión de propiedades.
-       - Aumento en el uso de realidad virtual para visitas inmobiliarias.
+Se observa un aumento en la oferta por ciudad del 2.43%, lo que refleja una ligera expansión en el mercado inmobiliario, lo cual es un indicio positivo de crecimiento. Este incremento podría estar relacionado con la demanda creciente de espacios habitacionales y comerciales, así como la mejora en las infraestructuras urbanas.
 
-    4. Cambios en Preferencias de Vivienda:
-       - Mayor demanda de espacios flexibles y áreas de trabajo en casa.
-       - Creciente interés en comunidades planificadas con amenidades integradas.
+📉 **Unidades Disponibles**  
 
-    5. Inversión Extranjera:
-       - Aumento de compradores internacionales, especialmente de Estados Unidos y Europa.
-       - Atractivo de Ecuador como destino de retiro y segunda residencia.
+• **Total 2023**: 26,964  
+• **Total 2024**: 25,787  
+• **Variación**: **-4.37%**
 
-    Desafíos y Oportunidades:
+Aunque la oferta ha aumentado, las unidades disponibles han disminuido un 4.37%. Esto podría deberse a un aumento en las ventas o arrendamientos, lo que señala una posible escasez de propiedades disponibles en ciertas ciudades. Esto podría generar un cambio en la dinámica del mercado, impulsando precios y la competencia entre compradores.
 
-    - Regulaciones: Nuevas políticas gubernamentales que podrían afectar al sector.
-    - Financiamiento: Evolución de las opciones de crédito hipotecario.
-    - Infraestructura: Proyectos de mejora urbana que impactarán valores inmobiliarios.
+[IMAGE:/ciudades-ecuador.jpg]
 
-    Para un análisis interactivo detallado, incluyendo gráficos, proyecciones y datos específicos por región, visite nuestra página de Análisis de Mercado completo.
+**Las 11 Principales Ciudades del Ecuador**
 
-    [Enlace al Análisis Interactivo](https://jannethaguirre.com/analisis-de-mercado.html)
+En cuanto a las 11 principales ciudades de Ecuador, se destaca un comportamiento variado. Ciudades como **Quito**, **Guayaquil**, y **Cuenca** siguen siendo las más dinámicas en términos de oferta, pero también presentan desafíos debido a la reducción de unidades disponibles. Las proyecciones para 2025 apuntan a un mercado más competitivo y con un enfoque hacia la sostenibilidad y el desarrollo urbano inteligente.
 
-    Este análisis es una herramienta invaluable para inversores, desarrolladores y compradores que buscan tomar decisiones informadas en el dinámico mercado inmobiliario ecuatoriano. Manténgase actualizado con las últimas tendencias y oportunidades para maximizar su potencial de inversión.
-    `
-  },
+**Perspectivas para 2025**
+
+Con una variación positiva en la oferta y una disminución en la disponibilidad de unidades, 2025 se perfila como un año en el que la competencia será clave. Las ciudades con un crecimiento sostenido, como Quito y Guayaquil, podrían experimentar un aumento en los precios, mientras que las ciudades en desarrollo podrían convertirse en puntos de interés para nuevos inversores.
+
+**Conclusión**
+
+El análisis de las **11 principales ciudades de Ecuador** para el periodo 2023-2024 muestra un mercado inmobiliario en crecimiento con desafíos por resolver. Con la reducción de unidades disponibles, los próximos años podrían traer consigo una competencia más intensa en el sector inmobiliario, especialmente con las perspectivas hacia 2025.
+
+**Autor: German Carvajal MV**  
+ [IMAGE:/german-carvajal.jpg)
+`
+},
   {
     id: 6,
     title: "Mocolí Bay: Un Paraíso Inmobiliario en Isla Mocolí, Samborondón",
