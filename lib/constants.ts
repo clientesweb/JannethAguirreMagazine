@@ -362,7 +362,7 @@ export const ARTICLES = [
   id: 5,
   title: "Análisis de Mercado 2023-2024: Las 11 Principales Ciudades de Ecuador y las Perspectivas para 2025",
   description: "Este artículo presenta un análisis del mercado inmobiliario en las 11 principales ciudades de Ecuador, con datos relevantes del periodo 2023-2024 y perspectivas hacia 2025, reflejando las tendencias de oferta, unidades disponibles y su variación.",
-  image: "/analisis-de-mercado-inmobiliaro-ecuador-2025.jpg",
+  image: "/ciudades-ecuador.jpg",
   slug: "analisis-mercado-ecuador-2024-2025",
   category: "analisis-de-mercado",
   subtitle: "Perspectivas y tendencias en las principales ciudades de Ecuador para el periodo 2023-2024",
@@ -402,8 +402,11 @@ Con una variación positiva en la oferta y una disminución en la disponibilidad
 
 El análisis de las **11 principales ciudades de Ecuador** para el periodo 2023-2024 muestra un mercado inmobiliario en crecimiento con desafíos por resolver. Con la reducción de unidades disponibles, los próximos años podrían traer consigo una competencia más intensa en el sector inmobiliario, especialmente con las perspectivas hacia 2025.
 
-**Autor: German Carvajal MV**  
+**Autor: German Carvajal MV** 
+ 
  [IMAGE:/german-carvajal.jpg]
+
+Explora el análisis de mercado interactivo, presionando el botón debajo de este artículo.
 `
 },
   {
