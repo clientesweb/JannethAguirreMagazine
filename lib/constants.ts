@@ -359,7 +359,61 @@ export const ARTICLES = [
     `
   },
   {
-    id: 5,
+  id: 5,
+  title: "Análisis de Mercado 2023-2024: Las 11 Principales Ciudades de Ecuador y las Perspectivas para 2025",
+  description: "Este artículo presenta un análisis del mercado inmobiliario en las 11 principales ciudades de Ecuador, con datos relevantes del periodo 2023-2024 y perspectivas hacia 2025, reflejando las tendencias de oferta, unidades disponibles y su variación.",
+  image: "/ciudades-ecuador.jpg",
+  slug: "analisis-mercado-ecuador-2024-2025",
+  category: "analisis-de-mercado",
+  subtitle: "Perspectivas y tendencias en las principales ciudades de Ecuador para el periodo 2023-2024",
+  importantFact: "📊 El mercado inmobiliario en Ecuador presenta una variación positiva del 2.43% en la oferta por ciudad, mientras que las unidades disponibles han disminuido un 4.37%. Con estas tendencias, el 2025 se perfila como un año clave para los inversionistas y compradores.",
+  fullContent: `
+El análisis del mercado inmobiliario de Ecuador durante el periodo **2023-2024** muestra datos relevantes que apuntan a un año de crecimiento moderado, con variaciones clave en la oferta y las unidades disponibles. A continuación, se presentan los detalles más importantes de este análisis.
+
+**Datos Clave del Mercado Inmobiliario en Ecuador
+
+📈 **Oferta por Ciudad**  
+
+• **Total 2023**: 989  
+• **Total 2024**: 1013  
+• **Variación**: **+2.43%**
+
+Se observa un aumento en la oferta por ciudad del 2.43%, lo que refleja una ligera expansión en el mercado inmobiliario, lo cual es un indicio positivo de crecimiento. Este incremento podría estar relacionado con la demanda creciente de espacios habitacionales y comerciales, así como la mejora en las infraestructuras urbanas.
+
+📉 **Unidades Disponibles**  
+
+• **Total 2023**: 26,964  
+• **Total 2024**: 25,787  
+• **Variación**: **-4.37%**
+
+Aunque la oferta ha aumentado, las unidades disponibles han disminuido un 4.37%. Esto podría deberse a un aumento en las ventas o arrendamientos, lo que señala una posible escasez de propiedades disponibles en ciertas ciudades. Esto podría generar un cambio en la dinámica del mercado, impulsando precios y la competencia entre compradores.
+
+[IMAGE:/ciudades-ecuador.jpg]
+
+**Las 11 Principales Ciudades del Ecuador**
+
+En cuanto a las 11 principales ciudades de Ecuador, se destaca un comportamiento variado. Ciudades como **Quito**, **Guayaquil**, y **Cuenca** siguen siendo las más dinámicas en términos de oferta, pero también presentan desafíos debido a la reducción de unidades disponibles. Las proyecciones para 2025 apuntan a un mercado más competitivo y con un enfoque hacia la sostenibilidad y el desarrollo urbano inteligente.
+
+**Perspectivas para 2025**
+
+Con una variación positiva en la oferta y una disminución en la disponibilidad de unidades, 2025 se perfila como un año en el que la competencia será clave. Las ciudades con un crecimiento sostenido, como Quito y Guayaquil, podrían experimentar un aumento en los precios, mientras que las ciudades en desarrollo podrían convertirse en puntos de interés para nuevos inversores.
+
+**Conclusión**
+
+El análisis de las **11 principales ciudades de Ecuador** para el periodo 2023-2024 muestra un mercado inmobiliario en crecimiento con desafíos por resolver. Con la reducción de unidades disponibles, los próximos años podrían traer consigo una competencia más intensa en el sector inmobiliario, especialmente con las perspectivas hacia 2025.
+
+**Autor: German Carvajal MV** 
+
+ 
+[IMAGE:/german-carvajal.jpg]
+
+
+
+Explora el análisis de mercado interactivo, presionando el botón debajo de este artículo.
+`
+},
+  {
+    id: 6,
     title: "Mocolí Bay: Un Paraíso Inmobiliario en Isla Mocolí, Samborondón",
     description: "Descubre la vida exclusiva en Mocolí Bay, un desarrollo de apartamentos de lujo con vistas panorámicas al río Babahoyo.",
     image: "https://jannethaguirre.online/mocoli-bay.jpg",
@@ -486,7 +540,7 @@ Si deseas conocer más sobre disponibilidad, características y beneficios de vi
   `
   },
   {
-    id: 6,
+    id: 8,
     title: "Casolé: Lujo Contemporáneo en el Corazón de Quito",
     description: "Descubre la fusión perfecta entre diseño vanguardista y comodidad en el nuevo proyecto residencial de Uribe & Schwarzkopf en la capital ecuatoriana.",
     image: "https://jannethaguirre.online/casole-quito.jpg",
@@ -554,4 +608,3 @@ Si deseas conocer más sobre disponibilidad, características y beneficios de vi
     `
   },
 ]
-
