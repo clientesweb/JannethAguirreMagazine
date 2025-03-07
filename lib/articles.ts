@@ -43,9 +43,7 @@ El auge del turismo ha impulsado la construcción de hosterías, casas vacaciona
 
 **Conclusión**
 
-Invertir en Yunguilla representa una oportunidad única por su combinación de clima excepcional, cercanía a Cuenca, crecimiento turístico y agrícola. Un destino ideal para quienes buscan **rentabilidad y calidad de vida** en Ecuador.
-
-[IMAGE:/german-carvajal.jpg]  
+Invertir en Yunguilla representa una oportunidad única por su combinación de clima excepcional, cercanía a Cuenca, crecimiento turístico y agrícola. Un destino ideal para quienes buscan **rentabilidad y calidad de vida** en Ecuador. 
 `
   },
   {
