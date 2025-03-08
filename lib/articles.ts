@@ -58,7 +58,7 @@ Invertir en Yunguilla representa una oportunidad única por su combinación de c
     fullContent: `
 El **Día Internacional de la Mujer** no es solo una fecha conmemorativa, sino un recordatorio de la importancia de continuar trabajando por la igualdad de derechos y oportunidades en todo el mundo.
 
-**Historia y Significado del 8M**  
+**Historia y Significado del 8M 
 
 📅 **Orígenes:** La lucha de las mujeres por mejores condiciones laborales y derechos fundamentales se remonta a principios del siglo XX. Un hecho clave fue la huelga de trabajadoras textiles en Nueva York en 1908, que exigían mejores condiciones laborales, salario justo y derecho al voto.  
 
@@ -66,7 +66,7 @@ El **Día Internacional de la Mujer** no es solo una fecha conmemorativa, sino u
 
 [IMAGE:/historia-8m.jpg]  
 
-**Avances y Desafíos en la Igualdad de Género**  
+**Avances y Desafíos en la Igualdad de Género  
 
 📈 **Logros alcanzados:**  
 - Participación femenina en espacios políticos y empresariales.  
@@ -92,7 +92,7 @@ El **Día Internacional de la Mujer** no es solo una fecha conmemorativa, sino u
 
 [IMAGE:/mujeres-inspiradoras.jpg]  
 
-**Cómo Conmemorar el Día de la Mujer**  
+**Cómo Conmemorar el Día de la Mujer  
 
 🎤 **Participa en eventos y conferencias sobre equidad de género.**  
 📚 **Apoya el emprendimiento femenino y proyectos liderados por mujeres.**  
@@ -100,7 +100,7 @@ El **Día Internacional de la Mujer** no es solo una fecha conmemorativa, sino u
 
 [IMAGE:/evento-dia-mujer.jpg]  
 
-**Conclusión**  
+**Conclusión  
 
 El **8 de marzo** es una fecha para celebrar los avances logrados, pero también para reflexionar sobre los desafíos que aún persisten. Cada acción cuenta en la construcción de una sociedad más equitativa e inclusiva.  
 
@@ -108,12 +108,7 @@ El **8 de marzo** es una fecha para celebrar los avances logrados, pero también
 
 [IMAGE:/futuro-mujeres.jpg]  
 
-**Por un mundo más justo, inclusivo y con igualdad de oportunidades para todas. ¡Feliz Día Internacional de la Mujer!**  
-
-✍ **Autor:** Janneth Aguirre  
-📌 **Más artículos:** [www.jannethaguirre.online](https://www.jannethaguirre.online)  
-🏡 **Propiedades e inversiones:** [www.jannethaguirre.com](https://www.jannethaguirre.com)  
-📲 **Contacto:** +593 98 716 7782  
+**Por un mundo más justo, inclusivo y con igualdad de oportunidades para todas. ¡Feliz Día Internacional de la Mujer!   
 `
   },
   {
