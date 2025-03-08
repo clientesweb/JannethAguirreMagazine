@@ -46,65 +46,75 @@ El auge del turismo ha impulsado la construcción de hosterías, casas vacaciona
 Invertir en Yunguilla representa una oportunidad única por su combinación de clima excepcional, cercanía a Cuenca, crecimiento turístico y agrícola. Un destino ideal para quienes buscan **rentabilidad y calidad de vida** en Ecuador. 
 `
   },
-  {
+    {
     id: 2,
-    title: "Tendencias arquitectónicas que están transformando Guayaquil",
-    description: "Explora las innovaciones en diseño y construcción que están dando forma al futuro urbano de la Perla del Pacífico.",
-    image: "/tendencias-arquitectonicas-transformando-guayaquil.jpg",
-    slug: "tendencias-arquitectonicas-transformando-guayaquil",
-    category: "arquitectura",
-    subtitle: "Guayaquil: Innovación Arquitectónica en la Perla del Pacífico",
-    importantFact: "El uso de materiales sostenibles en la construcción de Guayaquil ha aumentado un 20% en los últimos 5 años.",
+    title: "Día Internacional de la Mujer: Celebrando el Liderazgo y la Igualdad",
+    description: "Cada 8 de marzo, el mundo conmemora el Día Internacional de la Mujer, una fecha que reconoce los logros, la lucha y la resiliencia de las mujeres en todos los ámbitos. Más que una celebración, es un llamado a la acción por la equidad de género y el empoderamiento femenino.",
+    image: "/dia-internacional-mujer.jpg",
+    slug: "dia-internacional-mujer",
+    category: "Sociedad",
+    subtitle: "Un día para reflexionar, reconocer y actuar en favor de los derechos de las mujeres",
+    importantFact: "📢 Desde su proclamación por la ONU en 1977, el Día Internacional de la Mujer se ha convertido en una jornada clave para la visibilización de las luchas por la igualdad de derechos y oportunidades.",
     fullContent: `
-    Guayaquil, la mayor ciudad de Ecuador y su principal puerto, está experimentando una transformación arquitectónica que combina innovación, sostenibilidad y respeto por su rica herencia cultural. Estas son las principales tendencias que están dando forma al paisaje urbano de la Perla del Pacífico:
+El **Día Internacional de la Mujer** no es solo una fecha conmemorativa, sino un recordatorio de la importancia de continuar trabajando por la igualdad de derechos y oportunidades en todo el mundo.
 
-    1. Rascacielos verdes:
-    - Integración de jardines verticales y terrazas ajardinadas en edificios de gran altura.
-    - Uso de materiales sostenibles y sistemas de energía renovable.
-    Ejemplo: The Point, un icónico rascacielos que incorpora elementos verdes en su diseño.
+**Historia y Significado del 8M**  
 
-    2. Revitalización del casco histórico:
-    - Restauración y adaptación de edificios históricos para nuevos usos.
-    - Combinación de elementos arquitectónicos tradicionales con diseños contemporáneos.
-    Proyecto destacado: La regeneración urbana del barrio Las Peñas.
+📅 **Orígenes:** La lucha de las mujeres por mejores condiciones laborales y derechos fundamentales se remonta a principios del siglo XX. Un hecho clave fue la huelga de trabajadoras textiles en Nueva York en 1908, que exigían mejores condiciones laborales, salario justo y derecho al voto.  
 
-    3. Arquitectura bioclimática:
-    - Diseños que aprovechan el clima tropical de Guayaquil para reducir el consumo energético.
-    - Uso de ventilación natural, sombreado estratégico y orientación solar óptima.
+🌍 **Reconocimiento global:** En 1977, la ONU estableció oficialmente el 8 de marzo como el Día Internacional de la Mujer, convirtiéndolo en una jornada de concienciación y acción por la equidad de género.  
 
-    4. Espacios públicos innovadores:
-    - Creación de parques urbanos multifuncionales.
-    - Malecones y paseos ribereños que conectan la ciudad con el río Guayas.
-    Ejemplo emblemático: El proyecto Guayaquil Ecológico y la expansión del Malecón 2000.
+[IMAGE:/historia-8m.jpg]  
 
-    5. Arquitectura flotante y resiliente:
-    - Desarrollo de estructuras adaptables a las crecidas del río y al cambio climático.
-    - Proyectos piloto de viviendas y espacios comerciales flotantes.
+**Avances y Desafíos en la Igualdad de Género**  
 
-    6. Integración de tecnología smart city:
-    - Edificios inteligentes con sistemas automatizados de gestión energética.
-    - Infraestructura urbana conectada para mejorar servicios y movilidad.
+📈 **Logros alcanzados:**  
+- Participación femenina en espacios políticos y empresariales.  
+- Mayor acceso a la educación y oportunidades laborales.  
+- Desarrollo de marcos legales para la protección de derechos.  
 
-    7. Diseño inclusivo y accesible:
-    - Arquitectura que prioriza la accesibilidad universal.
-    - Espacios públicos diseñados para todas las edades y capacidades.
+⚖️ **Retos pendientes:**  
+- Brecha salarial entre hombres y mujeres.  
+- Violencia de género y discriminación en diversas sociedades.  
+- Equidad en roles de liderazgo y toma de decisiones.  
 
-    8. Upcycling y arquitectura circular:
-    - Reutilización creativa de materiales en nuevas construcciones.
-    - Diseños que facilitan el desmontaje y reciclaje futuro de los edificios.
+[IMAGE:/equidad-genero.jpg]  
 
-    9. Micro-viviendas y espacios multifuncionales:
-    - Soluciones habitacionales compactas y eficientes para áreas urbanas densas.
-    - Diseños flexibles que se adaptan a diferentes necesidades y estilos de vida.
+**Liderazgo Femenino: Mujeres que Inspiran el Cambio**  
 
-    10. Arquitectura inspirada en la identidad local:
-    - Incorporación de elementos culturales guayaquileños en diseños modernos.
-    - Uso de materiales y técnicas tradicionales en proyectos contemporáneos.
+🚀 **Ejemplos de mujeres influyentes:**  
+- **Marie Curie:** Primera mujer en ganar un Premio Nobel.  
+- **Malala Yousafzai:** Activista por la educación femenina.  
+- **Kamala Harris:** Primera mujer vicepresidenta de EE.UU.  
+- **Frida Kahlo:** Icono de resiliencia y arte.  
 
-    Estas tendencias no solo están transformando el aspecto físico de Guayaquil, sino que también están mejorando la calidad de vida de sus habitantes y posicionando a la ciudad como un referente de innovación arquitectónica en América Latina. La combinación de diseño vanguardista, conciencia ambiental y respeto por la herencia cultural está creando un Guayaquil más resiliente, sostenible y atractivo para residentes e inversores por igual.
+👩‍💼 **Cada mujer es un agente de cambio**, desde las emprendedoras y científicas hasta las líderes comunitarias y madres que impulsan nuevas generaciones.  
 
-Estas innovaciones arquitectónicas no solo están mejorando la estética de la ciudad, sino que también están contribuyendo a un desarrollo urbano más sostenible y centrado en el ser humano. A medida que Guayaquil continúa evolucionando, se posiciona como un modelo de transformación urbana para otras ciudades de la región, demostrando cómo la arquitectura puede ser una herramienta poderosa para abordar los desafíos del siglo XXI y mejorar la calidad de vida de sus habitantes.
-    `
+[IMAGE:/mujeres-inspiradoras.jpg]  
+
+**Cómo Conmemorar el Día de la Mujer**  
+
+🎤 **Participa en eventos y conferencias sobre equidad de género.**  
+📚 **Apoya el emprendimiento femenino y proyectos liderados por mujeres.**  
+📣 **Comparte historias de mujeres que han marcado la diferencia en tu comunidad.**  
+
+[IMAGE:/evento-dia-mujer.jpg]  
+
+**Conclusión**  
+
+El **8 de marzo** es una fecha para celebrar los avances logrados, pero también para reflexionar sobre los desafíos que aún persisten. Cada acción cuenta en la construcción de una sociedad más equitativa e inclusiva.  
+
+📢 **Dato importante:** La ONU estableció el lema para el Día Internacional de la Mujer 2025 como **"Innovación e inclusión: El futuro es de todas"**, resaltando la importancia de la tecnología y la equidad en el desarrollo global.  
+
+[IMAGE:/futuro-mujeres.jpg]  
+
+**Por un mundo más justo, inclusivo y con igualdad de oportunidades para todas. ¡Feliz Día Internacional de la Mujer!**  
+
+✍ **Autor:** Janneth Aguirre  
+📌 **Más artículos:** [www.jannethaguirre.online](https://www.jannethaguirre.online)  
+🏡 **Propiedades e inversiones:** [www.jannethaguirre.com](https://www.jannethaguirre.com)  
+📲 **Contacto:** +593 98 716 7782  
+`
   },
   {
     id: 3,
