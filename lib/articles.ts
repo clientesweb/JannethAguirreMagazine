@@ -1175,9 +1175,6 @@ El camino recorrido hasta ahora ha sido posible gracias a todas las mujeres que 
 El próximo **Congreso de Mujeres Inmobiliarias** se celebrará en **2025**, reafirmando el compromiso de seguir creando redes de apoyo y visibilidad para las mujeres en el sector.  
 
 **Por un futuro donde el liderazgo femenino inspire y transforme vidas.
- 
-
- Patricia Sara Laines**
 
  
 📌 **Más información:** www.inmoperu.org.pe
@@ -1189,7 +1186,7 @@ El próximo **Congreso de Mujeres Inmobiliarias** se celebrará en **2025**, rea
 🌐 **Redes sociales:**
   
 
-- **Facebook:** [InmoPeruMujer]
+- **Facebook:** InmoPeruMujer
 https://www.facebook.com/InmoPeruMujer 
 
 - **LinkedIn:** InmoPeruMujer
