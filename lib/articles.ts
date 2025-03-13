@@ -1114,69 +1114,74 @@ El Congreso Internacional **InmoPerú Mujer 2025** se presenta como una platafor
 `
   },
   {
-  id: 16,
-  title: "Patricia Sara Laines: Una Líder Visionaria Transformando el Sector Inmobiliario",
-  description: "Conoce la inspiradora historia de Patricia Sara Laines, fundadora de InmoPeruMujer y autora de 'Liderar Equipos Inmobiliarios', quien está revolucionando el sector inmobiliario a través del empoderamiento femenino y la innovación.",
-  image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/patricia-sara-laines-fundadora-inmoperu-0jj729TPlUZv7TRb7lIonbjoazGhqK.png",
-  slug: "patricia-sara-laines-lider-visionaria",
-  category: "Liderazgo",
-  subtitle: "Mujer, Líder y Soñadora Comprometida con el Cambio",
-  importantFact: "📢 Patricia Sara Laines ha transformado el sector inmobiliario en Latinoamérica a través de InmoPeruMujer, conectando y empoderando a miles de mujeres profesionales en la industria.",
-  fullContent: `
-**Una Trayectoria Inspiradora de Pasión y Propósito**
+    id: 16,
+    title: "Soy Patricia Sara Laines: Mujer, Líder y Soñadora Comprometida con el Cambio",
+    description: "Con más de 15 años de experiencia en bienes raíces, Patricia Sara Laines ha dedicado su carrera a abrir caminos para las mujeres en el sector inmobiliario, demostrando que el liderazgo femenino es una fuerza imparable.",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/_J9A0089.jpg-MN8R2RZZYTRKryaZemMpMaVd1orx3X.jpeg",
+    slug: "patricia-sara-laines-liderazgo",
+    category: "Liderazgo",
+    subtitle: "Empoderando el Liderazgo Femenino en el Sector Inmobiliario",
+    importantFact: "🌟 Fundadora de InmoPeruMujer, un movimiento que impulsa el crecimiento y liderazgo femenino en el sector inmobiliario.",
+    fullContent: `
+El liderazgo femenino ha encontrado en **Patricia Sara Laines** una voz poderosa y transformadora. Su historia es la de una mujer que ha roto barreras, creando nuevas oportunidades para otras y dejando una huella imborrable en el sector inmobiliario.
 
-Patricia Sara Laines es mucho más que una profesional inmobiliaria exitosa; es una visionaria que ha dedicado su vida a transformar la industria y empoderar a otras mujeres. Con más de 15 años de experiencia en el sector, su historia es un testimonio de perseverancia, innovación y compromiso con el cambio.
+## **Un Camino de Aprendizaje y Crecimiento**  
 
-[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/patricia-sara-laines-fundadora-inmoperu-0jj729TPlUZv7TRb7lIonbjoazGhqK.png]
+📖 **Formación y experiencia:**  
+Con más de 15 años de experiencia, Patricia ha sido pionera en la industria inmobiliaria, cofundando la primera oficina de **Keller Williams** en Perú y fundando su propia empresa, **Laines Realty**. Su pasión por el aprendizaje constante la ha llevado a obtener certificaciones internacionales que han enriquecido su visión y afinado su enfoque en la gestión inmobiliaria.  
 
-**Pionera en la Industria**
+🎓 **Certificaciones internacionales:**  
+- **Agente Green** (Barcelona, 2019), enfocada en prácticas sostenibles.  
+- **Certified Residential Specialist (CRS)** (Lima, 2020), reconocimiento a la excelencia en bienes raíces.  
 
-Como cofundadora de la primera oficina de Keller Williams en Perú y fundadora de Laines Realty, Patricia ha demostrado que el liderazgo femenino es una fuerza imparable. Su visión global y compromiso con la excelencia la han llevado a obtener certificaciones internacionales prestigiosas:
+[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/_J9A0373%20%284%29.jpg-EWlDiL96hRx34aSbDGYmlX8esJZsQ9.jpeg]  
 
-• Agente Green (Barcelona, 2019)
-• Certified Residential Specialist - CRS (Lima, 2020)
+## **Embajadora del Cambio: AMPSI y la Conexión Global**  
 
-[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot_20250313-070155-wjGMrN8xFt9qf20Z2uUTiIg7hqfZjM.png]
+🌍 **Compromiso global:**  
+En 2023, Patricia fue nombrada **Embajadora de AMPSI** (Asociación de Mujeres Profesionales del Sector Inmobiliario en España), creando redes de apoyo y colaboración que cruzan fronteras. Este reconocimiento refuerza su compromiso de conectar a mujeres líderes y promover el crecimiento del sector a nivel global.  
 
-**InmoPeruMujer: Un Movimiento Transformador**
+## **El Nacimiento de InmoPeruMujer: Un Movimiento de Transformación**  
 
-En 2023, Patricia dio vida a su sueño más ambicioso: InmoPeruMujer, una iniciativa revolucionaria que busca empoderar a las mujeres en el sector inmobiliario. Este proyecto, que comenzó en Lima, se ha convertido en un movimiento internacional que está redefiniendo el papel de la mujer en la industria.
+💜 **Iniciativa de cambio:**  
+Consciencia de la necesidad de crear espacios de apoyo y visibilidad para las mujeres en bienes raíces, Patricia fundó **InmoPeruMujer**. Esta iniciativa nació con la firme creencia de que, cuando las mujeres tienen acceso a oportunidades, educación y redes de apoyo, pueden alcanzar sus metas más ambiciosas.  
 
-[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/inmoperu-logo-min-s1jhVQMAs6NMqTRBjvt2BAc146H9WX.png]
+[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot_20250313-070125-SkoxHPcYpNpdoKZoyiVtOnh7rKubgw.png]  
 
-"Cuando ayudas, inspiras, motivas y capacitas a una mujer, ayudas a toda una familia. Juntas somos más fuertes", afirma Patricia, reflejando la filosofía que impulsa cada una de sus iniciativas.
+## **Congreso de Mujeres Inmobiliarias: Inspiración y Crecimiento**  
 
-**El Congreso de Mujeres Inmobiliarias: Un Espacio de Conexión y Crecimiento**
+📣 **Evento de referencia:**  
+El **Congreso de Mujeres Inmobiliarias**, que ha tenido dos ediciones exitosas en 2023 y 2024, se ha consolidado como una plataforma clave para visibilizar el talento femenino en bienes raíces, con una tercera edición programada para 2025.  
 
-El éxito de los Congresos de Mujeres Inmobiliarias en 2023 y 2024 ha demostrado el poder de la comunidad y la colaboración. Estos eventos han reunido a profesionales de Latinoamérica, EE.UU. y Europa, creando un espacio único para compartir conocimientos y construir redes de apoyo.
+**Bajo el lema:**  
+*"Cuando ayudas, inspiras, motivas y capacitas a una mujer, ayudas a toda una familia. Juntas somos más fuertes."*  
 
-[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/_J9A0089.jpg-SzxpePbvXshl44BojdFc1Lq87uwb2c.jpeg]
+[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/_J9A0089.jpg-MN8R2RZZYTRKryaZemMpMaVd1orx3X.jpeg]  
 
-**Liderazgo que Inspira**
+## **Un Legado de Inspiración y Compromiso**  
 
-Como autora del libro "Liderar Equipos Inmobiliarios", Patricia comparte su experiencia y estrategias para alcanzar resultados extraordinarios. Su rol como Embajadora de AMPSI (Asociación de Mujeres Profesionales del Sector Inmobiliario en España) refleja su compromiso con la colaboración internacional y el empoderamiento femenino.
+💬 **Misión:**  
+Patricia no solo ha transformado el sector inmobiliario, sino que ha creado un **legado de empoderamiento femenino** que continúa inspirando a mujeres alrededor del mundo. Su trabajo ha sido clave para visibilizar el papel de la mujer en la industria, demostrando que el liderazgo femenino es una fuerza imparable.  
 
-[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/_J9A0237%20%282%29.jpg-AiGcKc1x4iqVCeZ9gkcrGjWdFPHQ2c.jpeg]
+[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/_J9A0237%20%282%29.jpg-QdAohQbqnUfB3CZDZLo2wAZxEED9xU.jpeg]  
 
-**Una Visión Global desde Los Ángeles**
+## **Gracias por Ser Parte de Esta Historia**  
 
-Actualmente desde Los Ángeles, California, Patricia continúa expandiendo su impacto y desarrollando proyectos que fortalecen la presencia femenina en el sector inmobiliario. Su visión es clara: convertir InmoPeruMujer en un movimiento global que inspire y empodere a mujeres en cada país.
+El camino recorrido hasta ahora ha sido posible gracias a todas las mujeres que han creído en este proyecto. A las embajadoras, al equipo organizador y a nuestros patrocinadores, les agradezco profundamente por ser parte de este movimiento.  
 
-**El Poder de la Comunidad**
+📢 **Dato importante:**  
+El próximo **Congreso de Mujeres Inmobiliarias** se celebrará en **2025**, reafirmando el compromiso de seguir creando redes de apoyo y visibilidad para las mujeres en el sector.  
 
-InmoPeruMujer se visualiza como una incubadora de Mujeres Líderes, donde cada embajadora puede llevar el movimiento a su país y multiplicar su impacto. Como dice Patricia: "Creemos en nosotras mismas y confiamos en que podemos lograr absolutamente todo lo que nos propongamos. ¡CREE EN TI SIEMPRE!"
+**Por un futuro donde el liderazgo femenino inspire y transforme vidas.** 
+ 
 
-**Conecta con InmoPeruMujer**
-
-📱 Teléfono: +51 992 174598
-📧 Email: contacto@inmoperu.org.pe
-🌐 Web: www.inmoperu.org.pe
-
-Síguenos en redes sociales:
-• Facebook: InmoPeruMujer
-• LinkedIn: InmoPeruMujer
-
-El legado de Patricia Sara Laines va más allá del sector inmobiliario; es una historia de empoderamiento, visión y transformación que continúa inspirando a mujeres en todo el mundo a perseguir sus sueños y crear un impacto positivo en la industria.
+ Patricia Sara Laines  
+📌 **Más información:** [www.inmoperu.org.pe](https://www.inmoperu.org.pe)  
+📲 **Contacto:** +51 992 174598  
+📧 **Correo:** contacto@inmoperu.org.pe  
+🌐 **Redes sociales:**  
+- **Facebook:** [InmoPeruMujer](https://www.facebook.com/InmoPeruMujer)  
+- **LinkedIn:** [InmoPeruMujer](https://www.linkedin.com/company/inmoperumujer)  
 `
 }
 ];
