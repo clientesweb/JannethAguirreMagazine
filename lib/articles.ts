@@ -1112,5 +1112,77 @@ El Congreso Internacional **InmoPerú Mujer 2025** se presenta como una platafor
 
 **Juntas transformamos el futuro. ¡Únete a esta gran comunidad y forma parte del cambio!
 `
-  }
+  },
+  {
+    "id": 16,
+    "title": "Soy Patricia Sara Laines: Mujer, Líder y Soñadora Comprometida con el Cambio",
+    "description": "Con más de 15 años de experiencia en bienes raíces, Patricia Sara Laines ha dedicado su carrera a abrir caminos para las mujeres en el sector inmobiliario, demostrando que el liderazgo femenino es una fuerza imparable.",
+    "image": "/patricia-sara-laines.jpg",
+    "slug": "patricia-sara-laines-liderazgo",
+    "category": "Liderazgo",
+    "subtitle": "Empoderando el Liderazgo Femenino en el Sector Inmobiliario",
+    "importantFact": "🌟 Fundadora de InmoPeruMujer, un movimiento que impulsa el crecimiento y liderazgo femenino en el sector inmobiliario.",
+    "fullContent": `
+El liderazgo femenino ha encontrado en **Patricia Sara Laines** una voz y una fuerza transformadora. Su historia es la de una mujer que ha sabido romper barreras, creando oportunidades para otras mujeres y dejando huella en el sector inmobiliario.
+
+## **Un Camino de Aprendizaje y Crecimiento**  
+
+📖 **Formación y experiencia:**  
+Con más de 15 años de trayectoria, Patricia ha sido pionera en la industria, cofundando la primera oficina de **Keller Williams** en Perú y creando su propia empresa, **Laines Realty**. Su pasión por el aprendizaje continuo la llevó a obtener certificaciones internacionales que enriquecieron su visión y le permitieron perfeccionar su enfoque en la gestión inmobiliaria.  
+
+🎓 **Certificaciones internacionales:**  
+- **Agente Green** (Barcelona, 2019), enfocada en prácticas sostenibles.  
+- **Certified Residential Specialist (CRS)** (Lima, 2020), reconocimiento a la excelencia en bienes raíces.  
+
+![Certificaciones Patricia](/certificaciones-patricia.jpg)  
+
+## **Embajadora del Cambio: AMPSI y la Conexión Global**  
+
+🌍 **Compromiso global:**  
+En 2023, Patricia fue nombrada **Embajadora de AMPSI** (Asociación de Mujeres Profesionales del Sector Inmobiliario en España), creando redes de apoyo y colaboración que trascienden fronteras. Este reconocimiento refuerza su compromiso de conectar a mujeres líderes y promover el crecimiento del sector a nivel internacional.  
+
+## **El Nacimiento de InmoPeruMujer: Un Movimiento de Transformación**  
+
+💜 **Iniciativa de cambio:**  
+Consciente de la necesidad de crear espacios de apoyo y visibilidad para las mujeres en bienes raíces, Patricia fundó **InmoPeruMujer**. Esta iniciativa nació con la convicción de que, cuando las mujeres tienen acceso a oportunidades, educación y redes de apoyo, pueden alcanzar lo que se propongan.  
+
+![InmoPeruMujer](/inmoperumujer.jpg)  
+
+## **Congreso de Mujeres Inmobiliarias: Inspiración y Crecimiento**  
+
+📣 **Evento de referencia:**  
+El **Congreso de Mujeres Inmobiliarias**, con dos ediciones exitosas en 2023 y 2024, ha sido una plataforma clave para visibilizar el talento femenino en bienes raíces, consolidándose para una tercera edición en 2025.  
+
+**Bajo el lema:**  
+*"Cuando ayudas, inspiras, motivas y capacitas a una mujer, ayudas a toda una familia. Juntas somos más fuertes."*  
+
+![Congreso Mujeres Inmobiliarias](/congreso-mujeres.jpg)  
+
+## **Un Legado de Inspiración y Compromiso**  
+
+💬 **Misión:**  
+Patricia no solo ha transformado el sector inmobiliario, sino que ha creado un **legado de empoderamiento femenino** que continúa inspirando a mujeres de todo el mundo. Su trabajo ha sido fundamental para visibilizar el papel de la mujer en la industria, demostrando que el liderazgo femenino es una fuerza imparable.  
+
+![Patricia Vision](/patricia-vision.jpg)  
+
+## **Gracias por Ser Parte de Esta Historia**  
+
+El camino recorrido hasta ahora ha sido posible gracias a todas las mujeres que han creído en este proyecto. A las embajadoras, al equipo organizador y a nuestros sponsors, les agradezco profundamente por ser parte de este movimiento.  
+
+📢 **Dato importante:**  
+El próximo **Congreso de Mujeres Inmobiliarias** se celebrará en **2025**, reafirmando el compromiso de crear redes de apoyo y visibilidad para las mujeres en el sector.  
+
+**Por un futuro donde el liderazgo femenino inspire y transforme vidas.**  
+
+---
+
+✍ **Autor:** Patricia Sara Laines  
+📌 **Más información:** [www.inmoperu.org.pe](https://www.inmoperu.org.pe)  
+📲 **Contacto:** +51 992 174598  
+📧 **Correo:** contacto@inmoperu.org.pe  
+🌐 **Redes sociales:**  
+- **Facebook:** [InmoPeruMujer](https://www.facebook.com/InmoPeruMujer)  
+- **LinkedIn:** [InmoPeruMujer](https://www.linkedin.com/company/inmoperumujer)  
+`
+}
 ];
