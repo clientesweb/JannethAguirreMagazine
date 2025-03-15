@@ -54,72 +54,62 @@ export default function MagazineCover() {
           />
         </div>
 
-        {/* Gradiente mejorado con más contraste - ajustado para la nueva imagen */}
-        <div className="absolute inset-0 bg-gradient-to-br from-black/30 via-black/20 to-transparent z-10" />
+        {/* Overlay para mejorar legibilidad */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent z-10" />
 
         {/* Contenido reorganizado */}
-        <div className="relative z-20 text-white w-full max-w-7xl mx-auto px-6 md:px-12 h-full flex flex-col justify-end pb-24 md:pb-32">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-end">
-            {/* Columna izquierda - Título principal */}
-            <motion.div
-              initial={{ opacity: 0, x: -50 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8 }}
-              className="text-left space-y-4"
-            >
-              <div className="inline-block bg-[#FF0000]/90 px-4 py-1 mb-4">
-                <span className="text-sm md:text-base font-medium tracking-wider">DESTACADO</span>
-              </div>
+        <div className="relative z-20 text-white w-full max-w-7xl mx-auto px-4 sm:px-6 md:px-8 h-full flex flex-col justify-end pb-16 sm:pb-20 md:pb-24">
+          {/* Contenedor con fondo semi-transparente para mejorar legibilidad */}
+          <div className="bg-black/40 backdrop-blur-sm p-4 sm:p-6 md:p-8 rounded-xl max-w-4xl mx-auto w-full">
+            <div className="grid grid-cols-1 gap-6 md:gap-8">
+              {/* Título y descripción */}
+              <div className="text-center space-y-4">
+                <div className="inline-block bg-[#FF0000] px-4 py-1 mb-2 rounded-full">
+                  <span className="text-sm md:text-base font-medium tracking-wider">DESTACADO</span>
+                </div>
 
-              <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-none text-shadow-lg">
-                {content.title}
-              </h1>
+                <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight text-shadow-xl">
+                  {content.title}
+                </h1>
 
-              <div className="flex items-center space-x-2 mt-6">
-                <div className="h-1 w-12 bg-[#FF0000]"></div>
-                <span className="text-[#FF0000] text-2xl md:text-3xl font-bold text-shadow-sm">MAGAZINE</span>
-              </div>
+                <div className="flex items-center justify-center space-x-3 mt-2">
+                  <div className="h-1 w-12 bg-[#FF0000]"></div>
+                  <span className="text-[#FF0000] text-2xl md:text-3xl font-bold text-shadow-lg">MAGAZINE</span>
+                  <div className="h-1 w-12 bg-[#FF0000]"></div>
+                </div>
 
-              <p className="text-lg md:text-xl text-white mt-4 font-medium text-shadow-md">{content.description}</p>
-            </motion.div>
-
-            {/* Columna derecha - Subtítulo y CTA */}
-            <motion.div
-              initial={{ opacity: 0, y: 50 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.3 }}
-              className="text-left md:text-right space-y-8"
-            >
-              <div className="border-l-4 md:border-l-0 md:border-r-4 border-[#FF0000] pl-6 md:pl-0 md:pr-6">
-                <p className="text-xl sm:text-2xl md:text-3xl font-serif italic leading-tight text-shadow-md">
+                <p className="text-xl sm:text-2xl md:text-3xl font-serif italic leading-tight text-shadow-lg max-w-3xl mx-auto mt-4">
                   {content.subtitle}
                 </p>
-              </div>
 
-              <div className="flex md:justify-end mt-8">
-                <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.98 }}>
-                  <Link href={content.cta.link}>
-                    <Button
-                      size="lg"
-                      className="bg-[#FF0000] hover:bg-[#FF0000]/90 text-base sm:text-lg px-8 py-6 rounded-full shadow-xl shadow-black/30 border border-[#FF0000]/20"
-                    >
-                      {content.cta.text}
-                      <ArrowRight className="ml-2 h-5 w-5" />
-                    </Button>
-                  </Link>
-                </motion.div>
-              </div>
+                <p className="text-lg md:text-xl text-white mt-2 font-medium text-shadow-md">{content.description}</p>
 
-              <div className="hidden md:block absolute bottom-12 right-12">
-                <motion.div
-                  animate={{ y: [0, 10, 0] }}
-                  transition={{ repeat: Number.POSITIVE_INFINITY, duration: 2 }}
-                  className="flex flex-col items-center"
-                >
-                  <div className="h-16 w-0.5 bg-white/30"></div>
-                  <span className="text-sm text-white/70 mt-2">DESPLAZA</span>
-                </motion.div>
+                <div className="mt-6 sm:mt-8">
+                  <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.98 }} className="inline-block">
+                    <Link href={content.cta.link}>
+                      <Button
+                        size="lg"
+                        className="bg-[#FF0000] hover:bg-[#FF0000]/90 text-base sm:text-lg px-8 py-6 rounded-full shadow-2xl shadow-black/50 border-2 border-[#FF0000]/30"
+                      >
+                        {content.cta.text}
+                        <ArrowRight className="ml-2 h-5 w-5" />
+                      </Button>
+                    </Link>
+                  </motion.div>
+                </div>
               </div>
+            </div>
+          </div>
+
+          {/* Indicador de scroll */}
+          <div className="hidden md:block absolute bottom-8 left-1/2 transform -translate-x-1/2">
+            <motion.div
+              animate={{ y: [0, 10, 0] }}
+              transition={{ repeat: Number.POSITIVE_INFINITY, duration: 2 }}
+              className="flex flex-col items-center"
+            >
+              <div className="h-16 w-0.5 bg-white/50"></div>
+              <span className="text-sm text-white/80 mt-2 font-medium">DESPLAZA</span>
             </motion.div>
           </div>
         </div>
