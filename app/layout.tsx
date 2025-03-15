@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     siteName: "Janneth Aguirre Magazine",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "https://jannethaguirre.online/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Janneth Aguirre Magazine",
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     title: "Janneth Aguirre Magazine - Bienes Raíces Internacionales",
     description:
       "Descubre las mejores propiedades de lujo e inversiones inmobiliarias en Ecuador, Panamá y Estados Unidos.",
-    images: ["/og-image.jpg"],
+    images: ["https://jannethaguirre.online/twitter-image.jpg"],
   },
   robots: {
     index: true,
