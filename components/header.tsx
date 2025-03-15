@@ -69,7 +69,7 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${
         isScrolled ? "bg-black/80 backdrop-blur-md shadow-lg" : "bg-transparent"
       }`}
     >
@@ -150,7 +150,7 @@ export default function Header() {
         </AnimatePresence>
       </div>
 
-      {/* Mobile Menu */}
+      {/* Mobile Menu - Fixed to viewport */}
       <AnimatePresence>
         {isOpen && (
           <motion.div
@@ -158,8 +158,8 @@ export default function Header() {
             animate="open"
             exit="closed"
             variants={menuVariants}
-            className="fixed inset-0 bg-black/95 backdrop-blur-md z-[100] md:hidden"
-            style={{ top: 0, height: "100%" }}
+            className="fixed inset-0 bg-black/95 backdrop-blur-md z-50 md:hidden"
+            style={{ top: 0, height: "100vh", position: "fixed" }}
           >
             <div className="flex flex-col h-full">
               <div className="flex justify-between items-center p-4 border-b border-white/10">
@@ -176,7 +176,7 @@ export default function Header() {
                   <X className="h-6 w-6" />
                 </Button>
               </div>
-              <nav className="flex flex-col space-y-1 p-4 overflow-y-auto">
+              <nav className="flex flex-col space-y-1 p-4 overflow-y-auto flex-grow">
                 {CATEGORIES.map((category) => (
                   <motion.div key={category.slug} variants={itemVariants}>
                     <Link
