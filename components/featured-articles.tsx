@@ -6,6 +6,19 @@ import { ArrowRight } from "lucide-react"
 import { ARTICLES } from "@/lib/constants"
 import { motion } from "framer-motion"
 
+// Definir el tipo para los artículos
+interface ArticleType {
+  id: number
+  title: string
+  description: string
+  image: string
+  category: string
+  slug: string
+  subtitle?: string
+  importantFact?: string
+  fullContent?: string
+}
+
 export default function FeaturedArticles() {
   const featuredArticles = ARTICLES.slice(0, 5)
 
@@ -23,8 +36,8 @@ export default function FeaturedArticles() {
           </div>
 
           {/* Artículos secundarios */}
-          {featuredArticles.slice(1, 5).map((article, index) => (
-            <div key={article.id} className={index === 0 ? "lg:col-span-1" : ""}>
+          {featuredArticles.slice(1, 5).map((article) => (
+            <div key={article.id}>
               <FeaturedArticleCard article={article} isMain={false} />
             </div>
           ))}
@@ -34,7 +47,7 @@ export default function FeaturedArticles() {
   )
 }
 
-function FeaturedArticleCard({ article, isMain }) {
+function FeaturedArticleCard({ article, isMain }: { article: ArticleType; isMain: boolean }) {
   return (
     <motion.div
       whileHover={{ y: -5 }}
