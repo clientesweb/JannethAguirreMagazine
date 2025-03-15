@@ -158,7 +158,8 @@ export default function Header() {
             animate="open"
             exit="closed"
             variants={menuVariants}
-            className="fixed inset-0 bg-black/95 backdrop-blur-md z-50 md:hidden"
+            className="fixed inset-0 bg-black/95 backdrop-blur-md z-[100] md:hidden"
+            style={{ top: 0, height: "100%" }}
           >
             <div className="flex flex-col h-full">
               <div className="flex justify-between items-center p-4 border-b border-white/10">
