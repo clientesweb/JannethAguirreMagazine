@@ -12,7 +12,8 @@
   .prose p {
     @apply mb-6 text-gray-600 leading-relaxed;
   }
-  .prose ul, .prose ol {
+  .prose ul,
+  .prose ol {
     @apply my-6 ml-6 space-y-2;
   }
   .prose li {
@@ -42,5 +43,28 @@
 
 .instagram-embed-container .instagram-media {
   margin: 0 auto !important;
+}
+
+/* Slider animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Responsive slider adjustments */
+@media (max-width: 640px) {
+  .slider-container {
+    margin-left: -1rem;
+    margin-right: -1rem;
+    width: calc(100% + 2rem);
+  }
 }
 
