@@ -12,7 +12,6 @@ import { ARTICLES_VARIOS } from "@/lib/articles"
 import Link from "next/link"
 import Image from "next/image"
 import AdBanner from "@/components/ad-banner"
-import AppMockup from "@/components/app-mockup"
 import { ArrowRight } from "lucide-react"
 
 export default function Home() {
@@ -209,8 +208,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      <AppMockup />
 
       <Footer />
       <WhatsAppButton />
