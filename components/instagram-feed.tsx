@@ -1,45 +1,19 @@
 "use client"
 
-import { useEffect, useRef } from "react"
+import { useRef } from "react"
 import { motion } from "framer-motion"
+import Image from "next/image"
 import Link from "next/link"
 import { Instagram } from "lucide-react"
 
 // Reducir a solo 4 posts
 const INSTAGRAM_POSTS = ["DFjgpJQueRO", "DFiUpyVu-nd", "DFgiSwiOU9L", "DFdiIPfyn-H"]
 
-declare global {
-  interface Window {
-    instgrm?: {
-      Embeds: {
-        process: () => void
-      }
-    }
-  }
-}
+// Imágenes de respaldo en caso de que la carga de Instagram falle
+const FALLBACK_IMAGES = ["/instagram-1.jpg", "/instagram-2.jpg", "/instagram-3.jpg", "/instagram-4.jpg"]
 
 export default function InstagramFeed() {
   const containerRef = useRef<HTMLDivElement>(null)
-
-  useEffect(() => {
-    // Load Instagram embed script
-    const script = document.createElement("script")
-    script.src = "https://www.instagram.com/embed.js"
-    script.async = true
-    document.body.appendChild(script)
-
-    // Clean up
-    return () => {
-      document.body.removeChild(script)
-    }
-  }, [])
-
-  useEffect(() => {
-    // Trigger embed rendering when available
-    if (window.instgrm) {
-      window.instgrm.Embeds.process()
-    }
-  }, [])
 
   return (
     <section className="py-16 sm:py-20 bg-gradient-to-b from-black to-gray-900 text-white">
@@ -49,34 +23,29 @@ export default function InstagramFeed() {
         </h2>
 
         <div ref={containerRef} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
-          {INSTAGRAM_POSTS.map((postId) => (
+          {INSTAGRAM_POSTS.map((postId, index) => (
             <motion.div
               key={postId}
               whileHover={{ y: -5 }}
               className="bg-gray-800/50 backdrop-blur-sm rounded-xl overflow-hidden shadow-lg hover:shadow-xl hover:shadow-[#FF0000]/10 transition-all duration-300 h-full group"
             >
-              <div className="relative aspect-square">
-                <Link href={`https://www.instagram.com/p/${postId}/`} target="_blank" rel="noopener noreferrer">
-                  <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center z-10">
-                    <Instagram className="h-10 w-10 text-white" />
-                  </div>
-                  <div className="instagram-embed-container h-full">
-                    <blockquote
-                      className="instagram-media"
-                      data-instgrm-permalink={`https://www.instagram.com/p/${postId}/`}
-                      data-instgrm-version="14"
-                      style={{
-                        background: "#FFF",
-                        border: "0",
-                        margin: "0",
-                        padding: "0",
-                        width: "100%",
-                        height: "100%",
-                      }}
-                    ></blockquote>
-                  </div>
-                </Link>
-              </div>
+              <Link
+                href={`https://www.instagram.com/p/${postId}/`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block relative aspect-square"
+              >
+                <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center z-10">
+                  <Instagram className="h-10 w-10 text-white" />
+                </div>
+                <Image
+                  src={FALLBACK_IMAGES[index] || `/placeholder.svg?height=500&width=500`}
+                  alt={`Instagram post ${index + 1}`}
+                  layout="fill"
+                  objectFit="cover"
+                  className="transition-transform duration-500 group-hover:scale-105"
+                />
+              </Link>
             </motion.div>
           ))}
         </div>
