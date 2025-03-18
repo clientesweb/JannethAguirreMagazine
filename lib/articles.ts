@@ -131,7 +131,7 @@ El BIESS ofrece créditos hipotecarios con tasas de interés que parten desde el
 **Banco del Pacífico:  
 Este banco ha establecido alianzas con el BIESS para ofrecer créditos hipotecarios con tasas competitivas y condiciones flexibles, facilitando el acceso a viviendas en todo el país.  
 
-**Tasas de Interés y Beneficios**  
+**Tasas de Interés y Beneficios 
 
 Según datos del Banco Central del Ecuador, las tasas de interés referenciales para créditos hipotecarios en enero de 2025 son:  
 
