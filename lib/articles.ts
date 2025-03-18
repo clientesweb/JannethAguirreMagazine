@@ -123,12 +123,12 @@ El **8 de marzo** es una fecha para celebrar los avances logrados, pero también
     fullContent: `
 En 2025, acceder a un crédito hipotecario en Ecuador se ha facilitado gracias a políticas gubernamentales y ofertas de instituciones financieras que buscan promover la adquisición de vivienda propia.
 
-**Opciones Destacadas de Créditos Hipotecarios en Ecuador 2025**  
+**Opciones Destacadas de Créditos Hipotecarios en Ecuador 2025  
 
-**Banco del Instituto Ecuatoriano de Seguridad Social (BIESS):**  
+**Banco del Instituto Ecuatoriano de Seguridad Social (BIESS):  
 El BIESS ofrece créditos hipotecarios con tasas de interés que parten desde el 5.99%. Estos préstamos están destinados a afiliados y jubilados del IESS para la compra de vivienda, construcción, remodelación o adquisición de terrenos. En 2025, se proyecta desembolsar $534 millones en este tipo de créditos.  
 
-**Banco del Pacífico:**  
+**Banco del Pacífico:  
 Este banco ha establecido alianzas con el BIESS para ofrecer créditos hipotecarios con tasas competitivas y condiciones flexibles, facilitando el acceso a viviendas en todo el país.  
 
 **Tasas de Interés y Beneficios**  
@@ -141,7 +141,7 @@ Según datos del Banco Central del Ecuador, las tasas de interés referenciales 
 
 Además, con el incremento del salario básico unificado de $460 a $470 en enero de 2025, se ajustaron los montos máximos de los créditos hipotecarios con tasa de interés subsidiada, permitiendo a los ciudadanos acceder a viviendas de hasta $107,630.  
 
-**Requisitos Comunes para Solicitar un Crédito Hipotecario**  
+**Requisitos Comunes para Solicitar un Crédito Hipotecario  
 
 Los requisitos pueden variar según la entidad financiera, pero generalmente incluyen:
 
@@ -155,12 +155,9 @@ Los requisitos pueden variar según la entidad financiera, pero generalmente inc
 
 5. **Documentación del Inmueble:** Escrituras, planos y otros documentos legales que respalden la propiedad a financiar.  
 
-**Conclusión**  
+**Conclusión  
 
 El año 2025 presenta oportunidades únicas para acceder a créditos hipotecarios en Ecuador, gracias a las tasas de interés preferenciales y las políticas gubernamentales que facilitan la adquisición de vivienda. Es esencial comparar las ofertas de diferentes instituciones financieras y cumplir con los requisitos establecidos para encontrar la opción que mejor se adapte a tus necesidades.
-
-📢 **Dato Importante:**  
-Los créditos hipotecarios en Ecuador están más accesibles que nunca, con tasas de interés que comienzan desde el 4.99% y montos ajustados al salario básico unificado. Aprovecha estas condiciones para hacer realidad tu sueño de tener una vivienda propia.
 
 ¡No pierdas la oportunidad de asegurar tu hogar con las mejores condiciones del mercado!  
 `
