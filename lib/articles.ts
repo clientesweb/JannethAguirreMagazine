@@ -1199,5 +1199,57 @@ https://www.linkedin.com/company/inmoperumujer
 
 [IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20250312-WA0033.jpg-Nbfguq6j79gyKdAYka58g7sYZ2ZDC3.jpeg]
 `
+},
+{
+    id: 17,
+    title: "Cuenca: La joya patrimonial de Ecuador",
+    description: "Cuenca, conocida como la 'Atenas del Ecuador', es una ciudad impregnada de historia, cultura y belleza arquitectónica, declarada Patrimonio Cultural de la Humanidad por la UNESCO.",
+    image: "/cuenca-patrimonio-ecuador.jpg",
+    slug: "cuenca-joya-patrimonial-ecuador",
+    category: "Historia y Cultura",
+    subtitle: "Una ciudad que respira historia, tradición y belleza, que invita a ser vivida, no solo visitada.",
+    importantFact: "📢 Cuenca, fundada en 1557, fue declarada Patrimonio Cultural de la Humanidad por la UNESCO en 1999, destacándose por su herencia colonial y sus tradiciones vivas.",
+    fullContent: `
+Cuenca, conocida como la "Atenas del Ecuador", es una ciudad impregnada de historia, cultura y belleza arquitectónica. Fundada el 12 de abril de 1557 por Gil Ramírez Dávalos bajo la orden del virrey Andrés Hurtado de Mendoza, se levanta sobre antiguos asentamientos cañaris e incas, convirtiéndose en un punto de encuentro de culturas y tradiciones. Su centro histórico, declarado Patrimonio Cultural de la Humanidad por la UNESCO en 1999, es un testimonio viviente de su rica herencia colonial.
+
+**Raíces históricas: De Guapondelig a Santa Ana de los Ríos de Cuenca**  
+
+La historia de Cuenca se remonta a tiempos prehispánicos, cuando era conocida como Guapondelig, territorio de la nación cañari. Posteriormente, con la expansión del Tahuantinsuyo, los incas la convirtieron en Tomebamba, considerada la cuna de Huayna Cápac, uno de los últimos emperadores incas.
+
+Durante la colonización española, la ciudad fue refundada como Santa Ana de los Ríos de Cuenca, marcando el inicio de una transformación urbana y social que integró las tradiciones locales con las influencias europeas. Este crisol de culturas se refleja en sus calles empedradas, edificaciones coloniales, balcones de hierro forjado y coloridos patios floridos.
+
+[IMAGE:/cuenca-historia.jpg]  
+
+**Patrimonio arquitectónico y cultural**  
+
+El corazón de Cuenca late en el Parque Calderón, la plaza central donde convergen la majestuosa Catedral Nueva y la Catedral Vieja, íconos arquitectónicos de la ciudad. La riqueza cultural de Cuenca también se expresa en sus museos, que narran la historia y tradiciones de esta urbe milenaria:
+
+- **Museo de la Ciudad:** Ubicado en la antigua Escuela Central, este edificio histórico ha sido cuidadosamente restaurado, convirtiéndose en un símbolo de la conservación del patrimonio cuencano.
+- **Museo Pumapungo:** Punto de referencia para entender las culturas cañari e inca, alberga la reserva y sala nacional de etnografía, destacando la riqueza intercultural del Ecuador.
+- **Seminario San Luis:** Un imponente edificio que fue centro de formación eclesiástica y que ahora alberga actividades culturales. Su construcción se remonta a inicios del siglo XIX y conserva técnicas tradicionales, como el uso de clavos forjados a mano y estructuras de madera silvestre.
+
+[IMAGE:/cuenca-patrimonio.jpg]  
+
+**Sabores que cuentan historias: La gastronomía cuencana**  
+
+La cocina cuencana es otro reflejo de su historia, con platos que fusionan tradiciones indígenas y españolas. Entre sus delicias más representativas destacan:
+
+- **Mote pillo:** Un plato típico de los Andes ecuatorianos, cuya base es el mote (maíz cocido y pelado), mezclado con huevos revueltos y aliñado con cebolla, ajo y achiote. Se acompaña con queso fresco y carne o chicharrón.
+- **Hornado:** Cerdo marinado con ajo, comino, achiote, cerveza y jugo de naranja, horneado lentamente hasta lograr una carne tierna y piel crocante. Se sirve con mote, papas o plátanos cocidos, y ensalada de cebolla y tomate.
+
+[IMAGE:/cuenca-gastronomia.jpg]  
+
+**Tradiciones y festividades: El alma de Cuenca**  
+
+Las festividades cuencanas son momentos en que la ciudad muestra su carácter festivo y mantiene vivas sus tradiciones. Entre ellas, destaca el **Pase del Niño**, una procesión religiosa que se celebra desde el primer domingo de Adviento hasta Carnaval. Durante este evento, la ciudad se llena de carros alegóricos, música, productos típicos y una atmósfera de devoción y alegría.
+
+[IMAGE:/pase-del-nino-cuenca.jpg]  
+
+**Conclusión: Un viaje al alma de Ecuador**  
+
+Declarada Patrimonio Cultural de la Humanidad, Cuenca no solo ofrece un entorno cargado de historia, sino también un espacio que refleja el progreso y la identidad ecuatoriana. Su combinación única de patrimonio tangible e intangible, junto con su hospitalidad y belleza natural, la convierten en un destino fascinante para quienes buscan sumergirse en la historia y la cultura de Ecuador.
+
+Cuenca no se visita, se vive. 
+`
 }
 ];
