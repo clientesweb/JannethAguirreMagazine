@@ -1147,7 +1147,7 @@ El Congreso Internacional **InmoPerú Mujer 2025** se presenta como una platafor
     category: "Liderazgo",
     subtitle: "Empoderando el Liderazgo Femenino en el Sector Inmobiliario",
     importantFact:
-      "��� Fundadora de InmoPeruMujer, un movimiento que impulsa el crecimiento y liderazgo femenino en el sector inmobiliario.",
+      "🌟 Fundadora de InmoPeruMujer, un movimiento que impulsa el crecimiento y liderazgo femenino en el sector inmobiliario.",
     fullContent: `
 El liderazgo femenino ha encontrado en **Patricia Sara Laines** una voz poderosa y transformadora. Su historia es la de una mujer que ha roto barreras, creando nuevas oportunidades para otras y dejando una huella imborrable en el sector inmobiliario.
 
@@ -1371,6 +1371,166 @@ Instagram: @janneth_aguirre_inmobiliaria
 **Tu nuevo hogar te espera**
 
 San Bernardo 4 es mucho más que un conjunto residencial: es una inversión en tu tranquilidad, en tu estilo de vida y en un entorno de alta proyección inmobiliaria. Descubre el proyecto y déjate enamorar por cada detalle.
+`,
+  },
+  {
+    id: 19,
+    title: "INMOTRENDS 2025: Cuenca será el epicentro inmobiliario del Ecuador",
+    description:
+      "El Expo Congreso Inmobiliario Nacional INMOTRENDS 2025 convertirá a Cuenca en el punto de encuentro para los profesionales del sector inmobiliario, ofreciendo conferencias magistrales, foros especializados, workshops prácticos y una feria inmobiliaria de primer nivel.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/SaveInsta.to_485517319_391619397378348_3742394429271837962_n.jpg-kf5rGNKBNP5QRnhR8KFixZnHNd7HFY.jpeg",
+    slug: "inmotrends-2025-cuenca-epicentro-inmobiliario",
+    category: "Congresos",
+    subtitle: "Conecta con la Industria Inmobiliaria 5.0",
+    importantFact:
+      "📢 INMOTRENDS 2025 reunirá a los principales actores del sector inmobiliario nacional e internacional durante tres días de actualización, innovación y networking estratégico en la ciudad de Cuenca.",
+    fullContent: `
+**¡CUENCA SERÁ EL EPICENTRO INMOBILIARIO DEL 2025!**
+
+La ciudad de Cuenca, joya patrimonial del Ecuador, se prepara para convertirse en el punto de encuentro más importante del sector inmobiliario nacional con la celebración del **Expo Congreso Inmobiliario Nacional – INMOTRENDS 2025**, que se llevará a cabo del 25 al 27 de junio en el Centro de Convenciones Mall del Río.
+
+[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/SaveInsta.to_485517319_391619397378348_3742394429271837962_n.jpg-kf5rGNKBNP5QRnhR8KFixZnHNd7HFY.jpeg]
+
+**Conectando con la Era Inmobiliaria 5.0**
+
+Bajo el lema **"Conecta con la Industria Inmobiliaria 5.0"**, este evento promete revolucionar la forma en que los profesionales del sector interactúan, aprenden y generan oportunidades de negocio. INMOTRENDS 2025 no es solo un congreso más, sino una experiencia integral diseñada para potenciar el crecimiento profesional y empresarial de todos los asistentes.
+
+[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot_20250408-150011-SGHqXBeeTJLDMdXTH1i3tLEpfk27Jr.png]
+
+**Una experiencia inmobiliaria completa**
+
+El congreso ofrecerá una amplia gama de actividades diseñadas para maximizar el aprendizaje y las oportunidades de networking:
+
+✨ **Conferencias Magistrales:** Expertos nacionales e internacionales compartirán sus conocimientos sobre las últimas tendencias y estrategias en el mercado inmobiliario.
+
+✨ **Foros Especializados:** Espacios de discusión donde se abordarán temas específicos del sector, desde aspectos legales hasta estrategias de marketing digital.
+
+✨ **WorkShops Prácticos:** Sesiones interactivas donde los participantes podrán adquirir habilidades prácticas aplicables inmediatamente a sus negocios.
+
+✨ **Feria Inmobiliaria:** Exposición de proyectos, servicios y productos relacionados con el sector, creando un espacio ideal para generar contactos comerciales.
+
+✨ **Turismo y Experiencias Únicas:** Aprovechando la riqueza cultural y natural de Cuenca, los asistentes podrán disfrutar de experiencias turísticas exclusivas.
+
+✨ **Networking Nacional de Alto Nivel:** Oportunidades estructuradas para conectar con los actores más relevantes del sector inmobiliario ecuatoriano.
+
+**¿Por qué Cuenca?**
+
+La elección de Cuenca como sede de INMOTRENDS 2025 no es casualidad. Esta ciudad, declarada Patrimonio Cultural de la Humanidad por la UNESCO, combina perfectamente tradición y modernidad, ofreciendo un entorno inspirador para un evento de esta magnitud.
+
+Cuenca se ha posicionado como un importante polo de desarrollo inmobiliario en Ecuador, con proyectos innovadores que respetan su rica herencia arquitectónica mientras incorporan las últimas tendencias en diseño y sostenibilidad.
+
+**Organizadores y respaldo institucional**
+
+El evento cuenta con el respaldo de la **Cámara Inmobiliaria Ecuatoriana (CAINEC)**, garantizando un congreso de alto nivel profesional y con contenido relevante para todos los segmentos del sector inmobiliario.
+
+**Beneficios para los asistentes**
+
+Los participantes de INMOTRENDS 2025 podrán:
+
+- Actualizar sus conocimientos sobre las últimas tendencias del mercado
+- Establecer contactos estratégicos con potenciales socios y clientes
+- Conocer nuevas herramientas y tecnologías aplicables al sector
+- Explorar oportunidades de inversión en diferentes regiones del país
+- Intercambiar experiencias con colegas de todo Ecuador
+- Disfrutar de la rica oferta cultural y gastronómica de Cuenca
+
+**Información práctica**
+
+📅 **Fecha:** Del 25 al 27 de junio de 2025
+📍 **Lugar:** Centro de Convenciones Mall del Río – Cuenca, Ecuador
+
+**Para más información e inscripciones:**
+
+Janneth Aguirre – Asesora Inmobiliaria
+📲 +593 98 716 7782
+🌐 www.jannethaguirre.com
+📖 www.jannethaguirre.online
+
+**Conclusión**
+
+INMOTRENDS 2025 representa una oportunidad única para los profesionales del sector inmobiliario que buscan mantenerse a la vanguardia en un mercado cada vez más competitivo y tecnológico. Durante tres días, Cuenca se convertirá en el epicentro de la innovación, el conocimiento y las oportunidades de negocio para toda la industria inmobiliaria ecuatoriana.
+
+¡Marca estas fechas en tu calendario y prepárate para ser parte de la revolución inmobiliaria en INMOTRENDS 2025!
+`,
+  },
+  {
+    id: 20,
+    title: "Cuenca lidera el Índice de Calidad de Vida 2025 en Sudamérica",
+    description:
+      "En el más reciente ranking de calidad de vida de Sudamérica publicado en 2025, Cuenca se posiciona como la ciudad número uno de la región, superando a grandes urbes y reafirmando su reputación como uno de los mejores lugares para vivir en el continente.",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/67f3dabec38ea-98it741DJUpC1yovn1XzdJEwJvQG4E.jpeg",
+    slug: "cuenca-lidera-indice-calidad-vida-2025",
+    category: "Ecuador",
+    subtitle: "La joya patrimonial ecuatoriana supera a grandes metrópolis sudamericanas",
+    importantFact:
+      "📊 Cuenca logró un puntaje global de 144,99 en el Índice de Calidad de Vida 2025, destacando por su bajo costo de vida, buena infraestructura sanitaria y alta percepción de seguridad.",
+    fullContent: `
+En el más reciente ranking de calidad de vida de Sudamérica publicado en 2025, Cuenca se posiciona como la ciudad número uno de la región, superando a grandes urbes y reafirmando su reputación como uno de los mejores lugares para vivir en el continente.
+
+**Una ciudad ecuatoriana en la cima**
+
+Cada año, la base de datos internacional Numbeo realiza un índice colaborativo que evalúa el bienestar urbano en distintas ciudades del mundo. Este 2025, entre 18 ciudades sudamericanas, Cuenca se ha ubicado en el primer lugar, demostrando que el equilibrio entre calidad de vida, seguridad, costos accesibles y entorno saludable sí es posible.
+
+**¿Qué mide el índice de calidad de vida?**
+
+El estudio toma en cuenta aspectos fundamentales como:
+
+- Poder adquisitivo
+- Seguridad ciudadana
+- Costo de vida
+- Precio de vivienda en relación con ingresos
+- Nivel de contaminación
+- Servicios de salud
+- Tiempo de desplazamiento
+- Condiciones climáticas
+
+Cuenca logró un puntaje global de 144,99, destacando por su bajo costo de vida, buena infraestructura sanitaria y alta percepción de seguridad.
+
+**Más allá de Quito**
+
+Aunque tradicionalmente se piensa en Quito como la ciudad más desarrollada del país, en este ranking la capital se encuentra en el noveno puesto, también dentro del top 10, pero con un puntaje notablemente menor: 120,50. Esto refleja que Cuenca no solo se mantiene como una alternativa atractiva para quienes buscan estabilidad y tranquilidad, sino que ha logrado consolidarse como un referente regional.
+
+**Brasil domina, pero Cuenca resalta**
+
+Brasil fue el país con más ciudades dentro del top 10, incluyendo Curitiba, Florianópolis, Campinas, Brasilia, Belo Horizonte y Porto Alegre. Sin embargo, la única ciudad fuera de ese bloque que logró superar a todas fue Cuenca, evidenciando la calidad de vida que ofrece una ciudad de escala media con gran riqueza cultural, ambiental y humana.
+
+**Un modelo de ciudad para Latinoamérica**
+
+Con su arquitectura colonial, servicios públicos eficientes, espacios verdes, y una comunidad local activa, Cuenca ha encontrado el balance entre tradición y modernidad. Su posición en este ranking refuerza el orgullo de los ecuatorianos y abre nuevas oportunidades para el turismo, la inversión y la proyección internacional de la ciudad.
+
+**Factores que contribuyen al éxito de Cuenca**
+
+1. **Patrimonio cultural vivo:** Su condición de Ciudad Patrimonio de la Humanidad no es solo un título, sino una realidad que se respira en cada rincón.
+
+2. **Escala humana:** A diferencia de las grandes metrópolis, Cuenca mantiene distancias caminables y un ritmo de vida que prioriza el bienestar.
+
+3. **Naturaleza integrada:** Los cuatro ríos que atraviesan la ciudad y las áreas verdes bien mantenidas contribuyen a un ambiente saludable.
+
+4. **Comunidad internacional:** La presencia de expatriados y turistas ha enriquecido la oferta cultural y de servicios sin comprometer la identidad local.
+
+5. **Infraestructura de calidad:** Hospitales, universidades, transporte público y servicios básicos funcionan con estándares elevados.
+
+**Impacto en el mercado inmobiliario**
+
+Este reconocimiento internacional ya está teniendo un efecto positivo en el sector inmobiliario de Cuenca. Según analistas locales, se espera un incremento moderado pero sostenido en la demanda de propiedades, tanto para residencia permanente como para inversión.
+
+"Cuenca ofrece una combinación única de calidad de vida y valor inmobiliario que es difícil de encontrar en otras ciudades de la región", comenta María Fernanda Cordero, especialista en bienes raíces. "Las propiedades en el centro histórico y en zonas residenciales consolidadas siguen siendo una excelente inversión a largo plazo".
+
+**Desafíos por delante**
+
+A pesar de este reconocimiento, Cuenca enfrenta retos importantes para mantener su posición privilegiada:
+
+- Gestionar el crecimiento urbano sin perder su escala humana
+- Mejorar la movilidad y reducir la dependencia del automóvil
+- Fortalecer la economía local para generar más oportunidades de empleo
+- Preservar el patrimonio arquitectónico frente a presiones de modernización
+
+**Conclusión**
+
+El primer lugar de Cuenca en el Índice de Calidad de Vida 2025 no es casualidad, sino el resultado de décadas de planificación urbana consciente, preservación patrimonial y un modelo de desarrollo que pone a las personas en el centro. Para quienes buscan un lugar donde vivir, invertir o simplemente visitar en Sudamérica, Cuenca demuestra que las ciudades intermedias pueden ofrecer experiencias superiores a las de las grandes metrópolis.
+
+Este reconocimiento no solo beneficia a Cuenca, sino que establece un referente para otras ciudades ecuatorianas y latinoamericanas que buscan mejorar la calidad de vida de sus habitantes mientras preservan su identidad cultural y ambiental.
 `,
   },
 ]
