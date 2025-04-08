@@ -1,14 +1,16 @@
 export const ARTICLES_VARIOS = [
   {
-  id: 1,
-  title: "Yunguilla: Un Paraíso de Inversión en el Corazón del Azuay",
-  description: "Descubre por qué el Valle de Yunguilla, en Santa Isabel, se ha convertido en un destino atractivo para inversores inmobiliarios y amantes de la naturaleza, gracias a su clima privilegiado, crecimiento turístico y oportunidades de inversión.",
-  image: "/yunguilla-azuay.jpg",
-  slug: "yunguilla-inversion-azuay",
-  category: "Inversiones",
-  subtitle: "Oportunidades de inversión y crecimiento en el Valle de Yunguilla",
-  importantFact: "🌿 La transformación de Yunguilla de un espacio agrícola a un espacio turístico-residencial ha generado competencia por la ocupación del espacio y el uso del agua, aspectos clave para los inversores.",
-  fullContent: `
+    id: 1,
+    title: "Yunguilla: Un Paraíso de Inversión en el Corazón del Azuay",
+    description:
+      "Descubre por qué el Valle de Yunguilla, en Santa Isabel, se ha convertido en un destino atractivo para inversores inmobiliarios y amantes de la naturaleza, gracias a su clima privilegiado, crecimiento turístico y oportunidades de inversión.",
+    image: "/yunguilla-azuay.jpg",
+    slug: "yunguilla-inversion-azuay",
+    category: "Inversiones",
+    subtitle: "Oportunidades de inversión y crecimiento en el Valle de Yunguilla",
+    importantFact:
+      "🌿 La transformación de Yunguilla de un espacio agrícola a un espacio turístico-residencial ha generado competencia por la ocupación del espacio y el uso del agua, aspectos clave para los inversores.",
+    fullContent: `
 El Valle de **Yunguilla**, ubicado en el cantón Santa Isabel de la provincia del Azuay, ha evolucionado de una zona agrícola a un destino turístico y residencial de alto valor, atrayendo a inversores y turistas que buscan calidad de vida y rentabilidad.
 
 **Clima Privilegiado y Entorno Natural**
@@ -44,17 +46,19 @@ El auge del turismo ha impulsado la construcción de hosterías, casas vacaciona
 **Conclusión**
 
 Invertir en Yunguilla representa una oportunidad única por su combinación de clima excepcional, cercanía a Cuenca, crecimiento turístico y agrícola. Un destino ideal para quienes buscan **rentabilidad y calidad de vida** en Ecuador. 
-`
+`,
   },
-    {
+  {
     id: 2,
     title: "Día Internacional de la Mujer: Celebrando el Liderazgo y la Igualdad",
-    description: "Cada 8 de marzo, el mundo conmemora el Día Internacional de la Mujer, una fecha que reconoce los logros, la lucha y la resiliencia de las mujeres en todos los ámbitos. Más que una celebración, es un llamado a la acción por la equidad de género y el empoderamiento femenino.",
+    description:
+      "Cada 8 de marzo, el mundo conmemora el Día Internacional de la Mujer, una fecha que reconoce los logros, la lucha y la resiliencia de las mujeres en todos los ámbitos. Más que una celebración, es un llamado a la acción por la equidad de género y el empoderamiento femenino.",
     image: "/dia-internacional-mujer.jpg",
     slug: "dia-internacional-mujer",
     category: "Sociedad",
     subtitle: "Un día para reflexionar, reconocer y actuar en favor de los derechos de las mujeres",
-    importantFact: "📢 Desde su proclamación por la ONU en 1977, el Día Internacional de la Mujer se ha convertido en una jornada clave para la visibilización de las luchas por la igualdad de derechos y oportunidades.",
+    importantFact:
+      "📢 Desde su proclamación por la ONU en 1977, el Día Internacional de la Mujer se ha convertido en una jornada clave para la visibilización de las luchas por la igualdad de derechos y oportunidades.",
     fullContent: `
 El **Día Internacional de la Mujer** no es solo una fecha conmemorativa, sino un recordatorio de la importancia de continuar trabajando por la igualdad de derechos y oportunidades en todo el mundo.
 
@@ -109,17 +113,19 @@ El **8 de marzo** es una fecha para celebrar los avances logrados, pero también
 [IMAGE:/futuro-mujeres.jpg]  
 
 **Por un mundo más justo, inclusivo y con igualdad de oportunidades para todas. ¡Feliz Día Internacional de la Mujer!   
-`
+`,
   },
   {
     id: 3,
     title: "Créditos Hipotecarios Más Accesibles en Ecuador 2025",
-    description: "Explora las opciones más favorables de créditos hipotecarios en Ecuador para 2025, con tasas de interés competitivas y condiciones adaptadas a tus necesidades.",
+    description:
+      "Explora las opciones más favorables de créditos hipotecarios en Ecuador para 2025, con tasas de interés competitivas y condiciones adaptadas a tus necesidades.",
     image: "/credito-hipotecario-ecuador.jpg",
     slug: "credito-hipotecario-ecuador",
     category: "Finanzas",
     subtitle: "Guía Completa para Obtener el Crédito Hipotecario Más Conveniente en Ecuador 2025",
-    importantFact: "📢 Los créditos hipotecarios en Ecuador están más accesibles que nunca, con tasas de interés que comienzan desde el 4.99% y montos ajustados al salario básico unificado.",
+    importantFact:
+      "📢 Los créditos hipotecarios en Ecuador están más accesibles que nunca, con tasas de interés que comienzan desde el 4.99% y montos ajustados al salario básico unificado.",
     fullContent: `
 En 2025, acceder a un crédito hipotecario en Ecuador se ha facilitado gracias a políticas gubernamentales y ofertas de instituciones financieras que buscan promover la adquisición de vivienda propia.
 
@@ -160,12 +166,13 @@ Los requisitos pueden variar según la entidad financiera, pero generalmente inc
 El año 2025 presenta oportunidades únicas para acceder a créditos hipotecarios en Ecuador, gracias a las tasas de interés preferenciales y las políticas gubernamentales que facilitan la adquisición de vivienda. Es esencial comparar las ofertas de diferentes instituciones financieras y cumplir con los requisitos establecidos para encontrar la opción que mejor se adapte a tus necesidades.
 
 ¡No pierdas la oportunidad de asegurar tu hogar con las mejores condiciones del mercado!  
-`
+`,
   },
   {
     id: 4,
     title: "Innovaciones sostenibles en el desarrollo inmobiliario de Quito",
-    description: "Explora cómo la capital ecuatoriana está liderando el camino en construcción verde y desarrollo urbano sostenible.",
+    description:
+      "Explora cómo la capital ecuatoriana está liderando el camino en construcción verde y desarrollo urbano sostenible.",
     image: "/innovaciones-sostenibles-desarrollo-inmobiliario-quito.jpg",
     slug: "innovaciones-sostenibles-desarrollo-inmobiliario-quito",
     category: "sostenibilidad",
@@ -230,12 +237,13 @@ El año 2025 presenta oportunidades únicas para acceder a créditos hipotecario
     El compromiso de Quito con la sostenibilidad está atrayendo inversión y talento, posicionando a la ciudad como un modelo a seguir en América Latina. Para inversores y desarrolladores, esto representa una oportunidad única de ser parte de un mercado inmobiliario en crecimiento que valora la innovación y la responsabilidad ambiental.
 
     A medida que Quito continúa liderando el camino en desarrollo sostenible, es probable que veamos aún más innovaciones emocionantes en el futuro cercano, creando un legado duradero de construcción verde para las generaciones venideras.
-    `
+    `,
   },
   {
     id: 5,
     title: "La Revolución PropTech: Transformando el Sector Inmobiliario",
-    description: "Descubre cómo la tecnología está redefiniendo la industria de bienes raíces en América Latina y el mundo, ofreciendo nuevas oportunidades y desafíos para inversores y profesionales del sector.",
+    description:
+      "Descubre cómo la tecnología está redefiniendo la industria de bienes raíces en América Latina y el mundo, ofreciendo nuevas oportunidades y desafíos para inversores y profesionales del sector.",
     image: "/revolucion-proptech-latinoamerica.jpg",
     slug: "revolucion-proptech-latinoamerica",
     category: "tecnologia",
@@ -321,17 +329,19 @@ La clave para el éxito en esta nueva era será la capacidad de integrar seamles
 A medida que la revolución PropTech continúa evolucionando, es fundamental que los profesionales del sector inmobiliario en América Latina se mantengan actualizados y abiertos a la adopción de nuevas tecnologías. La formación continua, la colaboración entre startups tecnológicas y empresas inmobiliarias tradicionales, y la creación de marcos regulatorios flexibles serán cruciales para aprovechar al máximo el potencial del PropTech en la región.
 
 En última instancia, el PropTech tiene el potencial de democratizar el acceso a la inversión inmobiliaria, mejorar la transparencia del mercado y contribuir a un desarrollo urbano más sostenible e inteligente en América Latina. El futuro del sector inmobiliario es tecnológico, y aquellos que se adapten a esta nueva realidad estarán en la mejor posición para liderar la industria en los años venideros.
-    `
+    `,
   },
   {
     id: 6,
     title: "¿Por qué elegir Orlando para invertir en bienes raíces?",
-    description: "Descubre las razones que hacen de Orlando un destino atractivo para la inversión inmobiliaria en 2025.",
+    description:
+      "Descubre las razones que hacen de Orlando un destino atractivo para la inversión inmobiliaria en 2025.",
     image: "/por-que-elegir-orlando-para-invertir.jpg",
     slug: "por-que-elegir-orlando-para-invertir",
     category: "inversion",
     subtitle: "Orlando: Una Inversión Inteligente en Bienes Raíces",
-    importantFact: "El valor de las propiedades en Orlando ha aumentado un promedio del 8% anual en los últimos 5 años.",
+    importantFact:
+      "El valor de las propiedades en Orlando ha aumentado un promedio del 8% anual en los últimos 5 años.",
     fullContent: `
     Orlando, Florida, se ha consolidado como uno de los destinos más atractivos para la inversión inmobiliaria en los Estados Unidos. En 2025, esta tendencia se mantiene fuerte, respaldada por varios factores clave que hacen de la "Ciudad Hermosa" una opción inteligente para inversores locales e internacionales.
 
@@ -383,12 +393,13 @@ En última instancia, el PropTech tiene el potencial de democratizar el acceso a
 
     Conclusión:
     Orlando ofrece una combinación única de factores que la hacen atractiva para la inversión inmobiliaria en 2025. Su economía diversificada, crecimiento poblacional, y continuo desarrollo de infraestructura y atracciones posicionan a la ciudad para un crecimiento sostenido en el sector inmobiliario. Ya sea que busque propiedades para alquilar, revender o para uso personal, Orlando presenta oportunidades emocionantes para inversores astutos que buscan capitalizar en uno de los mercados más dinámicos de los Estados Unidos.
-    `
+    `,
   },
   {
     id: 7,
     title: "Chiriquí, Panamá: El mejor destino para 2025 según Lonely Planet",
-    description: "Explora por qué la provincia de Chiriquí ha sido destacada como uno de los mejores destinos para visitar en 2025, y lo que esto significa para el mercado inmobiliario local.",
+    description:
+      "Explora por qué la provincia de Chiriquí ha sido destacada como uno de los mejores destinos para visitar en 2025, y lo que esto significa para el mercado inmobiliario local.",
     image: "/chiriqui-panama-mejor-destino-2025.jpg",
     slug: "chiriqui-panama-mejor-destino-2025",
     category: "tendencias",
@@ -471,12 +482,13 @@ En última instancia, el PropTech tiene el potencial de democratizar el acceso a
     Conclusión:
 
     El reconocimiento de Chiriquí por Lonely Planet como uno de los mejores destinos para 2025 marca el inicio de una nueva era para esta región panameña. Para el mercado inmobiliario, esto representa una oportunidad única de crecimiento y desarrollo. Inversores, desarrolladores y compradores potenciales harían bien en prestar atención a esta joya emergente en Centroamérica. Con su combinación única de belleza natural, clima ideal y creciente infraestructura turística, Chiriquí se posiciona no solo como un destino de viaje imperdible, sino también como un mercado inmobiliario lleno de potencial para los años venideros.
-    `
+    `,
   },
   {
     id: 8,
     title: "Curiosidades del mercado inmobiliario en Miami: Un vistazo al 2025",
-    description: "Descubre los datos más interesantes y las tendencias emergentes que están dando forma al dinámico mercado de bienes raíces de Miami.",
+    description:
+      "Descubre los datos más interesantes y las tendencias emergentes que están dando forma al dinámico mercado de bienes raíces de Miami.",
     image: "/curiosidades-mercado-inmobiliario-miami.jpg",
     slug: "curiosidades-mercado-inmobiliario-miami",
     category: "mercado",
@@ -571,12 +583,13 @@ En última instancia, el PropTech tiene el potencial de democratizar el acceso a
 
     Conclusión:
     El mercado inmobiliario de Miami en 2025 es un fascinante crisol de innovación tecnológica, diseño vanguardista y adaptación a los desafíos globales. Desde rascacielos giratorios hasta micro-unidades ultraeficientes, la ciudad continúa reinventándose y atrayendo a inversores y residentes de todo el mundo. A medida que Miami navega por los desafíos del cambio climático y las cambiantes dinámicas demográficas, su mercado inmobiliario demuestra una notable resiliencia y capacidad de adaptación. Para inversores y desarrolladores, Miami sigue siendo un mercado lleno de oportunidades únicas y emocionantes perspectivas de crecimiento.
-    `
+    `,
   },
   {
     id: 9,
     title: "El Parque Histórico de Cuenca: Joya patrimonial y nuevo foco de desarrollo inmobiliario",
-    description: "Descubre la rica historia del Parque Histórico de Cuenca y elemocionante proyecto inmobiliario que está surgiendo en sus alrededores.",
+    description:
+      "Descubre la rica historia del Parque Histórico de Cuenca y elemocionante proyecto inmobiliario que está surgiendo en sus alrededores.",
     image: "/parque-historico-cuenca-desarrollo-inmobiliario.jpg",
     slug: "parque-historico-cuenca-desarrollo-inmobiliario",
     category: "ecuador",
@@ -669,17 +682,19 @@ En última instancia, el PropTech tiene el potencial de democratizar el acceso a
     El Parque Histórico de Cuenca, con su rica historia y belleza atemporal, continúa siendo el corazón palpitante de esta ciudad patrimonio. El nuevo desarrollo inmobiliario en sus alrededores no solo ofrece una oportunidad única de vivir en un entorno de incalculable valor histórico, sino que también representa un paso hacia el futuro, demostrando cómo la modernidad y la tradición pueden coexistir en armonía.
 
     Para aquellos que buscan sumergirse en la rica cultura ecuatoriana, disfrutar de una calidad de vida excepcional y ser parte de un legado histórico vivo, este nuevo proyecto cerca del Parque Histórico de Cuenca presenta una oportunidad inigualable. Con suites disponibles desde 75.000 dólares, es una invitación a no solo invertir en una propiedad, sino en un estilo de vida único que fusiona lo mejor del pasado y el presente de Cuenca.
-    `
+    `,
   },
   {
     id: 10,
     title: "Boquete Pino Alto Country Club: Lujo y Naturaleza en Panamá",
-    description: "Descubre el exclusivo desarrollo residencial en las montañas de Boquete, que combina lujo, golf y una impresionante belleza natural.",
+    description:
+      "Descubre el exclusivo desarrollo residencial en las montañas de Boquete, que combina lujo, golf y una impresionante belleza natural.",
     image: "/boquete-pino-alto-country-club.jpg",
     slug: "boquete-pino-alto-country-club",
     category: "panama",
     subtitle: "Un Paraíso de Lujo en las Montañas de Panamá",
-    importantFact: "Boquete Pino Alto Country Club cuenta con un campo de golf de 18 hoyos diseñado por J. Michael Poellot.",
+    importantFact:
+      "Boquete Pino Alto Country Club cuenta con un campo de golf de 18 hoyos diseñado por J. Michael Poellot.",
     fullContent: `
     Boquete Pino Alto Country Club es un desarrollo residencial de lujo ubicado en las pintorescas montañas de Boquete, Panamá. Este exclusivo proyecto combina la belleza natural de la región con amenidades de clase mundial, ofreciendo una experiencia de vida única para aquellos que buscan lo mejor en comodidad y naturaleza.
 
@@ -731,17 +746,19 @@ En última instancia, el PropTech tiene el potencial de democratizar el acceso a
     - Festivales culturales y eventos durante todo el año
 
     Boquete Pino Alto Country Club representa una oportunidad única para aquellos que buscan una vida de lujo en armonía con la naturaleza. Ya sea como residencia permanente, segunda casa o inversión, este desarrollo ofrece una combinación inigualable de comodidades modernas y belleza natural en uno de los destinos más codiciados de Panamá.
-  `
+  `,
   },
   {
-  id: 11,
+    id: 11,
     title: "José Solines Aguayo: Construyendo Sueños y Transformando Ecuador",
-    description: "Descubre la historia de uno de los constructores más emblemáticos e influyentes de Ecuador y su impacto en el desarrollo de Samborondón y Vía a la Costa.",
+    description:
+      "Descubre la historia de uno de los constructores más emblemáticos e influyentes de Ecuador y su impacto en el desarrollo de Samborondón y Vía a la Costa.",
     image: "/portada-jose-solines.jpg",
     slug: "jose-solines-aguayo-construyendo-suenos",
     category: "ecuador",
     subtitle: "Un legado de innovación y calidad en el sector inmobiliario",
-    importantFact: "José Solines Aguayo ha desarrollado proyectos emblemáticos en Samborondón y Vía a la Costa, posicionándose como uno de los principales impulsores del crecimiento urbano en Ecuador.",
+    importantFact:
+      "José Solines Aguayo ha desarrollado proyectos emblemáticos en Samborondón y Vía a la Costa, posicionándose como uno de los principales impulsores del crecimiento urbano en Ecuador.",
     fullContent: `
 Desde hace años, **Janneth Aguirre Bienes Raíces** ha tenido el honor de comercializar los proyectos inmobiliarios de José Solines Aguayo, uno de los constructores más emblemáticos e influyentes de Ecuador. Su visión innovadora y su incansable compromiso con la calidad han sido clave para el desarrollo de Samborondón y Vía a la Costa.
 
@@ -775,14 +792,16 @@ Como parte de su equipo, me siento orgullosa de compartir su visión y contribui
     `,
   },
   {
-  id: 12,
+    id: 12,
     title: "La Domotización en Bienes Raíces: Transformando Espacios para el Futuro",
-    description: "La domotización revoluciona el mercado inmobiliario, mejorando eficiencia, seguridad y confort. Descubre su impacto y las oportunidades que ofrece.",
+    description:
+      "La domotización revoluciona el mercado inmobiliario, mejorando eficiencia, seguridad y confort. Descubre su impacto y las oportunidades que ofrece.",
     image: "/juan-solano-aguirre.jpg",
     slug: "la-domotizacion-en-bienes-raices-por-juan-carlos-solano-aguirre",
     category: "tecnología",
     subtitle: "Cómo la tecnología redefine el confort y la eficiencia en el sector inmobiliario",
-    importantFact: "Según un estudio de Statista, se estima que el mercado global de hogares inteligentes alcanzará los $231 mil millones para 2028, impulsado por la creciente demanda de eficiencia energética, seguridad y automatización en bienes raíces.",
+    importantFact:
+      "Según un estudio de Statista, se estima que el mercado global de hogares inteligentes alcanzará los $231 mil millones para 2028, impulsado por la creciente demanda de eficiencia energética, seguridad y automatización en bienes raíces.",
     fullContent: `
 En el mundo inmobiliario actual, la domotización ha pasado de ser un lujo a convertirse en un elemento clave para mejorar la eficiencia, la seguridad y el confort en hogares y propiedades comerciales. La integración de tecnología avanzada en los inmuebles está transformando la forma en que vivimos y trabajamos, a la vez que redefine las oportunidades de inversión en bienes raíces.
 
@@ -857,14 +876,16 @@ En definitiva, la domotización ha dejado de ser una tendencia futurista para co
     `,
   },
   {
-   id: 13,
+    id: 13,
     title: "Panamá: Un Destino Estratégico para la Inversión Inmobiliaria",
-    description: "Panamá se consolida como un destino clave para la inversión inmobiliaria, gracias a su estabilidad económica, ubicación estratégica y crecimiento en infraestructura. Descubre las oportunidades que ofrece este mercado dinámico.",
+    description:
+      "Panamá se consolida como un destino clave para la inversión inmobiliaria, gracias a su estabilidad económica, ubicación estratégica y crecimiento en infraestructura. Descubre las oportunidades que ofrece este mercado dinámico.",
     image: "/inversiones-panama-inmobiliaria.jpg",
     slug: "alianza-sotillo-company-janneth-aguirre-inversiones-panama",
     category: "Panamá",
     subtitle: "Una alianza que abre nuevas oportunidades para los inversionistas ecuatorianos",
-    importantFact: "Se estima que más de 140 compañías multinacionales han establecido su sede en Panamá en los últimos años, lo que ha incrementado la demanda de propiedades comerciales y residenciales en el país.",
+    importantFact:
+      "Se estima que más de 140 compañías multinacionales han establecido su sede en Panamá en los últimos años, lo que ha incrementado la demanda de propiedades comerciales y residenciales en el país.",
     fullContent: `
 La firma panameña **SOTILLO & COMPANY Commercial Real Estate**, especializada en bienes raíces comerciales y residenciales desde 2007, ha firmado un acuerdo estratégico con **JANNETH AGUIRRE BIENES RAÍCES**. Esta alianza permitirá a los inversionistas ecuatorianos acceder a las mejores oportunidades del mercado inmobiliario panameño con asesoría experta y acompañamiento en cada etapa del proceso.
 
@@ -936,15 +957,17 @@ Toca el botón explorar el mercado inmobiliario para más información.
     `,
   },
   {
-   id: 14,
-   title: "Tendencias del Mercado Inmobiliario en Washington, D.C. a Inicios de 2025",
-   description: "El mercado inmobiliario de Washington, D.C. inicia el 2025 con un crecimiento en el segmento residencial, impulsado por el auge de propiedades de lujo tras el regreso de Donald Trump a la Casa Blanca. Sin embargo, el sector de oficinas enfrenta desafíos debido a los recortes en la fuerza laboral federal y la reducción del gasto gubernamental. En este análisis, exploramos las tendencias clave, las variaciones en los precios según el vecindario y el impacto de los cambios políticos en la inversión inmobiliaria.",
-   image: "/tendencias-mercado-inmobiliario-washington-2025.jpg",
-   slug: "mercado-inmobiliario-washington-2025",
-   category: "Estados Unidos",
-   subtitle: "Un mercado en transformación: Crecimiento en el sector residencial y desafíos en el sector corporativo",
-   importantFact: "📢 El mercado inmobiliario de lujo en Washington, D.C. ha visto un crecimiento del 20% en transacciones multimillonarias en los últimos tres meses, impulsado por la reubicación de figuras clave del nuevo gobierno y grandes inversionistas",
-   fullContent: `
+    id: 14,
+    title: "Tendencias del Mercado Inmobiliario en Washington, D.C. a Inicios de 2025",
+    description:
+      "El mercado inmobiliario de Washington, D.C. inicia el 2025 con un crecimiento en el segmento residencial, impulsado por el auge de propiedades de lujo tras el regreso de Donald Trump a la Casa Blanca. Sin embargo, el sector de oficinas enfrenta desafíos debido a los recortes en la fuerza laboral federal y la reducción del gasto gubernamental. En este análisis, exploramos las tendencias clave, las variaciones en los precios según el vecindario y el impacto de los cambios políticos en la inversión inmobiliaria.",
+    image: "/tendencias-mercado-inmobiliario-washington-2025.jpg",
+    slug: "mercado-inmobiliario-washington-2025",
+    category: "Estados Unidos",
+    subtitle: "Un mercado en transformación: Crecimiento en el sector residencial y desafíos en el sector corporativo",
+    importantFact:
+      "📢 El mercado inmobiliario de lujo en Washington, D.C. ha visto un crecimiento del 20% en transacciones multimillonarias en los últimos tres meses, impulsado por la reubicación de figuras clave del nuevo gobierno y grandes inversionistas",
+    fullContent: `
 El mercado inmobiliario de Washington, D.C. comienza 2025 con una combinación de crecimiento y desafíos en diferentes sectores, impulsado por cambios políticos y económicos que han moldeado la demanda tanto en el ámbito residencial como en el corporativo.
 
 **Mercado Residencial: Crecimiento con Enfoque en el Lujo**
@@ -987,17 +1010,20 @@ Mario Rubio, **fundador y presidente de American Global Group**, destaca que **l
 El mercado inmobiliario de **Washington, D.C.** se encuentra en una etapa de **crecimiento sostenido en el sector residencial**, con un especial impulso en las **propiedades de lujo**. Sin embargo, el **mercado de oficinas enfrenta incertidumbre**, con la posible reducción del espacio federal y su impacto en la demanda.
 Para inversionistas y compradores, la clave en 2025 será **evaluar cuidadosamente las oportunidades según cada sector y vecindario**, así como mantenerse atentos a los cambios en las políticas económicas y gubernamentales que podrían influir en el panorama inmobiliario.
 `,
-    },
-   {
-   id: 15,
-   title: "Janneth Aguirre Bienes Raíces y Studio Immobiliare Rio Alto: Una Alianza Estratégica en el Mercado Inmobiliario Internacional",
-   description: "La alianza entre Studio Immobiliare Rio Alto y Janneth Aguirre Bienes Raíces abre nuevas oportunidades en el mercado inmobiliario internacional, conectando Europa y América Latina. Descubre cómo esta colaboración facilita inversiones exclusivas en Venecia y Ecuador.",
-   image: "/alianza-inmobiliaria-venecia-ecuador.jpg",
-   slug: "alianza-inmobiliaria-rio-alto-janneth-aguirre",
-   category: "Ecuador",
-   subtitle: "La Excelencia Inmobiliaria en Venecia y América Latina",
-   importantFact: "📢 En los últimos años, la eficiencia energética y la sostenibilidad se han convertido en factores clave para compradores internacionales. En Venecia, donde la preservación del patrimonio histórico es fundamental, muchas propiedades están siendo renovadas con tecnologías de bajo impacto ambiental, como sistemas de aislamiento térmico, paneles solares y materiales ecológicos.",
-   fullContent: `
+  },
+  {
+    id: 15,
+    title:
+      "Janneth Aguirre Bienes Raíces y Studio Immobiliare Rio Alto: Una Alianza Estratégica en el Mercado Inmobiliario Internacional",
+    description:
+      "La alianza entre Studio Immobiliare Rio Alto y Janneth Aguirre Bienes Raíces abre nuevas oportunidades en el mercado inmobiliario internacional, conectando Europa y América Latina. Descubre cómo esta colaboración facilita inversiones exclusivas en Venecia y Ecuador.",
+    image: "/alianza-inmobiliaria-venecia-ecuador.jpg",
+    slug: "alianza-inmobiliaria-rio-alto-janneth-aguirre",
+    category: "Ecuador",
+    subtitle: "La Excelencia Inmobiliaria en Venecia y América Latina",
+    importantFact:
+      "📢 En los últimos años, la eficiencia energética y la sostenibilidad se han convertido en factores clave para compradores internacionales. En Venecia, donde la preservación del patrimonio histórico es fundamental, muchas propiedades están siendo renovadas con tecnologías de bajo impacto ambiental, como sistemas de aislamiento térmico, paneles solares y materiales ecológicos.",
+    fullContent: `
 El **Studio Immobiliare Rio Alto**, fundado por **Raffaele Dedemo**, es una de las inmobiliarias más prestigiosas de Venecia, Italia. Con años de experiencia en el mercado, esta agencia se ha especializado en la compra, venta y alquiler de propiedades exclusivas en el corazón de la ciudad de los canales.
 
 En una reciente alianza, el **Studio Immobiliare Rio Alto** se ha unido con **Janneth Aguirre Bienes Raíces**, una destacada agencia inmobiliaria ecuatoriana, para expandir su presencia y brindar servicios personalizados tanto en Europa como en América Latina.
@@ -1065,17 +1091,19 @@ Su participación en esta organización ha sido clave para **mejorar la regulaci
 ✔ **Patrimonio Histórico**: Comprar una propiedad en Venecia no solo es una inversión inmobiliaria, sino también un **resguardo del patrimonio cultural**.  
 
 Esta **alianza** entre **Studio Immobiliare Rio Alto** y **Janneth Aguirre Bienes Raíces** representa una **oportunidad única** para quienes desean invertir en **propiedades exclusivas en Venecia o en América Latina**.
-   `
-   },
-   {
+   `,
+  },
+  {
     id: 16,
     title: "InmoPerú Mujer 2025: Impulsando el Liderazgo Femenino en el Sector Inmobiliario",
-    description: "El Congreso Internacional InmoPerú Mujer 2025 está cada vez más cerca, ofreciendo una gran oportunidad para mujeres líderes del sector inmobiliario. Con un enfoque en el crecimiento y liderazgo femenino, el evento se celebrará los días 1 y 2 de mayo en Lima, Perú, reuniendo a expertas de toda la región.",
+    description:
+      "El Congreso Internacional InmoPerú Mujer 2025 está cada vez más cerca, ofreciendo una gran oportunidad para mujeres líderes del sector inmobiliario. Con un enfoque en el crecimiento y liderazgo femenino, el evento se celebrará los días 1 y 2 de mayo en Lima, Perú, reuniendo a expertas de toda la región.",
     image: "/inmoperu-mujer-2025.jpg",
     slug: "inmoperu-mujer-2025",
     category: "Congresos",
     subtitle: "Un evento clave para el empoderamiento femenino en el sector inmobiliario",
-    importantFact: "📢 En la edición 2025, InmoPerú Mujer se consolidará como uno de los congresos más importantes del sector inmobiliario en Latinoamérica, con participantes de diferentes países, enfocados en promover la equidad de género y el liderazgo femenino en la industria.",
+    importantFact:
+      "📢 En la edición 2025, InmoPerú Mujer se consolidará como uno de los congresos más importantes del sector inmobiliario en Latinoamérica, con participantes de diferentes países, enfocados en promover la equidad de género y el liderazgo femenino en la industria.",
     fullContent: `
 El Congreso Internacional **InmoPerú Mujer 2025** se presenta como una plataforma esencial para que mujeres del sector inmobiliario se reúnan, compartan conocimientos y generen nuevas oportunidades de negocio.
 
@@ -1107,17 +1135,19 @@ El Congreso Internacional **InmoPerú Mujer 2025** se presenta como una platafor
 (https://www.inmoperu.org.pe/) o al **+51 914 483 282**.
 
 **Juntas transformamos el futuro. ¡Únete a esta gran comunidad y forma parte del cambio!
-`
+`,
   },
   {
     id: 16,
     title: "Soy Patricia Sara Laines: Mujer, Líder y Soñadora Comprometida con el Cambio",
-    description: "Con más de 15 años de experiencia en bienes raíces, Patricia Sara Laines ha dedicado su carrera a abrir caminos para las mujeres en el sector inmobiliario, demostrando que el liderazgo femenino es una fuerza imparable.",
+    description:
+      "Con más de 15 años de experiencia en bienes raíces, Patricia Sara Laines ha dedicado su carrera a abrir caminos para las mujeres en el sector inmobiliario, demostrando que el liderazgo femenino es una fuerza imparable.",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/_J9A0089.jpg-MN8R2RZZYTRKryaZemMpMaVd1orx3X.jpeg",
     slug: "patricia-sara-laines-liderazgo",
     category: "Liderazgo",
     subtitle: "Empoderando el Liderazgo Femenino en el Sector Inmobiliario",
-    importantFact: "🌟 Fundadora de InmoPeruMujer, un movimiento que impulsa el crecimiento y liderazgo femenino en el sector inmobiliario.",
+    importantFact:
+      "��� Fundadora de InmoPeruMujer, un movimiento que impulsa el crecimiento y liderazgo femenino en el sector inmobiliario.",
     fullContent: `
 El liderazgo femenino ha encontrado en **Patricia Sara Laines** una voz poderosa y transformadora. Su historia es la de una mujer que ha roto barreras, creando nuevas oportunidades para otras y dejando una huella imborrable en el sector inmobiliario.
 
@@ -1198,17 +1228,19 @@ https://www.linkedin.com/company/inmoperumujer
 
 
 [IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20250312-WA0033.jpg-Nbfguq6j79gyKdAYka58g7sYZ2ZDC3.jpeg]
-`
-},
-{
+`,
+  },
+  {
     id: 17,
     title: "Cuenca: La joya patrimonial de Ecuador",
-    description: "Cuenca, conocida como la 'Atenas del Ecuador', es una ciudad impregnada de historia, cultura y belleza arquitectónica, declarada Patrimonio Cultural de la Humanidad por la UNESCO.",
+    description:
+      "Cuenca, conocida como la 'Atenas del Ecuador', es una ciudad impregnada de historia, cultura y belleza arquitectónica, declarada Patrimonio Cultural de la Humanidad por la UNESCO.",
     image: "/cuenca-patrimonio-ecuador.jpg",
     slug: "cuenca-joya-patrimonial-ecuador",
     category: "Historia y Cultura",
     subtitle: "Una ciudad que respira historia, tradición y belleza, que invita a ser vivida, no solo visitada.",
-    importantFact: "📢 Cuenca, fundada en 1557, fue declarada Patrimonio Cultural de la Humanidad por la UNESCO en 1999, destacándose por su herencia colonial y sus tradiciones vivas.",
+    importantFact:
+      "📢 Cuenca, fundada en 1557, fue declarada Patrimonio Cultural de la Humanidad por la UNESCO en 1999, destacándose por su herencia colonial y sus tradiciones vivas.",
     fullContent: `
 Cuenca, conocida como la "Atenas del Ecuador", es una ciudad impregnada de historia, cultura y belleza arquitectónica. Fundada el 12 de abril de 1557 por Gil Ramírez Dávalos bajo la orden del virrey Andrés Hurtado de Mendoza, se levanta sobre antiguos asentamientos cañaris e incas, convirtiéndose en un punto de encuentro de culturas y tradiciones. Su centro histórico, declarado Patrimonio Cultural de la Humanidad por la UNESCO en 1999, es un testimonio viviente de su rica herencia colonial.
 
@@ -1253,6 +1285,92 @@ Las festividades cuencanas son momentos en que la ciudad muestra su carácter fe
 Declarada Patrimonio Cultural de la Humanidad, Cuenca no solo ofrece un entorno cargado de historia, sino también un espacio que refleja el progreso y la identidad ecuatoriana. Su combinación única de patrimonio tangible e intangible, junto con su hospitalidad y belleza natural, la convierten en un destino fascinante para quienes buscan sumergirse en la historia y la cultura de Ecuador.
 
 Cuenca no se visita, se vive. 
-`
-}
-];
+`,
+  },
+  {
+    id: 18,
+    title: "San Bernardo 4: Vive con estilo y confort en Samborondón",
+    description:
+      "Ubicado en una de las zonas de mayor crecimiento y plusvalía de Samborondón, San Bernardo 4 es un moderno conjunto residencial que combina diseño, funcionalidad y exclusividad, ideal para quienes buscan invertir o vivir en un entorno seguro, familiar y lleno de comodidades.",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1524482801.jpg-gOIB9PcjTm91h1BwEBbC0TtvQkufZ7.jpeg",
+    slug: "san-bernardo-4-samborondon",
+    category: "ecuador",
+    subtitle: "Un oasis residencial en el corazón de Samborondón",
+    importantFact:
+      "📢 San Bernardo 4 ofrece una ubicación privilegiada en el Km 2.5 de la Vía Samborondón, dentro del exclusivo sector Residencial Tornero del Río, con excelente conectividad a servicios esenciales.",
+    fullContent: `
+**San Bernardo 4: Vive con estilo y confort en Samborondón**
+
+Ubicado en una de las zonas de mayor crecimiento y plusvalía de Samborondón, San Bernardo 4 es un moderno conjunto residencial que combina diseño, funcionalidad y exclusividad, ideal para quienes buscan invertir o vivir en un entorno seguro, familiar y lleno de comodidades.
+
+[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1524482801.jpg-gOIB9PcjTm91h1BwEBbC0TtvQkufZ7.jpeg]
+
+**Ubicación estratégica**
+
+San Bernardo 4 se encuentra en el Km 2.5 de la Vía Samborondón, dentro del exclusivo sector Residencial Tornero del Río. Esta ubicación ofrece conexión directa con servicios esenciales como centros comerciales, colegios, restaurantes y áreas recreativas, garantizando comodidad y conveniencia en el día a día.
+
+**Diseño arquitectónico y variedad de opciones**
+
+El proyecto cuenta con 13 edificaciones de 3 pisos y 4 edificaciones de 4 pisos, cuidadosamente diseñadas con una arquitectura moderna, elegante y funcional.
+
+[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1524482807.jpg-F7qdG8JOKAkXXLyI7MnCPAvEKYvAJX.jpeg]
+
+Cada edificio alberga departamentos ideales para familias, parejas o inversionistas, con opciones que se adaptan a diferentes estilos de vida.
+
+**Tipos de departamentos disponibles:**
+
+- 2 dormitorios con 2.5 baños
+- 3 dormitorios con 3.5 baños
+
+Todos los departamentos cuentan con sala, comedor, cocina, lavandería y parqueo privado. Además, puedes elegir entre opciones con o sin patio, según tus necesidades.
+
+[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1524123693.jpg-lFNPWX0CgshNhk4xLNQfv6xEIOL8Mo.jpeg]
+
+Los interiores han sido diseñados con un enfoque en la elegancia y funcionalidad, ofreciendo espacios amplios y luminosos con acabados de primera calidad. La distribución optimiza cada metro cuadrado para brindar el máximo confort.
+
+[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1524123701.jpg-PBc2HD6AL6vUvUmMnmnGuDIzX7fYLQ.jpeg]
+
+Los dormitorios son espacios de descanso perfectamente concebidos, con iluminación cálida, amplios closets y acabados que crean una atmósfera de tranquilidad y bienestar.
+
+[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1524123695.jpg-8bqj3kfHpgl3HW8Lpsx7DvegirpFUL.jpeg]
+
+Los baños combinan estética y funcionalidad, con diseños modernos que incluyen acabados de alta calidad y elementos que aportan elegancia a estos espacios íntimos.
+
+[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1524123702.jpg-KKR7PMTsFk9v8KWfZerFLkjwqXzEwL.jpeg]
+
+**Amenidades que elevan tu estilo de vida**
+
+San Bernardo 4 ha sido diseñado pensando en el bienestar integral de sus residentes. El conjunto ofrece una variedad de espacios y servicios que crean un ambiente ideal para vivir con tranquilidad, comodidad y entretenimiento.
+
+Entre sus principales amenidades destacan:
+
+- Guardianía 24/7 con sistema de control de acceso
+- Piscina con áreas de descanso
+- Cancha deportiva de pádel y cancha múltiple
+- Parque infantil y amplias áreas verdes
+- Gimnasio completamente equipado
+- Capilla dentro del conjunto
+- Parqueaderos para visitas y parqueaderos de venta
+- Generador eléctrico para áreas comunes
+
+**Facilidades de pago que se ajustan a ti**
+
+Con un sistema de financiamiento flexible y accesible, adquirir tu departamento en San Bernardo 4 es más fácil de lo que imaginas. Puedes reservar con un monto inicial muy bajo y completar tus pagos en cómodas cuotas durante el proceso de construcción, con opciones de financiamiento bancario o por medio del BIESS.
+
+**Asesoría personalizada de principio a fin**
+
+Contarás con el respaldo y acompañamiento de Janneth Aguirre, asesora inmobiliaria con amplia trayectoria y compromiso, quien te guiará durante todo el proceso, desde la elección del departamento ideal hasta el cierre de la compra.
+
+**Contacto directo:**
+Janneth Aguirre – Asesora Inmobiliaria
+📲 +593 98 716 7782
+🌐 www.jannethaguirre.com
+📖 www.jannethaguirre.online
+Instagram: @janneth_aguirre_inmobiliaria
+
+**Tu nuevo hogar te espera**
+
+San Bernardo 4 es mucho más que un conjunto residencial: es una inversión en tu tranquilidad, en tu estilo de vida y en un entorno de alta proyección inmobiliaria. Descubre el proyecto y déjate enamorar por cada detalle.
+`,
+  },
+]
