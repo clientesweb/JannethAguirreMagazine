@@ -14,7 +14,7 @@ const content = {
   description: "3° Edición del Congreso Internacional de Mujeres",
   cta: {
     text: "Conocer Más",
-    link: "/inmoperu-mujer-2025",
+    link: "/articulo/inmoperu-mujer-2025",
   },
 }
 
@@ -235,4 +235,3 @@ export default function MagazineCover() {
     </div>
   )
 }
-
