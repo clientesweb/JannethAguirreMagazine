@@ -1543,8 +1543,7 @@ Este reconocimiento no solo beneficia a Cuenca, sino que establece un referente 
     category: "Ecuador",
     subtitle: "La Atenas del Ecuador festeja su fundación con una amplia agenda cultural",
     importantFact:
-      "📢 Nuestra linda Cuenca ha sido reconocida como la ciudad con mejor calidad de vida en Sudamérica en 2025, ¡y no es por gusto!
-Seguridad, tranquilidad, clima rico y una vida más accesible son solo algunas de las razones por las que se ha ganado este reconocimiento.",
+      "📢 Nuestra linda Cuenca ha sido reconocida como la ciudad con mejor calidad de vida en Sudamérica en 2025, ¡y no es por gusto! Seguridad, tranquilidad, clima rico y una vida más accesible son solo algunas de las razones por las que se ha ganado este reconocimiento.",
     fullContent: `
 Este 12 de abril, la ciudad de Cuenca celebra un nuevo aniversario de su fundación española, ocurrida en 1557 por orden del virrey del Perú, Andrés Hurtado de Mendoza. En honor a esta fecha cívica, se ha decretado un feriado local, exclusivo para la capital azuaya, conocida como la Atenas del Ecuador.
 
