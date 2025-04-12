@@ -1533,4 +1533,48 @@ El primer lugar de Cuenca en el Índice de Calidad de Vida 2025 no es casualidad
 Este reconocimiento no solo beneficia a Cuenca, sino que establece un referente para otras ciudades ecuatorianas y latinoamericanas que buscan mejorar la calidad de vida de sus habitantes mientras preservan su identidad cultural y ambiental.
 `,
   },
+    {
+    id: 21,
+    title: "Cuenca celebra su aniversario: 467 años de historia, cultura y tradición",
+    description:
+      "Este 12 de abril, la ciudad de Cuenca celebra un nuevo aniversario de su fundación española, ocurrida en 1557. La Atenas del Ecuador conmemora esta fecha con una agenda cultural y artística que incluye la Feria Internacional del Libro y el Festival Artístico 'Por Amor a Cuenca'.",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/6653b3beac000-tT3tCkalfTzpUsFNHcli8C9a6am8Si.jpeg",
+    slug: "cuenca-celebra-aniversario-467-anos",
+    category: "Ecuador",
+    subtitle: "La Atenas del Ecuador festeja su fundación con una amplia agenda cultural",
+    importantFact:
+      "📢 Nuestra linda Cuenca ha sido reconocida como la ciudad con mejor calidad de vida en Sudamérica en 2025, ¡y no es por gusto!
+Seguridad, tranquilidad, clima rico y una vida más accesible son solo algunas de las razones por las que se ha ganado este reconocimiento.",
+    fullContent: `
+Este 12 de abril, la ciudad de Cuenca celebra un nuevo aniversario de su fundación española, ocurrida en 1557 por orden del virrey del Perú, Andrés Hurtado de Mendoza. En honor a esta fecha cívica, se ha decretado un feriado local, exclusivo para la capital azuaya, conocida como la Atenas del Ecuador.
+
+[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/6653b3beac000-tT3tCkalfTzpUsFNHcli8C9a6am8Si.jpeg]
+
+La ciudad se viste de fiesta con una agenda cultural y artística pensada para toda la familia. Uno de los eventos más importantes es la Feria Internacional del Libro de Cuenca, que se realiza del 10 al 14 de abril. Esta edición reúne a más de 60 invitados especiales, entre escritores locales, nacionales e internacionales, y se convierte en un espacio clave para el fomento de la lectura y el intercambio cultural.
+
+[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cuenca-ec-700x391.jpg-ua8neGRnh8vR6RID7grFN753wVOXAj.jpeg]
+
+Además, se lleva a cabo el Festival Artístico "Por Amor a Cuenca", con tres días de música en vivo que abarca distintos géneros, presentándose en escenarios como el Parque Calderón, la explanada del Estadio y el Parque La Libertad. Este festival busca resaltar el talento local y ofrecer espectáculos gratuitos para toda la comunidad.
+
+[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/67f9781ec0285-Ig9N0p4sU0ivvTcBL1dmu0px1Q51hS.jpeg]
+
+**Un destino con identidad**
+
+Fundada con el nombre de Santa Ana de los Ríos de Cuenca, esta ciudad destaca por su belleza natural, su arquitectura colonial bien conservada y su riqueza cultural. En 1999, fue declarada Patrimonio Cultural de la Humanidad por la UNESCO.
+
+Sus calles empedradas, iglesias históricas, mercados llenos de color, y sus reconocidas artesanías —como los sombreros de paja toquilla y cerámicas de diseño único— hacen de Cuenca un lugar especial tanto para turistas como para sus habitantes.
+
+Además, su exquisita gastronomía andina y la calidez de su gente complementan la experiencia, convirtiéndola en uno de los destinos más encantadores de Ecuador.
+
+**¿Qué se celebra el 12 de abril?** 
+
+Se conmemora la fundación española de la ciudad y su evolución como un centro cultural y patrimonial del país.
+
+**¿Por qué es feriado solo en Cuenca?** 
+
+Al tratarse de una fecha histórica local, el feriado aplica únicamente para la provincia de Azuay, en especial en la ciudad de Cuenca.
+
+Cuenca no solo celebra un aniversario, celebra su esencia. Una ciudad de historia viva, con una mirada al futuro y un corazón lleno de tradición.
+   `,
+  },
 ]
