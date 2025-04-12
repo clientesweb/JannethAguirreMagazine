@@ -1576,4 +1576,5 @@ Al tratarse de una fecha histórica local, el feriado aplica únicamente para la
 
 Cuenca no solo celebra un aniversario, celebra su esencia. Una ciudad de historia viva, con una mirada al futuro y un corazón lleno de tradición.
    `,
+  },
 ]
