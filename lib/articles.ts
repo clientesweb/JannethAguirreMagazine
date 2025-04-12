@@ -1533,7 +1533,7 @@ El primer lugar de Cuenca en el Índice de Calidad de Vida 2025 no es casualidad
 Este reconocimiento no solo beneficia a Cuenca, sino que establece un referente para otras ciudades ecuatorianas y latinoamericanas que buscan mejorar la calidad de vida de sus habitantes mientras preservan su identidad cultural y ambiental.
 `,
   },
-    {
+  {
     id: 21,
     title: "Cuenca celebra su aniversario: 467 años de historia, cultura y tradición",
     description:
@@ -1576,5 +1576,4 @@ Al tratarse de una fecha histórica local, el feriado aplica únicamente para la
 
 Cuenca no solo celebra un aniversario, celebra su esencia. Una ciudad de historia viva, con una mirada al futuro y un corazón lleno de tradición.
    `,
-  },
 ]
