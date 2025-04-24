@@ -1576,4 +1576,58 @@ Al tratarse de una fecha histórica local, el feriado aplica únicamente para la
 Cuenca no solo celebra un aniversario, celebra su esencia. Una ciudad de historia viva, con una mirada al futuro y un corazón lleno de tradición.
    `,
   },
-]
+  {
+    id: 23,
+    title: "Proyecto Fénix 360°: Su espacio ideal para crecer",
+    description:
+      "Descubre este innovador desarrollo de ofibodegas y locales comerciales ubicado estratégicamente en el km 14 de la vía a Samborondón, diseñado para empresas que buscan crecer de manera eficiente.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20250410-WA0038.jpg-JfZjJ4aPuY7jJ1G1gxkd4fvhhcjrF1.jpeg",
+    slug: "proyecto-fenix-360-ofibodegas-samborondon",
+    category: "ecuador",
+    subtitle: "Soluciones innovadoras y adaptables para empresas en crecimiento",
+    importantFact:
+      "📢 El Proyecto Fénix 360° ofrece 44 unidades industriales de producción, ofibodegas y 8 locales comerciales en una ubicación estratégica, con precios desde $79.900 para locales comerciales.",
+    fullContent: `
+El Proyecto Fénix 360° está diseñado para ofrecer soluciones innovadoras y adaptables para empresas que buscan crecer de manera eficiente. Ubicado estratégicamente en el km 14 de la vía a Samborondón, en Ronald Sonne Kusijanovic, este desarrollo combina espacios industriales de producción, almacenamiento y oficinas dentro de un entorno moderno, seguro y flexible.
+
+Ofrece un espacio de alta calidad, pensado para cubrir las necesidades de empresas dinámicas que buscan operar, optimizar recursos y expandirse.
+
+[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2.png-DlwnaKOaUu0nUUgsY8uGJtSk9Ht0o3.jpeg]
+
+**CARACTERÍSTICAS PRINCIPALES**
+
+• **44 Unidades Industriales de Producción – 180 m²**
+Diseñadas para procesos de producción, almacenamiento y distribución, estas unidades cuentan con áreas exclusivas para carga y descarga, permitiendo operaciones logísticas más ágiles.
+
+• **Ofibodegas – 225 m²**
+Una solución integral que combina espacio industrial con oficinas en un solo lugar. Disponen de planta baja operativa y opción para oficina en el segundo nivel, ideales para empresas que requieren control administrativo dentro de su entorno de producción.
+
+• **Locales Comerciales – 45 m²**
+El proyecto incluye 8 locales comerciales ocupados por marcas reconocidas del país. Ideales para puntos de venta, showrooms o atención al cliente. Un espacio dinámico para atraer visitas y generar presencia comercial.
+
+[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/3.png-R9J400gSVGQNDMMwgvxojXaev8og3S.jpeg]
+
+**PRECIO REFERENCIAL POR TIPO DE UNIDAD**
+
+- Unidades Industriales de Producción (180 m²): desde $240.000
+- Ofibodegas (225 m²): desde $277.500
+- Locales Comerciales (45 m²): desde $79.900
+
+**FORMA DE PAGO**
+• 10% a la firma del contrato de reserva
+• 20% durante la construcción (hasta 24 meses)
+• 70% a la entrega de la propiedad – Aceptamos pago de contado o crédito bancario (incluido BIESS)
+
+[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20250410-WA0038.jpg-JfZjJ4aPuY7jJ1G1gxkd4fvhhcjrF1.jpeg]
+
+Este proyecto está diseñado para proporcionar soluciones innovadoras y adaptables para su empresa, combinando espacios industriales de producción, almacenamiento y oficinas en un entorno moderno y flexible.
+
+**CONTACTO Y MÁS INFORMACIÓN**
+Janneth Aguirre
+www.jannethaguirre.com
+Magazine: jannethaguirre.online
+WhatsApp: +593 98 716 7782
+`,
+  },
+ ]
