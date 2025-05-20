@@ -932,7 +932,7 @@ El auge del sector inmobiliario en Panamá se debe al crecimiento de la demanda 
 
 **Facilidades de financiamiento para inversionistas ecuatorianos**
 
-Una de las ventajas de invertir en Panamá es la facilidad para acceder a financiamiento. Gracias a nuestra alianza, conectamos a los inversionistas ecuatorianos con **bancos de prestigio como Banco Pichincha, Banco del Pacífico, BAC, Banistmo, BICSA y Banco General**, facilitando el acceso a créditos hipotecarios y financiamiento empresarial en condiciones favorables.
+Una de las ventajas de invertir en Panamá es la facilidad para acceder a financiamiento. Gracias a nuestra alianza, conectamos a los inversionistas ecuatorianos con **bancos de prestigio como Banco Pichincha, Banco del Pac��fico, BAC, Banistmo, BICSA y Banco General**, facilitando el acceso a créditos hipotecarios y financiamiento empresarial en condiciones favorables.
 
 Además, ofrecemos asesoría en la gestión de trámites y documentación, asegurando que el proceso de compra o alquiler de propiedades sea ágil y seguro.
 
@@ -1535,7 +1535,7 @@ Este reconocimiento no solo beneficia a Cuenca, sino que establece un referente 
   },
   {
     id: 21,
-    title: "Cuenca celebra su aniversario: 467 años de historia, cultura y tradición",
+    title: "Cuenca celebra su aniversario: 468 años de historia, cultura y tradición",
     description:
       "Este 12 de abril, la ciudad de Cuenca celebra un nuevo aniversario de su fundación española, ocurrida en 1557. La Atenas del Ecuador conmemora esta fecha con una agenda cultural y artística que incluye la Feria Internacional del Libro y el Festival Artístico 'Por Amor a Cuenca'.",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/6653b3beac000-tT3tCkalfTzpUsFNHcli8C9a6am8Si.jpeg",
@@ -1630,4 +1630,54 @@ Magazine: jannethaguirre.online
 WhatsApp: +593 98 716 7782
 `,
   },
- ]
+  {
+    id: 22,
+    title: "Bienvenida a Fernando Velarde: Un Referente en Análisis de Mercados Internacionales",
+    description:
+      "Janneth Aguirre Magazine se honra en darle la bienvenida a un nuevo aliado estratégico en nuestro compromiso por impulsar el conocimiento y la transformación del sector inmobiliario en Latinoamérica: Mg. Fernando Velarde, especialista en inteligencia urbanística y análisis de mercados internacionales.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20250506-WA0098.jpg-rdsAqaIMu1PYXFJN8FtnNtfZB080ES.jpeg",
+    slug: "bienvenida-fernando-velarde-analisis-mercados",
+    category: "Análisis de Mercado",
+    subtitle: "Un experto que eleva el estándar inmobiliario en Latinoamérica",
+    importantFact:
+      "📢 Fernando Velarde ha ejecutado más de 1,600 estudios de mercado en Perú, marcando un antes y un después en la forma de entender el comportamiento inmobiliario, las dinámicas de ciudad y las decisiones de inversión.",
+    fullContent: `
+Janneth Aguirre Magazine se honra en darle la bienvenida a un nuevo aliado estratégico en nuestro compromiso por impulsar el conocimiento y la transformación del sector inmobiliario en Latinoamérica: Mg. Fernando Velarde, especialista en inteligencia urbanística y análisis de mercados internacionales.
+
+[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20250506-WA0098.jpg-rdsAqaIMu1PYXFJN8FtnNtfZB080ES.jpeg]
+
+Con más de 18 años de experiencia, Velarde ha dejado huella como arquitecto urbanista, magíster en Dirección de Marketing y fundador de VeMás Consultoría, un estudio pionero en análisis del mercado inmobiliario que integra herramientas urbanísticas, territoriales y de branding con una mirada crítica, técnica y estratégica.
+
+Su liderazgo ha sido clave en la ejecución de más de 1,600 estudios de mercado en Perú, marcando un antes y un después en la forma de entender el comportamiento inmobiliario, las dinámicas de ciudad y las decisiones de inversión.
+
+**Una mirada innovadora para transformar el sector**
+
+Fernando Velarde no solo dirige VeMás, también es creador de espacios de conocimiento como la revista digital Ciudad+, el canal Tablero Inmobiliario, y la comunidad educativa La Incubadora Inmobiliaria, desde donde genera impacto real a través de análisis rigurosos, formación profesional y puentes entre agentes, desarrolladores, inversionistas y propietarios.
+
+[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20250520-WA0007.jpg-wP4QPMPGvcbXKT7Rstz8NPTzqUxegI.jpeg]
+
+Su visión se enfoca en:
+
+- La profesionalización del mercado con base en datos, planificación y ética.
+
+- El fortalecimiento de comunidades inmobiliarias mediante análisis y formación técnica.
+
+- El uso de herramientas como QGIS, estudios de absorción, branding territorial y modelos innovadores como el multifamiliar en alquiler con fideicomiso temporal.
+
+- La visibilización de desafíos estructurales del rubro: normativas confusas, especulación del suelo, y retos urbanos sin resolver.
+
+**"El Viaje del Agente Inmobiliario": una guía clave para el sector**
+
+[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20250520-WA0008.jpg-PgFbpjMrRaAAhsmj81xaidYrzdGnHl.jpeg]
+
+Uno de sus aportes más valiosos es su libro El Viaje del Agente Inmobiliario, una guía clara y ágil que propone una estructura innovadora para entender el mercado inmobiliario del Perú. Es una lectura obligada para agentes, brókers, desarrolladores, empresarios e inversionistas que deseen tomar mejores decisiones con base en planificación urbana, análisis técnico y estrategia.
+
+**Un aliado que eleva el estándar inmobiliario**
+
+En Janneth Aguirre Magazine celebramos la incorporación de Fernando Velarde como especialista en análisis de mercados internacionales. Su conocimiento y enfoque interdisciplinario aportan valor a nuestra comunidad, permitiéndonos continuar con nuestra misión de ofrecer proyectos sostenibles, experiencias formativas y oportunidades de inversión con impacto.
+
+¡Bienvenido Fernando, a este equipo que construye futuro con visión y propósito!
+    `,
+  },
+]
