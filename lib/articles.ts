@@ -1636,7 +1636,7 @@ WhatsApp: +593 98 716 7782
     description:
       "Janneth Aguirre Magazine se honra en darle la bienvenida a un nuevo aliado estratégico en nuestro compromiso por impulsar el conocimiento y la transformación del sector inmobiliario en Latinoamérica: Mg. Fernando Velarde, especialista en inteligencia urbanística y análisis de mercados internacionales.",
     image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20250506-WA0098.jpg-rdsAqaIMu1PYXFJN8FtnNtfZB080ES.jpeg",
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20250520-WA0008.jpg-PgFbpjMrRaAAhsmj81xaidYrzdGnHl.jpeg",
     slug: "bienvenida-fernando-velarde-analisis-mercados",
     category: "Análisis de Mercado",
     subtitle: "Un experto que eleva el estándar inmobiliario en Latinoamérica",
@@ -1648,8 +1648,6 @@ Janneth Aguirre Magazine se honra en darle la bienvenida a un nuevo aliado estra
 [IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20250506-WA0098.jpg-rdsAqaIMu1PYXFJN8FtnNtfZB080ES.jpeg]
 
 Con más de 18 años de experiencia, Velarde ha dejado huella como arquitecto urbanista, magíster en Dirección de Marketing y fundador de VeMás Consultoría, un estudio pionero en análisis del mercado inmobiliario que integra herramientas urbanísticas, territoriales y de branding con una mirada crítica, técnica y estratégica.
-
-Su liderazgo ha sido clave en la ejecución de más de 1,600 estudios de mercado en Perú, marcando un antes y un después en la forma de entender el comportamiento inmobiliario, las dinámicas de ciudad y las decisiones de inversión.
 
 **Una mirada innovadora para transformar el sector**
 
