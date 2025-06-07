@@ -1727,7 +1727,6 @@ En Latinoamérica, este valor puede verse influenciado por la ubicación, el seg
 
 - Gastos legales y postventa
 
-
 **4. Rentabilidad esperada**
 
 Para que el proyecto sea atractivo, se requiere una utilidad mínima sobre ventas antes de impuestos. Si esta utilidad se reduce, el negocio pierde atractivo por la carga tributaria.
@@ -1782,16 +1781,15 @@ En un entorno de alta competencia y cambios normativos constantes, dominar este 
 
 **¿Te interesa profundizar en estos temas?**
 Nos encantaría conocer tu opinión y compartir más conocimientos contigo. 
-
-**¡Contáctanos para seguir explorando juntos el fascinante mundo del análisis inmobiliario!**
+¡Contáctanos para seguir explorando juntos el fascinante mundo del análisis inmobiliario!
 
 **Autores de este artículo:**
 
 **Fernando Velarde**  
-Analista Inmobiliario *Internacional** **(Perú)**
+Analista Inmobiliario Internacional (Perú)
 
 **Janneth Aguirre REALTOR**  
-Agente Inmobiliaria / **Embajadora** Ecuador InmoPerú Mujer **(Ecuador)**
+Agente Inmobiliaria / Embajadora Ecuador InmoPerú Mujer (Ecuador)
   `,
   },
 ]
