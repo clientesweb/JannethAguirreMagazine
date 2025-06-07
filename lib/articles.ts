@@ -932,7 +932,7 @@ El auge del sector inmobiliario en Panamá se debe al crecimiento de la demanda 
 
 **Facilidades de financiamiento para inversionistas ecuatorianos**
 
-Una de las ventajas de invertir en Panamá es la facilidad para acceder a financiamiento. Gracias a nuestra alianza, conectamos a los inversionistas ecuatorianos con **bancos de prestigio como Banco Pichincha, Banco del Pac��fico, BAC, Banistmo, BICSA y Banco General**, facilitando el acceso a créditos hipotecarios y financiamiento empresarial en condiciones favorables.
+Una de las ventajas de invertir en Panamá es la facilidad para acceder a financiamiento. Gracias a nuestra alianza, conectamos a los inversionistas ecuatorianos con **bancos de prestigio como Banco Pichincha, Banco del Pacfico, BAC, Banistmo, BICSA y Banco General**, facilitando el acceso a créditos hipotecarios y financiamiento empresarial en condiciones favorables.
 
 Además, ofrecemos asesoría en la gestión de trámites y documentación, asegurando que el proceso de compra o alquiler de propiedades sea ágil y seguro.
 
@@ -1677,5 +1677,109 @@ En Janneth Aguirre Magazine celebramos la incorporación de Fernando Velarde com
 
 ¡Bienvenido Fernando, a este equipo que construye futuro con visión y propósito!
     `,
+  },
+  {
+    id: 24,
+    title: "Cómo se estructura el valor del suelo en proyectos inmobiliarios usando el método de análisis residual",
+    description:
+      "El valor del suelo urbano es uno de los elementos más estratégicos en el desarrollo de proyectos inmobiliarios. Descubre cómo el método de análisis residual puede ser la diferencia entre una inversión viable y un fracaso financiero.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/depositphotos_271924434-stock-photo-aerial-view-of-the-nysa.jpg-Rv0RgWAILg1EhsqXQss785dbqhAwjv.webp",
+    slug: "metodo-analisis-residual-valor-suelo-inmobiliario",
+    category: "Análisis de Mercado",
+    subtitle: "Una guía técnica para agentes, desarrolladores e inversionistas",
+    importantFact:
+      "📊 El porcentaje del valor del suelo respecto al flujo de ventas total varía significativamente según el nivel socioeconómico objetivo, siendo un factor crítico en la viabilidad del proyecto.",
+    fullContent: `
+El valor del suelo urbano es uno de los elementos más estratégicos —y a la vez más complejos— en el desarrollo de proyectos inmobiliarios. Para agentes, desarrolladores e inversionistas, entender cómo se calcula ese valor bajo un enfoque técnico puede significar la diferencia entre una inversión viable y un fracaso financiero.
+
+Uno de los métodos más aceptados para determinar el valor del suelo en el mundo inmobiliario es el **método del análisis residual**. En este artículo, junto al experto analista de mercados inmobiliarios internacionales **Fernando Velarde**, explicaremos en qué consiste, cómo se estructura, qué factores lo afectan y cómo aplicarlo correctamente en el contexto del mercado latinoamericano.
+
+[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/depositphotos_271924434-stock-photo-aerial-view-of-the-nysa.jpg-Rv0RgWAILg1EhsqXQss785dbqhAwjv.webp]
+
+**¿Qué es el método residual?**
+
+El método residual parte del principio de que **el valor del suelo es aquello que "queda" después de restar todos los costos de desarrollo y una utilidad razonable al valor del proyecto terminado**. Se usa sobre todo para valorar terrenos destinados a desarrollos futuros (residenciales, comerciales o mixtos).
+
+**¿Qué elementos se consideran en este análisis?**
+
+Según el documento "Costos de Proyectos Inmobiliarios" analizado para este artículo, los principales componentes a considerar para el método residual son los siguientes:
+
+**1. Valor del producto terminado (ingresos esperados)**
+
+Este corresponde al flujo de ventas proyectado. Se estima en función del precio por metro cuadrado que el mercado está dispuesto a pagar, multiplicado por el área vendible.
+
+En Latinoamérica, este valor puede verse influenciado por la ubicación, el segmento socioeconómico (NSE), la conectividad, el entorno urbano y la percepción de seguridad.
+
+**2. Costos directos**
+- Costo de construcción
+- Proyectos arquitectónicos e ingenierías
+- Licencias y saneamiento
+
+**3. Costos indirectos**
+- Marketing y ventas
+- Gerencia del proyecto
+- Gastos legales y postventa
+
+**4. Rentabilidad esperada**
+
+Para que el proyecto sea atractivo, se requiere una utilidad mínima sobre ventas antes de impuestos. Si esta utilidad se reduce, el negocio pierde atractivo por la carga tributaria.
+
+[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/vista-angulo-alto-mano-humana-papel_1048944-647069.jpg-Ii80o2R23FOI3kGgKxpi9EHUiQGtSO.jpeg]
+
+**¿Cómo influye el NSE en el valor del suelo?**
+
+Uno de los criterios más críticos en este método es el **porcentaje del valor de suelo respecto al flujo de ventas total**. Este porcentaje depende fuertemente del nivel socioeconómico objetivo.
+
+Según el estudio de Mariano Lamothe para la Cámara Empresaria de Desarrolladores Urbanos de Argentina (CEDU), estos valores son coherentes con otros mercados de América Latina.
+
+**¿Qué errores evitar al aplicar este método?**
+
+**1. Confundir plusvalía con incremento natural del precio**
+
+El incremento proyectado de precios en preventa no necesariamente refleja una verdadera plusvalía del suelo. Es simplemente una proyección inflacionaria para cubrir el riesgo del aumento de costos en el tiempo.
+
+La **verdadera plusvalía** se genera cuando el terreno aumenta su capacidad de desarrollo, por ejemplo, mediante habilitación urbana, cambios normativos o inversión pública en infraestructura.
+
+**2. No considerar economía de escala**
+
+Proyectos pequeños tienden a tener mayores porcentajes de costos indirectos, lo que reduce el valor residual del terreno. **La escala importa**.
+
+**3. Sobreestimar la rentabilidad**
+
+Algunos desarrolladores inexpertos calculan el valor del suelo suponiendo un margen de utilidad sin considerar que, luego de impuestos, comisiones y postventa, esa utilidad real puede reducirse significativamente.
+
+**¿Cuándo y para qué usar este método?**
+
+Este método es especialmente útil en:
+
+✓ **Estudios de factibilidad** de proyectos inmobiliarios
+✓ **Negociaciones de compra** de terrenos, donde se debe justificar la oferta económica
+✓ **Estrategias de reconversión urbana**, donde se evalúa si un lote puede ser mejor aprovechado bajo un nuevo uso
+
+También se puede usar en evaluaciones bancarias y análisis para fondos de inversión que desean saber cuánto pagar por un terreno sin comprometer la rentabilidad objetivo.
+
+**Conclusión: el análisis residual es una brújula para tomar decisiones de inversión**
+
+El método de análisis residual no es solo una fórmula financiera. Es un **marco estratégico** que permite tomar decisiones informadas sobre cuánto pagar por un terreno, cuánto margen de maniobra tiene un proyecto y cuán rentable será una inversión inmobiliaria.
+
+- **Agentes inmobiliarios** pueden usarlo para captar terrenos más atractivos
+- **Desarrolladores** pueden estructurar negocios más sólidos  
+- **Inversionistas** pueden evaluar mejor sus retornos
+
+En un entorno de alta competencia y cambios normativos constantes, dominar este método es una herramienta clave para sobrevivir y crecer en el mercado inmobiliario latinoamericano.
+
+**¿Te interesa profundizar en estos temas? Nos encantaría conocer tu opinión y compartir más conocimientos contigo. ¡Contáctanos para seguir explorando juntos el fascinante mundo del análisis inmobiliario!**
+
+---
+
+**Autores de este artículo:**
+
+**Fernando Velarde**  
+Analista Inmobiliario Internacional (Perú)
+
+**Janneth Aguirre REALTOR**  
+Agente Inmobiliaria / Embajadora Ecuador InmoPerú Mujer (Ecuador)
+  `,
   },
 ]
