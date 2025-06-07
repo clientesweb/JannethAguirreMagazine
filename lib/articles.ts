@@ -1720,6 +1720,7 @@ En Latinoamérica, este valor puede verse influenciado por la ubicación, el seg
 - Licencias y saneamiento
 
 **3. Costos indirectos**
+
 - Marketing y ventas
 
 - Gerencia del proyecto
@@ -1779,17 +1780,18 @@ El método de análisis residual no es solo una fórmula financiera. Es un **mar
 
 En un entorno de alta competencia y cambios normativos constantes, dominar este método es una herramienta clave para sobrevivir y crecer en el mercado inmobiliario latinoamericano.
 
-**¿Te interesa profundizar en estos temas? Nos encantaría conocer tu opinión y compartir más conocimientos contigo. ¡Contáctanos para seguir explorando juntos el fascinante mundo del análisis inmobiliario!**
+**¿Te interesa profundizar en estos temas?**
+Nos encantaría conocer tu opinión y compartir más conocimientos contigo. 
 
----
+**¡Contáctanos para seguir explorando juntos el fascinante mundo del análisis inmobiliario!**
 
 **Autores de este artículo:**
 
 **Fernando Velarde**  
-Analista Inmobiliario Internacional (Perú)
+Analista Inmobiliario *Internacional** **(Perú)**
 
 **Janneth Aguirre REALTOR**  
-Agente Inmobiliaria / Embajadora Ecuador InmoPerú Mujer (Ecuador)
+Agente Inmobiliaria / **Embajadora** Ecuador InmoPerú Mujer **(Ecuador)**
   `,
   },
 ]
