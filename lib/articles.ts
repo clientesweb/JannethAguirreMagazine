@@ -1712,14 +1712,20 @@ Este corresponde al flujo de ventas proyectado. Se estima en función del precio
 En Latinoamérica, este valor puede verse influenciado por la ubicación, el segmento socioeconómico (NSE), la conectividad, el entorno urbano y la percepción de seguridad.
 
 **2. Costos directos**
+
 - Costo de construcción
+
 - Proyectos arquitectónicos e ingenierías
+
 - Licencias y saneamiento
 
 **3. Costos indirectos**
 - Marketing y ventas
+
 - Gerencia del proyecto
+
 - Gastos legales y postventa
+
 
 **4. Rentabilidad esperada**
 
@@ -1754,8 +1760,10 @@ Algunos desarrolladores inexpertos calculan el valor del suelo suponiendo un mar
 Este método es especialmente útil en:
 
 ✓ **Estudios de factibilidad** de proyectos inmobiliarios
+
 ✓ **Negociaciones de compra** de terrenos, donde se debe justificar la oferta económica
-✓ **Estrategias de reconversión urbana**, donde se evalúa si un lote puede ser mejor aprovechado bajo un nuevo uso
+
+✓ **Estrategias de reconversión urbana**, donde se evalúa si un lote puede ser mejor aprovechado bajo un nuevo uso.
 
 También se puede usar en evaluaciones bancarias y análisis para fondos de inversión que desean saber cuánto pagar por un terreno sin comprometer la rentabilidad objetivo.
 
@@ -1763,9 +1771,11 @@ También se puede usar en evaluaciones bancarias y análisis para fondos de inve
 
 El método de análisis residual no es solo una fórmula financiera. Es un **marco estratégico** que permite tomar decisiones informadas sobre cuánto pagar por un terreno, cuánto margen de maniobra tiene un proyecto y cuán rentable será una inversión inmobiliaria.
 
-- **Agentes inmobiliarios** pueden usarlo para captar terrenos más atractivos
-- **Desarrolladores** pueden estructurar negocios más sólidos  
-- **Inversionistas** pueden evaluar mejor sus retornos
+• **Agentes inmobiliarios** pueden usarlo para captar terrenos más atractivos
+
+• **Desarrolladores** pueden estructurar negocios más sólidos  
+
+• **Inversionistas** pueden evaluar mejor sus retornos
 
 En un entorno de alta competencia y cambios normativos constantes, dominar este método es una herramienta clave para sobrevivir y crecer en el mercado inmobiliario latinoamericano.
 
