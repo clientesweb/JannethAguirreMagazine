@@ -106,7 +106,7 @@ El **Día Internacional de la Mujer** no es solo una fecha conmemorativa, sino u
 
 **Conclusión  
 
-El **8 de marzo** es una fecha para celebrar los avances logrados, pero también para reflexionar sobre los desafíos que aún persisten. Cada acci��n cuenta en la construcción de una sociedad más equitativa e inclusiva.  
+El **8 de marzo** es una fecha para celebrar los avances logrados, pero también para reflexionar sobre los desafíos que aún persisten. Cada acción cuenta en la construcción de una sociedad más equitativa e inclusiva.  
 
 📢 **Dato importante:** La ONU estableció el lema para el Día Internacional de la Mujer 2025 como **"Innovación e inclusión: El futuro es de todas"**, resaltando la importancia de la tecnología y la equidad en el desarrollo global.  
 
@@ -1531,6 +1531,37 @@ A pesar de este reconocimiento, Cuenca enfrenta retos importantes para mantener 
 El primer lugar de Cuenca en el Índice de Calidad de Vida 2025 no es casualidad, sino el resultado de décadas de planificación urbana consciente, preservación patrimonial y un modelo de desarrollo que pone a las personas en el centro. Para quienes buscan un lugar donde vivir, invertir o simplemente visitar en Sudamérica, Cuenca demuestra que las ciudades intermedias pueden ofrecer experiencias superiores a las de las grandes metrópolis.
 
 Este reconocimiento no solo beneficia a Cuenca, sino que establece un referente para otras ciudades ecuatorianas y latinoamericanas que buscan mejorar la calidad de vida de sus habitantes mientras
+`,
+  },
+  {
+    id: 25,
+    title: "BR Magazine: 20 años de inspiración, diseño y visión creativa",
+    description:
+      "Desde su fundación en 2004, BR Magazine se ha consolidado como una de las publicaciones más influyentes en Ecuador en el mundo del diseño, la arquitectura y el interiorismo. Este 2025, la revista celebra sus 20 años de trayectoria con la misma pasión con la que nació.",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/AV%20dec232319-9h5qTIep0o4gJQ7Ipc9LOKl3fCCUyO.jpeg",
+    slug: "br-magazine-20-anos-inspiracion-diseno",
+    category: "Diseño y Arquitectura",
+    subtitle: "Dos décadas contando historias que transforman espacios y vidas",
+    importantFact:
+      "📢 BR Magazine ha evolucionado junto al país, captando las nuevas tendencias del mercado, fomentando el pensamiento creativo y abriendo espacios a la innovación local e internacional bajo el liderazgo de Andrés Achi.",
+    fullContent: `
+[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/AV%20dec232319-9h5qTIep0o4gJQ7Ipc9LOKl3fCCUyO.jpeg]
+
+Desde su fundación en 2004, **BR Magazine** se ha consolidado como una de las publicaciones más influyentes en Ecuador en el mundo del diseño, la arquitectura y el interiorismo. Este 2025, la revista celebra sus **20 años de trayectoria** con la misma pasión con la que nació.
+
+**Un Legado de Inspiración y Visión Creativa**
+
+**BR Magazine** ha sido una plataforma clave para la difusión de las últimas tendencias, proyectos innovadores y perfiles de los profesionales más destacados del sector. Su compromiso con la calidad y la excelencia la han convertido en una referencia obligada para arquitectos, diseñadores, interioristas y amantes del buen gusto.
+
+[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Banner-08-tOjXDTbkU4LVOUljRN4554st0blNcA.png]
+
+**Andrés Achi: El Líder que Impulsa la Innovación**
+
+Bajo el liderazgo de **Andrés Achi**, **BR Magazine** ha evolucionado junto al país, captando las nuevas tendencias del mercado, fomentando el pensamiento creativo y abriendo espacios a la innovación local e internacional. Su visión estratégica y su pasión por el diseño han sido fundamentales para el éxito y la consolidación de la revista.
+
+**Un Mensaje de Felicitación desde Janneth Aguirre Magazine**
+
+Desde **Janneth Aguirre Magazine**, queremos extender nuestras más sinceras felicitaciones a **BR Magazine** y a todo su equipo por estos **20 años de trayectoria**. Su labor ha sido fundamental para el desarrollo y la promoción del diseño y la arquitectura en Ecuador. ¡Que sigan inspirando y transformando espacios y vidas por muchos años más!
 `,
   },
 ]
