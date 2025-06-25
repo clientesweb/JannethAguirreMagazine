@@ -1543,7 +1543,7 @@ Este reconocimiento no solo beneficia a Cuenca, sino que establece un referente 
     category: "Diseño y Arquitectura",
     subtitle: "Dos décadas contando historias que transforman espacios y vidas",
     importantFact:
-      "📢 BR Magazine ha evolucionado junto al país, captando las nuevas tendencias del mercado, fomentando el pensamiento creativo y abriendo espacios a la innovación local e internacional bajo el liderazgo de Andrés Achi.",
+      "📢 BR Magazine ha logrado proyección internacional gracias a alianzas estratégicas con marcas y estudios de arquitectura de Latinoamérica y Europa, posicionándose como una plataforma de referencia en diseño e interiorismo.",
     fullContent: `
 [IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/AV%20dec232319-9h5qTIep0o4gJQ7Ipc9LOKl3fCCUyO.jpeg]
 
