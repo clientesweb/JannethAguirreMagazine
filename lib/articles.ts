@@ -1537,9 +1537,9 @@ Este reconocimiento no solo beneficia a Cuenca, sino que establece un referente 
     id: 25,
     title: "BR Magazine: 20 años de inspiración, diseño y visión creativa",
     description:
-      "Desde su fundación en 2004, BR Magazine se ha consolidado como una de las publicaciones más influyentes en Ecuador en el mundo del diseño, la arquitectura y el interiorismo. Este 2025, la revista celebra sus 20 años de trayectoria con la misma pasión con la que nació.",
+      "Desde su fundación en 2004, BR Magazine se ha consolidado como una de las publicaciones más influyentes en Ecuador en el mundo del diseño, la arquitectura y el interiorismo. Este 2025, la revista celebra sus 21 años de trayectoria con la misma pasión con la que nació.",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/AV%20dec232319-9h5qTIep0o4gJQ7Ipc9LOKl3fCCUyO.jpeg",
-    slug: "br-magazine-20-anos-inspiracion-diseno",
+    slug: "br-magazine-21-anos-inspiracion-diseno",
     category: "Diseño y Arquitectura",
     subtitle: "Dos décadas contando historias que transforman espacios y vidas",
     importantFact:
@@ -1547,7 +1547,7 @@ Este reconocimiento no solo beneficia a Cuenca, sino que establece un referente 
     fullContent: `
 [IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/AV%20dec232319-9h5qTIep0o4gJQ7Ipc9LOKl3fCCUyO.jpeg]
 
-Desde su fundación en 2004, **BR Magazine** se ha consolidado como una de las publicaciones más influyentes en Ecuador en el mundo del diseño, la arquitectura y el interiorismo. Este 2025, la revista celebra sus **20 años de trayectoria** con la misma pasión con la que nació.
+Desde su fundación en 2004, **BR Magazine** se ha consolidado como una de las publicaciones más influyentes en Ecuador en el mundo del diseño, la arquitectura y el interiorismo. Este 2025, la revista celebra sus **21 años de trayectoria** con la misma pasión con la que nació.
 
 **Un Legado de Inspiración y Visión Creativa**
 
@@ -1561,7 +1561,7 @@ Bajo el liderazgo de **Andrés Achi**, **BR Magazine** ha evolucionado junto al 
 
 **Un Mensaje de Felicitación desde Janneth Aguirre Magazine**
 
-Desde **Janneth Aguirre Magazine**, queremos extender nuestras más sinceras felicitaciones a **BR Magazine** y a todo su equipo por estos **20 años de trayectoria**. Su labor ha sido fundamental para el desarrollo y la promoción del diseño y la arquitectura en Ecuador. ¡Que sigan inspirando y transformando espacios y vidas por muchos años más!
+Desde **Janneth Aguirre Magazine**, queremos extender nuestras más sinceras felicitaciones a **BR Magazine** y a todo su equipo por estos **21 años de trayectoria**. Su labor ha sido fundamental para el desarrollo y la promoción del diseño y la arquitectura en Ecuador. ¡Que sigan inspirando y transformando espacios y vidas por muchos años más!
 `,
   },
 ]
