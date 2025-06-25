@@ -1562,6 +1562,8 @@ Bajo el liderazgo de **Andrés Achi**, **BR Magazine** ha evolucionado junto al 
 **Un Mensaje de Felicitación desde Janneth Aguirre Magazine**
 
 Desde **Janneth Aguirre Magazine**, queremos extender nuestras más sinceras felicitaciones a **BR Magazine** y a todo su equipo por estos **21 años de trayectoria**. Su labor ha sido fundamental para el desarrollo y la promoción del diseño y la arquitectura en Ecuador. ¡Que sigan inspirando y transformando espacios y vidas por muchos años más!
+
+[IMAGE:/jannethaguirre.png]
 `,
   },
 ]
