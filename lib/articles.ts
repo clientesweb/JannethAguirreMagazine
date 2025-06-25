@@ -1535,7 +1535,7 @@ Este reconocimiento no solo beneficia a Cuenca, sino que establece un referente 
   },
   {
     id: 25,
-    title: "BR Magazine: 20 años de inspiración, diseño y visión creativa",
+    title: "BR Magazine: 21 años de inspiración, diseño y visión creativa",
     description:
       "Desde su fundación en 2004, BR Magazine se ha consolidado como una de las publicaciones más influyentes en Ecuador en el mundo del diseño, la arquitectura y el interiorismo. Este 2025, la revista celebra sus 21 años de trayectoria con la misma pasión con la que nació.",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/AV%20dec232319-9h5qTIep0o4gJQ7Ipc9LOKl3fCCUyO.jpeg",
